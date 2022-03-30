@@ -1,3 +1,5 @@
+{% include head-custom.html %}
+
 <table>
   <thead>
     <tr>
