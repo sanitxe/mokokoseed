@@ -27,6 +27,7 @@
 </table>
 
 <script>
+ window.onload = function() {
   let boxes = document.getElementsByClassName('box').length;
 
   function save() {	
@@ -44,4 +45,5 @@
     }
   }
   window.addEventListener('change', save);
+  };
 </script>
