@@ -13,7 +13,7 @@
     {% for npcs in site.data.npcs %}
       <tr>
         <td>
-          <input type="checkbox" id="{{ npcs.id }}" class="box"></input>
+          <input type="checkbox" id="{{ npcs.id }}" class="box">
         </td>
         <td> 
           {{ npcs.name }}
