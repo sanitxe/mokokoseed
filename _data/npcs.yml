@@ -1,360 +1,360 @@
 - name: Vivian
   id: 13030
-  loc: Luterra Castle
+  loc: "Luterra Castle"
   points: 5,900
 
 - name: Totoma
   id: 21162
-  loc: Mokoko Village
+  loc: "Mokoko Village"
   points: 5,900
 
 - name: Sorang
   id: 20308
-  loc: Prisma Valley
+  loc: "Prisma Valley"
   points: 5,900
 
 - name: Siera
   id: 11353
-  loc: Rethramis - Prideholme
+  loc: "Rethramis - Prideholme"
   points: 5,900
   
-  - name: Sapiano the Fox
+- name: Sapiano the Fox
   id: 28131
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 5,900
   
-  - name: Ryeon's Ghost
+- name: Ryeon's Ghost
   id: 20372
-  loc: Anikka - Melody Forest
+  loc: "Anikka - Melody Forest"
   points: 5,900
   
-  - name: Refugee Pamil
+- name: Refugee Pamil
   id: 19312
-  loc: Island - Runaways Island
+  loc: "Island - Runaways Island"
   points: 5,900
   
-  - name: Rancher Jude
+- name: Rancher Jude
   id: 16013
-  loc: Shushire - Frozen Sea
+  loc: "Shushire - Frozen Sea"
   points: 5,900
   
-  - name: Orne
+- name: Orne
   id: 18266
-  loc: Arthetine - Totrich
+  loc: "Arthetine - Totrich"
   points: 5,900
   
-  - name: Orelda
+- name: Orelda
   id: 24207
-  loc: Rohendel - Glass Lotus Lake
+  loc: "Rohendel - Glass Lotus Lake"
   points: 5,900
   
-  - name: Norin Nahun
+- name: Norin Nahun
   id: 14010
-  loc: East Luterra - Dyorika Plain
+  loc: "East Luterra - Dyorika Plain"
   points: 5,900
   
-  - name: Nabi
+- name: Nabi
   id: 41034
-  loc: Feiton - Kalaja
+  loc: "Feiton - Kalaja"
   points: 5,900
   
-  - name: Morina
+- name: Morina
   id: 11656
-  loc: Yudia - Ozhorn Hill
+  loc: "Yudia - Ozhorn Hill"
   points: 5,900
   
-  - name: Hariya
+- name: Hariya
   id: 28050
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 5,900
   
-  - name: Graymoon Dath
+- name: Graymoon Dath
   id: 16401
-  loc: Shushire - Iceblood Plateau
+  loc: "Shushire - Iceblood Plateau"
   points: 5,900
   
-  - name: Elia Nahun
+- name: Elia Nahun
   id: 14009
-  loc: East Luterra - Dyorika Plain
+  loc: "East Luterra - Dyorika Plain"
   points: 5,900
   
-  - name: Dakudaku
+- name: Dakudaku
   id: 21133
-  loc: Tortoyk - Mokoko Village
+  loc: "Tortoyk - Mokoko Village"
   points: 5,900
   
-  - name: Apprentice Blacksmith Turner
+- name: Apprentice Blacksmith Turner
   id: 14012
-  loc: East Luterra - Dyorika Plain
+  loc: "East Luterra - Dyorika Plain"
   points: 5,900
   
-  - name: Adventurer Selfa
+- name: Adventurer Selfa
   id: 22036
-  loc: North Vern - Parna Forest
+  loc: "North Vern - Parna Forest"
   points: 5,900
   
-  - name: Yuul
+- name: Yuul
   id: 20381
-  loc: Anikka - Port City Changhun
+  loc: "Anikka - Port City Changhun"
   points: 17,800
   
-  - name: Yom the Squirrel
+- name: Yom the Squirrel
   id: 28031
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 17,800
   
-  - name: Toto Elder
+- name: Toto Elder
   id: 19112
-  loc: Island - Toto Silver Island
+  loc: "Island - Toto Silver Island"
   points: 17,800
   
-  - name: Thunder
+- name: Thunder
   id: 11624
-  loc: Yudia - Saland Hill
+  loc: "Yudia - Saland Hill"
   points: 17,800
   
-  - name: Tanay
+- name: Tanay
   id: 19600
-  loc: Island - Peyto
+  loc: "Island - Peyto"
   points: 17,800
   
-  - name: Stranded Temma
+- name: Stranded Temma
   id: 19325
-  loc: Island - White Wave Island
+  loc: "Island - White Wave Island"
   points: 17,800
   
-  - name: Samly
+- name: Samly
   id: 19625
-  loc: Island - Glacier Isle
+  loc: "Island - Glacier Isle"
   points: 17,800
   
-  - name: Puppa
+- name: Puppa
   id: 19743
-  loc: Island - Panda Island
+  loc: "Island - Panda Island"
   points: 17,800
   
-  - name: Poppy
+- name: Poppy
   id: 16514
-  loc: Shushire - Icewing Heights
+  loc: "Shushire - Icewing Heights"
   points: 17,800
   
-  - name: Payla
+- name: Payla
   id: 22057
-  loc: North Vern - Vernese Forest
+  loc: "North Vern - Vernese Forest"
   points: 17,800
   
-  - name: Neth
+- name: Neth
   id: 19669
-  loc: Island - Hope Island
+  loc: "Island - Hope Island"
   points: 17,800
   
-  - name: Mokamoka
+- name: Mokamoka
   id: 21161
-  loc: Tortoyk - Mokoko Village
+  loc: "Tortoyk - Mokoko Village"
   points: 17,800
   
-  - name: Mercenary Zeira
+- name: Mercenary Zeira
   id: 18156
-  loc: Arthetine - Origins of Stern
+  loc: "Arthetine - Origins of Stern"
   points: 17,800
   
-  - name: Levi
+- name: Levi
   id:
-  loc: Kalaja
+  loc: "Kalaja"
   points: 17,800
   
-  - name: Lenora
+- name: Lenora
   id: 41130
-  loc: Feiton - Elzowin's Shade
+  loc: "Feiton - Elzowin's Shade"
   points: 17,800
   
-  - name: Gobius XXIV
+- name: Gobius XXIV
   id: 19383
-  loc: Island - Goblin Island
+  loc: "Island - Goblin Island"
   points: 17,800
   
-  - name: Gideon
+- name: Gideon
   id: 22025
-  loc: North Vern - Rania Village
+  loc: "North Vern - Rania Village"
   points: 17,800
   
-  - name: Future Millionnaire Zenri
+- name: Future Millionnaire Zenri
   id: 19324
-  loc: Island - Liebeheim
+  loc: "Island - Liebeheim"
   points: 17,800
   
-  - name: Daybreaker Javern
+- name: Daybreaker Javern
   id: 16105
-  loc: Shushire - Rigens Village
+  loc: "Shushire - Rigens Village"
   points: 17,800
   
-  - name: Dancer Imar
+- name: Dancer Imar
   id: 26452
-  loc: Great Castle
+  loc: "Great Castle"
   points: 17,800
   
-  - name: Berver
+- name: Berver
   id: 28140
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 17,800
   
-  - name: Bellita
+- name: Bellita
   id: 19656
-  loc: Island - Notos Island
+  loc: "Island - Notos Island"
   points: 17,800
   
-  - name: Artisan Urr
+- name: Artisan Urr
   id: 12026
-  loc: West Luterra - Lakebar
+  loc: "West Luterra - Lakebar"
   points: 17,800
   
-  - name: Anabel
+- name: Anabel
   id: 22026
-  loc: North Vern - Rania Village
+  loc: "North Vern - Rania Village"
   points: 17,800
   
-  - name: Albion
+- name: Albion
   id: 28141
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 17,800
   
-  - name: Neria
+- name: Neria
   id: 18142
-  loc: Arthetine - Origins of Stern
+  loc: "Arthetine - Origins of Stern"
   points: 37,900
   
-  - name: Neria
+- name: Neria
   id: 15115
-  loc: East Luterra - Wavestrand Port
+  loc: "East Luterra - Wavestrand Port"
   points: 37,900
   
-  - name: Neria
+- name: Neria
   id: 13087
-  loc: East Luterra - Luterra Castle
+  loc: "East Luterra - Luterra Castle"
   points: 37,900
   
-  - name: Neria
+- name: Neria
   id: 11264
-  loc: Rethramis - Prideholme
+  loc: "Rethramis - Prideholme"
   points: 37,900
   
-  - name: Nagi
+- name: Nagi
   id: 28123
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 37,900
   
-  - name: Liru
+- name: Liru
   id: 28124
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 37,900
   
-  - name: Krissa
+- name: Krissa
   id: 19803
-  loc: Island - Sublime Isle
+  loc: "Island - Sublime Isle"
   points: 37,900
   
-  - name: Jahara
+- name: Jahara
   id: 28099
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 37,900
   
-  - name: Ezrebet
+- name: Ezrebet
   id: 19804
-  loc: Island - Sublime Isle
+  loc: "Island - Sublime Isle"
   points: 37,900
   
-  - name: Blue-Eyed Calvasus
+- name: Blue-Eyed Calvasus
   id: 19767
-  loc: Island - Hypnos's Eyes
+  loc: "Island - Hypnos's Eyes"
   points: 37,900
   
-  - name: Bastian
+- name: Bastian
   id: 18030
-  loc: Arthetine - Origins of Stern
+  loc: "Arthetine - Origins of Stern"
   points: 37,900
   
-  - name: Zinnervale
+- name: Zinnervale
   id: 51500
-  loc: Island - Illusion Bamboo Island
+  loc: "Island - Illusion Bamboo Island"
   points: 57,800
   
-  - name: Nia
+- name: Nia
   id: 28100
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 57,800
   
-  - name: Shana
+- name: Shana
   id: 28122
-  loc: Punika - Nia Village
+  loc: "Punika - Nia Village"
   points: 57,800
   
-  - name: Neria
+- name: Neria
   id: 26116
-  loc: Yorn - Great Castle
+  loc: "Yorn - Great Castle"
   points: 57,800
   
-  - name: Lutia
+- name: Lutia
   id: 41003
-  loc: Feiton - Kalaja
+  loc: "Feiton - Kalaja"
   points: 57,800
   
-  - name: Kaysarr
+- name: Kaysarr
   id: 26027
-  loc: Yorn - Great Castle
+  loc: "Yorn - Great Castle"
   points: 57,800
   
-  - name: Jederico
+- name: Jederico
   id: 40157
-  loc: Feiton - Nameless Valley
+  loc: "Feiton - Nameless Valley"
   points: 57,800
   
-  - name: Thirain
+- name: Thirain
   id: 13001
-  loc: East Luterra - Luterra Castle
+  loc: "East Luterra - Luterra Castle"
   points: 77,700
   
-  - name: Cals
+- name: Cals
   id: 15002
-  loc: East Luterra - Wavestrand Port
+  loc: "East Luterra - Wavestrand Port"
   points: 77,700
   
-  - name: Blackfang
+- name: Blackfang
   id: 19118
-  loc: Island - Blackfang's Den
+  loc: "Island - Blackfang's Den"
   points: 77,700
   
-  - name: Beatrice
+- name: Beatrice
   id: 10101
-  loc: Trixion
+  loc: "Trixion"
   points: 77,700
   
-  - name: Azena
+- name: Azena
   id: 24101
-  loc: Rohendel - Rothun
+  loc: "Rohendel - Rothun"
   points: 77,700
   
-  - name: Avele
+- name: Avele
   id: 25002
-  loc: North Vern - Vern Castle
+  loc: "North Vern - Vern Castle"
   points: 77,700
   
-  - name: Nineveh
+- name: Nineveh
   id: 51385
-  loc: Island - Whispering Islet
+  loc: "Island - Whispering Islet"
   points: 102,200
   
-  - name: Mari
+- name: Mari
   id: 19666
-  loc: Island - Eternity Isle
+  loc: "Island - Eternity Isle"
   points: 102,200
   
-  - name: Sasha
+- name: Sasha
   id: 18031
-  loc: Arthetine - Origins of Stern
+  loc: "Arthetine - Origins of Stern"
   points: 103,700
   
-  - name: Ealyn
+- name: Ealyn
   id: 25001
-  loc: North Vern - Vern Castle
+  loc: "North Vern - Vern Castle"
   points: 103,700
   
