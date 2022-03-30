@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">Mokoko Seed</a></h1>
+
+        {% if site.logo %}
+          <img src="https://64.media.tumblr.com/2ed36e1da38d6861ea0b4b9080edfb12/598ef237306578c8-6c/s2048x3072/1b9a8008e62dc55cb4c6b71e4df69fe112392626.png" alt="Logo" />
+        {% endif %}
+
+        <p>Your resource and fansite for all things Lost Ark related with news, updates, guides and more. <strong>WHERE TOOKI?</strong></p>
+        
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="http://instagram.com/gamingbunny.exe">Sanitee#1093</a> from the US West - Mari Server.</p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
