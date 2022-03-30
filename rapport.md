@@ -8,16 +8,16 @@
   </thead>
   <tbody>
     {% for npcs in site.data.npcs %}
-    <tr>
-      <td>
-        <input type="checkbox" id="{{ npcs.id }}" value="false">
-      <td> 
-        {{ npcs.name }}
-      <td>
-        {{ npcs.loc }}
-      <td>
-        {{ npcs.points }}
+      <tr>
+        <td>
+          <input type="checkbox" id="{{ npcs.id }}" value="false">
+        <td> 
+          {{ npcs.name }}
+        <td>
+          {{ npcs.loc }}
+        <td>
+          {{ npcs.points }}
+      </tr>
     {% endfor %}
-    </tr>
   </tbody>
 </table>
