@@ -1,3 +1,8 @@
+---
+layout: default
+title: NPC Rapport Tracker
+---
+
 <table>
   <thead>
     <tr>
