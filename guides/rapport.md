@@ -1,4 +1,5 @@
-{% include head-custom.html %}
+<h1>NPC Rapport Tracker</h1>
+<i>Work in progress.</i>
 
 <table>
   <thead>
