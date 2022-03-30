@@ -1,5 +1,8 @@
----
-name: Jane Doe
-loc: Developer
----
-Jane has worked on Jekyll for the past *five years*.
+- name: Eric Mill
+  loc: konklone
+
+- name: Parker Moore
+  loc: parkr
+
+- name: Liu Fengyun
+  loc: liufengyun
