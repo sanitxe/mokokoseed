@@ -1,14 +1,360 @@
 - name: Vivian
   id: 13030
   loc: Luterra Castle
-  points: 5900
+  points: 5,900
 
 - name: Totoma
   id: 21162
   loc: Mokoko Village
-  points: 5900
+  points: 5,900
 
 - name: Sorang
   id: 20308
   loc: Prisma Valley
-  points: 5900
+  points: 5,900
+
+- name: Siera
+  id:
+  loc: Prideholme
+  points: 5,900
+  
+  - name: Sapiano the Fox
+  id:
+  loc: Nia Village
+  points: 5,900
+  
+  - name: Ryeon's Ghost
+  id: 
+  loc: Melody Forest
+  points: 5,900
+  
+  - name: Refugee Pamil
+  id:
+  loc: Island - Runaways Island
+  points: 5,900
+  
+  - name: Rancher Jude
+  id:
+  loc: Shushire - Frozen Sea
+  points: 5,900
+  
+  - name: Orne
+  id:
+  loc: Totrich
+  points: 5,900
+  
+  - name: Orelda
+  id:
+  loc: Glass Lotus Lake
+  points: 5,900
+  
+  - name: Norin Nahun
+  id:
+  loc: Dyorika Plain
+  points: 5,900
+  
+  - name: Nabi
+  id:
+  loc: Kalaja
+  points: 5,900
+  
+  - name: Morina
+  id:
+  loc: Ozhorn Hill
+  points: 5,900
+  
+  - name: Hariya
+  id:
+  loc: Nia Village
+  points: 5,900
+  
+  - name: Graymoon Dath
+  id:
+  loc: Iceblood Plateau
+  points: 5,900
+  
+  - name: Elia Nahun
+  id:
+  loc: Dyorika Plain
+  points: 5,900
+  
+  - name: Dakudaku
+  id:
+  loc: Mokoko Village
+  points: 5,900
+  
+  - name: Apprentice Blacksmith Turner
+  id:
+  loc: Dyorika Plain
+  points: 5,900
+  
+  - name: Adventurer Selfa
+  id:
+  loc: Parna Forest
+  points: 5,900
+  
+  - name: Yuul
+  id:
+  loc: Port City Changhun
+  points: 17,800
+  
+  - name: Yom the Squirrel
+  id:
+  loc: Punika - Nia Village
+  points: 17,800
+  
+  - name: Toto Elder
+  id:
+  loc: Island - Toto Silver Island
+  points: 17,800
+  
+  - name: Thunder
+  id: 
+  loc: Saland Hill
+  points: 17,800
+  
+  - name: Tanay
+  id:
+  loc: Island - Peyto
+  points: 17,800
+  
+  - name: Stranded Temma
+  id:
+  loc: Island - White Wave Island
+  points: 17,800
+  
+  - name: Samly
+  id:
+  loc: Island - Glacier Isle
+  points: 17,800
+  
+  - name: Puppa
+  id:
+  loc: Island - Panda Island
+  points: 17,800
+  
+  - name: Poppy
+  id:
+  loc: Icewing Heights
+  points: 17,800
+  
+  - name: Payla
+  id:
+  loc: Vernese Forest
+  points: 17,800
+  
+  - name: Neth
+  id:
+  loc: Island - Hope Island
+  points: 17,800
+  
+  - name: Mokamoka
+  id:
+  loc: Mokoko Village
+  points: 17,800
+  
+  - name: Mercenary Zeira
+  id:
+  loc: Origins of Stern
+  points: 17,800
+  
+  - name: Levi
+  id:
+  loc: Kalaja
+  points: 17,800
+  
+  - name: Lenora
+  id:
+  loc: Elzowin's Shade
+  points: 17,800
+  
+  - name: Gobius XXIV
+  id:
+  loc: Island - Goblin Island
+  points: 17,800
+  
+  - name: Gideon
+  id:
+  loc: Rania Village
+  points: 17,800
+  
+  - name: Future Millionaire Zenri
+  id:
+  loc: Liebeheim
+  points: 17,800
+  
+  - name: Daybreaker Javern
+  id:
+  loc: Rigens Village
+  points: 17,800
+  
+  - name: Dancer Imar
+  id:
+  loc: Great Castle
+  points: 17,800
+  
+  - name: Berver
+  id:
+  loc: Punika - Nia Village
+  points: 17,800
+  
+  - name: Bellita
+  id:
+  loc: Island - Notos Island
+  points: 17,800
+  
+  - name: Artisan Urr
+  id:
+  loc: Lakebar
+  points: 17,800
+  
+  - name: Anabel
+  id:
+  loc: Rania Village
+  points: 17,800
+  
+  - name: Albion
+  id:
+  loc: Punika - Nia Village
+  points: 17,800
+  
+  - name: Neria
+  id:
+  loc: Origins of Stern
+  points: 37,900
+  
+  - name: Neria
+  id:
+  loc: Wavestrand Port
+  points: 37,900
+  
+  - name: Neria
+  id:
+  loc: Luterra Castle
+  points: 37,900
+  
+  - name: Neria
+  id:
+  loc: Prideholme
+  points: 37,900
+  
+  - name: Nagi
+  id:
+  loc: Punika - Nia Village
+  points: 37,900
+  
+  - name: Liru
+  id:
+  loc: Punika - Nia Village
+  points: 37,900
+  
+  - name: Krissa
+  id:
+  loc: Island - Sublime Isle
+  points: 37,900
+  
+  - name: Jahara
+  id:
+  loc: Punika - Nia Village
+  points: 37,900
+  
+  - name: Ezrebet
+  id:
+  loc: Island - Sublime Isle
+  points: 37,900
+  
+  - name: Blue-Eyed Calvasus
+  id:
+  loc: Island - Hypnos's Eyes
+  points: 37,900
+  
+  - name: Bastian
+  id:
+  loc: Origins of Stern
+  points: 37,900
+  
+  - name: Zinnervale
+  id:
+  loc: Island - Illusion Bamboo Island
+  points: 57,800
+  
+  - name: Nia
+  id:
+  loc: Punika - Nia Village
+  points: 57,800
+  
+  - name: Shana
+  id:
+  loc: Punika - Nia Village
+  points: 57,800
+  
+  - name: Neria
+  id:
+  loc: Great Castle
+  points: 57,800
+  
+  - name: Lutia
+  id:
+  loc: Kalaja
+  points: 57,800
+  
+  - name: Kaysarr
+  id:
+  loc: Great Castle
+  points: 57,800
+  
+  - name: Jederico
+  id:
+  loc: Nameless Valley
+  points: 57,800
+  
+  - name: Thirain
+  id:
+  loc: Luterra Castle
+  points: 77,700
+  
+  - name: Cals
+  id:
+  loc: East Luterra - Wavestrand Port
+  points: 77,700
+  
+  - name: Blackfang
+  id:
+  loc: Island - Blackfang's Den
+  points: 77,700
+  
+  - name: Beatrice
+  id:
+  loc: Trixion
+  points: 77,700
+  
+  - name: Azena
+  id:
+  loc: Rothun
+  points: 77,700
+  
+  - name: Avele
+  id:
+  loc: North Vern - Vern Castle
+  points: 77,700
+  
+  - name: Nineveh
+  id:
+  loc: Island - Whispering Islet
+  points: 102,200
+  
+  - name: Mari
+  id:
+  loc: Island - Eternity Isle
+  points: 102,200
+  
+  - name: Sasha
+  id:
+  loc: Origins of Stern
+  points: 103,700
+  
+  - name: Ealyn
+  id:
+  loc: North Vern - Vern Castle
+  points: 103,700
+  
