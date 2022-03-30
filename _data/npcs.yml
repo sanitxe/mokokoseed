@@ -1,11 +1,14 @@
 - name: Vivian
+  id: 13030
   loc: Luterra Castle
-  total: 5900
+  points: 5900
 
 - name: Totoma
+  id: 21162
   loc: Mokoko Village
-  total: 5900
+  points: 5900
 
 - name: Sorang
+  id: 20308
   loc: Prisma Valley
-  total: 5900
+  points: 5900
