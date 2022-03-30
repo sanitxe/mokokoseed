@@ -5,6 +5,7 @@
       <td>Name</td>
       <td>Location</td>
       <td>Total Rapport</td>
+    </tr>
   </thead>
   <tbody>
     {% for npcs in site.data.npcs %}
