@@ -1,360 +1,360 @@
 - name: Vivian
   id: 13030
   loc: "Luterra Castle"
-  points: 5,900
+  points: "5,900"
 
 - name: Totoma
   id: 21162
   loc: "Mokoko Village"
-  points: 5,900
+  points: "5,900"
 
 - name: Sorang
   id: 20308
   loc: "Prisma Valley"
-  points: 5,900
+  points: "5,900"
 
 - name: Siera
   id: 11353
   loc: "Rethramis - Prideholme"
-  points: 5,900
+  points: "5,900"
   
 - name: Sapiano the Fox
   id: 28131
   loc: "Punika - Nia Village"
-  points: 5,900
+  points: "5,900"
   
 - name: Ryeon's Ghost
   id: 20372
   loc: "Anikka - Melody Forest"
-  points: 5,900
+  points: "5,900"
   
 - name: Refugee Pamil
   id: 19312
   loc: "Island - Runaways Island"
-  points: 5,900
+  points: "5,900"
   
 - name: Rancher Jude
   id: 16013
   loc: "Shushire - Frozen Sea"
-  points: 5,900
+  points: "5,900"
   
 - name: Orne
   id: 18266
   loc: "Arthetine - Totrich"
-  points: 5,900
+  points: "5,900"
   
 - name: Orelda
   id: 24207
   loc: "Rohendel - Glass Lotus Lake"
-  points: 5,900
+  points: "5,900"
   
 - name: Norin Nahun
   id: 14010
   loc: "East Luterra - Dyorika Plain"
-  points: 5,900
+  points: "5,900"
   
 - name: Nabi
   id: 41034
   loc: "Feiton - Kalaja"
-  points: 5,900
+  points: "5,900"
   
 - name: Morina
   id: 11656
   loc: "Yudia - Ozhorn Hill"
-  points: 5,900
+  points: "5,900"
   
 - name: Hariya
   id: 28050
   loc: "Punika - Nia Village"
-  points: 5,900
+  points: "5,900"
   
 - name: Graymoon Dath
   id: 16401
   loc: "Shushire - Iceblood Plateau"
-  points: 5,900
+  points: "5,900"
   
 - name: Elia Nahun
   id: 14009
   loc: "East Luterra - Dyorika Plain"
-  points: 5,900
+  points: "5,900"
   
 - name: Dakudaku
   id: 21133
   loc: "Tortoyk - Mokoko Village"
-  points: 5,900
+  points: "5,900"
   
 - name: Apprentice Blacksmith Turner
   id: 14012
   loc: "East Luterra - Dyorika Plain"
-  points: 5,900
+  points: "5,900"
   
 - name: Adventurer Selfa
   id: 22036
   loc: "North Vern - Parna Forest"
-  points: 5,900
+  points: "5,900"
   
 - name: Yuul
   id: 20381
   loc: "Anikka - Port City Changhun"
-  points: 17,800
+  points: "17,800"
   
 - name: Yom the Squirrel
   id: 28031
   loc: "Punika - Nia Village"
-  points: 17,800
+  points: "17,800"
   
 - name: Toto Elder
   id: 19112
   loc: "Island - Toto Silver Island"
-  points: 17,800
+  points: "17,800"
   
 - name: Thunder
   id: 11624
   loc: "Yudia - Saland Hill"
-  points: 17,800
+  points: "17,800"
   
 - name: Tanay
   id: 19600
   loc: "Island - Peyto"
-  points: 17,800
+  points: "17,800"
   
 - name: Stranded Temma
   id: 19325
   loc: "Island - White Wave Island"
-  points: 17,800
+  points: "17,800"
   
 - name: Samly
   id: 19625
   loc: "Island - Glacier Isle"
-  points: 17,800
+  points: "17,800"
   
 - name: Puppa
   id: 19743
   loc: "Island - Panda Island"
-  points: 17,800
+  points: "17,800"
   
 - name: Poppy
   id: 16514
   loc: "Shushire - Icewing Heights"
-  points: 17,800
+  points: "17,800"
   
 - name: Payla
   id: 22057
   loc: "North Vern - Vernese Forest"
-  points: 17,800
+  points: "17,800"
   
 - name: Neth
   id: 19669
   loc: "Island - Hope Island"
-  points: 17,800
+  points: "17,800"
   
 - name: Mokamoka
   id: 21161
   loc: "Tortoyk - Mokoko Village"
-  points: 17,800
+  points: "17,800"
   
 - name: Mercenary Zeira
   id: 18156
   loc: "Arthetine - Origins of Stern"
-  points: 17,800
+  points: "17,800"
   
 - name: Levi
-  id:
+  id: 41130
   loc: "Kalaja"
-  points: 17,800
+  points: "17,800"
   
 - name: Lenora
-  id: 41130
+  id: 24514
   loc: "Feiton - Elzowin's Shade"
-  points: 17,800
+  points: "17,800"
   
 - name: Gobius XXIV
   id: 19383
   loc: "Island - Goblin Island"
-  points: 17,800
+  points: "17,800"
   
 - name: Gideon
   id: 22025
   loc: "North Vern - Rania Village"
-  points: 17,800
+  points: "17,800"
   
 - name: Future Millionnaire Zenri
   id: 19324
   loc: "Island - Liebeheim"
-  points: 17,800
+  points: "17,800"
   
 - name: Daybreaker Javern
   id: 16105
   loc: "Shushire - Rigens Village"
-  points: 17,800
+  points: "17,800"
   
 - name: Dancer Imar
   id: 26452
   loc: "Great Castle"
-  points: 17,800
+  points: "17,800"
   
 - name: Berver
   id: 28140
   loc: "Punika - Nia Village"
-  points: 17,800
+  points: "17,800"
   
 - name: Bellita
   id: 19656
   loc: "Island - Notos Island"
-  points: 17,800
+  points: "17,800"
   
 - name: Artisan Urr
   id: 12026
   loc: "West Luterra - Lakebar"
-  points: 17,800
+  points: "17,800"
   
 - name: Anabel
   id: 22026
   loc: "North Vern - Rania Village"
-  points: 17,800
+  points: "17,800"
   
 - name: Albion
   id: 28141
   loc: "Punika - Nia Village"
-  points: 17,800
+  points: "17,800"
   
 - name: Neria
   id: 18142
   loc: "Arthetine - Origins of Stern"
-  points: 37,900
+  points: "37,900"
   
 - name: Neria
   id: 15115
   loc: "East Luterra - Wavestrand Port"
-  points: 37,900
+  points: "37,900"
   
 - name: Neria
   id: 13087
   loc: "East Luterra - Luterra Castle"
-  points: 37,900
+  points: "37,900"
   
 - name: Neria
   id: 11264
   loc: "Rethramis - Prideholme"
-  points: 37,900
+  points: "37,900"
   
 - name: Nagi
   id: 28123
   loc: "Punika - Nia Village"
-  points: 37,900
+  points: "37,900"
   
 - name: Liru
   id: 28124
   loc: "Punika - Nia Village"
-  points: 37,900
+  points: "37,900"
   
 - name: Krissa
   id: 19803
   loc: "Island - Sublime Isle"
-  points: 37,900
+  points: "37,900"
   
 - name: Jahara
   id: 28099
   loc: "Punika - Nia Village"
-  points: 37,900
+  points: "37,900"
   
 - name: Ezrebet
   id: 19804
   loc: "Island - Sublime Isle"
-  points: 37,900
+  points: "37,900"
   
 - name: Blue-Eyed Calvasus
   id: 19767
   loc: "Island - Hypnos's Eyes"
-  points: 37,900
+  points: "37,900"
   
 - name: Bastian
   id: 18030
   loc: "Arthetine - Origins of Stern"
-  points: 37,900
+  points: "37,900"
   
 - name: Zinnervale
   id: 51500
   loc: "Island - Illusion Bamboo Island"
-  points: 57,800
+  points: "57,800"
   
 - name: Nia
   id: 28100
   loc: "Punika - Nia Village"
-  points: 57,800
+  points: "57,800"
   
 - name: Shana
   id: 28122
   loc: "Punika - Nia Village"
-  points: 57,800
+  points: "57,800"
   
 - name: Neria
   id: 26116
   loc: "Yorn - Great Castle"
-  points: 57,800
+  points: "57,800"
   
 - name: Lutia
   id: 41003
   loc: "Feiton - Kalaja"
-  points: 57,800
+  points: "57,800"
   
 - name: Kaysarr
   id: 26027
   loc: "Yorn - Great Castle"
-  points: 57,800
+  points: "57,800"
   
 - name: Jederico
   id: 40157
   loc: "Feiton - Nameless Valley"
-  points: 57,800
+  points: "57,800"
   
 - name: Thirain
   id: 13001
   loc: "East Luterra - Luterra Castle"
-  points: 77,700
+  points: "77,700"
   
 - name: Cals
   id: 15002
   loc: "East Luterra - Wavestrand Port"
-  points: 77,700
+  points: "77,700"
   
 - name: Blackfang
   id: 19118
   loc: "Island - Blackfang's Den"
-  points: 77,700
+  points: "77,700"
   
 - name: Beatrice
   id: 10101
   loc: "Trixion"
-  points: 77,700
+  points: "77,700"
   
 - name: Azena
   id: 24101
   loc: "Rohendel - Rothun"
-  points: 77,700
+  points: "77,700"
   
 - name: Avele
   id: 25002
   loc: "North Vern - Vern Castle"
-  points: 77,700
+  points: "77,700"
   
 - name: Nineveh
   id: 51385
   loc: "Island - Whispering Islet"
-  points: 102,200
+  points: "102,200"
   
 - name: Mari
   id: 19666
   loc: "Island - Eternity Isle"
-  points: 102,200
+  points: "102,200"
   
 - name: Sasha
   id: 18031
   loc: "Arthetine - Origins of Stern"
-  points: 103,700
+  points: "103,700"
   
 - name: Ealyn
   id: 25001
   loc: "North Vern - Vern Castle"
-  points: 103,700
+  points: "103,700"
   
