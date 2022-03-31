@@ -105,11 +105,17 @@ input[type="checkbox"]:checked {
 }
 
 #menu-button {
-width:100px;
-height:100px;
-background-color:$darker-base-color;
-outline:none;
-cursor:pointer;
+  cursor: pointer;
+  display: block;
+  height: 80%;
+  float: left;
+  margin-left: 50px;
+  font-family: Quicksand;
+  font-weight: 400;
+  font-size: 21px;
+  text-transform: uppercase;
+  border-left: $dark-base-color solid thin;
+  padding-left: 40px;
 }
 
 nav {
