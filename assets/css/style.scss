@@ -123,9 +123,11 @@ nav {
   display:none;
   clear: both;
   background-color: #0d0d0da3;
-  padding: 30px 50px;
-  position: relative;
-  height: 125px;
+  position: absolute;
+  height: 185px;
+  width: 100%;
+  margin: 0 auto;
+  top: 60px;
 }
 
 #menu-button:focus + nav{
@@ -145,8 +147,11 @@ nav h3 {
 }
 
 .banner {
-  background-image: url('https://raw.githubusercontent.com/mokokoseed/mokokoseed.github.io/gh-pages/assets/Screenshot_220225_092903.jpg');
-  background-size:cover;
-  height:125px;
-  width:100%;
+  background-image: url("https://raw.githubusercontent.com/mokokoseed/mokokoseed.github.io/gh-pages/assets/Screenshot_220225_092903.jpg");
+  background-size: cover;
+  height: 185px;
+  width: 100%;
+  display: block;
+  clear: both;
+  background-position: center;
 }
