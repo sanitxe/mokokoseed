@@ -119,3 +119,8 @@ input[type="checkbox"]:checked {
 .bg-dark {
   background-color: $darker-base-color !important;
 }
+.navbar-dark .navbar-brand {
+  color: $accent-color;
+  margin-left: 20%;
+  font-family:Quicksand;
+}
