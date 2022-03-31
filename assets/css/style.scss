@@ -128,10 +128,6 @@ nav {
   height: 125px;
 }
 
-nav ul li {
-  display:table-cell;
-}
-
 #menu-button:focus + nav{
 display:block;
 }
