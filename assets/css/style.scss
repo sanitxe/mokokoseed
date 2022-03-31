@@ -41,11 +41,24 @@ header h1 {
   margin-left:40px;
 }
 
+header h3 {
+  display: table-cell;
+  padding-left: 60px;
+}
+
+header ul {
+  display: table-cell;
+  padding-right: 50px;
+  border-right: 1px solid $dark-base-color;
+}
+
 header sub {
   margin-top: -5px;
   margin-left: 45px;
   display: block;
 }
+
+
 
 nav {
  display:hidden;
