@@ -68,3 +68,19 @@ a:hover, a:focus {
 h1 {
   color: $dark-accent-color; 
 }
+
+input[type="checkbox"] {
+  border: 2px solid $main-text;
+  appearance: none;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+  float: left;
+  margin: 5px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  border-color: $dark-accent-color;
+  background-color: $dark-accent-color;
+}
