@@ -4,13 +4,20 @@ title: "NPC Rapport Tracker - MOKOKO SEED"
 ---
 
 <h1>NPC Rapport Tracker</h1>
-<i>Work in progress.</i>
 
 <div class="progressbar-container">
   <div class="progressbar-bar"></div>
   <div class="progressbar-label"></div>
 </div>
 <div class = "ready"></div>
+
+<div class="alert alert-danger" role="alert">
+  This is currently a <strong>work in progress</strong>. Progression is currently stored locally only. Clearing your browser's localStorage will reset the table.
+</div>
+
+<div class="alert alert-info" role="alert">
+  PROTIP: You can sort multiple categories by pressing SHIFT + Left Click on the table headers.
+</div>
 
 <table id="sortTable">
   <thead>
