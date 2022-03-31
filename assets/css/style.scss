@@ -1,7 +1,7 @@
 ---
 ---
 
-$dark-base-color: #727272;
+$dark-base-color: #1e1e1e;
 $darker-base-color: #0d0d0d;
 $darker-accent-color: #757BC8;
 $dark-accent-color:#8E94F2;
@@ -15,6 +15,7 @@ body {
   padding:0px;
   color:$dark-base-color;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color:$dark-base-color;
 }
 
 header {
