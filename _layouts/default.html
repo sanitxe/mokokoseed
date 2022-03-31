@@ -25,9 +25,16 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">Mokoko Seed</a></h1>
-
-        <p>Your resource and fansite for all things Lost Ark related with news, updates, guides and more. </p>
         <p><sub>WHERE TOOKI?</sub></p>
+        
+        {% for item in site.data.menu.toc %}
+          <h3>{{ item.title }}</h3>
+            <ul>
+              {% for entry in item.subfolderitems %}
+                <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+              {% endfor %}
+            </ul>
+        {% endfor %}
         
       </header>
       <section>
