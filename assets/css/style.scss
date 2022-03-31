@@ -3,11 +3,13 @@
 
 $dark-base-color: #1e1e1e;
 $darker-base-color: #0d0d0d;
-$darker-accent-color: #757BC8;
-$dark-accent-color:#8E94F2;
-$accent-color: #ADA7FF;
-$light-accent-color: #CBB2FE;
-$lighter-accent-color: #E0C3FC;
+
+$darker-accent-color: #F47E7D;
+$dark-accent-color:#F39082;
+$accent-color: #FAA79C;
+$light-accent-color: #FFCEE1;
+$lighter-accent-color: #FFECD3;
+
 $main-text: #727272;
 
 @import "{{ site.theme }}";
