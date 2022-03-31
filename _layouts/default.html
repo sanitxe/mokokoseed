@@ -32,19 +32,22 @@
         <div id="menu-button" tabindex="1">navigation</div>
         
         <nav>
-        {% for item in site.data.menu.toc %}
-          <h3>{{ item.title }}</h3>
-            <ul>
-              {% for entry in item.subfolderitems %}
-                <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
-              {% endfor %}
-            </ul>
-        {% endfor %}
+          <div id="nav-wrapper">
+            {% for item in site.data.menu.toc %}
+              <h3>{{ item.title }}</h3>
+                <ul>
+                  {% for entry in item.subfolderitems %}
+                    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                  {% endfor %}
+                </ul>
+            {% endfor %}
+          </div>
         </nav>
-        
-        <div class="banner"></div>
-        
+
       </header>
+      
+      <div class="banner"></div>
+      
       <section>
 
       {{ content }}
@@ -53,7 +56,7 @@
     
       <div class="border">
       <footer>
-          <p>This project is maintained by <a href="http://instagram.com/gamingbunny.exe">Sanitee#1093</a> from the US West - Mari Server.</p>
+          <p>This project is maintained by <a href="#">Sanitee#1093</a> from the US West - Mari Server.</p>
           <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
       </div>
