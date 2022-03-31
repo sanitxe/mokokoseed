@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "NPC Rapport Tracker - Mokoko Seed"
+title: "NPC Rapport Tracker - MOKOKO SEED"
 ---
 
 <h1>NPC Rapport Tracker</h1>
