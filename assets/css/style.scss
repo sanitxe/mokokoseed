@@ -32,7 +32,8 @@ header {
   background-color: $darker-base-color;
   width: 100%;
   position: relative;
-  float:none;
+  float: none;
+  height: 50px;
 }
 
 header h1 {
@@ -45,8 +46,10 @@ header h1 {
 header sub {
   margin-top: -5px;
   margin-left: 45px;
-  float:left;
+  float: left;
   display: block;
+  position: absolute;
+  bottom: 7px;
 }
 
 section {
