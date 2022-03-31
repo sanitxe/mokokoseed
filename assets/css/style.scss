@@ -78,6 +78,10 @@ a {
  color: $accent-color; 
 }
 
+a:hover, a:focus {
+  font-weight: unset;
+}
+
 p a:hover {
   color: $darker-base-color;
   font-weight: unset;
