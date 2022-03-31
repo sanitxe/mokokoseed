@@ -125,6 +125,7 @@ nav {
   background-color: #0d0d0da3;
   padding: 30px 50px;
   position: relative;
+  height: 125px;
 }
 
 nav ul li {
@@ -133,4 +134,16 @@ nav ul li {
 
 #menu-button:focus + nav{
 display:block;
+}
+
+nav h3, nav ul {
+  display: table-cell;
+  float: left;
+  width: 100px;
+}
+
+nav h3 {
+  border-left: solid thin $darker-accent-color;
+  height: 100px;
+  padding-left: 40px;
 }
