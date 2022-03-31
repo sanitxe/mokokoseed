@@ -296,7 +296,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 /* Menu specific */
 .menu-item .title {
     font-weight: 500;
-    color: rgb(44 70 86);
+    color: rgb(44,70,86);
     margin: 0 0 0.25em 0;
 }
 
@@ -314,7 +314,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 .menu-item .icon {
-    color: rgb(44 70 86);
+    color: rgb(44,70,86);
     font-size: 1.25em;
     margin: 0 1em 0 0;
 }
@@ -359,7 +359,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
 }
 
 .menu-item .icon-box:hover .icon, .menu-item .icon-box:hover .title, .menu-item .icon-box:hover .sub-text {
-    color: rgb(89 110 123);
+    color: rgb(89,110,123);
 }
 
 #sub-menu-bottom {
@@ -408,7 +408,7 @@ nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-ho
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: rgb(44 70 86 / 68%);
+    color: rgba(44,70,86,0.68);
     margin: 0.75em 0;
 }
 
@@ -422,7 +422,7 @@ nav .menu-item:nth-of-type(3).highlight:hover ~ #sub-menu-container #sub-menu-ho
 }
 
 .sub-menu .box a:hover {
-    color: rgb(44 70 86);
+    color: rgb(44,70,86);
 }
 
 .box {
