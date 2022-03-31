@@ -104,6 +104,14 @@ input[type="checkbox"]:checked {
   background-color: $dark-accent-color;
 }
 
+#menu-button {
+width:100px;
+height:100px;
+background-color:$darker-base-color;
+outline:none;
+cursor:pointer;
+}
+
 nav {
 display:none;
 }
