@@ -20,6 +20,10 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color:$dark-base-color;
   margin:0;
+  background-image: url("https://raw.githubusercontent.com/mokokoseed/mokokoseed.github.io/gh-pages/assets/Screenshot_220225_092903.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .wrapper {
@@ -112,15 +116,6 @@ input[type="checkbox"]:checked {
   background-color: $dark-accent-color;
 }
 
-.banner {
-  background-image: url("https://raw.githubusercontent.com/mokokoseed/mokokoseed.github.io/gh-pages/assets/Screenshot_220225_092903.jpg");
-  background-size: cover;
-  height: 185px;
-  width: 100%;
-  display: block;
-  clear: both;
-  background-position: center;
-}
 
 .bg-dark {
   background-color: $darker-base-color !important;
@@ -130,7 +125,4 @@ input[type="checkbox"]:checked {
   margin-left: 20%;
   font-family:Quicksand;
 }
-#mokoko {
-  margin-top: 70px;
-  margin-left: 69%;
-}
+
