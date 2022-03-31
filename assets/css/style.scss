@@ -53,11 +53,13 @@ header sub {
 }
 
 section {
-  padding-top: 50px;
-  padding-bottom: 50px;
   width: 840px;
   margin: auto;
-  float:none;
+  margin-bottom: auto;
+  float: none;
+  background-color: #ffffff0a;
+  padding: 50px 50px;
+  margin-bottom: 100px;
 }
 
 footer {
@@ -102,48 +104,6 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked {
   border-color: $dark-accent-color;
   background-color: $dark-accent-color;
-}
-
-#menu-button {
-  cursor: pointer;
-  display: block;
-  height: 80%;
-  float: left;
-  margin-left: 50px;
-  font-family: Quicksand;
-  font-weight: 400;
-  font-size: 21px;
-  text-transform: uppercase;
-  border-left: $dark-base-color solid thin;
-  padding-left: 40px;
-  margin-bottom: 10px;
-}
-
-nav {
-  display:none;
-  clear: both;
-  background-color: #0d0d0da3;
-  position: absolute;
-  height: 185px;
-  width: 100%;
-  margin: 0 auto;
-  top: 60px;
-}
-
-#menu-button:focus + nav{
-display:block;
-}
-
-nav h3, nav ul {
-  display: table-cell;
-  float: left;
-  width: 100px;
-}
-
-nav h3 {
-  border-left: solid thin $darker-accent-color;
-  height: 100px;
-  padding-left: 40px;
 }
 
 .banner {
