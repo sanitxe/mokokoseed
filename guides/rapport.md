@@ -6,6 +6,12 @@ title: "NPC Rapport Tracker - MOKOKO SEED"
 <h1>NPC Rapport Tracker</h1>
 <i>Work in progress.</i>
 
+<div class="progressbar-container">
+  <div class="progressbar-bar"></div>
+  <div class="progressbar-label"></div>
+</div>
+<div class = "ready"></div>
+
 <table id="sortTable">
   <thead>
     <tr>
