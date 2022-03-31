@@ -1,8 +1,21 @@
+---
+---
+
+$dark-base-color: #727272;
+$darker-base-color: #0d0d0d;
+$darker-accent-color: #757BC8;
+$dark-accent-color:#8E94F2;
+$accent-color: #ADA7FF;
+$light-accent-color: #CBB2FE;
+$lighter-accent-color: #E0C3FC
+
+@import "{{ site.theme }}";
+
 background-color: #1e1e1e;
 
 body {
   padding:0px;
-  color:#727272;
+  color:$dark-base-color;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -19,5 +32,10 @@ footer {
   position: relative;
   float: left;
   padding: 50px;
-  background-color: #0d0d0d;-
+  background-color: $darker-base-color;
+  border-top: 3px solid linear-gradient(90deg, $darker-accent-color 100%, $accent-color 100%, $lighter-accent-color 100%);
+}
+
+a {
+ color: $accent-color; 
 }
