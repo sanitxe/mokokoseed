@@ -127,7 +127,7 @@ input[type="checkbox"]:checked {
 
 .ready { font-size: 1.5em; }
 .ui-progressbar-value { 
-  background: #595959; 
+  background: linear-gradient(0deg, rgba(255,206,225,1) 0%, rgba(255,236,211,1) 100%); 
 }
 .progressbar-container {
   position: relative;
