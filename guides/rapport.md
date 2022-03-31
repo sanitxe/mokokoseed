@@ -1,3 +1,8 @@
+---
+layout: default
+title: MOKOKO SEED | NPC Rapport Tracker
+---
+
 <h1>NPC Rapport Tracker</h1>
 <i>Work in progress.</i>
 
