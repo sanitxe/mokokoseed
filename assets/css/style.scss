@@ -78,7 +78,7 @@ a {
  color: $accent-color; 
 }
 
-p a:hover, a:focus {
+p a:hover {
   color: $darker-base-color;
   font-weight: unset;
   background-color: white;
@@ -114,4 +114,8 @@ input[type="checkbox"]:checked {
   display: block;
   clear: both;
   background-position: center;
+}
+
+.bg-dark {
+  background-color: $darker-base-color !important;
 }
