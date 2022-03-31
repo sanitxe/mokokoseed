@@ -21,7 +21,7 @@ body {
 }
 
 .wrapper {
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   display: block;
 }
@@ -47,8 +47,12 @@ footer {
   width: 100%;
   position: relative;
   float: left;
-  padding: 50px;
-  background-color: $darker-base-color;
+  background-color: #0d0d0d;
+  bottom: 0;
+}
+
+footer p {
+  margin: 5em;
 }
 
 a {
