@@ -116,10 +116,19 @@ input[type="checkbox"]:checked {
   text-transform: uppercase;
   border-left: $dark-base-color solid thin;
   padding-left: 40px;
+  margin-bottom: 10px;
 }
 
 nav {
-display:none;
+  display:none;
+  clear: both;
+  background-color: #0d0d0da3;
+  padding: 30px 50px;
+  position: relative;
+}
+
+nav ul li {
+  display:table-cell;
 }
 
 #menu-button:focus + nav{
