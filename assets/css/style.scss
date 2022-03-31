@@ -20,13 +20,26 @@ body {
   margin:0;
 }
 
+.wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  display: block;
+}
+
+
 header {
   padding-top:50px;
   background-color: $darker-base-color;
+  width: 100%;
+  position: relative;
+
 }
 
 section {
+  padding-top: 50px;
   padding-bottom: 50px;
+  width: 840px;
+  margin: auto;
 }
 
 footer {
@@ -35,7 +48,6 @@ footer {
   float: left;
   padding: 50px;
   background-color: $darker-base-color;
-  border-top: 3px solid linear-gradient(90deg, $darker-accent-color 100%, $accent-color 100%, $lighter-accent-color 100%);
 }
 
 a {
