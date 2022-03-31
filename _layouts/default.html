@@ -9,9 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
     
@@ -30,27 +27,16 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">Mokoko Seed</a></h1>
-        <p><sub>WHERE TOOKI?</sub></p>
+        <sub>WHERE TOOKI?</sub>
         
-        <nav id="menu">
+        <nav>
         {% for item in site.data.menu.toc %}
-          <div class="menu-item">
-            <div class="menu-text"><a href="#">{{ item.title }}</a></div>
-            <div class="sub-menu">
-                {% for entry in item.subfolderitems %}
-                  <div class="icon-box">
-                    <div class="icon">
-                      <i class="far fa-satellite"></i>
-                    </div>
-                    <div class="text">
-                        <div class="title">
-                          <a href="{{ entry.url }}">{{ entry.page }}</a>
-                        </div>
-                    </div>
-                  </div>
-                {% endfor %}
-            </div>
-          </div>
+          <h3><a href="#">{{ item.title }}</a></h3>
+            <ul>
+              {% for entry in item.subfolderitems %}
+                <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+              {% endfor %}
+            </ul>
         {% endfor %}
         </nav>
         
