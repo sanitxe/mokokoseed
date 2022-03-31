@@ -59,6 +59,12 @@ a {
  color: $accent-color; 
 }
 
+a:hover, a:focus {
+  color: $darker-base-color;
+  font-weight: unset;
+  background-color: white;
+}
+
 h1 {
   color: $dark-accent-color; 
 }
