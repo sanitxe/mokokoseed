@@ -54,7 +54,13 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
           {{ islands.timed }}
         </td>
         <td>
-          {{ islands.notes }}
+          {% for item in islands.notes %}
+            {% if item.url != "" %}
+              {{ notes.quest }} <br/>
+              {{ notes.req }} <br/>
+              
+            {% endif %}
+          {% endfor %}
         </td>
       </tr>
     {% endfor %}
