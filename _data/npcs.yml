@@ -170,51 +170,61 @@
   id: 22057
   loc: "North Vern - Vernese Forest"
   points: "17,800"
+  icon: common_gamenote_npc_img_02_43.png
   
 - name: Neth
   id: 19669
   loc: "Island - Hope Island"
   points: "17,800"
+  icon: common_gamenote_npc_img_47.png
   
 - name: Mokamoka
   id: 21161
   loc: "Tortoyk - Mokoko Village"
   points: "17,800"
+  icon: common_gamenote_npc_img_34.png
   
 - name: Mercenary Zeira
   id: 18156
   loc: "Arthetine - Origins of Stern"
   points: "17,800"
+  icon: common_gamenote_npc_img_01_33.png
   
 - name: Levi
   id: 41130
   loc: "Kalaja"
   points: "17,800"
+  icon: freindshipnpc_img_95.png
   
 - name: Lenora
   id: 24514
   loc: "Feiton - Elzowin's Shade"
   points: "17,800"
+  icon: common_gamenote_npc_img_01_35.png
   
 - name: Gobius XXIV
   id: 19383
   loc: "Island - Goblin Island"
   points: "17,800"
+  icon: common_gamenote_npc_img_02_13.png
   
 - name: Gideon
   id: 22025
   loc: "North Vern - Rania Village"
   points: "17,800"
+  icon: common_gamenote_npc_img_01_5.png
   
 - name: Future Millionnaire Zenri
   id: 19324
   loc: "Island - Liebeheim"
   points: "17,800"
+  icon: common_gamenote_npc_img_02_23.png
   
 - name: Daybreaker Javern
   id: 16105
   loc: "Shushire - Rigens Village"
   points: "17,800"
+  icon: common_gamenote_npc_img_03_3.png
   
 - name: Dancer Imar
   id: 26452
