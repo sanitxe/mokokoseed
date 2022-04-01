@@ -1,4 +1,7 @@
 theme: jekyll-theme-minimal 
 title: MOKOKO SEED
+tagline: "Your tool for tracking all things Lost Ark."
+description: "A site for Lost Ark Completionists, made by Lost Ark Completionists. Here you'll find trackers, guides plus some random extras. Has anyone seen Tooki?"
+logo: /assets/favicon.png
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
