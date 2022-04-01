@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Lost Ark Emotes"
+description: "A collection of transparent Lost Ark Emotes for use. Add them to your Discord servers and don't forget to say LAILAI"
 ---
 
 <table class="listtable" width="100%">
