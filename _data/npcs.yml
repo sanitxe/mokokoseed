@@ -74,81 +74,97 @@
   id: 11656
   loc: "Yudia - Ozhorn Hill"
   points: "5,900"
+  icon: common_gamenote_npc_img_01_17.png
   
 - name: Hariya
   id: 28050
   loc: "Punika - Nia Village"
   points: "5,900"
+  icon: freindshipnpc_img_124.png
   
 - name: Graymoon Dath
   id: 16401
   loc: "Shushire - Iceblood Plateau"
   points: "5,900"
+  icon: common_gamenote_npc_img_4.png
   
 - name: Elia Nahun
   id: 14009
   loc: "East Luterra - Dyorika Plain"
   points: "5,900"
+  icon: common_gamenote_npc_img_39.png
   
 - name: Dakudaku
   id: 21133
   loc: "Tortoyk - Mokoko Village"
   points: "5,900"
+  icon: common_gamenote_npc_img_02_0.png
   
 - name: Apprentice Blacksmith Turner
   id: 14012
   loc: "East Luterra - Dyorika Plain"
   points: "5,900"
+  icon: common_gamenote_npc_img_41.png
   
 - name: Adventurer Selfa
   id: 22036
   loc: "North Vern - Parna Forest"
   points: "5,900"
+  icon: common_gamenote_npc_img_02_25.png
   
 - name: Yuul
   id: 20381
   loc: "Anikka - Port City Changhun"
   points: "17,800"
+  icon: common_gamenote_npc_img_02_29.png
   
 - name: Yom the Squirrel
   id: 28031
   loc: "Punika - Nia Village"
   points: "17,800"
+  icon: freindshipnpc_img_122.png
   
 - name: Toto Elder
   id: 19112
   loc: "Island - Toto Silver Island"
   points: "17,800"
+  icon: common_gamenote_npc_img_02_35.png
   
 - name: Thunder
   id: 11624
   loc: "Yudia - Saland Hill"
   points: "17,800"
+  icon: common_gamenote_npc_img_01_47.png
   
 - name: Tanay
   id: 19600
   loc: "Island - Peyto"
   points: "17,800"
+  icon: common_gamenote_npc_img_87.png
   
 - name: Stranded Temma
   id: 19325
   loc: "Island - White Wave Island"
   points: "17,800"
+  icon: common_gamenote_npc_img_02_41.png
   
 - name: Samly
   id: 19625
   loc: "Island - Glacier Isle"
   points: "17,800"
+  icon: common_gamenote_npc_img_88.png
   
 - name: Puppa
   id: 19743
   loc: "Island - Panda Island"
   points: "17,800"
+  icon: common_gamenote_npc_img_72.png
   
 - name: Poppy
   id: 16514
   loc: "Shushire - Icewing Heights"
   points: "17,800"
+  icon: common_gamenote_npc_img_02_40.png
   
 - name: Payla
   id: 22057
@@ -371,4 +387,5 @@
   id: 25001
   loc: "North Vern - Vern Castle"
   points: "103,700"
+  icon: freindshipnpc_img_30.png
   
