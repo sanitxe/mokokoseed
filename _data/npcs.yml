@@ -1,62 +1,74 @@
 - name: Vivian
   id: 13030
-  loc: "Luterra Castle"
+  loc: "East Luterra - Luterra Castle"
   points: "5,900"
+  icon: common_gamenote_npc_img_38.png
 
 - name: Totoma
   id: 21162
   loc: "Mokoko Village"
   points: "5,900"
+  icon: common_gamenote_npc_img_35.png
 
 - name: Sorang
   id: 20308
   loc: "Prisma Valley"
   points: "5,900"
+  icon: common_gamenote_npc_img_02_26.png
 
 - name: Siera
   id: 11353
   loc: "Rethramis - Prideholme"
   points: "5,900"
+  icon: common_gamenote_npc_img_01_36.png
   
 - name: Sapiano the Fox
   id: 28131
   loc: "Punika - Nia Village"
   points: "5,900"
+  icon: freindshipnpc_img_123.png
   
 - name: Ryeon's Ghost
   id: 20372
   loc: "Anikka - Melody Forest"
   points: "5,900"
+  icon: common_gamenote_npc_img_02_34.png
   
 - name: Refugee Pamil
   id: 19312
   loc: "Island - Runaways Island"
   points: "5,900"
+  icon: common_gamenote_npc_img_02_44.png
   
 - name: Rancher Jude
   id: 16013
   loc: "Shushire - Frozen Sea"
   points: "5,900"
+  icon: common_gamenote_npc_img_02_3.png
   
 - name: Orne
   id: 18266
   loc: "Arthetine - Totrich"
   points: "5,900"
+  icon: common_gamenote_npc_img_02_2.png
   
 - name: Orelda
   id: 24207
   loc: "Rohendel - Glass Lotus Lake"
   points: "5,900"
+  icon: common_gamenote_npc_img_02_30.png
   
 - name: Norin Nahun
   id: 14010
   loc: "East Luterra - Dyorika Plain"
   points: "5,900"
+  icon: common_gamenote_npc_img_40.png
   
 - name: Nabi
   id: 41034
   loc: "Feiton - Kalaja"
   points: "5,900"
+  icon: freindshipnpc_img_96.png
   
 - name: Morina
   id: 11656
@@ -277,6 +289,7 @@
   id: 51500
   loc: "Island - Illusion Bamboo Island"
   points: "57,800"
+  icon: freindshipnpc_img_102.png
   
 - name: Nia
   id: 28100
@@ -342,6 +355,7 @@
   id: 51385
   loc: "Island - Whispering Islet"
   points: "102,200"
+  icon: freindshipnpc_img_97.png
   
 - name: Mari
   id: 19666
