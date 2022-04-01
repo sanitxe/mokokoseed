@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Lost Ark Emotes"
+---
+
 <table class="listtable" width="100%">
 	<thead>
 		<tr>
