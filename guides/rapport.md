@@ -22,11 +22,11 @@ title: "NPC Rapport Tracker"
 <table id="sortTable">
   <thead>
     <tr>
-      <td></td>
-      <td class="npc-icon-column"></td>
-      <td>Name</td>
-      <td>Location</td>
-      <td>Total Rapport</td>
+      <th class="no-sort"></th>
+      <th class="npc-icon-column no-sort"></th>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Total Rapport</th>
     </tr>
   </thead>
   <tbody>
