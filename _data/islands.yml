@@ -1,0 +1,42 @@
+- icon:
+  name: 
+  method: 
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      etc: 
+
+- icon:
+  name: Fantasm Island
+  method: "Una's Daily Task"
+  days: 6
+  timed:
+  notes: 
+    - quest: 
+      rep: "The New Book (60pts)"
+      defeat:
+      boss:
+      collect:
+      rapport:
+      etc:
+      
+- icon:
+  name: Gesbroy
+  method: "Una's Daily Task"
+  days: 10
+  timed:
+  notes: 
+    - quest: 
+      rep: "Gesbroy Snack Expert (100pts)"
+      defeat:
+      boss:
+      collect:
+      rapport:
+      etc:
+      
