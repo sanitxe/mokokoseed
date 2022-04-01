@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "NPC Rapport Tracker"
+description: "Your Lost Ark tool for tracking rapport gained with all possible NPCs. Find their location and sort by the fastest or longest ones to farm."
 ---
 
 <h1>NPC Rapport Tracker</h1>
