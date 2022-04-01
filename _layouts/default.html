@@ -109,6 +109,22 @@
   countChecked();
   $(":checkbox").click(countChecked);
 });
+      
+$('.box').each(function() {
+  if ($(this).is(':checked')) {
+    $(this).closest('tr').addClass('complete')
+  } else {
+    $(this).closest('tr').removeClass('complete')
+  }
+});
+$('.box').click(function() {
+  if ($(this).is(':checked')) {
+    $(this).closest('tr').addClass('complete')
+  } else {
+    $(this).closest('tr').removeClass('complete')
+  }
+});
+
     </script>
       
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
