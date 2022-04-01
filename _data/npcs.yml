@@ -6,13 +6,13 @@
 
 - name: Totoma
   id: 21162
-  loc: "Mokoko Village"
+  loc: "Tortoyk - Mokoko Village"
   points: "5,900"
   icon: common_gamenote_npc_img_35.png
 
 - name: Sorang
   id: 20308
-  loc: "Prisma Valley"
+  loc: "Anikka - Prisma Valley"
   points: "5,900"
   icon: common_gamenote_npc_img_02_26.png
 
