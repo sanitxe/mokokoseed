@@ -5,5 +5,5 @@ toc:
         url: /guides/rapport
   - title: Extra
     subfolderitems:
-      -page: Emotes
-      url:  /emotes
+      - page: Emotes
+        url:  /emotes
