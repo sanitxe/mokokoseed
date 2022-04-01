@@ -66,7 +66,11 @@
     <script>
       $(document).ready( function () {
           $('#sortTable').dataTable( {
-              "paging": false
+              "paging": false,
+              "columnDefs": [ {
+                    "targets": 'no-sort',
+                    "orderable": false,
+              } ]
           } );
       } );
       
