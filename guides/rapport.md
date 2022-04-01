@@ -36,9 +36,7 @@ title: "NPC Rapport Tracker"
           <input type="checkbox" id="{{ npcs.id }}" class="box">
         </td>
         <td>
-          {% if npcs.icon[0] %}
             <img class="npc-icon" src="/assets/img/npc/{{ npcs.icon }}" />
-          {% endif %}
         </td>
         <td> 
           {{ npcs.name }}
