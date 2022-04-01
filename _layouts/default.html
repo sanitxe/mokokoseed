@@ -79,6 +79,20 @@
                     "orderable": false,
               } ]
           } );
+          $('.box').each(function() {
+            if ($(this).is(':checked')) {
+              $(this).closest('tr').addClass('complete')
+            } else {
+              $(this).closest('tr').removeClass('complete')
+            }
+          });
+          $('.box').click(function() {
+            if ($(this).is(':checked')) {
+              $(this).closest('tr').addClass('complete')
+            } else {
+              $(this).closest('tr').removeClass('complete')
+            }
+          });
       } );
       
       $(document).ready(function() {
@@ -110,20 +124,7 @@
   $(":checkbox").click(countChecked);
 });
       
-$('.box').each(function() {
-  if ($(this).is(':checked')) {
-    $(this).closest('tr').addClass('complete')
-  } else {
-    $(this).closest('tr').removeClass('complete')
-  }
-});
-$('.box').click(function() {
-  if ($(this).is(':checked')) {
-    $(this).closest('tr').addClass('complete')
-  } else {
-    $(this).closest('tr').removeClass('complete')
-  }
-});
+
 
     </script>
       
