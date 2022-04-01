@@ -79,7 +79,7 @@ footer {
 }
 
 footer p {
-  margin: 5em;
+  margin-top: 30px;
 }
 
 a {
@@ -177,4 +177,16 @@ input[type="checkbox"]:checked {
 
 .no-sort { 
   pointer-events: none!important; cursor: default!important; 
+}
+
+#footer-logo {
+  font-size: 600%;
+  font-family: Quicksand;
+  font-weight: 200;
+  float: left;
+  margin-left: 50px;
+  color: $main-text;
+  border-right: solid thin $accent-color;
+  margin-right: 50px;
+  padding-right: 50px;
 }
