@@ -3,4 +3,7 @@ toc:
     subfolderitems:
       - page: Rapport Tracker
         url: /guides/rapport
-
+  - title: Extra
+    subfolderitems:
+      -page: Emotes
+      url:  /emotes
