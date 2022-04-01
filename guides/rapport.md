@@ -23,7 +23,7 @@ title: "NPC Rapport Tracker"
   <thead>
     <tr>
       <td></td>
-      <td></td>
+      <td class="npc-icon-column"></td>
       <td>Name</td>
       <td>Location</td>
       <td>Total Rapport</td>
