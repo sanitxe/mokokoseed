@@ -230,86 +230,103 @@
   id: 26452
   loc: "Great Castle"
   points: "17,800"
+  icon: freindshipnpc_img_88.png
   
 - name: Berver
   id: 28140
   loc: "Punika - Nia Village"
   points: "17,800"
+  icon: freindshipnpc_img_121.png
   
 - name: Bellita
   id: 19656
   loc: "Island - Notos Island"
   points: "17,800"
+  icon: common_gamenote_npc_img_48.png
   
 - name: Artisan Urr
   id: 12026
   loc: "West Luterra - Lakebar"
   points: "17,800"
+  icon: common_gamenote_npc_img_01_43.png
   
 - name: Anabel
   id: 22026
   loc: "North Vern - Rania Village"
   points: "17,800"
+  icon: common_gamenote_npc_img_01_37.png
   
 - name: Albion
   id: 28141
   loc: "Punika - Nia Village"
   points: "17,800"
+  icon: freindshipnpc_img_120.png
   
 - name: Neria
   id: 18142
   loc: "Arthetine - Origins of Stern"
   points: "37,900"
+  icon: freindshipnpc_img_49.png
   
 - name: Neria
   id: 15115
   loc: "East Luterra - Wavestrand Port"
   points: "37,900"
+  icon: freindshipnpc_img_46.png
   
 - name: Neria
   id: 13087
   loc: "East Luterra - Luterra Castle"
   points: "37,900"
+  icon: freindshipnpc_img_43.png
   
 - name: Neria
   id: 11264
   loc: "Rethramis - Prideholme"
   points: "37,900"
+  icon: freindshipnpc_img_40.png
   
 - name: Nagi
   id: 28123
   loc: "Punika - Nia Village"
   points: "37,900"
+  icon: freindshipnpc_img_111.png
   
 - name: Liru
   id: 28124
   loc: "Punika - Nia Village"
   points: "37,900"
+  icon: freindshipnpc_img_114.png
   
 - name: Krissa
   id: 19803
   loc: "Island - Sublime Isle"
   points: "37,900"
+  icon: freindshipnpc_img_52.png
   
 - name: Jahara
   id: 28099
   loc: "Punika - Nia Village"
   points: "37,900"
+  icon: freindshipnpc_img_108.png
   
 - name: Ezrebet
   id: 19804
   loc: "Island - Sublime Isle"
   points: "37,900"
+  icon: freindshipnpc_img_55.png
   
 - name: Blue-Eyed Calvasus
   id: 19767
   loc: "Island - Hypnos's Eyes"
   points: "37,900"
+  icon: freindshipnpc_img_58.png
   
 - name: Bastian
   id: 18030
   loc: "Arthetine - Origins of Stern"
   points: "37,900"
+  icon: freindshipnpc_img_61.png
   
 - name: Zinnervale
   id: 51500
@@ -321,61 +338,73 @@
   id: 28100
   loc: "Punika - Nia Village"
   points: "57,800"
+  icon: freindshipnpc_img_105.png
   
 - name: Shana
   id: 28122
   loc: "Punika - Nia Village"
   points: "57,800"
+  icon: freindshipnpc_img_117.png
   
 - name: Neria
   id: 26116
   loc: "Yorn - Great Castle"
   points: "57,800"
+  icon: freindshipnpc_img_82.png
   
 - name: Lutia
   id: 41003
   loc: "Feiton - Kalaja"
   points: "57,800"
+  icon: freindshipnpc_img_92.png
   
 - name: Kaysarr
   id: 26027
   loc: "Yorn - Great Castle"
   points: "57,800"
+  icon: freindshipnpc_img_85.png
   
 - name: Jederico
   id: 40157
   loc: "Feiton - Nameless Valley"
   points: "57,800"
+  icon: freindshipnpc_img_89.png
   
 - name: Thirain
   id: 13001
   loc: "East Luterra - Luterra Castle"
   points: "77,700"
+  icon: freindshipnpc_img_5.png
   
 - name: Cals
   id: 15002
   loc: "East Luterra - Wavestrand Port"
   points: "77,700"
+  icon: freindshipnpc_img_25.png
   
 - name: Blackfang
   id: 19118
   loc: "Island - Blackfang's Den"
   points: "77,700"
+  icon: freindshipnpc_img_10.png
   
 - name: Beatrice
   id: 10101
   loc: "Trixion"
   points: "77,700"
+  icon: freindshipnpc_img_0.png
   
 - name: Azena
   id: 24101
   loc: "Rohendel - Rothun"
   points: "77,700"
+  icon: freindshipnpc_img_72.png
   
 - name: Avele
   id: 25002
   loc: "North Vern - Vern Castle"
   points: "77,700"
+  icon: freindshipnpc_img_64.png
   
 - name: Nineveh
   id: 51385
@@ -387,11 +416,13 @@
   id: 19666
   loc: "Island - Eternity Isle"
   points: "102,200"
+  icon: freindshipnpc_img_20.png
   
 - name: Sasha
   id: 18031
   loc: "Arthetine - Origins of Stern"
   points: "103,700"
+  icon: freindshipnpc_img_15.png
   
 - name: Ealyn
   id: 25001
