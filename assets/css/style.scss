@@ -80,6 +80,7 @@ footer {
 
 footer p {
   margin-top: 30px;
+  color:#bbb;
 }
 
 a {
@@ -189,4 +190,15 @@ input[type="checkbox"]:checked {
   border-right: solid thin $accent-color;
   margin-right: 50px;
   padding-right: 50px;
+}
+
+#footer-logo-icon {
+  position: relative;
+  float: right;
+  margin-right: 20%;
+  margin-top: -110px;
+  width: 125px;
+  height: 115px;
+  object-fit: cover;
+  object-position: top;
 }
