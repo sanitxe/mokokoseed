@@ -23,6 +23,7 @@ title: "NPC Rapport Tracker"
   <thead>
     <tr>
       <td></td>
+      <td></td>
       <td>Name</td>
       <td>Location</td>
       <td>Total Rapport</td>
@@ -33,6 +34,9 @@ title: "NPC Rapport Tracker"
       <tr>
         <td>
           <input type="checkbox" id="{{ npcs.id }}" class="box">
+        </td>
+        <td>
+          <img class="npc-icon" src="{{ npcs.name }}" />
         </td>
         <td> 
           {{ npcs.name }}
