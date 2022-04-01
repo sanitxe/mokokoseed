@@ -166,3 +166,15 @@ input[type="checkbox"]:checked {
   width: 50px;
   height: 50px;
 }
+
+.npc-icon-column {
+  width:35px;
+}
+
+.no-sort::after { 
+  display: none!important; 
+}
+
+.no-sort { 
+  pointer-events: none!important; cursor: default!important; 
+}
