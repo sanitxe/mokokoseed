@@ -96,12 +96,9 @@
                       target: ''
                   }
               },
-              "columnDefs": [ {
-                    "targets": 'no-sort',
-                    "orderable": false,
-              } ],  
             "columnDefs": [
-                  { "visible": false, "targets": groupColumn }
+                  { "visible": false, "targets": groupColumn },
+                  { "targets": 'no-sort', "orderable": false }
               ],
               "order": [[ groupColumn, 'asc' ]],
               "displayLength": 25,
