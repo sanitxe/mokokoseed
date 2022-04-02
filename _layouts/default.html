@@ -72,7 +72,13 @@
       $(document).ready( function () {
           $('#sortTable').dataTable( {
               "paging": false,
-              responsive: true,
+              responsive: {
+                  details: {
+                      display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                      type: 'none',
+                      target: ''
+                  }
+              }
               "order": [],
               "columnDefs": [ {
                     "targets": 'no-sort',
