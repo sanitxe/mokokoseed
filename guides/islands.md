@@ -56,8 +56,8 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
         <td>
           {% for notes in islands.notes %}
               
-              {% if notes.quest != "" %} {{ notes.quest }} <br/> {% endif %}
-              {% if notes.rep != "" %} {{ notes.rep }} <br/> {% endif %}
+              {% if notes.quest != nil %} {{ notes.quest }} <br/> {% endif %}
+              {% if notes.rep != nil %} {{ notes.rep }} <br/> {% endif %}
           {% endfor %}
         </td>
       </tr>
