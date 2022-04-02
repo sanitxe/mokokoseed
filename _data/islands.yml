@@ -446,3 +446,88 @@
       coop: 
       stats: "200 Courage"
       etc: 
+
+- icon:
+  name: Naruni Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Naruni Go!"
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+- icon:
+  name: Opher, the Lonely Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Island Tokens"
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+- icon:
+  name: Promise Isle
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "[Journey] Shattered Heart"
+      startquest: "[Awakening] Ray of Hope"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+- icon:
+  name: Reminiscence Isle
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "My Truest Friend"
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Accept the quest from a hidden object near the island's entrance."
+
+- icon:
+  name: Serenity Isle
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Revenge Is Mine"
+      startquest: "Who's There?!"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
