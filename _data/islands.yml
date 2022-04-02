@@ -863,7 +863,7 @@
 
 - icon:
   name: "Drumbeat Island"
-  method: "Unobtainable"
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -874,9 +874,9 @@
       boss: 
       collect: 
       achieve: 
-      coop: 
+      coop: "[Dangerous Debris] [The Thing from the Sky!]"
       rapport: 
-      etc: "Currently unreleased in NA."
+      etc: 
       
 - icon:
   name: "Fortuna"
@@ -1091,7 +1091,7 @@
 
 - icon:
   name: "Island of Time"
-  method: 
+  method: "Grind"
   days: 
   daily: 
   notes: 
@@ -1105,7 +1105,7 @@
 
 - icon:
   name: "Isle of Yearning"
-  method: 
+  method: "Grind"
   days: 
   daily: 
   notes: 
@@ -1119,7 +1119,7 @@
 
 - icon:
   name: "Lagoon Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1134,7 +1134,7 @@
 
 - icon:
   name: "Oblivion Isle"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1149,7 +1149,7 @@
 
 - icon:
   name: "Orvis Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1164,7 +1164,7 @@
 
 - icon:
   name: "Phantomwing Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1179,7 +1179,7 @@
 
 - icon:
   name: "Slime Island"
-  method: 
+  method: "Grind"
   days: 
   daily: 
   notes: 
@@ -1194,7 +1194,7 @@
 
 - icon:
   name: "Spida Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1209,7 +1209,7 @@
 
 - icon:
   name: "Tooki Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1224,7 +1224,7 @@
 
 - icon:
   name: "Tranquil Isle"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1240,7 +1240,7 @@
 
 - icon:
   name: "Twilight Isle"
-  method: 
+  method: "Grind"
   days: 
   daily: 
   notes: 
@@ -1255,7 +1255,7 @@
 
 - icon:
   name: "Unknown Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1285,7 +1285,7 @@
 
 - icon:
   name: "Walpurgis"
-  method: 
+  method: "Grind"
   days: 
   daily: 
   notes: 
@@ -1301,7 +1301,7 @@
 
 - icon:
   name: "Wildwater Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1316,7 +1316,7 @@
 
 - icon:
   name: "Alakkir"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1332,7 +1332,7 @@
 
 - icon:
   name: "Alteisen"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1347,7 +1347,7 @@
 
 - icon:
   name: "Anguished Isle"
-  method: 
+  method: "Grind"
   days: 
   daily: 
   notes: 
@@ -1363,7 +1363,7 @@
 
 - icon:
   name: "Erasmo's Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1378,7 +1378,7 @@
 
 - icon:
   name: "Facility X-301"
-  method: 
+  method: "Grind"
   days: 
   daily: 
   notes: 
@@ -1394,7 +1394,7 @@
 
 - icon:
   name: "Forpe"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1409,7 +1409,7 @@
 
 - icon:
   name: "Frostfire Island"
-  method: 
+  method: "Grind"
   days: 
   daily: true
   notes: 
@@ -1422,3 +1422,82 @@
       coop: "[Raid: Brealeos]"
       etc: 
 
+- icon:
+  name: "Death's Hold Island"
+  method: "Grind (PvP)"
+  days: 12
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: 
+      dungeon: "[Secret Map Dungeon]"
+      item: "[Secret Map]"
+      collect: "[Foul Sculpture] x60" 
+      rapport: 
+      coop: "[A Bloody Sea]" 
+      etc: "Complete the Co-Op quest and exchange items for the [Secret Map]. Complete the map for the Island Token."
+
+- icon:
+  name: "Illusion Isle"
+  method: "Grind (PvP)"
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: 
+      item: "[Illusion Isle Loot]"
+      collect: 
+      rapport: 
+      coop: "[Red Waves]"
+      etc: "Can also be acquired through looting the chests that spawn during the Co-Op quest."
+
+- icon:
+  name: "Lush Reed Island"
+  method: "Grind (PvP)"
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      coop: "[The Reed Field]"
+      etc: 
+
+- icon:
+  name: "Medeia"
+  method: "Grind (PvP)"
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: 
+      item: "[Medeia's Gift]"
+      collect: 
+      rapport: 
+      coop: "[Medeia War]"
+      etc: 
+
+- icon:
+  name: "Snowpang Island"
+  method: "Grind (PvP)"
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: 
+      item: "[Fun Snowfight Commemorative Pouch]"
+      collect: 
+      rapport: 
+      coop: "[Snowfight!]"
+      etc: 
