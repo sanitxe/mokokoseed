@@ -20,7 +20,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
   PROTIP: You can sort multiple categories by pressing SHIFT + Left Click on the table headers.
 </div>
 
-<table id="sortTable">
+<table id="sortGroup">
   <thead>
     <tr>
       <th class="no-sort"></th>
