@@ -210,7 +210,7 @@
 
 - icon:
   name: Wisdom Isle
-  method: "Collection"
+  method: "Collectibles"
   days: 
   daily: 
   notes: 
@@ -590,7 +590,7 @@
 
 - icon:
   name: Sunflower Island
-  method: "Collection"
+  method: "Collectibles"
   days: 
   daily: 
   notes: 
