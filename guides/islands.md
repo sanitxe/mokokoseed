@@ -28,7 +28,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
       <th>Island</th>
       <th>Method</th>
       <th>Min. Days</th>
-      <th>Compass</th>
+      <th>Daily</th>
       <th>Notes</th>
     </tr>
   </thead>
@@ -51,7 +51,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
           {{ islands.days }}
         </td>
         <td>
-          {{ islands.timed }}
+          {{ islands.daily }}
         </td>
         <td>
           {% for notes in islands.notes %}
