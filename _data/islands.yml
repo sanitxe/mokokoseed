@@ -71,7 +71,7 @@
 - icon:
   name: Notos Island
   method: "Una's Daily Task"
-  days: "2*"
+  days: "2"
   timed: 
   notes: 
     - quest: With Didi
@@ -85,7 +85,7 @@
 - icon:
   name: Peyto
   method: "Una's Daily Task"
-  days: "5*"
+  days: "5"
   timed: 
   notes: 
     - quest: Finally Finished
@@ -225,7 +225,7 @@
 - icon:
   name: Wisdom Isle
   method: "Giant's Heart"
-  days: "x"
+  days: 
   timed: 
   notes: 
     - quest: "A Giant Resonance"
