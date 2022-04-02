@@ -14,12 +14,12 @@
 
 - icon:
   name: Fantasm Island
-  method: "Una's Daily Task"
-  days: 6
+  method: una
+  days: 7
   timed:
   notes: 
     - quest: 
-      rep: "The New Book (60pts)"
+      rep: "The New Book (Lv. 2)"
       defeat:
       boss:
       collect:
@@ -28,15 +28,142 @@
       
 - icon:
   name: Gesbroy
-  method: "Una's Daily Task"
-  days: 10
+  method: una
+  days: 20
   timed:
   notes: 
     - quest: 
-      rep: "Gesbroy Snack Expert (100pts)"
+      rep: "Gesbroy Snack Expert (Lv. 3)"
       defeat:
       boss:
       collect:
       rapport:
       etc:
       
+- icon:
+  name: Lopang Island
+  method: una
+  days: 6
+  timed: 
+  notes: 
+    - quest: An Important Personage
+      rep: "Lopang Inc.*"
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      etc: "Complete 1 Unique Una's Task 6 times along with Island Quests to unlock the quest 'An Important Personage'"
+      
+- icon:
+  name: Isteri
+  method: una
+  days: 21
+  timed: 
+  notes: 
+    - quest: 
+      rep: "Guardian (Lv. 3)"
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      etc:     
+
+- icon:
+  name: Notos Island
+  method: una
+  days: "2*"
+  timed: 
+  notes: 
+    - quest: With Didi
+      rep: "Weeping Sea*"
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      etc: "Complete 3 Una's Daily Task and Island quests to unlock 'With Didi' *After completing the 1st task, the 2nd task will become available on the same day."
+
+- icon:
+  name: Peyto
+  method: una
+  days: "5*"
+  timed: 
+  notes: 
+    - quest: Finally Finished
+      rep: "Peyto*"
+      defeat: 
+      boss: 
+      collect: 
+      rapport:
+      etc: "Complete 'Everything Circles Back Around' 4 times to unlock 'Finally Finished' as well as complete the Main Questline on the Island. [Emote: Roar] is also required (3,600 Gienah's Coins from Freedom Island)."
+
+- icon:
+  name: Revelry Row
+  method: una
+  days: 6
+  timed: 
+  notes: 
+    - quest: Unbreakable Beat
+      rep: "Club Manager*"
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      etc: "Reach Reputation Level 2 to unlock the quest 'Unbreakable Beat'. [Emote: Sway] from a quest in Peyto will be required."
+
+- icon:
+  name: Runaways Island
+  method: una
+  days: 6
+  timed: 
+  notes: 
+    - quest: 
+      rep: "Catch the Criminals (Lv. 2)"
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      etc: 
+
+- icon:
+  name: Totopia
+  method: una
+  days: 5
+  timed: 
+  notes: 
+    - quest: Totopia Tutor for a Day
+      rep: "School is Fun*"
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      etc: "Reach Reputation Level 2 to unlock 'Her Name' Quest Chain"
+      
+- icon:
+  name: Shadowmoon Market
+  method: una
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      etc: 
+
+- icon:
+  name: Shadow Island
+  method: quest
+  days: 5
+  timed: 
+  notes: 
+    - quest: With a Light Heart
+      rep: "The Reagent Experiment (Lv. 1)"
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: "[Thank You Chipmunk] [Click! Lights and Camera]"
+      coop: "Shadowmoon Dance"
+      etc: "Obtain Reputation Level 1, 2 Achievements and complete the co-op quest to unlock the quest 'With a Light Heart'. Achievements are obtained by taking pictures of spirits with the interactable cameras."
