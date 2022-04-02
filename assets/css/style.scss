@@ -128,7 +128,7 @@ input[type="checkbox"]:checked {
 
 .ready { font-size: 1.5em; }
 .ui-progressbar-value { 
-  background: linear-gradient(0deg, rgba(255,206,225,1) 0%, rgba(255,236,211,1) 100%); 
+  linear-gradient(90deg, rgba(2,0,36,1) 0%, $accent-color 20%, rgba(0,212,255,0) 100%) !important;
 }
 .progressbar-container {
   position: relative;
@@ -210,6 +210,14 @@ input[type="checkbox"]:checked {
 
 th {
   font-family: Quicksand;
+}
+
+.group {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, $accent-color 20%, rgba(0,212,255,0) 100%) !important;
+  color: white;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: medium;
 }
 
 table {
