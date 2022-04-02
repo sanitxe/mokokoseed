@@ -88,6 +88,7 @@
         
           var groupColumn = 3;
           var table = $('#sortGroup').DataTable({
+            "paging": false,
             responsive: {
                   details: {
                       display: $.fn.dataTable.Responsive.display.childRowImmediate,
@@ -95,7 +96,6 @@
                       target: ''
                   }
               },
-              "order": [],
               "columnDefs": [ {
                     "targets": 'no-sort',
                     "orderable": false,
