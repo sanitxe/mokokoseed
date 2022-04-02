@@ -88,7 +88,19 @@
         
           var groupColumn = 3;
           var table = $('#sortGroup').DataTable({
-              "columnDefs": [
+            responsive: {
+                  details: {
+                      display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                      type: 'none',
+                      target: ''
+                  }
+              },
+              "order": [],
+              "columnDefs": [ {
+                    "targets": 'no-sort',
+                    "orderable": false,
+              } ],  
+            "columnDefs": [
                   { "visible": false, "targets": groupColumn }
               ],
               "order": [[ groupColumn, 'asc' ]],
