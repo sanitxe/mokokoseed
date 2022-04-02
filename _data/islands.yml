@@ -806,3 +806,72 @@
       rapport: "Stranded Temma (Trusted)"
       etc: 
 
+- icon:
+  name: "Argon"
+  method: "Grind"
+  days: 1
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Defeat an Ice Sculpture perfectly without doing any overkill damage. Recommended to use [Mokoko's Skillet] as it does 1 damage per hit. 11 sculptures are available per day and resets at 5PM PDT."
+
+- icon:
+  name: "Astella"
+  method: "Grind"
+  days: 1
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Random drop from collecting interactable stars on the ground."
+
+- icon:
+  name: "Atropos"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: "Examining the Ship"
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      item: "[Wish Pouch]"
+      rapport: 
+      etc: "Random drop from [Wish Pouch] which can be acquired from throwing [Lynnis Commemorative Coin] into the central fountain. Coins are gained through completing the Island's Una Daily Task."
+
+- icon:
+  name: "Cradle of the Sea Fermata"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: 
+
