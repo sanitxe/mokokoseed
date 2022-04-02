@@ -59,7 +59,10 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
               {% if notes.startquest != nil %} <b>Starting Quest:</b> {{ notes.quest }} <br/> {% endif %}
               {% if notes.quest != nil %} <b>Quest:</b> {{ notes.quest }} <br/> {% endif %}
               {% if notes.rep != nil %} <b>Reputation:</b> {{ notes.rep }} <br/> {% endif %}
-              {% if notes.achieve != nil %} <b>Achievement:</b> {{ notes.achieve }} <br/> {% endif %}
+              {% if notes.item != nil %} <b>Item:</b> {{ notes.item }} <br/> {% endif %} 
+              {% if notes.collect != nil %} <b>Collect:</b> {{ notes.collect }} <br/> {% endif %}
+              {% if notes.rapport != nil %} <b>Rapport:</b> {{ notes.rapport }} <br/> {% endif %}
+              {% if notes.defeat != nil %} <b>Defeat:</b> {{ notes.defeat }} <br/> {% endif %}
               {% if notes.coop != nil %} <b>Co-Op:</b> {{ notes.coop }} <br/> {% endif %}
               {% if notes.etc != nil %} <small>{{ notes.etc }}</small> <br/> {% endif %}
           {% endfor %}
