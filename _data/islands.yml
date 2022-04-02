@@ -531,3 +531,90 @@
       achieve: 
       coop: 
       etc: 
+
+- icon:
+  name: "Asura Island"
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Gangwoon's Rematch"
+      startquest: "A Mysterious Creature"
+      rep: 
+      defeat: 
+      boss: 
+      collect: "[Blood Shard] x100"
+      rapport: 
+      achieve: 
+      coop: 
+      item: [Challenge of Blood]
+      etc: "Collect 100 Blood Shards in exchange for [Challenge of Blood] to unlock Questline."
+      
+- icon:
+  name: Atlas
+  method: "Exchange"
+  days: 1
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: "[Pirate Coin] x16,800"
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+- icon:
+  name: Crescent Isle
+  method: "Exchange"
+  days: 1
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: "[Crystallized Scale] x60"
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "From hunting rabbits."
+
+- icon:
+  name: Shangra
+  method: "Exchange"
+  days: 
+  timed: true
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: "[Firm Peach] x5,600"
+      item: "[Thousand-year-old Tree Bud]"
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+- icon:
+  name: Sunflower Island
+  method: "Exchange"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: "[Masterpieces] x10"
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
