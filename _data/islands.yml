@@ -648,7 +648,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Blackfang (Trusted)"
@@ -666,7 +665,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Mari (Trusted)"
@@ -684,7 +682,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Blue-Eyed Calvasus (Trusted)"
@@ -702,7 +699,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Zinnervale (Trusted)"
@@ -720,7 +716,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Zenri (Trusted)"
@@ -738,7 +733,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Puppa (Trusted)"
@@ -759,7 +753,6 @@
       rapport: "Ezrebet (Trusted) or Krissa (Trusted)"
       achieve: 
       coop: 
-      rapport:
       etc: 
 
 - icon:
@@ -774,7 +767,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Toto Elder (Trusted)"
@@ -792,7 +784,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Nineveh (Trusted)"
@@ -810,7 +801,6 @@
       defeat: 
       boss: 
       collect: 
-      rapport: 
       achieve: 
       coop: 
       rapport: "Stranded Temma (Trusted)"
