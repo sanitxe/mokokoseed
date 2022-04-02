@@ -222,4 +222,89 @@
       coop: 
       etc: 
 
+- icon:
+  name: Wisdom Isle
+  method: "Giant's Heart"
+  days: "x"
+  timed: 
+  notes: 
+    - quest: "A Giant Resonance"
+      startquest: "Item: [Resonating Giant's Heart]"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      item: "3 [Giant's Heart]"
+      etc: 
 
+- icon:
+  name: Aiwana Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "The Ultimate Vacation"
+      startquest: "The Perfect Getaway"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Questline starts in Stern."
+      
+- icon:
+  name: Azure Wind Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Buried in Flowers"
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "All Main Quests and Hidden Quests must be completed to unlock [Buried in Flowers]."
+
+- icon:
+  name: Distorted Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Secrets of the Cube"
+      startquest: "Into the Rift of Distorted Dimensions"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+- icon:
+  name: Dreamgull Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Back to Work"
+      startquest: "Seagull Sojourn"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      song: "Forest's Minuet"
+      etc: "The song can be aquired from Lullaby Island. The start of this questline can be found from the hidden object by the island's entrance."
