@@ -45,7 +45,8 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
           {{ islands.name }}
         </td>
         <td> 
-          {{ islands.method }}
+          {% if islands.method = una %} Una's Daily Task {% endif %}
+          {% if islands.method = quest %} Quest {% endif %}
         </td>  
         <td>
           {{ islands.days }}
@@ -56,8 +57,12 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
         <td>
           {% for notes in islands.notes %}
               
-              {% if notes.quest != nil %} {{ notes.quest }} <br/> {% endif %}
-              {% if notes.rep != nil %} {{ notes.rep }} <br/> {% endif %}
+              {% if notes.startquest != nil %} <b>Starting Quest:</b> {{ notes.quest }} <br/> {% endif %}
+              {% if notes.quest != nil %} <b>Quest:</b> {{ notes.quest }} <br/> {% endif %}
+              {% if notes.rep != nil %} <b>Reputation:</b> {{ notes.rep }} <br/> {% endif %}
+              {% if notes.achieve != nil %} <b>Achievement:</b> {{ notes.achieve }} <br/> {% endif %}
+              {% if notes.coop != nil %} <b>Co-Op:</b> {{ notes.coop }} <br/> {% endif %}
+              {% if notes.etc != nil %} <small>{{ notes.etc }}</small> <br/> {% endif %}
           {% endfor %}
         </td>
       </tr>
