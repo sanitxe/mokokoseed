@@ -141,20 +141,6 @@
 - icon:
   name: Shadowmoon Market
   method: una
-  days: 
-  timed: 
-  notes: 
-    - quest: 
-      rep: 
-      defeat: 
-      boss: 
-      collect: 
-      rapport: 
-      etc: 
-
-- icon:
-  name: Shadow Island
-  method: quest
   days: 5
   timed: 
   notes: 
@@ -167,3 +153,20 @@
       achieve: "[Thank You Chipmunk] [Click! Lights and Camera]"
       coop: "Shadowmoon Dance"
       etc: "Obtain Reputation Level 1, 2 Achievements and complete the co-op quest to unlock the quest 'With a Light Heart'. Achievements are obtained by taking pictures of spirits with the interactable cameras."
+
+- icon:
+  name: Shadow Island
+  method: quest
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Shadow's Mark"
+      startquest: "To the Shadespire"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
