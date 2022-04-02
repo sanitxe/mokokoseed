@@ -45,8 +45,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
           {{ islands.name }}
         </td>
         <td> 
-          {% if islands.method == una %} Una's Daily Task {% endif %}
-          {% if islands.method == quest %} Quest {% endif %}
+          {{ islands.method }}
         </td>  
         <td>
           {{ islands.days }}
