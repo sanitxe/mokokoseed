@@ -170,3 +170,56 @@
       achieve: 
       coop: 
       etc: 
+
+- icon:
+  name: Starlight Isle
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "A Starlit Melody"
+      startquest: "A Lighthouse for the Soul"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+- icon:
+  name: Tooki Corporation
+  method: "Quest"
+  days: 4
+  timed: 
+  notes: 
+    - quest: "A Genuine Single-Digit Tooki"
+      startquest: "Promotion Peril"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Complete the quest [Tooki Treasure Removal]' from the [Tooki Treasure Island] questline to unlock [Promotion Peril]. The next quest from [Promotion Peril] will not be available until the next day."
+
+- icon:
+  name: Turtle Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "To the Sea"
+      startquest: "The Turtle and the Boy"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+
