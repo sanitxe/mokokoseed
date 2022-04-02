@@ -219,11 +219,11 @@
       rep: 
       defeat: 
       boss: 
-      collect: 
+      collect: "[Giant's Heart] x3"
       rapport: 
       achieve: 
       coop: 
-      item: "3 [Giant's Heart]"
+      item: 
       etc: 
 
 - icon:
