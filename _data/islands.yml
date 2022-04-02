@@ -14,7 +14,7 @@
 
 - icon:
   name: Fantasm Island
-  method: una
+  method: "Una's Daily Task"
   days: 7
   timed:
   notes: 
@@ -28,7 +28,7 @@
       
 - icon:
   name: Gesbroy
-  method: una
+  method: "Una's Daily Task"
   days: 20
   timed:
   notes: 
@@ -42,7 +42,7 @@
       
 - icon:
   name: Lopang Island
-  method: una
+  method: "Una's Daily Task"
   days: 6
   timed: 
   notes: 
@@ -56,7 +56,7 @@
       
 - icon:
   name: Isteri
-  method: una
+  method: "Una's Daily Task"
   days: 21
   timed: 
   notes: 
@@ -70,7 +70,7 @@
 
 - icon:
   name: Notos Island
-  method: una
+  method: "Una's Daily Task"
   days: "2*"
   timed: 
   notes: 
@@ -84,7 +84,7 @@
 
 - icon:
   name: Peyto
-  method: una
+  method: "Una's Daily Task"
   days: "5*"
   timed: 
   notes: 
@@ -98,7 +98,7 @@
 
 - icon:
   name: Revelry Row
-  method: una
+  method: "Una's Daily Task"
   days: 6
   timed: 
   notes: 
@@ -112,7 +112,7 @@
 
 - icon:
   name: Runaways Island
-  method: una
+  method: "Una's Daily Task"
   days: 6
   timed: 
   notes: 
@@ -126,7 +126,7 @@
 
 - icon:
   name: Totopia
-  method: una
+  method: "Una's Daily Task"
   days: 5
   timed: 
   notes: 
@@ -140,7 +140,7 @@
       
 - icon:
   name: Shadowmoon Market
-  method: una
+  method: "Una's Daily Task"
   days: 5
   timed: 
   notes: 
@@ -156,7 +156,7 @@
 
 - icon:
   name: Shadow Island
-  method: quest
+  method: "Quest"
   days: 1
   timed: 
   notes: 
