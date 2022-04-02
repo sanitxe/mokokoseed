@@ -618,3 +618,201 @@
       achieve: 
       coop: 
       etc: 
+
+- icon:
+  name: "Freedom Isle"
+  method: "Exchange"
+  days: 1
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: "[Pirate Coin] x60,000"
+      rapport: 
+      achieve: 
+      coop: 
+      etc: 
+
+- icon:
+  name: "Blackfang's Den"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Blackfang (Trusted)"
+      etc: 
+
+- icon:
+  name: "Eternity Isle"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Mari (Trusted)"
+      etc: 
+
+- icon:
+  name: "Hypnos's Eyes"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Blue-Eyed Calvasus (Trusted)"
+      etc: 
+
+- icon:
+  name: "Illusion Bamboo Island"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Zinnervale (Trusted)"
+      etc: 
+
+- icon:
+  name: "Liebeheim"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Zenri (Trusted)"
+      etc: 
+
+- icon:
+  name: "Panda Island"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Puppa (Trusted)"
+      etc: 
+
+- icon:
+  name: "Sublime Island"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: "Ezrebet (Trusted) or Krissa (Trusted)"
+      achieve: 
+      coop: 
+      rapport:
+      etc: 
+
+- icon:
+  name: "Toto Silver Island"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Toto Elder (Trusted)"
+      etc: 
+
+- icon:
+  name: "Whispering Islet"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Nineveh (Trusted)"
+      etc: 
+
+- icon:
+  name: "White Wave Island"
+  method: "Rapport"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      rapport: "Stranded Temma (Trusted)"
+      etc: 
+
