@@ -2,7 +2,7 @@
   name: 
   method: 
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       rep: 
@@ -16,7 +16,7 @@
   name: Fantasm Island
   method: "Una's Daily Task"
   days: 7
-  timed:
+  daily:
   notes: 
     - quest: 
       rep: "The New Book (Lv. 2)"
@@ -30,7 +30,7 @@
   name: Gesbroy
   method: "Una's Daily Task"
   days: 20
-  timed:
+  daily:
   notes: 
     - quest: 
       rep: "Gesbroy Snack Expert (Lv. 3)"
@@ -44,7 +44,7 @@
   name: Lopang Island
   method: "Una's Daily Task"
   days: 6
-  timed: 
+  daily: 
   notes: 
     - quest: An Important Personage
       rep: "Lopang Inc.*"
@@ -58,7 +58,7 @@
   name: Isteri
   method: "Una's Daily Task"
   days: 21
-  timed: 
+  daily: 
   notes: 
     - quest: 
       rep: "Guardian (Lv. 3)"
@@ -72,7 +72,7 @@
   name: Notos Island
   method: "Una's Daily Task"
   days: "2"
-  timed: 
+  daily: 
   notes: 
     - quest: With Didi
       rep: "Weeping Sea*"
@@ -86,7 +86,7 @@
   name: Peyto
   method: "Una's Daily Task"
   days: "5"
-  timed: 
+  daily: 
   notes: 
     - quest: Finally Finished
       rep: "Peyto*"
@@ -100,7 +100,7 @@
   name: Revelry Row
   method: "Una's Daily Task"
   days: 6
-  timed: 
+  daily: 
   notes: 
     - quest: Unbreakable Beat
       rep: "Club Manager*"
@@ -114,7 +114,7 @@
   name: Runaways Island
   method: "Una's Daily Task"
   days: 6
-  timed: 
+  daily: 
   notes: 
     - quest: 
       rep: "Catch the Criminals (Lv. 2)"
@@ -128,7 +128,7 @@
   name: Totopia
   method: "Una's Daily Task"
   days: 5
-  timed: 
+  daily: 
   notes: 
     - quest: Totopia Tutor for a Day
       rep: "School is Fun*"
@@ -142,7 +142,7 @@
   name: Shadowmoon Market
   method: "Una's Daily Task"
   days: 5
-  timed: 
+  daily: 
   notes: 
     - quest: With a Light Heart
       rep: "The Reagent Experiment (Lv. 1)"
@@ -158,7 +158,7 @@
   name: Shadow Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Shadow's Mark"
       startquest: "To the Shadespire"
@@ -175,7 +175,7 @@
   name: Starlight Isle
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "A Starlit Melody"
       startquest: "A Lighthouse for the Soul"
@@ -192,7 +192,7 @@
   name: Tooki Corporation
   method: "Quest"
   days: 4
-  timed: 
+  daily: 
   notes: 
     - quest: "A Genuine Single-Digit Tooki"
       startquest: "Promotion Peril"
@@ -209,7 +209,7 @@
   name: Turtle Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "To the Sea"
       startquest: "The Turtle and the Boy"
@@ -226,7 +226,7 @@
   name: Wisdom Isle
   method: "Collection"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: "A Giant Resonance"
       startquest: "Item: [Resonating Giant's Heart]"
@@ -244,7 +244,7 @@
   name: Aiwana Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "The Ultimate Vacation"
       startquest: "The Perfect Getaway"
@@ -261,7 +261,7 @@
   name: Azure Wind Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Buried in Flowers"
       startquest: 
@@ -278,7 +278,7 @@
   name: Distorted Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Secrets of the Cube"
       startquest: "Into the Rift of Distorted Dimensions"
@@ -295,7 +295,7 @@
   name: Dreamgull Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Back to Work"
       startquest: "Seagull Sojourn"
@@ -313,7 +313,7 @@
   name: Fomona Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "The Lyre of Love"
       startquest: "Love Consultation/A Man's Heart"
@@ -330,7 +330,7 @@
   name: Glacier Isle
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Elegy of Serenity"
       startquest: "Iceberg Inquiry"
@@ -347,7 +347,7 @@
   name: Gravis
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "The Ultimate Vacation"
       startquest: "The Perfect Getaway"
@@ -364,7 +364,7 @@
   name: Hope Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "In Memoriam"
       startquest: "Building Hope"
@@ -381,7 +381,7 @@
   name: Ice Maze Isle
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Torches of Kindness"
       startquest: 
@@ -399,7 +399,7 @@
   name: Island of Mist
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "A Bad Prank!"
       startquest: 
@@ -416,7 +416,7 @@
   name: "Kharmine's Lair"
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "[Journey] Dark and Pale"
       startquest: "[Awakening] Ray of Hope"
@@ -433,7 +433,7 @@
   name: Metus Islands
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "What Did You See?"
       startquest: "Island Survivors"
@@ -451,7 +451,7 @@
   name: Naruni Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Naruni Go!"
       startquest: 
@@ -468,7 +468,7 @@
   name: Opher, the Lonely Island
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Island Tokens"
       startquest: 
@@ -485,7 +485,7 @@
   name: Promise Isle
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "[Journey] Shattered Heart"
       startquest: "[Awakening] Ray of Hope"
@@ -502,7 +502,7 @@
   name: Reminiscence Isle
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "My Truest Friend"
       startquest: 
@@ -519,7 +519,7 @@
   name: Serenity Isle
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Revenge Is Mine"
       startquest: "Who's There?!"
@@ -536,7 +536,7 @@
   name: "Asura Island"
   method: "Quest"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: "Gangwoon's Rematch"
       startquest: "A Mysterious Creature"
@@ -554,7 +554,7 @@
   name: Atlas
   method: "Exchange"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -571,7 +571,7 @@
   name: Crescent Isle
   method: "Exchange"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -588,7 +588,7 @@
   name: Shangra
   method: "Exchange"
   days: 
-  timed: true
+  daily: true
   notes: 
     - quest: 
       startquest: 
@@ -606,7 +606,7 @@
   name: Sunflower Island
   method: "Collection"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -623,7 +623,7 @@
   name: "Freedom Isle"
   method: "Exchange"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -640,7 +640,7 @@
   name: "Blackfang's Den"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -657,7 +657,7 @@
   name: "Eternity Isle"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -674,7 +674,7 @@
   name: "Hypnos's Eyes"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -691,7 +691,7 @@
   name: "Illusion Bamboo Island"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -708,7 +708,7 @@
   name: "Liebeheim"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -725,7 +725,7 @@
   name: "Panda Island"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -742,7 +742,7 @@
   name: "Sublime Island"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -759,7 +759,7 @@
   name: "Toto Silver Island"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -776,7 +776,7 @@
   name: "Whispering Islet"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -793,7 +793,7 @@
   name: "White Wave Island"
   method: "Rapport"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -810,7 +810,7 @@
   name: "Argon"
   method: "Grind"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -827,7 +827,7 @@
   name: "Astella"
   method: "Grind"
   days: 1
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -844,7 +844,7 @@
   name: "Atropos"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -862,7 +862,7 @@
   name: "Cradle of the Sea Fermata"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -879,7 +879,7 @@
   name: "Drumbeat Island"
   method: "Unobtainable"
   days: 
-  timed: true
+  daily: true
   notes: 
     - quest: 
       startquest: 
@@ -896,7 +896,7 @@
   name: "Fortuna"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -913,7 +913,7 @@
   name: "Giant Mushroom Island"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -930,7 +930,7 @@
   name: "Goblin Island"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -948,7 +948,7 @@
   name: "Golden Wave Island"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -965,7 +965,7 @@
   name: "Harmony Island"
   method: "Grind"
   days: 
-  timed: true
+  daily: true
   notes: 
     - quest: 
       startquest: 
@@ -983,7 +983,7 @@
   name: "Kalthertz"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -1000,7 +1000,7 @@
   name: "Little Luck Island"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -1018,7 +1018,7 @@
   name: "Lost City"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
@@ -1035,7 +1035,7 @@
   name: "Lullaby Island"
   method: "Grind"
   days: 
-  timed: true
+  daily: true
   notes: 
     - quest: 
       startquest: 
@@ -1054,7 +1054,7 @@
   name: "Monte Island"
   method: "Grind"
   days: 
-  timed: true
+  daily: true
   notes: 
     - quest: 
       startquest: 
@@ -1072,7 +1072,7 @@
   name: "Opportunity Isle"
   method: "Grind"
   days: 
-  timed: true
+  daily: true
   notes: 
     - quest: 
       startquest: 
@@ -1090,7 +1090,7 @@
   name: "Outlaw Isle"
   method: "Grind"
   days: 
-  timed: 
+  daily: 
   notes: 
     - quest: 
       startquest: 
