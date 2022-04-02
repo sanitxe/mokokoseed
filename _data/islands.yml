@@ -307,4 +307,142 @@
       achieve: 
       coop: 
       song: "Forest's Minuet"
-      etc: "The song can be aquired from Lullaby Island. The start of this questline can be found from the hidden object by the island's entrance."
+      etc: "The song can be aquired from Lullaby Island. The start of this questline can be found from the hidden object by the island's entrance. I hope you like running laps."
+
+- icon:
+  name: Fomona Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "The Lyre of Love"
+      startquest: "Love Consultation/A Man's Heart"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Starting quest name is based off player gender."
+
+- icon:
+  name: Glacier Isle
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Elegy of Serenity"
+      startquest: "Iceberg Inquiry"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Starting quest can be found in Peyto."
+
+- icon:
+  name: Gravis
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "The Ultimate Vacation"
+      startquest: "The Perfect Getaway"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Starting quest can be found in Stern."
+      
+- icon:
+  name: Hope Island
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "In Memoriam"
+      startquest: "Building Hope"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Unlock Hope Island by completing rapport quests on Goblin Island."
+
+- icon:
+  name: Ice Maze Isle
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "Torches of Kindness"
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop:
+      item: "[Humpback Whale Oil]"
+      etc: "Item is obtainable by completing Notos Island Daily x6 or with 6,000 Pirate Coins from Spearfish Hunting Guild Vessel (Shushire). ***If you spawn in a place where there is seemingly no exits, there is a hidden Mokoko Seed in the top-right most area."
+
+- icon:
+  name: Island of Mist
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "A Bad Prank!"
+      startquest: 
+      rep: 
+      defeat: "[Contaminated Sting Moth] [Forest Spider] [Tainted Kran]"
+      boss: 
+      collect: "Item: [Torn Paper]"
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Complete all quests on the island, including 3 hidden object quests and 3 [Torn Paper] quests dropped by mobs."
+
+- icon:
+  name: "Kharmine's Lair"
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "[Journey] Dark and Pale"
+      startquest: "[Awakening] Ray of Hope"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      etc: "Part of 2nd Awakening questline."
+
+- icon:
+  name: Metus Islands
+  method: "Quest"
+  days: 1
+  timed: 
+  notes: 
+    - quest: "What Did You See?"
+      startquest: "Island Survivors"
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      rapport: 
+      achieve: 
+      coop: 
+      stats: "200 Courage"
+      etc: 
