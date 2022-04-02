@@ -51,7 +51,8 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
           {{ islands.days }}
         </td>
         <td>
-          {{ islands.daily }}
+          {% if islands.daily == true %}<i class="las la-check"></i>{% endif %}
+          {% if islands.daily != true %}<i class="las la-times"></i>{% endif %}
         </td>
         <td>
           {% for notes in islands.notes %}
