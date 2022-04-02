@@ -1,18 +1,4 @@
 - icon:
-  name: 
-  method: 
-  days: 
-  daily: 
-  notes: 
-    - quest: 
-      rep: 
-      defeat: 
-      boss: 
-      collect: 
-      rapport: 
-      etc: 
-
-- icon:
   name: Fantasm Island
   method: "Una's Daily Task"
   days: 7
@@ -1102,4 +1088,337 @@
       coop: 
       rapport: 
       etc: "Randomly obtained from opening chests on the island."
+
+- icon:
+  name: "Island of Time"
+  method: 
+  days: 
+  daily: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Savnak]"
+      collect: "[Magic Jar] - Fishing"
+      rapport: 
+      etc: "[Savnak] can be spawned by fishing for a [Magic Jar] and using them at the spawn locations."
+
+- icon:
+  name: "Isle of Yearning"
+  method: 
+  days: 
+  daily: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Slow Turtle Captain]"
+      item: "[Setino's Secret Bag]"
+      rapport: 
+      etc: "Very rare drop chance for both bag and token." 
+
+- icon:
+  name: "Lagoon Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Iar Kaya]"
+      collect: 
+      rapport: 
+      coop: "[Raid: Lagoon's Shadow]"
+      etc: 
+
+- icon:
+  name: "Oblivion Isle"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Sea God Aporas]"
+      collect: 
+      rapport: 
+      coop: "[The Deathly Island]"
+      etc: 
+
+- icon:
+  name: "Orvis Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Harvest Lord Incarnate]"
+      collect: 
+      rapport: 
+      coop: "[Ominous Pumpkins]"
+      etc: 
+
+- icon:
+  name: "Phantomwing Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Adrinne]"
+      collect: 
+      rapport: 
+      coop: "[A Thousand Fluttering Nights and Days]"
+      etc: 
+
+- icon:
+  name: "Slime Island"
+  method: 
+  days: 
+  daily: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat: "[Golden Bell Slime]"
+      boss: 
+      collect: 
+      rapport: 
+      coop: 
+      etc: "Randomly obtainable drop, but has a high drop rate when killed." 
+
+- icon:
+  name: "Spida Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Kagros]"
+      collect: 
+      rapport: 
+      coop: "[Crack It Wide Open]"
+      etc: 
+
+- icon:
+  name: "Tooki Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Tooki King]"
+      collect: 
+      rapport: 
+      coop: "[Invincible King Tooki]"
+      etc: 
+
+- icon:
+  name: "Tranquil Isle"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Specter Lord]"
+      collect: 
+      rapport: 
+      song: "[Requiem of Twilight]"
+      coop: "[A Blooming Heart] [Growth Through Music]"
+      etc: "Song can be acquired through the island's Main Questline."
+
+- icon:
+  name: "Twilight Isle"
+  method: 
+  days: 
+  daily: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat:
+      dungeon: "[Twilight Chapel]"
+      collect: 
+      rapport: 
+      coop: 
+      etc: 
+
+- icon:
+  name: "Unknown Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat:
+      boss: "[Beast King of Light] [Beast King of Darkness]"
+      collect: 
+      rapport: 
+      coop: "[A Veiled Entity]"
+      etc: 
+
+- icon:
+  name: "Vairgrys's Nest"
+  method: "Unobtainable"
+  days: 
+  daily: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat: ""
+      boss: 
+      collect: 
+      rapport: 
+      coop: ""
+      etc: 
+
+- icon:
+  name: "Walpurgis"
+  method: 
+  days: 
+  daily: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat:
+      dungeon: "[Night of Walpurgis]"
+      boss: "[Rasakiel]"
+      collect: 
+      rapport: 
+      coop:
+      etc: 
+
+- icon:
+  name: "Wildwater Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat:
+      boss:  "[Aurion]"
+      collect: 
+      rapport: 
+      coop: "[Raid: Aurion]"
+      etc: 
+
+- icon:
+  name: "Alakkir"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: "[The Best, Golden Chicken!]" 
+      rep: 
+      defeat: 
+      boss: "[Golden Chicking]"
+      item: "[Splendid Gold Feather]"
+      collect: 
+      rapport: 
+      coop: "[Be Gone, Chickings!]"
+      etc: "Defeat the boss for a chance at the item needed to start the required quest."
+
+- icon:
+  name: "Alteisen"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat:
+      boss:  "[Sol Grande]"
+      collect: 
+      rapport: 
+      coop: "[Raid: Sol Grande]"
+      etc: 
+
+- icon:
+  name: "Anguished Isle"
+  method: 
+  days: 
+  daily: 
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      dungeon: "[Garden of Despair]"
+      boss: "[Broken Stella]"
+      collect: "[Garden of Despair Key]"
+      rapport: 
+      coop: 
+      etc: 
+
+- icon:
+  name: "Erasmo's Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat:
+      boss: "[Erasmo]"
+      collect: 
+      rapport: 
+      coop: "[Island's Guardian]"
+      etc: 
+
+- icon:
+  name: "Facility X-301"
+  method: 
+  days: 
+  daily: 
+  notes: 
+    - quest: "Defective Product"
+      startquest: "A Door Shut Tight"
+      rep: 
+      dungeon: "[X-301 Area 7]"
+      boss: "[Experimental Tarmakum]"
+      collect: "[Secret Hideout Access Card]"
+      rapport: 
+      coop: 
+      etc: "There is a Una's Daily Task [Android Emancipation] that is associated with entering the dungeon that can be completed at the same time."
+
+- icon:
+  name: "Forpe"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Batuark]"
+      collect: 
+      rapport: 
+      coop: "[Much Ado About Chickens]"
+      etc: 
+
+- icon:
+  name: "Frostfire Island"
+  method: 
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      rep: 
+      defeat: 
+      boss: "[Brealeos]"
+      collect: 
+      rapport: 
+      coop: "[Raid: Brealeos]"
+      etc: 
 
