@@ -224,7 +224,7 @@
 
 - icon:
   name: Wisdom Isle
-  method: "Giant's Heart"
+  method: "Collection"
   days: 
   timed: 
   notes: 
@@ -604,7 +604,7 @@
 
 - icon:
   name: Sunflower Island
-  method: "Exchange"
+  method: "Collection"
   days: 
   timed: 
   notes: 
@@ -873,5 +873,233 @@
       achieve: 
       coop: 
       rapport: 
-      etc: 
+      etc: "Limit to one try per character a day after purchasing [Game Voucher]. Obtained through choosing Merrymaker Jackpot's correct jar. Alternate characters are recommended."
+
+- icon:
+  name: "Drumbeat Island"
+  method: "Unobtainable"
+  days: 
+  timed: true
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Currently unreleased in NA."
+      
+- icon:
+  name: "Fortuna"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: "[Jar] [Golden Jar]"
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Obtained through destroying island jars."
+
+- icon:
+  name: "Giant Mushroom Island"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Obtained randomly through logging."
+
+- icon:
+  name: "Goblin Island"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: "Only the Strong Survive"
+      defeat: 
+      boss: 
+      collect: "[Golden Goblin Coin]"
+      achieve: 
+      coop: 
+      item: "[Goblin Pandora]"
+      rapport: 
+      etc: "Randomly obtained from [Golden Pandora] box which is purchased using tokens gained from Una's Daily Tasks."
+
+- icon:
+  name: "Golden Wave Island"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Randomly obtained after opening chests or bags around the island."
+
+- icon:
+  name: "Harmony Island"
+  method: "Grind"
+  days: 
+  timed: true
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: "[A Fragrant Sound] [A Pure Sound] [Harmony? Help!]"
+      rapport: 
+      item: "[Chest of Aromatic Sound] [Chest of Clear Sound] [Chest of Sparkling Sound]"
+      etc: "Randomly obtained from chests received from Co-Op quests"
+
+- icon:
+  name: "Kalthertz"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Random drop from rewards after freeing prisoners on the island. Limit of 5 freed prisoners a day."
+
+- icon:
+  name: "Little Luck Island"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: "[Pirate Coin] x100"
+      achieve: 
+      coop: 
+      rapport: 
+      item: "[Chest of Little Luck]"
+      etc: "Randomly obtained through the chest that can be purchased from Wandering Merchant on the island (2hr respawn/10min duration)."
+
+- icon:
+  name: "Lost City"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: "[Worn Key of Oblivion] - fishing"
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Randomly obtained by opening locked chests with [Worn Key of Oblivion] around the island. Key can be found through fishing."
+
+- icon:
+  name: "Lullaby Island"
+  method: "Grind"
+  days: 
+  timed: true
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      item: "[Chest of Sleeping Songs]"
+      achieve: 
+      coop: "[Secret Entrace] [Magick Melody]"
+      rapport: 
+      song: "[Song of Resonance]"
+      etc: "Randomly obtained from Co-Op quest reward. Song acquired for [Pirate Coins] x16,800 in Peyto."
+
+- icon:
+  name: "Monte Island"
+  method: "Grind"
+  days: 
+  timed: true
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      item: "[Monte Island Join Reward]"
+      rapport: 
+      etc: "Random drop from island quest reward."
+
+- icon:
+  name: "Opportunity Isle"
+  method: "Grind"
+  days: 
+  timed: true
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: "[Catch the Golden Crucian Carp]"
+      item: "[Angler's Pouch]"
+      rapport: 
+      etc: "Randomly obtained through Co-Op quest reward."
+
+- icon:
+  name: "Outlaw Isle"
+  method: "Grind"
+  days: 
+  timed: 
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: 
+      rapport: 
+      etc: "Randomly obtained from opening chests on the island."
 
