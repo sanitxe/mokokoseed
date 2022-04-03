@@ -1,4 +1,4 @@
-- icon:
+- icon: island_icon_54
   name: Fantasm Island
   method: "Una's Daily Task"
   days: 7
@@ -12,7 +12,7 @@
       rapport:
       etc:
       
-- icon:
+- icon: island_icon_87
   name: Gesbroy
   method: "Una's Daily Task"
   days: 20
@@ -26,7 +26,7 @@
       rapport:
       etc:
       
-- icon:
+- icon: island_icon_61
   name: Lopang Island
   method: "Una's Daily Task"
   days: 6
@@ -40,7 +40,7 @@
       rapport: 
       etc: "Complete 1 Unique Una's Task 6 times along with Island Quests to unlock the quest 'An Important Personage'"
       
-- icon:
+- icon: island_icon_117
   name: Isteri
   method: "Una's Daily Task"
   days: 21
@@ -54,7 +54,7 @@
       rapport: 
       etc:     
 
-- icon:
+- icon: island_icon_51
   name: Notos Island
   method: "Una's Daily Task"
   days: "2"
@@ -68,7 +68,7 @@
       rapport: 
       etc: "Complete 3 Una's Daily Task and Island quests to unlock 'With Didi' *After completing the 1st task, the 2nd task will become available on the same day."
 
-- icon:
+- icon: island_icon_27
   name: Peyto
   method: "Una's Daily Task"
   days: "5"
@@ -82,7 +82,7 @@
       rapport:
       etc: "Complete 'Everything Circles Back Around' 4 times to unlock 'Finally Finished' as well as complete the Main Questline on the Island. [Emote: Roar] is also required (3,600 Gienah's Coins from Freedom Island)."
 
-- icon:
+- icon: island_icon_75
   name: Revelry Row
   method: "Una's Daily Task"
   days: 6
@@ -96,7 +96,7 @@
       rapport: 
       etc: "Reach Reputation Level 2 to unlock the quest 'Unbreakable Beat'. [Emote: Sway] from a quest in Peyto will be required."
 
-- icon:
+- icon: island_icon_40
   name: Runaways Island
   method: "Una's Daily Task"
   days: 6
@@ -110,7 +110,7 @@
       rapport: 
       etc: 
 
-- icon:
+- icon: island_icon_3
   name: Totopia
   method: "Una's Daily Task"
   days: 5
@@ -124,7 +124,7 @@
       rapport: 
       etc: "Reach Reputation Level 2 to unlock 'Her Name' Quest Chain"
       
-- icon:
+- icon: island_icon_88
   name: Shadowmoon Market
   method: "Una's Daily Task"
   days: 5
@@ -140,7 +140,7 @@
       coop: "Shadowmoon Dance"
       etc: "Obtain Reputation Level 1, 2 Achievements and complete the co-op quest to unlock the quest 'With a Light Heart'. Achievements are obtained by taking pictures of spirits with the interactable cameras."
 
-- icon:
+- icon: island_icon_20
   name: Shadow Island
   method: "Quest"
   days: 1
@@ -157,7 +157,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_6
   name: Starlight Isle
   method: "Quest"
   days: 1
@@ -174,7 +174,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_96
   name: Tooki Corporation
   method: "Quest"
   days: 4
@@ -191,7 +191,7 @@
       coop: 
       etc: "Complete the quest [Tooki Treasure Removal]' from the [Tooki Treasure Island] questline to unlock [Promotion Peril]. The next quest from [Promotion Peril] will not be available until the next day."
 
-- icon:
+- icon: island_icon_59
   name: Turtle Island
   method: "Quest"
   days: 1
@@ -208,7 +208,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_46
   name: Wisdom Isle
   method: "Collectibles"
   days: 
@@ -243,7 +243,7 @@
       coop: 
       etc: "Questline starts in Stern."
       
-- icon:
+- icon: island_icon_82
   name: Azure Wind Island
   method: "Quest"
   days: 1
@@ -260,7 +260,7 @@
       coop: 
       etc: "All Main Quests and Hidden Quests must be completed to unlock [Buried in Flowers]."
 
-- icon:
+- icon: island_icon_37
   name: Distorted Island
   method: "Quest"
   days: 1
@@ -277,7 +277,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_56
   name: Dreamgull Island
   method: "Quest"
   days: 1
@@ -295,7 +295,7 @@
       song: "Forest's Minuet"
       etc: "The song can be aquired from Lullaby Island. The start of this questline can be found from the hidden object by the island's entrance. I hope you like running laps."
 
-- icon:
+- icon: island_icon_39
   name: Fomona Island
   method: "Quest"
   days: 1
@@ -312,7 +312,7 @@
       coop: 
       etc: "Starting quest name is based off player gender."
 
-- icon:
+- icon: island_icon_57
   name: Glacier Isle
   method: "Quest"
   days: 1
@@ -329,7 +329,7 @@
       coop: 
       etc: "Starting quest can be found in Peyto."
 
-- icon:
+- icon: island_icon_30
   name: Gravis
   method: "Quest"
   days: 1
@@ -346,7 +346,7 @@
       coop: 
       etc: "Starting quest can be found in Stern."
       
-- icon:
+- icon: island_icon_60
   name: Hope Island
   method: "Quest"
   days: 1
@@ -363,7 +363,7 @@
       coop: 
       etc: "Unlock Hope Island by completing rapport quests on Goblin Island."
 
-- icon:
+- icon: island_icon_16
   name: Ice Maze Isle
   method: "Quest"
   days: 1
@@ -381,7 +381,7 @@
       item: "[Humpback Whale Oil]"
       etc: "Item is obtainable by completing Notos Island Daily x6 or with 6,000 Pirate Coins from Spearfish Hunting Guild Vessel (Shushire). ***If you spawn in a place where there is seemingly no exits, there is a hidden Mokoko Seed in the top-right most area."
 
-- icon:
+- icon: island_icon_15
   name: Island of Mist
   method: "Quest"
   days: 1
@@ -398,7 +398,7 @@
       coop: 
       etc: "Complete all quests on the island, including 3 hidden object quests and 3 [Torn Paper] quests dropped by mobs."
 
-- icon:
+- icon: island_icon_34
   name: "Kharmine's Lair"
   method: "Quest"
   days: 1
@@ -415,7 +415,7 @@
       coop: 
       etc: "Part of 2nd Awakening questline."
 
-- icon:
+- icon: island_icon_44
   name: Metus Islands
   method: "Quest"
   days: 1
@@ -433,7 +433,7 @@
       stats: "200 Courage"
       etc: 
 
-- icon:
+- icon: island_icon_49
   name: Naruni Island
   method: "Quest"
   days: 1
@@ -450,7 +450,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_31
   name: Opher, the Lonely Island
   method: "Quest"
   days: 1
@@ -467,7 +467,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_77
   name: Promise Isle
   method: "Quest"
   days: 1
@@ -484,7 +484,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_25
   name: Reminiscence Isle
   method: "Quest"
   days: 1
@@ -501,7 +501,7 @@
       coop: 
       etc: "Accept the quest from a hidden object near the island's entrance."
 
-- icon:
+- icon: island_icon_48
   name: Serenity Isle
   method: "Quest"
   days: 1
@@ -517,12 +517,12 @@
       achieve: 
       coop: 
       etc: 
-
-- icon:
+      
+- icon: island_icon_76
   name: "Asura Island"
   method: "Quest"
   days: 1
-  daily: 
+  daily: true
   notes: 
     - quest: "Gangwoon's Rematch"
       startquest: "A Mysterious Creature"
@@ -536,7 +536,7 @@
       item: [Challenge of Blood]
       etc: "Collect 100 Blood Shards in exchange for [Challenge of Blood] to unlock Questline."
       
-- icon:
+- icon: island_icon_45
   name: Atlas
   method: "Exchange"
   days: 1
@@ -553,7 +553,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_47
   name: Crescent Isle
   method: "Exchange"
   days: 1
@@ -570,7 +570,7 @@
       coop: 
       etc: "From hunting rabbits."
 
-- icon:
+- icon: island_icon_83
   name: Shangra
   method: "Exchange"
   days: 
@@ -588,7 +588,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_32
   name: Sunflower Island
   method: "Collectibles"
   days: 
@@ -605,7 +605,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_33
   name: "Freedom Isle"
   method: "Exchange"
   days: 1
@@ -622,7 +622,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_29
   name: "Blackfang's Den"
   method: "Rapport"
   days: 
@@ -639,7 +639,7 @@
       rapport: "Blackfang (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_62
   name: "Eternity Isle"
   method: "Rapport"
   days: 
@@ -656,7 +656,7 @@
       rapport: "Mari (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_63
   name: "Hypnos's Eyes"
   method: "Rapport"
   days: 
@@ -673,7 +673,7 @@
       rapport: "Blue-Eyed Calvasus (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_115
   name: "Illusion Bamboo Island"
   method: "Rapport"
   days: 
@@ -690,7 +690,7 @@
       rapport: "Zinnervale (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_42
   name: "Liebeheim"
   method: "Rapport"
   days: 
@@ -707,7 +707,7 @@
       rapport: "Zenri (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_53
   name: "Panda Island"
   method: "Rapport"
   days: 
@@ -724,7 +724,7 @@
       rapport: "Puppa (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_64
   name: "Sublime Island"
   method: "Rapport"
   days: 
@@ -741,7 +741,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_2
   name: "Toto Silver Island"
   method: "Rapport"
   days: 
@@ -758,7 +758,7 @@
       rapport: "Toto Elder (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_99
   name: "Whispering Islet"
   method: "Rapport"
   days: 
@@ -775,7 +775,7 @@
       rapport: "Nineveh (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_36
   name: "White Wave Island"
   method: "Rapport"
   days: 
@@ -792,7 +792,7 @@
       rapport: "Stranded Temma (Trusted)"
       etc: 
 
-- icon:
+- icon: island_icon_17
   name: "Argon"
   method: "Grind"
   days: 1
@@ -809,7 +809,7 @@
       rapport: 
       etc: "Defeat an Ice Sculpture perfectly without doing any overkill damage. Recommended to use [Mokoko's Skillet] as it does 1 damage per hit. 11 sculptures are available per day and resets at 5PM PDT."
 
-- icon:
+- icon: island_icon_67
   name: "Astella"
   method: "Grind"
   days: 1
@@ -826,7 +826,7 @@
       rapport: 
       etc: "Random drop from collecting interactable stars on the ground."
 
-- icon:
+- icon: island_icon_84
   name: "Atropos"
   method: "Grind"
   days: 
@@ -844,7 +844,7 @@
       rapport: 
       etc: "Random drop from [Wish Pouch] which can be acquired from throwing [Lynnis Commemorative Coin] into the central fountain. Coins are gained through completing the Island's Una Daily Task."
 
-- icon:
+- icon: island_icon_27
   name: "Cradle of the Sea Fermata"
   method: "Grind"
   days: 
@@ -861,7 +861,7 @@
       rapport: 
       etc: "Limit to one try per character a day after purchasing [Game Voucher]. Obtained through choosing Merrymaker Jackpot's correct jar. Alternate characters are recommended."
 
-- icon:
+- icon: island_icon_95
   name: "Drumbeat Island"
   method: "Grind"
   days: 
@@ -878,7 +878,7 @@
       rapport: 
       etc: 
       
-- icon:
+- icon: island_icon_21
   name: "Fortuna"
   method: "Grind"
   days: 
@@ -895,7 +895,7 @@
       rapport: 
       etc: "Obtained through destroying island jars."
 
-- icon:
+- icon: island_icon_1
   name: "Giant Mushroom Island"
   method: "Grind"
   days: 
@@ -912,7 +912,7 @@
       rapport: 
       etc: "Obtained randomly through logging."
 
-- icon:
+- icon: island_icon_0
   name: "Goblin Island"
   method: "Grind"
   days: 
@@ -930,7 +930,7 @@
       rapport: 
       etc: "Randomly obtained from [Golden Pandora] box which is purchased using tokens gained from Una's Daily Tasks."
 
-- icon:
+- icon: island_icon_72
   name: "Golden Wave Island"
   method: "Grind"
   days: 
@@ -947,7 +947,7 @@
       rapport: 
       etc: "Randomly obtained after opening chests or bags around the island."
 
-- icon:
+- icon: island_icon_55
   name: "Harmony Island"
   method: "Grind"
   days: 
@@ -965,7 +965,7 @@
       item: "[Chest of Aromatic Sound] [Chest of Clear Sound] [Chest of Sparkling Sound]"
       etc: "Randomly obtained from chests received from Co-Op quests"
 
-- icon:
+- icon: island_icon_14
   name: "Kalthertz"
   method: "Grind"
   days: 
@@ -982,7 +982,7 @@
       rapport: 
       etc: "Random drop from rewards after freeing prisoners on the island. Limit of 5 freed prisoners a day."
 
-- icon:
+- icon: island_icon_36
   name: "Little Luck Island"
   method: "Grind"
   days: 
@@ -1000,7 +1000,7 @@
       item: "[Chest of Little Luck]"
       etc: "Randomly obtained through the chest that can be purchased from Wandering Merchant on the island (2hr respawn/10min duration)."
 
-- icon:
+- icon: island_icon_28
   name: "Lost City"
   method: "Grind"
   days: 
@@ -1017,7 +1017,7 @@
       rapport: 
       etc: "Randomly obtained by opening locked chests with [Worn Key of Oblivion] around the island. Key can be found through fishing."
 
-- icon:
+- icon: island_icon_5
   name: "Lullaby Island"
   method: "Grind"
   days: 
@@ -1036,7 +1036,7 @@
       song: "[Song of Resonance]"
       etc: "Randomly obtained from Co-Op quest reward. Song acquired for [Pirate Coins] x16,800 in Peyto."
 
-- icon:
+- icon: island_icon_52
   name: "Monte Island"
   method: "Grind"
   days: 
@@ -1054,7 +1054,7 @@
       rapport: 
       etc: "Random drop from island quest reward."
 
-- icon:
+- icon: island_icon_70
   name: "Opportunity Isle"
   method: "Grind"
   days: 
@@ -1072,7 +1072,7 @@
       rapport: 
       etc: "Randomly obtained through Co-Op quest reward."
 
-- icon:
+- icon: island_icon_36
   name: "Outlaw Isle"
   method: "Grind"
   days: 
@@ -1089,7 +1089,25 @@
       rapport: 
       etc: "Randomly obtained from opening chests on the island."
 
-- icon:
+- icon: island_icon_8
+  name: "Volare Island"
+  method: "Grind"
+  days: 
+  daily: true
+  notes: 
+    - quest: 
+      startquest: 
+      rep: 
+      item: "[Secret Chest of Volare]"
+      defeat: 
+      boss: 
+      collect: 
+      achieve: 
+      coop: "Operation: Cannonballs and Harpoons"
+      rapport: 
+      etc: "A maximum of two chests can be earned from the Co-Op event."
+
+- icon: island_icon_7
   name: "Island of Time"
   method: "Grind"
   days: 
@@ -1103,7 +1121,7 @@
       rapport: 
       etc: "[Savnak] can be spawned by fishing for a [Magic Jar] and using them at the spawn locations."
 
-- icon:
+- icon: island_icon_10
   name: "Isle of Yearning"
   method: "Grind"
   days: 
@@ -1117,7 +1135,7 @@
       rapport: 
       etc: "Very rare drop chance for both bag and token." 
 
-- icon:
+- icon: island_icon_58
   name: "Lagoon Island"
   method: "Grind"
   days: 
@@ -1132,7 +1150,7 @@
       coop: "[Raid: Lagoon's Shadow]"
       etc: 
 
-- icon:
+- icon: island_icon_35
   name: "Oblivion Isle"
   method: "Grind"
   days: 
@@ -1147,7 +1165,7 @@
       coop: "[The Deathly Island]"
       etc: 
 
-- icon:
+- icon: island_icon_66
   name: "Orvis Island"
   method: "Grind"
   days: 
@@ -1162,7 +1180,7 @@
       coop: "[Ominous Pumpkins]"
       etc: 
 
-- icon:
+- icon: island_icon_81
   name: "Phantomwing Island"
   method: "Grind"
   days: 
@@ -1177,7 +1195,7 @@
       coop: "[A Thousand Fluttering Nights and Days]"
       etc: 
 
-- icon:
+- icon: island_icon_68
   name: "Slime Island"
   method: "Grind"
   days: 
@@ -1192,7 +1210,7 @@
       coop: 
       etc: "Randomly obtainable drop, but has a high drop rate when killed." 
 
-- icon:
+- icon: island_icon_23
   name: "Spida Island"
   method: "Grind"
   days: 
@@ -1207,7 +1225,7 @@
       coop: "[Crack It Wide Open]"
       etc: 
 
-- icon:
+- icon: island_icon_9
   name: "Tooki Island"
   method: "Grind"
   days: 
@@ -1222,7 +1240,7 @@
       coop: "[Invincible King Tooki]"
       etc: 
 
-- icon:
+- icon: island_icon_74
   name: "Tranquil Isle"
   method: "Grind"
   days: 
@@ -1238,7 +1256,7 @@
       coop: "[A Blooming Heart] [Growth Through Music]"
       etc: "Song can be acquired through the island's Main Questline."
 
-- icon:
+- icon: island_icon_78
   name: "Twilight Isle"
   method: "Grind"
   days: 
@@ -1253,7 +1271,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_86
   name: "Unknown Island"
   method: "Grind"
   days: 
@@ -1268,7 +1286,7 @@
       coop: "[A Veiled Entity]"
       etc: 
 
-- icon:
+- icon: island_icon_22
   name: "Vairgrys's Nest"
   method: "Unobtainable"
   days: 
@@ -1283,7 +1301,7 @@
       coop: ""
       etc: 
 
-- icon:
+- icon: island_icon_85
   name: "Walpurgis"
   method: "Grind"
   days: 
@@ -1299,7 +1317,7 @@
       coop:
       etc: 
 
-- icon:
+- icon: island_icon_36
   name: "Wildwater Island"
   method: "Grind"
   days: 
@@ -1361,7 +1379,7 @@
       coop: 
       etc: 
 
-- icon:
+- icon: island_icon_38
   name: "Erasmo's Island"
   method: "Grind"
   days: 
@@ -1376,7 +1394,7 @@
       coop: "[Island's Guardian]"
       etc: 
 
-- icon:
+- icon: island_icon_11
   name: "Facility X-301"
   method: "Grind"
   days: 
@@ -1392,7 +1410,7 @@
       coop: 
       etc: "There is a Una's Daily Task [Android Emancipation] that is associated with entering the dungeon that can be completed at the same time."
 
-- icon:
+- icon: island_icon_26
   name: "Forpe"
   method: "Grind"
   days: 
@@ -1407,7 +1425,7 @@
       coop: "[Much Ado About Chickens]"
       etc: 
 
-- icon:
+- icon: island_icon_18
   name: "Frostfire Island"
   method: "Grind"
   days: 
@@ -1422,7 +1440,7 @@
       coop: "[Raid: Brealeos]"
       etc: 
 
-- icon:
+- icon: island_icon_65
   name: "Death's Hold Island"
   method: "Grind (PvP)"
   days: 12
@@ -1439,7 +1457,7 @@
       coop: "[A Bloody Sea]" 
       etc: "Complete the Co-Op quest and exchange items for the [Secret Map]. Complete the map for the Island Token."
 
-- icon:
+- icon: island_icon_4
   name: "Illusion Isle"
   method: "Grind (PvP)"
   days: 
@@ -1455,7 +1473,7 @@
       coop: "[Red Waves]"
       etc: "Can also be acquired through looting the chests that spawn during the Co-Op quest."
 
-- icon:
+- icon: island_icon_43
   name: "Lush Reed Island"
   method: "Grind (PvP)"
   days: 
@@ -1470,7 +1488,7 @@
       coop: "[The Reed Field]"
       etc: 
 
-- icon:
+- icon: island_icon_41
   name: "Medeia"
   method: "Grind (PvP)"
   days: 
@@ -1486,7 +1504,7 @@
       coop: "[Medeia War]"
       etc: 
 
-- icon:
+- icon: island_icon_98
   name: "Snowpang Island"
   method: "Grind (PvP)"
   days: 
