@@ -39,7 +39,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
           <input type="checkbox" id="{{ islands.id }}" class="box">
         </td>
         <td>
-            <img class="islands-icon" src="/assets/img/islands/{{ islands.icon }}" />
+            <img class="islands-icon" src="/assets/img/islands/{{ islands.icon }}.png" />
         </td>
         <td> 
           {{ islands.name }}
