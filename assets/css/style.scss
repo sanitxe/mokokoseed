@@ -213,8 +213,8 @@ th {
 }
 
 .group {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, $accent-color 20%, rgba(0,212,255,0) 100%) !important;
-  color: white;
+  background-color: rgb(32, 32, 32);
+  color: $lighter-accent-color;
   font-family: Quicksand;
   font-weight: 500;
   font-size: medium;
