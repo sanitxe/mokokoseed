@@ -27,7 +27,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
       <th class="npc-icon-column no-sort"></th>
       <th>Island</th>
       <th>Method</th>
-      <th><i style="font-size:30px" class="las la-calendar-day"></i></th>
+      <th data-toggle="tooltip" data-placement="top" title="Minimum days to acquire."><i style="font-size:30px" class="las la-calendar-day"></i></th>
       <th>Daily</th>
       <th>Notes</th>
     </tr>
