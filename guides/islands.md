@@ -64,13 +64,13 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
               {% if notes.collect != nil %} <b>Collect:</b> {{ notes.collect }} <br/> {% endif %}
               {% if notes.item != nil %} <b>Item:</b> {{ notes.item }} <br/> {% endif %} 
           
-              {% if notes.rapport != nil %} <b>Rapport:</b> {{ notes.rapport }} <br/> {% endif %}
+              {% if notes.rapport != nil %} <img class="lost-icon" src="/assets/img/icon/rapport.png"/> <b>Rapport:</b> {{ notes.rapport }} <br/> {% endif %}
           
-              {% if notes.dungeon != nil %} <b>Dungeon:</b> {{ notes.dungeon }} <br/> {% endif %}
+              {% if notes.dungeon != nil %} <img class="lost-icon" src="/assets/img/icon/dungeon.png"/> <b>Dungeon:</b> {{ notes.dungeon }} <br/> {% endif %}
               {% if notes.defeat != nil %} <b>Defeat:</b> {{ notes.defeat }} <br/> {% endif %}
-              {% if notes.boss != nil %} <b>Boss:</b> {{ notes.boss }} <br/> {% endif %}
+              {% if notes.boss != nil %} <img class="lost-icon" src="/assets/img/icon/boss.png"/> <b>Boss:</b> {{ notes.boss }} <br/> {% endif %}
           
-              {% if notes.coop != nil %} <b>Co-Op:</b> {{ notes.coop }} <br/> {% endif %}
+              {% if notes.coop != nil %} <img class="lost-icon" src="/assets/img/icon/coop.png"/> <b>Co-Op:</b> {{ notes.coop }} <br/> {% endif %}
               {% if notes.etc != nil %} <small>{{ notes.etc }}</small> <br/> {% endif %}
           {% endfor %}
         </td>
