@@ -279,12 +279,6 @@ td i {
 .dropdown-item img {
   width: 20px;
 }
-.dropdown-item {
-width: max-content;
-}
-.dropdown-item:focus, .dropdown-item:hover {
-  color: #16181b;
-  text-decoration: none;
-  background-color: #f8f9fa;
-  width: auto;
+.navbar-nav .dropdown-menu {
+  width: max-content;
 }
