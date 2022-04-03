@@ -1,8 +1,10 @@
 toc:
   - title: Tools
     subfolderitems:
-      - page: Rapport Tracker
+      - page: <img src="/assets/img/icon/rapport.png"> Rapport Tracker
         url: /guides/rapport
+      - page: <img src="/assets/img/icon/island.png"> Island Token Tracker
+        url: /guides/islands
   - title: Extra
     subfolderitems:
       - page: Emotes
