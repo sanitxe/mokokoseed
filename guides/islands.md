@@ -63,6 +63,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
           
               {% if notes.collect != nil %} <b>Collect:</b> {{ notes.collect }} <br/> {% endif %}
               {% if notes.item != nil %} <b>Item:</b> {{ notes.item }} <br/> {% endif %} 
+              {% if notes.song != nil %} <b>Song:</b> {{ notes.song }} <br/> {% endif %} 
           
               {% if notes.rapport != nil %} <img class="lost-icon" src="/assets/img/icon/rapport.png"/> <b class="rapport">Rapport:</b> {{ notes.rapport }} <br/> {% endif %}
           
