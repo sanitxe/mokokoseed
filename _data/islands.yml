@@ -226,7 +226,7 @@
       item: 
       etc: 
 
-- icon:
+- icon: island_icon_19
   name: Aiwana Island
   method: "Quest"
   days: 1
@@ -1314,7 +1314,7 @@
       coop: "[Raid: Aurion]"
       etc: 
 
-- icon:
+- icon: island_icon_69
   name: "Alakkir"
   method: "Grind"
   days: 
@@ -1330,7 +1330,7 @@
       coop: "[Be Gone, Chickings!]"
       etc: "Defeat the boss for a chance at the item needed to start the required quest."
 
-- icon:
+- icon: island_icon_12
   name: "Alteisen"
   method: "Grind"
   days: 
@@ -1345,7 +1345,7 @@
       coop: "[Raid: Sol Grande]"
       etc: 
 
-- icon:
+- icon: island_icon_112
   name: "Anguished Isle"
   method: "Grind"
   days: 
