@@ -1,6 +1,5 @@
 ---
 layout: default
-title: MOKOKO SEED
 ---
 
 <div class="alert alert-dark" role="alert">
