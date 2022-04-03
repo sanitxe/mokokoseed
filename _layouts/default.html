@@ -149,7 +149,9 @@
       
       $(document).ready(function() {
   
-  $( document ).tooltip();      
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })   
         
   // get box count
   var count = 0;
