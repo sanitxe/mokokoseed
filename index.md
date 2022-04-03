@@ -8,7 +8,7 @@ layout: default
 
 <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="/assets/group-pose.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">NPC Rapport</h5>
         <p class="card-text">Keep track of your relationships with NPCs. Quickly find out where they are located and how much Rapport points are required for their maximum rank.</p>
@@ -16,7 +16,7 @@ layout: default
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="/assets/island-statue.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Island Tokens</h5>
         <p class="card-text">Track acquired Island Tokens, sort by method obtained, and quickly browse through various Island information.</p>
