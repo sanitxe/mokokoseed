@@ -17,7 +17,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
 </div>
 
 <div class="alert alert-info" role="alert">
-  PROTIP: You can sort multiple categories by pressing SHIFT + Left Click on the table headers.
+  PROTIP: You can sort within the method types (ie. Una's Task, Grind, Collectibles and etc.) by clicking on the group header after clicking on one of the columns.
 </div>
 
 <table id="sortGroup">
