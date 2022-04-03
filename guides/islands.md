@@ -57,7 +57,7 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
         <td>
           {% for notes in islands.notes %}
               
-              {% if notes.startquest != nil %} <img class="lost-icon" src="/assets/img/icon/quest.png"/>  <b class="starquest">Starting Quest:</b> {{ notes.quest }} <br/> {% endif %}
+              {% if notes.startquest != nil %} <img class="lost-icon" src="/assets/img/icon/quest.png"/>  <b class="startquest">Starting Quest:</b> {{ notes.quest }} <br/> {% endif %}
               {% if notes.quest != nil %} <img class="lost-icon" src="/assets/img/icon/purplequest.png"/> <b class="quest">Quest:</b> {{ notes.quest }} <br/> {% endif %}
               {% if notes.rep != nil %} <img class="lost-icon" src="/assets/img/icon/una.png"/>  <b class="rep">Reputation:</b> {{ notes.rep }} <br/> {% endif %}
           
