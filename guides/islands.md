@@ -48,16 +48,16 @@ description: "Your Lost Ark tool for tracking Island Tokens. Use the table to so
           {{ islands.method }}
         </td>  
         <td>
-          {{ islands.days }}
+          <span data-toggle="tooltip" data-placement="top" title="Minimum days to acquire.">{{ islands.days }}</span>
         </td>
         <td>
-          {% if islands.daily == true %}<i class="las la-check"></i>{% endif %}
+          {% if islands.daily == true %}<i class="las la-check" data-toggle="tooltip" data-placement="top" title="Island may only appear during certain times and/or the method to obtain the token is restricted to a number of tries daily."></i>{% endif %}
           {% if islands.daily == nil %}<i class="las la-times"></i>{% endif %}
         </td>
         <td>
           {% for notes in islands.notes %}
               
-              {% if notes.startquest != nil %} <img class="lost-icon" src="/assets/img/icon/quest.png"/>  <b class="startquest">Starting Quest:</b> {{ notes.quest }} <br/> {% endif %}
+              {% if notes.startquest != nil %} <img class="lost-icon" src="/assets/img/icon/quest.png"/>  <b class="startquest">Starting Quest:</b> {{ notes.startquest }} <br/> {% endif %}
               {% if notes.quest != nil %} <img class="lost-icon" src="/assets/img/icon/purplequest.png"/> <b class="quest">Quest:</b> {{ notes.quest }} <br/> {% endif %}
               {% if notes.rep != nil %} <img class="lost-icon" src="/assets/img/icon/una.png"/>  <b class="rep">Reputation:</b> {{ notes.rep }} <br/> {% endif %}
           
