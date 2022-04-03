@@ -6,7 +6,7 @@ layout: default
   It's always "WHERE TOOKI?"<br> It's never "How <i>is</i> Tooki?"
 </div>
 
-    <div class="card-deck">
+<div class="card-deck">
       <div class="card">
         <img class="card-img-top" src="..." alt="Card image cap">
         <div class="card-body">
@@ -25,4 +25,4 @@ layout: default
           <a href="/guides/islands" class="btn btn-primary">Track Islands</a>
         </div>
       </div>
-    </div>
+</div>
