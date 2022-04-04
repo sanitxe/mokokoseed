@@ -303,23 +303,21 @@ td i {
 }
 
 .dark table.dataTable.stripe tbody tr.odd, .dark table.dataTable.display tbody tr.odd {
-  background-color: #222  !important;
+  background-color: #222;
 }
 
 .dark table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, .dark table.dataTable.display tbody th, table.dataTable.display tbody td {
   border-top: 1px solid #282828;
 }
 
-.dark table.dataTable tbody tr {
-  background-color: transparent;
-}
-
 .dark tr.even {
-  background-color: #111;
+  background-color: #222;
 }
 
-.dark .complete {
-  background-color: #282828 !important;
+.dark .complete td {
+  opacity: 0.1;
+  background-color: #222;
+  text-decoration: line-through;
 }
 
 .dark table td, table th {
