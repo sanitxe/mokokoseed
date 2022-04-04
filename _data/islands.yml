@@ -1,6 +1,7 @@
 - icon: island_icon_54
   id: 50065
   name: Fantasm Island
+  sea: "North Procyon Sea"
   method: "Una's Daily Task"
   days: 7
   daily:
@@ -136,6 +137,7 @@
 - icon: island_icon_88
   id: 50094
   name: Shadowmoon Market
+  sea: "North Procyon Sea"
   method: "Una's Daily Task"
   days: 5
   daily: 
@@ -153,6 +155,7 @@
 - icon: island_icon_20
   id: 59004
   name: Shadow Island
+  sea: "Northwest Gienah Sea"
   method: "Quest"
   days: 1
   daily: 
@@ -189,6 +192,7 @@
 - icon: island_icon_96
   id: 50109
   name: Tooki Corporation
+  sea: "North Procyon Sea"
   method: "Quest"
   days: 4
   daily: 
@@ -298,6 +302,7 @@
 - icon: island_icon_56
   id: 50067
   name: Dreamgull Island
+  sea: "Northwest Gienah Sea"
   method: "Quest"
   days: 1
   daily: 
@@ -408,6 +413,7 @@
 - icon: island_icon_15
   id: 50016
   name: Island of Mist
+  sea: "North Procyon Sea"
   method: "Quest"
   days: 1
   daily: 
@@ -426,6 +432,7 @@
 - icon: island_icon_34
   id: 50035
   name: "Kharmine's Lair"
+  sea: "North Procyon Sea"
   method: "Quest"
   days: 1
   daily: 
@@ -481,6 +488,7 @@
 - icon: island_icon_31
   id: 50032
   name: Opher, the Lonely Island
+  sea: "Northwest Gienah Sea"
   method: "Quest"
   days: 1
   daily: 
@@ -553,6 +561,7 @@
 - icon: island_icon_76
   id: 50087
   name: "Asura Island"
+  sea: "North Procyon Sea"
   method: "Quest"
   days: 1
   daily: true
@@ -590,6 +599,7 @@
 - icon: island_icon_47
   id: 50049
   name: Crescent Isle
+  sea: "Northwest Gienah Sea"
   method: "Exchange"
   days: 1
   daily: 
@@ -627,6 +637,7 @@
 - icon: island_icon_32
   id: 50033
   name: Sunflower Island
+  sea: "Northwest Gienah Sea"
   method: "Collectibles"
   days: 
   daily: 
@@ -681,6 +692,7 @@
 - icon: island_icon_62
   id: 50073
   name: "Eternity Isle"
+  sea: "North Procyon Sea"
   method: "Rapport"
   days: 
   daily: 
@@ -771,6 +783,7 @@
 - icon: island_icon_64
   id: 50075
   name: "Sublime Island"
+  sea: "North Procyon Sea"
   method: "Rapport"
   days: 
   daily: 
@@ -898,6 +911,7 @@
 - icon: island_icon_27
   id: 50101
   name: "Cradle of the Sea Fermata"
+  sea: "North Procyon Sea"
   method: "Grind"
   days: 
   daily: 
@@ -916,6 +930,7 @@
 - icon: island_icon_95
   id: 50126
   name: "Drumbeat Island"
+  sea: "Northwest Gienah Sea"
   method: "Grind"
   days: 
   daily: true
@@ -934,6 +949,7 @@
 - icon: island_icon_21
   id: 50022
   name: "Fortuna"
+  sea: "Northwest Gienah Sea"
   method: "Grind"
   days: 
   daily: 
@@ -1026,6 +1042,7 @@
 - icon: island_icon_14
   id: 50015
   name: "Kalthertz"
+  sea: "Northwest Gienah Sea"
   method: "Grind"
   days: 
   daily: 
@@ -1101,6 +1118,7 @@
 - icon: island_icon_52
   id: 50063
   name: "Monte Island"
+  sea: "North Procyon Sea"
   method: "Grind"
   days: 
   daily: true
@@ -1286,6 +1304,7 @@
 - icon: island_icon_23
   id: 50024
   name: "Spida Island"
+  sea: "Northwest Gienah Sea"
   method: "Grind"
   days: 
   daily: true
@@ -1318,6 +1337,7 @@
 - icon: island_icon_74
   id: 50085
   name: "Tranquil Isle"
+  sea: "North Procyon Sea"
   method: "Grind"
   days: 
   daily: true
@@ -1351,6 +1371,7 @@
 - icon: island_icon_86
   id: 50098
   name: "Unknown Island"
+  sea: "North Procyon Sea"
   method: "Grind"
   days: 
   daily: true
@@ -1416,6 +1437,7 @@
 - icon: island_icon_69
   id: 50080
   name: "Alakkir"
+  sea: "Northwest Gienah Sea"
   method: "Grind"
   days: 
   daily: true
@@ -1515,6 +1537,7 @@
 - icon: island_icon_18
   id: 50019
   name: "Frostfire Island"
+  sea: "Northwest Gienah Sea"
   method: "Grind"
   days: 
   daily: true
@@ -1531,6 +1554,7 @@
 - icon: island_icon_65
   id: 50076
   name: "Death's Hold Island"
+  sea: "Northwest Gienah Sea"
   method: "Grind (PvP)"
   days: 12
   daily: true
@@ -1549,6 +1573,7 @@
 - icon: island_icon_4
   id: 50005
   name: "Illusion Isle"
+  sea: "Northwest Gienah Sea"
   method: "Grind (PvP)"
   days: 
   daily: true
@@ -1582,6 +1607,7 @@
 - icon: island_icon_41
   id: 50042
   name: "Medeia"
+  sea: "Northwest Gienah Sea"
   method: "Grind (PvP)"
   days: 
   daily: true
@@ -1599,6 +1625,7 @@
 - icon: island_icon_98
   id: 50127
   name: "Snowpang Island"
+  sea: "Northwest Gienah Sea"
   method: "Grind (PvP)"
   days: 
   daily: true
