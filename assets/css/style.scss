@@ -449,3 +449,10 @@ background-color: #151515;
   background-color: #222;
   border-color: #1c1c1c;
 }
+.dark table.dataTable.display tbody tr.even > .sorting_1, .dark table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+  background-color: #222;
+}
+
+.dark table.dataTable.display tbody tr.odd > .sorting_1, .dark table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
+  background-color: #222;
+}
