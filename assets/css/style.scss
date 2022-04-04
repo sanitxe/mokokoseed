@@ -472,4 +472,6 @@ background-color: #151515;
   background-color: inherit !important;
 }
 
-
+.dark .complete.odd, .dark .complete.even {
+  background-color: #202020 !important;
+}
