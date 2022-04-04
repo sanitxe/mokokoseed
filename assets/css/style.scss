@@ -218,7 +218,9 @@ input[type="checkbox"]:checked {
   text-decoration: line-through;
 }
 .complete.odd, .complete.even {
-  background-color: #ddd !important;
+  background-color: #f0f0f0 !important;
+  border-bottom: 0px;
+  opacity: 0.4;
 }
 
 th {
