@@ -215,8 +215,10 @@ input[type="checkbox"]:checked {
 
 .complete td {
   opacity: 0.5;
-  background-color: #eaeaea;
   text-decoration: line-through;
+}
+.complete tr {
+  background-color: #eaeaea;
 }
 
 th {
