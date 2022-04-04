@@ -424,13 +424,13 @@ button {
   margin-top: 0;
   padding: 5px;
 }
-button::before {
+.dark button::before {
   content: "\f185";
   font-family: Line Awesome Free;
   font-size: 20px;
 }
 
-.dark button::before {
+button::before {
   content: "\f186";
   font-family: Line Awesome Free;
   font-size: 20px;
