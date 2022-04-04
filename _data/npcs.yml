@@ -192,7 +192,7 @@
   
 - name: Levi
   id: 41130
-  loc: "Kalaja"
+  loc: "Feiton - Kalaja"
   points: "17,800"
   icon: freindshipnpc_img_95.png
   
@@ -228,7 +228,7 @@
   
 - name: Dancer Imar
   id: 26452
-  loc: "Great Castle"
+  loc: "Yorn - Great Castle"
   points: "17,800"
   icon: freindshipnpc_img_88.png
   
