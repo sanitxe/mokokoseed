@@ -382,3 +382,9 @@ button {
 .dark section {
   background-color: #222;
 }
+
+.dark .ui-widget-content {
+  border: 1px solid #222;
+  background: #353535;
+  color: #222222;
+}
