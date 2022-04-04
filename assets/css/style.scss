@@ -392,3 +392,12 @@ button {
 .dark .child {
 background-color: #2b2b2b;
 }
+
+.dark .group {
+  background-color: #0b0b0b !important;
+  color: #FFECD3;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: medium;
+  cursor: pointer;
+}
