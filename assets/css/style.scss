@@ -435,3 +435,17 @@ button::before {
   font-family: Line Awesome Free;
   font-size: 20px;
 }
+
+.dark .card {
+background-color: #151515;
+}
+
+.dark h3, h4, h5, h6 {
+  color: #fff;
+}
+
+.dark .btn-dark {
+  color: #fff;
+  background-color: #222;
+  border-color: #1c1c1c;
+}
