@@ -4,6 +4,8 @@
 $dark-base-color: #1e1e1e;
 $darker-base-color: #0d0d0d;
 
+$dark-mode: #282828;
+
 $darker-accent-color: #F47E7D;
 $dark-accent-color:#F39082;
 $accent-color: #FAA79C;
@@ -290,4 +292,92 @@ td i {
 }
 .navbar-nav .dropdown-menu {
   width: max-content;
+}
+
+.dark {
+  background-color: $dark-mode !important;
+  color:white;
+}
+
+.dark th, .dark td {
+  border-bottom: 1px solid #111 !important;
+}
+
+.dark table.dataTable.stripe tbody tr.odd, .dark table.dataTable.display tbody tr.odd {
+  background-color: #222  !important;
+}
+
+.dark table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, .dark table.dataTable.display tbody th, table.dataTable.display tbody td {
+  border-top: 1px solid #282828;
+}
+
+.dark table.dataTable tbody tr {
+  background-color: transparent;
+}
+
+.dark tr.even {
+  background-color: #111;
+}
+
+.dark .complete {
+  background-color: #282828 !important;
+}
+
+.dark table td, table th {
+  color: white;
+}
+
+.dark table.dataTable.hover tbody tr:hover, .dark table.dataTable.display tbody tr:hover {
+    background-color: #0b0b0b;
+}
+
+.dark #js-toggle-dark-mode {
+  background-color: #0e0e0e;
+  
+  &:hover,
+  &:focus {
+    background-color: #2e2e2e;
+  }
+  
+  &:focus {
+    box-shadow: inset 0 0 0 2px #3F4D76;
+  }
+}
+
+button {
+  background-color: #FC9A70;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem; // 16px
+  font-weight: 500;
+  margin-top: 1rem; // 10px
+  padding: 1rem 1.4rem; // 10px 14px
+  
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+  }
+  
+  &:hover,
+  &:focus {
+    background-color: #ed8a63;
+  }
+  
+  &:focus {
+    box-shadow: inset 0 0 0 2px #FC9A70;
+  }
+  
+  + button {
+    margin-left: 1rem; // 10px
+  }
+}
+
+.dark label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  color: white;
 }
