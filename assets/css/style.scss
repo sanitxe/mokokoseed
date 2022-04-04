@@ -236,6 +236,14 @@ table {
   width:100% !important;
 }
 
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+  background-color: transparent;
+}
+
+table.dataTable tbody tr {
+  background-color: #fff;
+}
+
 td i {
   font-size: 24px;
 }
@@ -461,3 +469,8 @@ background-color: #151515;
 .sorting_1:hover, .sorting_2:hover, .sorting_3:hover, .sorting_4:hover, .sorting_5:hover {
   background-color: inherit !important;
 }
+
+.complete > .sorting_1 td, .complete .sorting_2 td, .complete .sorting_3 td, .complete .sorting_4 td, .complete .sorting_5 td {
+  background-color: inherit !important;
+}
+
