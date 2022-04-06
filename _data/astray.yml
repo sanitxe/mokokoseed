@@ -30,4 +30,13 @@
   icon:
   quantity: 15
   method:
-    - recipe:
+    - recipe: Strong Iron Ore
+      quantity: 75
+    - recipe: Sturdy Timber
+      quantity: 75
+    - recipe: Heavy Iron Ore
+      quantity: 200
+    - recipe: Tender Timber
+      quantity: 200
+    - recipe: Gold
+      quantity: 500
