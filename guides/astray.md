@@ -10,14 +10,17 @@
 
 <ul>
   {% for craft in site.data.astray %}
-    <li><img src="/assets/icons/{{ craft.item }}.png"> {{ craft.item }}
+      <div class="input-group-prepend">
+        <span class="input-group-text"><img src="/assets/icons/{{ craft.item }}.png"> {{ craft.item }}</span>
+      </div>
+  
       <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="{{ craft.item }}" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
         <div class="input-group-append">
           <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
         </div>
       </div>
-    </li>
+
     {% for sub in craft.method %}
       <ul>
         <li> {{ sub.recipe }} </li>
