@@ -2,24 +2,24 @@
   icon:
   quantity: 1
   method:
-    - rep: "She Drifts, Sea Gifts"
+    - recipe: "She Drifts, Sea Gifts"
       quantity: 25
 
 - item: "Astray Operation Manual"
   icon:
   quantity: 1
   method:
-    - quest: "Pirate Star Astray"
-      questitem: "Pirate Star: Astray"
+    - recipe: "Pirate Star: Astray"
       quantity: 1
-      price:
-        - pirate: 300000
+      cost:
+        - coin: Pirate
+          quantity: 300000
       
 - item: "Certificate of Pirate"
   icon: 
   quantity: 1
   method: 
-    - rep: "Pest Control"
+    - recipe: "Pest Control"
       quantity: 15
       
 - item: "Wood"
