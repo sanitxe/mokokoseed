@@ -13,4 +13,4 @@
       </ul>
     {% endfor %}
   {% endfor %}
-<ul>
+</ul>
