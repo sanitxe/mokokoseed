@@ -8,8 +8,8 @@
     <li>{{ craft.quantity }}</li>
     {% for sub in craft.method %}
       <ul>
-        <li> {{ sub.recipe }}
-        <li> {{ sub.quantity }}
+        <li> {{ sub.recipe }} </li>
+        <li> {{ sub.quantity }} </li>
       </ul>
     {% endfor %}
   {% endfor %}
