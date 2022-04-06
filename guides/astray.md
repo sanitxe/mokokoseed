@@ -4,7 +4,7 @@
 
 <ul>
   {% for craft in site.data.astray %}
-    <li><img src="/assets/icons/{ craft.item }.png"> { craft.item }</li>
+    <li><img src="/assets/icons/{{ craft.item }}.png"> {{ craft.item }}</li>
     <li>{{ craft.quantity }}</li>
     {% for sub in craft.method %}
       <ul>
