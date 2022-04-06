@@ -1,0 +1,33 @@
+- item: "Astray Construction Blueprint"
+  icon:
+  quantity: 1
+  method:
+    - rep: "She Drifts, Sea Gifts"
+      quantity: 25
+
+- item: "Astray Operation Manual"
+  icon:
+  quantity: 1
+  method:
+    - quest: "Pirate Star Astray"
+      questitem: "Pirate Star: Astray"
+      quantity: 1
+      price:
+        - pirate: 300000
+      
+- item: "Certificate of Pirate"
+  icon: 
+  quantity: 1
+  method: 
+    - rep: "Pest Control"
+      quantity: 15
+      
+- item: "Wood"
+  icon:
+  quantity: 570
+  
+- item: "Uncommon Ship Parts Material"
+  icon:
+  quantity: 15
+  method:
+    - recipe:
