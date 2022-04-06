@@ -3,5 +3,6 @@
 ---
 
 <ul>
-  {% for item %}
+  {% for item in site.data.astray %}
+  {% endfor %}
 <ul>
