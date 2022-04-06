@@ -21,11 +21,11 @@
     </div>
   </div>
 
-    {% for sub in craft.method %}
-    <ul>
-      <li> {{ sub.recipe }} </li>
-      <li> {{ sub.quantity }} </li>
-      </ul>
-    {% endfor %}
-  {% endfor %}
+{% for sub in craft.method %}
+<ul>
+<li> {{ sub.recipe }} </li>
+<li> {{ sub.quantity }} </li>
+</ul>
+{% endfor %}
+{% endfor %}
 </ul>
