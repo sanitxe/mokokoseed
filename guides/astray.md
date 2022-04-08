@@ -12,18 +12,23 @@
 {% for craft in site.data.astray %}
   <div class="input-group my-3">
     <div class="input-group-prepend">
-      <span class="input-group-text"><img src="/assets/icons/{{ craft.item }}.png"> {{ craft.item }}</span>
+      <span class="input-group-text"><img src="/assets/icons/{{ craft.icon }}.png"> {{ craft.item }}</span>
     </div>  
-    <input type="text" class="form-control" placeholder="{{ craft.item }}" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
+    <input type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
     <div class="input-group-append">
       <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
     </div>
   </div>
   {% for sub in craft.method %}
-  <ul>
-  <li> {{ sub.recipe }} </li>
-  <li> {{ sub.quantity }} </li>
-  </ul>
+    <div class="input-group my-3 ml-5">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><img src="/assets/icons/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
+      </div>  
+      <input type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2">/{{ sub.quantity }}</span>
+      </div>
+    </div>
   {% endfor %}
 {% endfor %}
 
