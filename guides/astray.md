@@ -10,7 +10,7 @@
 
 
 {% for craft in site.data.astray %}
-<div class="input-group my-3 w-50">
+<div class="input-group my-3">
 <div class="input-group-prepend">
 <span class="input-group-text"><img src="/assets/icons/{{ craft.icon }}.png"> {{ craft.item }}</span>
 </div>  
