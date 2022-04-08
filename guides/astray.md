@@ -1,4 +1,4 @@
-s---
+---
   title: Astray Crafting Guide
 ---
 
