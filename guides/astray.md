@@ -9,28 +9,28 @@
 </div>
 
 {% for craft in site.data.astray %}
-  {% if craft.item != "Uncommon Ship Parts Material" %}
-  <div class="input-group my-3">
-    <div class="input-group-prepend">
-      <span class="input-group-text"><img src="/assets/icons/{{ craft.icon }}.png"> {{ craft.item }}</span>
-    </div>  
-    <input type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
-    <div class="input-group-append">
-      <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
-    </div>
+{% if craft.item != "Uncommon Ship Parts Material" %}
+<div class="input-group my-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"><img src="/assets/icons/{{ craft.icon }}.png"> {{ craft.item }}</span>
+  </div>  
+  <input type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
   </div>
-    {% for sub in craft.method %}
-      <div class="input-group my-3 mx-5">
-        <div class="input-group-prepend">
-          <span class="input-group-text"><img src="/assets/icons/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
-        </div>  
-        <input type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <span class="input-group-text" id="basic-addon2">/{{ sub.quantity }}</span>
-        </div>
-      </div>
-    {% endfor %}
-  {% endif %}
+</div>
+{% for sub in craft.method %}
+<div class="input-group my-3 mx-5">
+  <div class="input-group-prepend">
+    <span class="input-group-text"><img src="/assets/icons/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
+  </div>  
+  <input type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">/{{ sub.quantity }}</span>
+  </div>
+</div>
+{% endfor %}
+{% endif %}
 {% endfor %}
 
 <div class="progress">
@@ -40,26 +40,26 @@
 </div>
 
 {% for craft in site.data.astray %}
-  {% if craft.item == "Uncommon Ship Parts Material" %}
-  <div class="input-group my-3">
-    <div class="input-group-prepend">
-      <span class="input-group-text"><img src="/assets/icons/{{ craft.icon }}.png"> {{ craft.item }}</span>
-    </div>  
-    <input type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
-    <div class="input-group-append">
-      <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
-    </div>
+{% if craft.item == "Uncommon Ship Parts Material" %}
+<div class="input-group my-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"><img src="/assets/icons/{{ craft.icon }}.png"> {{ craft.item }}</span>
+  </div>  
+  <input type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
   </div>
-    {% for sub in craft.method %}
-      <div class="input-group my-3 mx-5">
-        <div class="input-group-prepend">
-          <span class="input-group-text"><img src="/assets/icons/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
-        </div>  
-        <input type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <span class="input-group-text" id="basic-addon2">/{{ sub.quantity }}</span>
-        </div>
-      </div>
-    {% endfor %}
-  {% endif %}
+</div>
+{% for sub in craft.method %}
+<div class="input-group my-3 mx-5">
+  <div class="input-group-prepend">
+    <span class="input-group-text"><img src="/assets/icons/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
+  </div>  
+  <input type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">/{{ sub.quantity }}</span>
+  </div>
+</div>
+{% endfor %}
+{% endif %}
 {% endfor %}
