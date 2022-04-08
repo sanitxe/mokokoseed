@@ -10,7 +10,7 @@
 
 
 {% for craft in site.data.astray %}
-<div class="input-group my-3">
+<div class="input-group my-3 w-50">
 <div class="input-group-prepend">
 <span class="input-group-text"><img src="/assets/icons/{{ craft.icon }}.png"> {{ craft.item }}</span>
 </div>  
@@ -20,7 +20,7 @@
 </div>
 </div>
 {% for sub in craft.method %}
-<div class="input-group my-3 ml-5 w-75">
+<div class="input-group my-3 ml-5 w-25">
 <div class="input-group-prepend">
 <span class="input-group-text"><img src="/assets/icons/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
 </div>  
