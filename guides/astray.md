@@ -10,6 +10,7 @@
 
 
 {% for craft in site.data.astray %}
+{% if craft.item != "Uncommon Ship Parts Material" %}
 <div class="input-group my-3">
 <div class="input-group-prepend">
 <span class="input-group-text"><img src="/assets/icons/{{ craft.icon }}.png"> {{ craft.item }}</span>
@@ -30,5 +31,6 @@
 </div>
 </div>
 {% endfor %}
+{% endif %}
 {% endfor %}
 
