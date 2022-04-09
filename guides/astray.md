@@ -72,8 +72,7 @@
 
 <div class="col-sm">
   <h2>Progress: <span id="progress"></span></h2>
-    
-  </div>
+</div>
   
 </div>
 <script>
@@ -169,7 +168,7 @@ $(document).ready(function() {
   $("#astray_5").attr('style', 'width:' + astray_5 + "%")
 
   astray_percent = astray_1 + astray_2 + astray_3 + astray_4 + astray_5
-  $("#astray").html(Math.round(astray_percent) + "%")
+  $("#progress").html(Math.round(astray_percent) + "%")
 
 
 
@@ -247,7 +246,7 @@ $(document).ready(function() {
   $("#astray_5").attr('style', 'width:' + astray_5 + "%")
 
   astray_percent = astray_1 + astray_2 + astray_3 + astray_4 + astray_5
-  $("#astray").html(Math.round(astray_percent) + "%")
+  $("#progress").html(Math.round(astray_percent) + "%")
 
 
 
