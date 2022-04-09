@@ -491,6 +491,15 @@ border-bottom: 1px solid #8080801c;
 }
 
 .input-group-prepend .input-group-text {
+  background-color: #e9ecef;
+  color: inherit;
+  border-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  border-color: #e9ecef;
+}
+
+.dark .input-group-prepend .input-group-text {
   background-color: #0d0d0d;
   color: inherit;
   border-radius: 50px;
