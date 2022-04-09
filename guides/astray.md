@@ -12,6 +12,8 @@
 	<div id="astray_5" class="progress-bar" role="progressbar"></div>
 </div>
 
+<div class="row">
+	<div class="col-lg-8">
 {% for craft in site.data.astray %}
 {% if craft.item != "Uncommon Ship Parts Material" %}
 <div class="input-group my-3">
@@ -66,7 +68,14 @@
 {% endfor %}
 {% endif %}
 {% endfor %}
+</div>
 
+<div class="col-sm">
+  <h2>Progress: <span id="progress"></span></h2>
+    
+  </div>
+  
+</div>
 <script>
 $(document).ready(function() {
 
