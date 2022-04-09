@@ -1,5 +1,6 @@
 ---
   title: Astray Crafting Guide
+  description: "Keep track of your Lost Ark progression towards building the infamous Astray, and find the total amount of materials and resources required here."
 ---
 
 <h1>Astray Crafting Tracker</h1>
