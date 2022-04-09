@@ -12,6 +12,13 @@ $accent-color: #FAA79C;
 $light-accent-color: #FFCEE1;
 $lighter-accent-color: #FFECD3;
 
+$relic: orangered;
+$legendary: orange;
+$epic: mediumorchid;
+$rare: deepskyblue;
+$uncommon: greenyellow;
+$normal: white;
+
 $main-text: #727272;
 
 @import "{{ site.theme }}";
