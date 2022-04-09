@@ -16,11 +16,14 @@
       icon: all_quest_02_58
       color: legendary
       quantity: 1
-      cost:
-        - recipe: Pirate Coin
-          quantity: 300000
-        - recipe: Blackfang (Trusted)
-          quantity: 1
+    - recipe: Pirate Coin
+      icon: use_1_40
+      color: epic
+      quantity: 300000
+    - recipe: Blackfang (Trusted)
+      icon: icon_quest_13_blackfang
+      color: epic
+      quantity: 1
       
 - item: "Certificate of Pirate"
   icon: use_4_76
