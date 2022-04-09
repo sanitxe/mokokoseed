@@ -24,7 +24,7 @@
   <div class="input-group-prepend">
     <span class="input-group-text"><img src="/assets/img/icon/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
   </div>  
-  <input id="{{ craft.icon }}" type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
+  <input id="{{ sub.icon }}" type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
     <span class="input-group-text" id="basic-addon2">/{{ sub.quantity }}</span>
   </div>
