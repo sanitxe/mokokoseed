@@ -568,7 +568,7 @@ color: inherit;
   background-color: transparent;
   color: inherit;
   border-top: 0;
-  border-right: 0;
+  border-left: 0;
   border-radius: 0;
   border-color: black;
   border-bottom-right-radius: 5px;
@@ -579,7 +579,7 @@ color: inherit;
   background-color: transparent;
   color: inherit;
   border-top: 0;
-  border-right: 0;
+  border-left: 0;
   border-radius: 0;
   border-color: $normal;
   border-bottom-right-radius: 5px;
@@ -647,18 +647,18 @@ color: inherit;
   margin-right: 10px;
 }
 
-.astray_1 .progress-bar {
+#astray_1 .progress-bar {
   background-color: $relic;
 }
-.astray_2 .progress-bar {
+#astray_2 .progress-bar {
   background-color: $legendary;
 }
-.astray_3 .progress-bar {
+#astray_3 .progress-bar {
   background-color: $epic;
 }
-.astray_4 .progress-bar {
+#astray_4 .progress-bar {
   background-color: $normal; 
 }
-.astray_5 .progress-bar {
+#astray_5 .progress-bar {
   background-color: $uncommon;
 }
