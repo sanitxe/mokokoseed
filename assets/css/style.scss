@@ -17,6 +17,7 @@ $legendary: orange;
 $epic: mediumorchid;
 $rare: deepskyblue;
 $uncommon: greenyellow;
+$lightuncommon: #84c422;
 $normal: white;
 
 $main-text: #727272;
@@ -619,11 +620,19 @@ color: inherit;
 }
 
 .input-group-text.uncommon {
-  color: $uncommon !important;
+  color: $light-uncommon !important;
 }
 .sub-recipe-item .input-group-text.uncommon {
+  border-color: $light-uncommon !important;
+}
+
+.dark .input-group-text.uncommon {
+  color: $uncommon !important;
+}
+.dark .sub-recipe-item .input-group-text.uncommon {
   border-color: $uncommon !important;
 }
+
 
 .dark .input-group-text.normal {
   color: $normal !important;
