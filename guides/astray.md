@@ -16,7 +16,7 @@
 {% if craft.item != "Uncommon Ship Parts Material" %}
 <div class="input-group my-3">
   <div class="input-group-prepend">
-    <span class="input-group-text"><img src="/assets/img/icon/{{ craft.icon }}.png"> {{ craft.item }}</span>
+    <span class="input-group-text {{ craft.color }}"><img src="/assets/img/icon/{{ craft.icon }}.png"> {{ craft.item }}</span>
   </div>  
   <input id="{{ craft.icon }}" type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
@@ -26,7 +26,7 @@
 {% for sub in craft.method %}
 <div class="input-group my-3 mx-5 sub-recipe-item">
   <div class="input-group-prepend">
-    <span class="input-group-text"><img src="/assets/img/icon/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
+    <span class="input-group-text {{ sub.color }}"><img src="/assets/img/icon/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
   </div>  
   <input id="{{ sub.icon }}" type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
@@ -41,7 +41,7 @@
 {% if craft.item == "Uncommon Ship Parts Material" %}
 <div class="input-group my-3">
   <div class="input-group-prepend">
-    <span class="input-group-text"><img src="/assets/img/icon/{{ craft.icon }}.png"> {{ craft.item }}</span>
+    <span class="input-group-text {{ craft.color }}"><img src="/assets/img/icon/{{ craft.icon }}.png"> {{ craft.item }}</span>
   </div>  
   <input id="{{ craft.icon }}" type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
@@ -56,7 +56,7 @@
 {% for sub in craft.method %}
 <div class="input-group my-3 mx-5 sub-recipe-item">
   <div class="input-group-prepend">
-    <span class="input-group-text"><img src="/assets/img/icon/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
+    <span class="input-group-text {{ sub.color }}"><img src="/assets/img/icon/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
   </div>  
   <input id="{{ sub.icon }}" type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
