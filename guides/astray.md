@@ -5,8 +5,8 @@
 <h1>Astray Crafting Tracker</h1>
 
 <div class="progressbar-container">
-  <div id="astray" class="progressbar-bar"></div>
-  <div id="astray_label" class="progressbar-label"></div>
+  <div class="progressbar-bar"></div>
+  <div id="astray" class="progressbar-label"></div>
 </div>
 
 {% for craft in site.data.astray %}
@@ -47,8 +47,8 @@
 </div>
 
 <div class="progressbar-container">
-  <div id="uncommon_ship" class="progressbar-bar"></div>
-  <div id="uncommon_ship_label" class="progressbar-label"></div>
+  <div class="progressbar-bar"></div>
+  <div id="uncommon_ship" class="progressbar-label"></div>
 </div>
 
 {% for sub in craft.method %}
