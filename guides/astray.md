@@ -4,8 +4,9 @@
 
 <h1>Astray Crafting Tracker</h1>
 
-<div class="progressbar-bar ui-progressbar ui-corner-all ui-widget ui-widget-content">
-  <div id="astray" class="ui-progressbar-value ui-corner-left ui-widget-header" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progressbar-container">
+  <div id="astray" class="progressbar-bar"></div>
+  <div id="astray_label" class="progressbar-label"></div>
 </div>
 
 {% for craft in site.data.astray %}
@@ -45,8 +46,9 @@
   </div>
 </div>
 
-<div class="progressbar-bar ui-progressbar ui-corner-all ui-widget ui-widget-content">
-  <div id="uncommon_ship" class="ui-progressbar-value ui-corner-left ui-widget-header" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progressbar-container">
+  <div id="uncommon_ship" class="progressbar-bar"></div>
+  <div id="uncommon_ship_label" class="progressbar-label"></div>
 </div>
 
 {% for sub in craft.method %}
