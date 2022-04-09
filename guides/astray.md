@@ -74,6 +74,7 @@
 <div class="col-sm">
   <h2 class="my-3">Progress: <span id="progress"></span></h2>
   <p><small>* [Pirate Star: Astray] can be purchased from Mariner Rosa at Blackfang's Den. </small></p>
+  <p><small>** Minimum Requirements for Blackfang (Trusted): 180 Wisdom/260 Courage/260 Charisma/220 Kindness.</small></p>
 </div>
   
 </div>
