@@ -124,6 +124,16 @@ h1 {
   color: $dark-accent-color; 
   font-family:Quicksand;
 }
+h2 {
+  color: $darker-accent-color;
+  font-size: 24px;
+  font-family: Quicksand;
+}
+.dark h2 {
+  color: $lighter-accent-color;
+  font-size: 24px;
+  font-family: Quicksand;
+}
 
 input[type="checkbox"] {
   border: 2px solid $main-text;
