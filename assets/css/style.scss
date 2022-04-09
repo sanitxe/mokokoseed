@@ -573,9 +573,18 @@ color: inherit;
   border-color: $uncommon !important;
 }
 
-.input-group-text.normal {
+.dark .input-group-text.normal {
   color: $normal !important;
 }
-.sub-recipe-item .input-group-text.normal {
+
+.dark .sub-recipe-item .input-group-text.normal {
   border-color: $normal !important;
+}
+
+.input-group-text.normal {
+  color: black !important;
+}
+
+.sub-recipe-item .input-group-text.normal {
+  border-color: black !important;
 }
