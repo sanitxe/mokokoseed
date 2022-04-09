@@ -32,9 +32,10 @@ $main-text: #727272;
     }
 }
 
-@media print, screen and (max-width: 960px)
-section {
-  border: 0;
+@media print, screen and (max-width: 960px) {
+  section {
+    border: 0;
+  }
 }
 
 body {
