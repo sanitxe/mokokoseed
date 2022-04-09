@@ -72,6 +72,7 @@
 
 <div class="col-sm">
   <h2>Progress: <span id="progress"></span></h2>
+  <p><small>* [Pirate Star: Astray] can be purchased from Mariner Rosa at Blackfang's Den. </small></p>
 </div>
   
 </div>
@@ -118,6 +119,14 @@ $(document).ready(function() {
   if (pirate_star > 1) {
     pirate_star = 1
   }
+      pirate_coin = parseInt($('#use_1_40').val())
+  if (pirate_coin > 300000) {
+    pirate_coin = 300000
+  }
+  blackfang = parseInt($('#icon_quest_13_blackfang').val())
+  if (blackfang > 1) {
+    blackfang = 1
+  }  
   cert_pirate = parseInt($('#use_4_76').val())
   if (cert_pirate > 1) {
     cert_pirate = 1
@@ -158,7 +167,7 @@ $(document).ready(function() {
   /*Calculate Astray completion*/
   astray_1 = (((astray_blueprint + she_drifts) / 26) * 100) / 5
   $("#astray_1").attr('style', 'width:' + astray_1 + "%")
-  astray_2 = (((astray_manual + pirate_star) / 2) * 100) / 5
+  astray_2 = (((astray_manual + pirate_star + (pirate_coin/300000) + blackfang) / 4) * 100) / 5
   $("#astray_2").attr('style', 'width:' + astray_2 + "%")
   astray_3 = (((cert_pirate + pest) / 16) * 100) / 5
   $("#astray_3").attr('style', 'width:' + astray_3 + "%")
@@ -168,7 +177,7 @@ $(document).ready(function() {
   $("#astray_5").attr('style', 'width:' + astray_5 + "%")
 
   astray_percent = astray_1 + astray_2 + astray_3 + astray_4 + astray_5
-  $("#progress").html(Math.round(astray_percent) + "%")
+  $("#progress").html(astray_percent.toFixed(2) + "%")
 
 
 
@@ -176,7 +185,7 @@ $(document).ready(function() {
   uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber + gold) / 1050) * 100
 
   $("#uncommon_ship").attr('style', 'width:' + uncommon_ship_mats + "%")
-  $("#uncommon_ship").html(Math.round(uncommon_ship_mats) + "%")
+  $("#uncommon_ship").html((Math.round(uncommon_ship_mats * 100)/100) + "%")
   });
 
   /*First iteration*/
@@ -196,6 +205,14 @@ $(document).ready(function() {
   if (pirate_star > 1) {
     pirate_star = 1
   }
+    pirate_coin = parseInt($('#use_1_40').val())
+  if (pirate_coin > 300000) {
+    pirate_coin = 300000
+  }
+  blackfang = parseInt($('#icon_quest_13_blackfang').val())
+  if (blackfang > 1) {
+    blackfang = 1
+  }
   cert_pirate = parseInt($('#use_4_76').val())
   if (cert_pirate > 1) {
     cert_pirate = 1
@@ -236,7 +253,7 @@ $(document).ready(function() {
   /*Calculate Astray completion*/
   astray_1 = (((astray_blueprint + she_drifts) / 26) * 100) / 5
   $("#astray_1").attr('style', 'width:' + astray_1 + "%")
-  astray_2 = (((astray_manual + pirate_star) / 2) * 100) / 5
+  astray_2 = (((astray_manual + pirate_star + (pirate_coin/300000) + blackfang) / 4) * 100) / 5
   $("#astray_2").attr('style', 'width:' + astray_2 + "%")
   astray_3 = (((cert_pirate + pest) / 16) * 100) / 5
   $("#astray_3").attr('style', 'width:' + astray_3 + "%")
@@ -246,7 +263,7 @@ $(document).ready(function() {
   $("#astray_5").attr('style', 'width:' + astray_5 + "%")
 
   astray_percent = astray_1 + astray_2 + astray_3 + astray_4 + astray_5
-  $("#progress").html(Math.round(astray_percent) + "%")
+  $("#progress").html(astray_percent.toFixed(2) + "%")
 
 
 
@@ -254,6 +271,6 @@ $(document).ready(function() {
   uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber + gold) / 1050) * 100
 
   $("#uncommon_ship").attr('style', 'width:' + uncommon_ship_mats + "%")
-  $("#uncommon_ship").html(Math.round(uncommon_ship_mats) + "%")
+  $("#uncommon_ship").html((Math.round(uncommon_ship_mats * 100)/100) + "%")
 });
 </script>
