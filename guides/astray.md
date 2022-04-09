@@ -71,7 +71,7 @@
 </div>
 
 <div class="col-sm">
-  <h2>Progress: <span id="progress"></span></h2>
+  <h2 class="my-3">Progress: <span id="progress"></span></h2>
   <p><small>* [Pirate Star: Astray] can be purchased from Mariner Rosa at Blackfang's Den. </small></p>
 </div>
   
