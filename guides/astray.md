@@ -5,11 +5,11 @@
 <h1>Astray Crafting Tracker</h1>
 
 <div class="progress">
-  <div id="astray_1" class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-	<div id="astray_2" class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-	<div id="astray_3" class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-	<div id="astray_4" class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-	<div id="astray_5" class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+  <div id="astray_1" class="progress-bar" role="progressbar"></div>
+	<div id="astray_2" class="progress-bar" role="progressbar"></div>
+	<div id="astray_3" class="progress-bar" role="progressbar"></div>
+	<div id="astray_4" class="progress-bar" role="progressbar"></div>
+	<div id="astray_5" class="progress-bar" role="progressbar"></div>
 </div>
 
 {% for craft in site.data.astray %}
