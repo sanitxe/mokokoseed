@@ -49,7 +49,7 @@
   </div>
 </div>
 
-<div class="progress">
+<div class="my-3 mx-5 progress">
   <div id="uncommon_ship" class="progress-bar" role="progressbar"></div>
 </div>
 
