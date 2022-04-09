@@ -496,7 +496,17 @@ background-color: #151515;
   width:auto;
 }
 
-.form-control {
+.dark .form-control {
+  text-align: right;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0px;
+  background-color: #0d0d0d87;
+  color: inherit;
+}
+
+.sub-recipe-item .form-control {
   text-align: right;
   border-left: 0;
 border-right: 0;
