@@ -1,11 +1,11 @@
 toc:
-  - title: "Tools <span class="badge badge-secondary">New</span>"
+  - title: "Tools <span class='badge badge-secondary'>New</span>"
     subfolderitems:
       - page: "<img src='/assets/img/icon/rapport.png'> Rapport Tracker"
         url: /guides/rapport
       - page: "<img src='/assets/img/icon/island.png'> Island Token Tracker"
         url: /guides/islands
-      - page: "<img src='/assets/img/icon/icon_ship_1.png'> Astray Crafting Guide <span class="badge badge-secondary">New</span>"
+      - page: "<img src='/assets/img/icon/icon_ship_1.png'> Astray Crafting Guide <span class='badge badge-secondary'>New</span>"
         url: /guides/astray
   - title: Extra
     subfolderitems:
