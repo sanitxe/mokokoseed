@@ -1,5 +1,6 @@
 - item: "Astray Construction Blueprint"
   icon: all_quest_01_151
+  color: legendary
   quantity: 1
   method:
     - recipe: "She Drifts, Sea Gifts"
@@ -8,17 +9,22 @@
 
 - item: "Astray Operation Manual"
   icon: all_quest_03_5
+  color: legendary
   quantity: 1
   method:
     - recipe: "Pirate Star: Astray"
       icon: all_quest_02_58
+      color: legendary
       quantity: 1
       cost:
-        - coin: Pirate
+        - recipe: Pirate Coin
           quantity: 300000
+        - recipe: Blackfang (Trusted)
+          quantity: 1
       
 - item: "Certificate of Pirate"
   icon: use_4_76
+  color: epic
   quantity: 1
   method: 
     - recipe: "Pest Control"
@@ -27,24 +33,31 @@
       
 - item: "Wood"
   icon: use_3_252
+  color: normal
   quantity: 570
   
 - item: "Uncommon Ship Parts Material"
   icon: use_8_118
+  color: uncommon
   quantity: 15
   method:
     - recipe: Strong Iron Ore
       icon: use_5_76
+      color: rare
       quantity: 75
     - recipe: Sturdy Timber
       icon: use_4_4
+      color: rare
       quantity: 75
     - recipe: Heavy Iron Ore
       icon: use_3_239
+      color: uncommon
       quantity: 200
     - recipe: Tender Timber
       icon: use_3_253
+      color: uncommon
       quantity: 200
     - recipe: Gold
       icon: use_2_108
+      color: legendary
       quantity: 500
