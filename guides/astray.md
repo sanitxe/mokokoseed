@@ -50,10 +50,8 @@
     <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
   </div>
 </div>
-<div id="uncommon_ship" class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-  <div class="progress-bar bg-success" role="progressbar"  aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-  <div class="progress-bar bg-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progress">
+  <div id="uncommon_ship" class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 {% for sub in craft.method %}
 <div class="input-group my-3 mx-5 sub-recipe-item">
