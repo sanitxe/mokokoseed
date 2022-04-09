@@ -3,6 +3,7 @@
   quantity: 1
   method:
     - recipe: "She Drifts, Sea Gifts"
+      icon: icon_quest_16_shedrifts
       quantity: 25
 
 - item: "Astray Operation Manual"
@@ -10,6 +11,7 @@
   quantity: 1
   method:
     - recipe: "Pirate Star: Astray"
+      icon: all_quest_02_58
       quantity: 1
       cost:
         - coin: Pirate
@@ -20,6 +22,7 @@
   quantity: 1
   method: 
     - recipe: "Pest Control"
+      icon: icon_quest_16_pest
       quantity: 15
       
 - item: "Wood"
@@ -43,4 +46,5 @@
       icon: use_3_253
       quantity: 200
     - recipe: Gold
+      icon: use_2_108
       quantity: 500
