@@ -1,12 +1,12 @@
 - item: "Astray Construction Blueprint"
-  icon:
+  icon: all_quest_01_151
   quantity: 1
   method:
     - recipe: "She Drifts, Sea Gifts"
       quantity: 25
 
 - item: "Astray Operation Manual"
-  icon:
+  icon: all_quest_03_5
   quantity: 1
   method:
     - recipe: "Pirate Star: Astray"
@@ -16,27 +16,31 @@
           quantity: 300000
       
 - item: "Certificate of Pirate"
-  icon: 
+  icon: use_4_76
   quantity: 1
   method: 
     - recipe: "Pest Control"
       quantity: 15
       
 - item: "Wood"
-  icon:
+  icon: use_3_252
   quantity: 570
   
 - item: "Uncommon Ship Parts Material"
-  icon:
+  icon: use_8_118
   quantity: 15
   method:
     - recipe: Strong Iron Ore
+      icon: use_5_76
       quantity: 75
     - recipe: Sturdy Timber
+      icon: use_4_4
       quantity: 75
     - recipe: Heavy Iron Ore
+      icon: use_3_239
       quantity: 200
     - recipe: Tender Timber
+      icon: use_3_253
       quantity: 200
     - recipe: Gold
       quantity: 500
