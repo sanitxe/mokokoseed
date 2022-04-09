@@ -514,33 +514,37 @@ color: inherit;
   background-color: #0d0d0d;
   color: inherit;
   border-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-color: black;
 }
 
 .dark .input-group-prepend .input-group-text {
-  background-color: #e9ecef;
-  color: inherit;
-  border-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-  border-color: $normal;
-}
-
-.dark .input-group-prepend .input-group-text {
   background-color: #0d0d0d;
   color: inherit;
   border-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-color: #0d0d0d;
 }
 
+.input-group-append .input-group-text {
+  background-color: #0d0d0d;
+  color: inherit;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-color: black;
+}
+
+.dark .input-group-append .input-group-text {
+  background-color: #0d0d0d;
+  color: inherit;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-color: #0d0d0d;
+}
 
 .sub-recipe-item .input-group-prepend .input-group-text {
   background-color: transparent;
@@ -647,18 +651,18 @@ color: inherit;
   margin-right: 10px;
 }
 
-#astray_1 .progress-bar {
+#astray_1 {
   background-color: $relic;
 }
-#astray_2 .progress-bar {
+#astray_2 {
   background-color: $legendary;
 }
-#astray_3 .progress-bar {
+#astray_3 {
   background-color: $epic;
 }
-#astray_4 .progress-bar {
+#astray_4 {
   background-color: $normal; 
 }
-#astray_5 .progress-bar {
+#astray_5 {
   background-color: $uncommon;
 }
