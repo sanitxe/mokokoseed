@@ -481,3 +481,26 @@ background-color: #151515;
 .input-group {
   width:auto;
 }
+
+.form-control {
+  text-align: right;
+  border-left: 0;
+border-right: 0;
+border-top: 0;
+border-bottom: 1px solid #8080801c;
+}
+
+.sub-recipe-item .input-group-prepend .input-group-text {
+  background-color: transparent;
+  color: inherit;
+  border-top: 0;
+    border-top-color: currentcolor;
+  border-right: 0;
+    border-right-color: currentcolor;
+  border-radius: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  border-color: #b7685c;
+  border-bottom-left-radius: 15px;
+}
