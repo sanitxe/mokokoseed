@@ -511,11 +511,13 @@ color: inherit;
 }
 
 .input-group-prepend .input-group-text {
-  background-color: #e9ecef;
+  background-color: #0d0d0d;
   color: inherit;
-  border-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+  border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   border-color: black;
 }
 
@@ -531,11 +533,14 @@ color: inherit;
 .dark .input-group-prepend .input-group-text {
   background-color: #0d0d0d;
   color: inherit;
-  border-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+  border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   border-color: #0d0d0d;
 }
+
 
 .sub-recipe-item .input-group-prepend .input-group-text {
   background-color: transparent;
@@ -544,7 +549,7 @@ color: inherit;
   border-right: 0;
   border-radius: 0;
   border-color: black;
-  border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 5px;
   font-size: 0.8rem;
 }
 
@@ -555,7 +560,29 @@ color: inherit;
   border-right: 0;
   border-radius: 0;
   border-color: $normal;
-  border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.sub-recipe-item .input-group-append .input-group-text {
+  background-color: transparent;
+  color: inherit;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0;
+  border-color: black;
+  border-bottom-right-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.dark .sub-recipe-item .input-group-append .input-group-text {
+  background-color: transparent;
+  color: inherit;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0;
+  border-color: $normal;
+  border-bottom-right-radius: 5px;
   font-size: 0.8rem;
 }
 
