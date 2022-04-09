@@ -20,7 +20,7 @@
   </div>  
   <input id="{{ craft.icon }}" type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
-    <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
+    <span class="input-group-text {{ craft.color }}" id="basic-addon2">/{{ craft.quantity }}</span>
   </div>
 </div>
 {% for sub in craft.method %}
@@ -30,7 +30,7 @@
   </div>  
   <input id="{{ sub.icon }}" type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
-    <span class="input-group-text" id="basic-addon2">/{{ sub.quantity }}</span>
+    <span class="input-group-text {{ sub.color }}" id="basic-addon2">/{{ sub.quantity }}</span>
   </div>
 </div>
 {% endfor %}
@@ -45,7 +45,7 @@
   </div>  
   <input id="{{ craft.icon }}" type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
-    <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
+    <span class="input-group-text {{ craft.color }}" id="basic-addon2">/{{ craft.quantity }}</span>
   </div>
 </div>
 
@@ -60,7 +60,7 @@
   </div>  
   <input id="{{ sub.icon }}" type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
-    <span class="input-group-text" id="basic-addon2">/{{ sub.quantity }}</span>
+    <span class="input-group-text {{ sub.color }}" id="basic-addon2">/{{ sub.quantity }}</span>
   </div>
 </div>
 {% endfor %}
