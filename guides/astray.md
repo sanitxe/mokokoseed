@@ -49,8 +49,8 @@
   </div>
 </div>
 
-<div class="progressbar-bar ui-progressbar ui-corner-all ui-widget ui-widget-content">
-  <div id="uncommon_ship" class="ui-progressbar-value ui-corner-left ui-widget-header" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progress">
+  <div id="uncommon_ship" class="progress-bar" role="progressbar"></div>
 </div>
 
 {% for sub in craft.method %}
@@ -68,55 +68,184 @@
 {% endfor %}
 
 <script>
-$( document ).ready(function() {
-    $('input').each(function(){
-      find = $(this).attr("id")
-      found = localStorage.getItem(find)
-      if (found == "NaN") {
-        $(this).val('0')
-      } else {
-      	$(this).val(found)
-      }
-    })
-  
+$(document).ready(function() {
+
+  /*Reset all fields to 0 at first load*/
+  $('input').each(function() {
+    find = $(this).attr("id")
+    found = localStorage.getItem(find)
+    if (found == "NaN" || found == undefined) {
+      $(this).val('0')
+    } else {
+      $(this).val(found)
+    }
+  })
+
+  /*When fields have been altered LOCALSTORAGE*/
   $("input").change(function() {
     $("input").each(function() {
+      check = $(this).val()
+      if (check == "" || check == undefined) {
+        $(this).val('0')
+      }
       quantity = parseInt($(this).val())
       type = $(this).attr("id")
       localStorage.setItem(type, quantity)
     });
+    
+  /*When fields have been altered CALCULATIONS*/
+  astray_blueprint = parseInt($('#use_5_76').val())
+  if (astray_blueprint > 1) {
+    astray_blueprint = 1
+  }
+  she_drifts = parseInt($('#icon_quest_16_shedrifts').val())
+  if (she_drifts > 25) {
+    she_drifts = 25
+  }
+  astray_manual = parseInt($('#all_quest_03_5').val())
+  if (astray_manual > 1) {
+    astray_manual = 1
+  }
+  pirate_star = parseInt($('#all_quest_02_58').val())
+  if (pirate_star > 1) {
+    pirate_star = 1
+  }
+  cert_pirate = parseInt($('#use_4_76').val())
+  if (cert_pirate > 1) {
+    cert_pirate = 1
+  }
+  pest = parseInt($('#icon_quest_16_pest').val())
+  if (pest > 15) {
+    pest = 15
+  }
+  wood = parseInt($('#use_3_252').val())
+  if (wood > 570) {
+    wood = 570
+  }
+  uncommon_parts = parseInt($('#use_8_118').val())
+  if (uncommon_parts > 15) {
+    uncommon_parts = 15
+  }
+  strong_ore = parseInt($('#use_5_76').val())
+  if (strong_ore > 75) {
+    strong_ore = 75
+  }
+  sturdy_timber = parseInt($('#use_4_4').val())
+  if (sturdy_timber > 75) {
+    sturdy_timber = 75
+  }
+  heavy_iron_ore = parseInt($('#use_3_239').val())
+  if (heavy_iron_ore > 200) {
+    heavy_iron_ore = 200
+  }
+  tender_timber = parseInt($('#use_3_253').val())
+  if (tender_timber > 200) {
+    tender_timber = 200
+  }
+  gold = parseInt($('#use_2_108').val())
+  if (gold > 500) {
+    gold = 500
+  }
 
-		strong_ore = parseInt($('#use_5_76').val())
-  		if (strong_ore > 75) {strong_ore = 75}
-    sturdy_timber = parseInt($('#use_4_4').val())
-  		if (sturdy_timber > 75) {sturdy_timber = 75}
-    heavy_iron_ore = parseInt($('#use_3_239').val())
-  		if (heavy_iron_ore > 200) {heavy_iron_ore = 200}
-    tender_timber = parseInt($('#use_3_253').val())
-  		if (tender_timber > 200) {tender_timber = 200}
+  /*Calculate Astray completion*/
+  astray_1 = (((astray_blueprint + she_drifts) / 26) * 100) / 5
+  $("#astray_1").attr('style', 'width:' + astray_1 + "%")
+  astray_2 = (((astray_manual + pirate_star) / 2) * 100) / 5
+  $("#astray_2").attr('style', 'width:' + astray_2 + "%")
+  astray_3 = (((cert_pirate + pest) / 16) * 100) / 5
+  $("#astray_3").attr('style', 'width:' + astray_3 + "%")
+  astray_4 = ((wood / 570) * 100) / 5
+  $("#astray_4").attr('style', 'width:' + astray_4 + "%")
+  astray_5 = ((uncommon_parts / 15) * 100) / 5
+  $("#astray_5").attr('style', 'width:' + astray_5 + "%")
 
-    uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
+  astray_percent = astray_1 + astray_2 + astray_3 + astray_4 + astray_5
+  $("#astray").html(Math.round(astray_percent) + "%")
 
-    $("#uncommon_ship").attr('style','width:'+uncommon_ship_mats +"%")
-  	$("#uncommon_ship").html(uncommon_ship_mats+"%")
-	});
-  
-		strong_ore = parseInt($('#use_5_76').val())
-  		if (strong_ore > 75) {strong_ore = 75}
-    sturdy_timber = parseInt($('#use_4_4').val())
-  		if (sturdy_timber > 75) {sturdy_timber = 75}
-    heavy_iron_ore = parseInt($('#use_3_239').val())
-  		if (heavy_iron_ore > 200) {heavy_iron_ore = 200}
-    tender_timber = parseInt($('#use_3_253').val())
-  		if (tender_timber > 200) {tender_timber = 200}
 
-    uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
 
-    $("#uncommon_ship").attr('style','width:'+uncommon_ship_mats +"%")
-  	$("#uncommon_ship").html(uncommon_ship_mats+"%")
-  
-  console.log(uncommon_ship_mats)
+  /*Calculate completion of Uncommon Ship Parts Material*/
+  uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber + gold) / 1050) * 100
+
+  $("#uncommon_ship").attr('style', 'width:' + uncommon_ship_mats + "%")
+  $("#uncommon_ship").html(Math.round(uncommon_ship_mats) + "%")
+  });
+
+  /*First iteration*/
+  astray_blueprint = parseInt($('#use_5_76').val())
+  if (astray_blueprint > 1) {
+    astray_blueprint = 1
+  }
+  she_drifts = parseInt($('#icon_quest_16_shedrifts').val())
+  if (she_drifts > 25) {
+    she_drifts = 25
+  }
+  astray_manual = parseInt($('#all_quest_03_5').val())
+  if (astray_manual > 1) {
+    astray_manual = 1
+  }
+  pirate_star = parseInt($('#all_quest_02_58').val())
+  if (pirate_star > 1) {
+    pirate_star = 1
+  }
+  cert_pirate = parseInt($('#use_4_76').val())
+  if (cert_pirate > 1) {
+    cert_pirate = 1
+  }
+  pest = parseInt($('#icon_quest_16_pest').val())
+  if (pest > 15) {
+    pest = 15
+  }
+  wood = parseInt($('#use_3_252').val())
+  if (wood > 570) {
+    wood = 570
+  }
+  uncommon_parts = parseInt($('#use_8_118').val())
+  if (uncommon_parts > 15) {
+    uncommon_parts = 15
+  }
+  strong_ore = parseInt($('#use_5_76').val())
+  if (strong_ore > 75) {
+    strong_ore = 75
+  }
+  sturdy_timber = parseInt($('#use_4_4').val())
+  if (sturdy_timber > 75) {
+    sturdy_timber = 75
+  }
+  heavy_iron_ore = parseInt($('#use_3_239').val())
+  if (heavy_iron_ore > 200) {
+    heavy_iron_ore = 200
+  }
+  tender_timber = parseInt($('#use_3_253').val())
+  if (tender_timber > 200) {
+    tender_timber = 200
+  }
+  gold = parseInt($('#use_2_108').val())
+  if (gold > 500) {
+    gold = 500
+  }
+
+  /*Calculate Astray completion*/
+  astray_1 = (((astray_blueprint + she_drifts) / 26) * 100) / 5
+  $("#astray_1").attr('style', 'width:' + astray_1 + "%")
+  astray_2 = (((astray_manual + pirate_star) / 2) * 100) / 5
+  $("#astray_2").attr('style', 'width:' + astray_2 + "%")
+  astray_3 = (((cert_pirate + pest) / 16) * 100) / 5
+  $("#astray_3").attr('style', 'width:' + astray_3 + "%")
+  astray_4 = ((wood / 570) * 100) / 5
+  $("#astray_4").attr('style', 'width:' + astray_4 + "%")
+  astray_5 = ((uncommon_parts / 15) * 100) / 5
+  $("#astray_5").attr('style', 'width:' + astray_5 + "%")
+
+  astray_percent = astray_1 + astray_2 + astray_3 + astray_4 + astray_5
+  $("#astray").html(Math.round(astray_percent) + "%")
+
+
+
+  /*Calculate completion of Uncommon Ship Parts Material*/
+  uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber + gold) / 1050) * 100
+
+  $("#uncommon_ship").attr('style', 'width:' + uncommon_ship_mats + "%")
+  $("#uncommon_ship").html(Math.round(uncommon_ship_mats) + "%")
 });
-
-
 </script>
