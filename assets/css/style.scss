@@ -516,7 +516,16 @@ color: inherit;
   border-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-  border-color: #e9ecef;
+  border-color: black;
+}
+
+.dark .input-group-prepend .input-group-text {
+  background-color: #e9ecef;
+  color: inherit;
+  border-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  border-color: $normal;
 }
 
 .dark .input-group-prepend .input-group-text {
@@ -534,10 +543,22 @@ color: inherit;
   border-top: 0;
   border-right: 0;
   border-radius: 0;
-  border-color: $darker-accent-color;
+  border-color: black;
   border-bottom-left-radius: 15px;
   font-size: 0.8rem;
 }
+
+.dark .sub-recipe-item .input-group-prepend .input-group-text {
+  background-color: transparent;
+  color: inherit;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0;
+  border-color: $normal;
+  border-bottom-left-radius: 15px;
+  font-size: 0.8rem;
+}
+
 .input-group-text.relic {
   color: $relic !important;
 }
