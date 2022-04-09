@@ -103,7 +103,7 @@ $(document).ready(function() {
     });
     
   /*When fields have been altered CALCULATIONS*/
-  astray_blueprint = parseInt($('#use_5_76').val())
+  astray_blueprint = parseInt($('#all_quest_01_151').val())
   if (astray_blueprint > 1) {
     astray_blueprint = 1
   }
@@ -189,7 +189,7 @@ $(document).ready(function() {
   });
 
   /*First iteration*/
-  astray_blueprint = parseInt($('#use_5_76').val())
+  astray_blueprint = parseInt($('#all_quest_01_151').val())
   if (astray_blueprint > 1) {
     astray_blueprint = 1
   }
