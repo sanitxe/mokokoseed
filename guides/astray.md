@@ -4,9 +4,8 @@
 
 <h1>Astray Crafting Tracker</h1>
 
-<div class="progressbar-container">
-  <div class="progressbar-bar"></div>
-  <div id="astray" class="progressbar-label"></div>
+<div class="progressbar-bar ui-progressbar ui-corner-all ui-widget ui-widget-content">
+  <div id="astray" class="ui-progressbar-value ui-corner-left ui-widget-header" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
 {% for craft in site.data.astray %}
@@ -46,9 +45,8 @@
   </div>
 </div>
 
-<div class="progressbar-container">
-  <div class="progressbar-bar"></div>
-  <div id="uncommon_ship" class="progressbar-label"></div>
+<div class="progressbar-bar ui-progressbar ui-corner-all ui-widget ui-widget-content">
+  <div id="uncommon_ship" class="ui-progressbar-value ui-corner-left ui-widget-header" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
 {% for sub in craft.method %}
@@ -93,6 +91,7 @@ $( document ).ready(function() {
     uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
 
     $("#uncommon_ship").attr('style','width:'+uncommon_ship_mats +"%")
+  	$("#uncommon_ship").html(uncommon_ship_mats+"%")
 	});
   
 		strong_ore = parseInt($('#use_5_76').val())
@@ -103,8 +102,10 @@ $( document ).ready(function() {
     uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
 
     $("#uncommon_ship").attr('style','width:'+uncommon_ship_mats +"%")
+  	$("#uncommon_ship").html(uncommon_ship_mats+"%")
   
   console.log(uncommon_ship_mats)
 });
+
 
 </script>
