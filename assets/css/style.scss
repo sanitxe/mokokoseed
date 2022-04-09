@@ -540,12 +540,12 @@ color: inherit;
 }
 
 .input-group-append .input-group-text {
-  background-color: #0d0d0d;
+  background-color: #91919112;
   color: inherit;
   border-radius: 5px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  border-color: black;
+  border-color: 91919112;
 }
 
 .dark .input-group-append .input-group-text {
@@ -689,9 +689,11 @@ color: inherit;
 .dark .progress {
   background-color: #353535;
   border-radius: 50px;
+  border: 0;
 }
 
 .progress {
   border: 1px solid #f2f2f2;
   background: #f9f7f7;
+  border-radius: 50px;
 }
