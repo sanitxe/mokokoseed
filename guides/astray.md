@@ -20,7 +20,7 @@
   </div>
 </div>
 {% for sub in craft.method %}
-<div class="input-group my-3 mx-5">
+<div class="input-group my-3 mx-5 sub-recipe-item">
   <div class="input-group-prepend">
     <span class="input-group-text"><img src="/assets/icons/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
   </div>  
