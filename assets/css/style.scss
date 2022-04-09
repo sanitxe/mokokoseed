@@ -532,3 +532,44 @@ color: inherit;
   border-bottom-left-radius: 15px;
   font-size: 0.8rem;
 }
+.input-group-text.relic {
+  color: $relic !important;
+}
+.sub-recipe-item .input-group-text.relic {
+  border-color: $relic !important;
+}
+
+.input-group-text.legendary {
+  color: $legendary !important;
+}
+.sub-recipe-item .input-group-text.legendary {
+  border-color: $legendary !important;
+}
+
+.input-group-text.epic {
+  color: $epic !important;
+}
+.sub-recipe-item .input-group-text.epic {
+  border-color: $epic !important;
+}
+
+.input-group-text.rare {
+  color: $rare !important;
+}
+.sub-recipe-item .input-group-text.rare {
+  border-color: $rare !important;
+}
+
+.input-group-text.uncommon {
+  color: $uncommon !important;
+}
+.sub-recipe-item .input-group-text.uncommon {
+  border-color: $uncommon !important;
+}
+
+.input-group-text.normal {
+  color: $normal !important;
+}
+.sub-recipe-item .input-group-text.normal {
+  border-color: $normal !important;
+}
