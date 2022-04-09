@@ -77,22 +77,32 @@ $( document ).ready(function() {
     })
   
   $("input").change(function() {
-  $("input").each(function() {
-    quantity = parseInt($(this).val())
-    type = $(this).attr("id")
-    localStorage.setItem(type, quantity)
-  });
-  
-  strong_ore = parseInt($('#use_5_76').val())
-  sturdy_timber = parseInt($('#use_4_4').val())
-  heavy_iron_ore = parseInt($('#use_3_239').val())
-  tender_timber = parseInt($('#use_3_253').val())
+    $("input").each(function() {
+      quantity = parseInt($(this).val())
+      type = $(this).attr("id")
+      localStorage.setItem(type, quantity)
+    });
 
-  uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
-  
-  $("#uncommon_ship").attr('style','width:'+uncommon_ship_mats +"%")
-});
-});
+    strong_ore = parseInt($('#use_5_76').val())
+    sturdy_timber = parseInt($('#use_4_4').val())
+    heavy_iron_ore = parseInt($('#use_3_239').val())
+    tender_timber = parseInt($('#use_3_253').val())
 
+    uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
+
+    $("#uncommon_ship").attr('style','width:'+uncommon_ship_mats +"%")
+	});
+  
+		strong_ore = parseInt($('#use_5_76').val())
+    sturdy_timber = parseInt($('#use_4_4').val())
+    heavy_iron_ore = parseInt($('#use_3_239').val())
+    tender_timber = parseInt($('#use_3_253').val())
+
+    uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
+
+    $("#uncommon_ship").attr('style','width:'+uncommon_ship_mats +"%")
+  
+  console.log(uncommon_ship_mats)
+});
 
 </script>
