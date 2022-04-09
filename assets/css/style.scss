@@ -661,19 +661,19 @@ color: inherit;
 }
 
 #astray_1 {
-  background-color: $relic;
+  background-color: $darker-accent-color;
 }
 #astray_2 {
-  background-color: $legendary;
+  background-color: $dark-accent-color;
 }
 #astray_3 {
-  background-color: $epic;
+  background-color: $accent-color;
 }
 #astray_4 {
-  background-color: $normal; 
+  background-color: $light-accent-color; 
 }
 #astray_5 {
-  background-color: $uncommon;
+  background-color: $lighter-accent-color;
 }
 
 .dark .progress {
