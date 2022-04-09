@@ -2,10 +2,10 @@
   title: Astray Crafting Guide
 ---
 
-<div class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-  <div class="progress-bar bg-success" role="progressbar"  aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-  <div class="progress-bar bg-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+<h1>Astray Crafting Tracker</h1>
+
+<div class="progressbar-bar ui-progressbar ui-corner-all ui-widget ui-widget-content">
+  <div id="astray" class="ui-progressbar-value ui-corner-left ui-widget-header" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
 {% for craft in site.data.astray %}
@@ -33,12 +33,6 @@
 {% endif %}
 {% endfor %}
 
-<div class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-  <div class="progress-bar bg-success" role="progressbar"  aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-  <div class="progress-bar bg-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-</div>
-
 {% for craft in site.data.astray %}
 {% if craft.item == "Uncommon Ship Parts Material" %}
 <div class="input-group my-3">
@@ -50,9 +44,11 @@
     <span class="input-group-text" id="basic-addon2">/{{ craft.quantity }}</span>
   </div>
 </div>
-<div class="progress">
-  <div id="uncommon_ship" class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+
+<div class="progressbar-bar ui-progressbar ui-corner-all ui-widget ui-widget-content">
+  <div id="uncommon_ship" class="ui-progressbar-value ui-corner-left ui-widget-header" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
+
 {% for sub in craft.method %}
 <div class="input-group my-3 mx-5 sub-recipe-item">
   <div class="input-group-prepend">
@@ -66,3 +62,37 @@
 {% endfor %}
 {% endif %}
 {% endfor %}
+
+<script>
+  
+$( document ).ready(function() {
+    $('input').each(function(){
+      find = $(this).attr("id")
+      found = localStorage.getItem(find)
+      if (found == "NaN") {
+        $(this).val('0')
+      } else {
+      	$(this).val(found)
+      }
+    })
+  
+  $("input").change(function() {
+  $("input").each(function() {
+    quantity = parseInt($(this).val())
+    type = $(this).attr("id")
+    localStorage.setItem(type, quantity)
+  });
+  
+  strong_ore = parseInt($('#use_5_76').val())
+  sturdy_timber = parseInt($('#use_4_4').val())
+  heavy_iron_ore = parseInt($('#use_3_239').val())
+  tender_timber = parseInt($('#use_3_253').val())
+
+  uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
+  
+  $("#uncommon_ship").attr('style','width:'+uncommon_ship_mats +"%")
+});
+});
+
+
+</script>
