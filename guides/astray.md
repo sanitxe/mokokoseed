@@ -64,7 +64,6 @@
 {% endfor %}
 
 <script>
-  
 $( document ).ready(function() {
     $('input').each(function(){
       find = $(this).attr("id")
@@ -83,10 +82,14 @@ $( document ).ready(function() {
       localStorage.setItem(type, quantity)
     });
 
-    strong_ore = parseInt($('#use_5_76').val())
+		strong_ore = parseInt($('#use_5_76').val())
+  		if (strong_ore > 75) {strong_ore = 75}
     sturdy_timber = parseInt($('#use_4_4').val())
+  		if (sturdy_timber > 75) {sturdy_timber = 75}
     heavy_iron_ore = parseInt($('#use_3_239').val())
+  		if (heavy_iron_ore > 200) {heavy_iron_ore = 200}
     tender_timber = parseInt($('#use_3_253').val())
+  		if (tender_timber > 200) {tender_timber = 200}
 
     uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
 
@@ -95,9 +98,13 @@ $( document ).ready(function() {
 	});
   
 		strong_ore = parseInt($('#use_5_76').val())
+  		if (strong_ore > 75) {strong_ore = 75}
     sturdy_timber = parseInt($('#use_4_4').val())
+  		if (sturdy_timber > 75) {sturdy_timber = 75}
     heavy_iron_ore = parseInt($('#use_3_239').val())
+  		if (heavy_iron_ore > 200) {heavy_iron_ore = 200}
     tender_timber = parseInt($('#use_3_253').val())
+  		if (tender_timber > 200) {tender_timber = 200}
 
     uncommon_ship_mats = ((strong_ore + sturdy_timber + heavy_iron_ore + tender_timber)/1050)*100
 
