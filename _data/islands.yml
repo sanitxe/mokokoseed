@@ -914,7 +914,7 @@
   sea: "North Procyon Sea"
   method: "Grind"
   days: 
-  daily: 
+  daily: true
   notes: 
     - quest: 
       startquest: 
