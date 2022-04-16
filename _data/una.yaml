@@ -1,0 +1,13 @@
+- id:
+  name: Plague Doctor
+  quests:
+    - name: Remnants of the Plague
+  rep1:
+    - points: 10
+      reward:
+        - silver: 2,000
+          emote: Pain
+          potion: Stat Increase
+          craft: 
+          plume: 
+          
