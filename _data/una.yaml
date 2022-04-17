@@ -2,18 +2,12 @@
   name: "Test"
   days: 70 
   quests: "Test"
-  rep1:
-    - points: 10
-  rep2:
-    - points: 20
-  rep3:
-    - points: 30
-  rep4:
-    - points: 40
-  rep5:
-    - points: 50
-  rep6:
-    - points: 60
+  rep1: 10
+  rep2: 20
+  rep3: 30
+  rep4: 40
+  rep5: 50
+  rep6: 60
   silver: 2,000
   emote: "Pain"
   potion: "Stat Increase"
