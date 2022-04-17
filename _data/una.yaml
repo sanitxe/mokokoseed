@@ -258,4 +258,167 @@
   island: 
   other: 
   
+- id:
+  name: "Prisoner Release"
+  days: 15
+  quests: "Prisoner Emancipation"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  emote: 
+  potion: "Stat Increase"
+  craft: 
+  collect: "Masterpiece #18"
+  mount: 
+  card: 
+  island: 
+  other: 
+  
+- id:
+  name: "Peyto"
+  days: 14
+  quests: "A Hard Day at Work<br />Another Hard Day at Work<br />Everything Circles Back Around<br />Dance Time Redux"
+  rep1: 10
+  rep2: 30
+  rep3: 50
+  rep4: 80
+  rep5: 0
+  rep6: 0
+  silver: 
+  pirate: 34000
+  emote: 
+  potion: "Swiftness"
+  craft: "Game Table"
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
+  
+- id:
+  name: "Treasure of Gravis"
+  days: 7
+  quests: "Happy Helper"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 22,000
+  emote: 
+  potion: "Vitality Increase"
+  craft: "Brown Sunbed"
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other:
+
+- id:
+  name: "Collect Scrap Iron"
+  days: 13
+  quests: "Don't Scrap the Scrap!<br />Shorting the Circuits<br />Core Competency"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  emote: 
+  potion: "Charisma"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
+
+- id:
+  name: "Weeping Sea"
+  days:  14
+  quests: "Whale Tale<br />Whalekeeper's Record<br />Whale Watching"
+  rep1: 10
+  rep2: 50
+  rep3: 100
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 29000
+  emote: 
+  potion: "Vitality Increase"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: "Humpback Whale Oil"
+
+- id:
+  name: "The Island of Pandas"
+  days:  6
+  quests: "Panda Sitter<br />Baby Panda And Me"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13000
+  emote: 
+  potion: "Vitality Increase"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: "Full-scale Panda Disguise Set"
+  
+- id:
+  name: "Sinking Island"
+  days:  26
+  quests: "Gathering Slumberries<br />Is It Hungry?<br />Sloppy Slimes<br />A Tidy Place to Rest<br />Emergency Preparedness"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 80
+  rep5: 150
+  rep6: 0
+  silver: 54000
+  emote: 
+  potion: 
+  craft: 
+  collect: 
+  mount: "Red Moss Turtle"
+  card: 
+  island: 
+  other: 
+    
+- id:
+  name: "Lopang Inc."
+  days: 11
+  quests: "Special Delivery: Vern<br />Special Delivery: Luterra<br />Special Delivery: Tortoyk<br />Special Delivery: Annika<br />Special Delivery: Arthetine"
+  rep1: 10
+  rep2: 20
+  rep3: 30
+  rep4: 50
+  rep5: 0
+  rep6: 0
+  silver: 56000 
+  emote: 
+  potion: "Vitality Increase"
+  craft: "Messenger Pigeon Post"
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: "Melody of the Sea: Brahms"
+  
+
+  
   
