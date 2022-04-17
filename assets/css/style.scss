@@ -710,3 +710,9 @@ color: inherit;
 .progress-bar {
   background-color: #84c422;
 }
+.dtr-title::after {
+  content: ":";
+}
+.dtr-title {
+  font-weight: bold;
+}
