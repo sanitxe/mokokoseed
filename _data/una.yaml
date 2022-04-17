@@ -2,18 +2,58 @@
   name: "Test"
   days: 70 
   quests: "Test"
-  rep1: 10
-  rep2: 20
-  rep3: 30
-  rep4: 40
-  rep5: 50
-  rep6: 60
+  rep1: 0
+  rep2: 0
+  rep3: 0
+  rep4: 0
+  rep5: 0
+  rep6: 0
   silver: 2,000
   emote: "Pain"
+  potion: "Increase"
+  craft: "Fence"
+  collect: "Heart"
+  mount: "Turtle"
+  card: "Card"
+  island: "Token"
+  other: "else"
+  
+- id:
+  name: "Plague Doctor"
+  days: 7
+  quests: "Remnants of the Plague"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13,000
+  emote: "Pain"
   potion: "Stat Increase"
-  craft: "Lush Reed Fence"
-  collect: "4th Giant Heart"
-  mount: "Golden Turtle"
-  card: "Wei Card"
-  island: "Lush Reed Token"
-  other: "something else"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
+
+- id:
+  name: "Poisonous Desert"
+  days: 5
+  quests: "Stern's Stigma<br />The Greater Good<br />Source of the Poison"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 2,000 + 4,000 + 7,000
+  emote:
+  potion: "Crit"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
