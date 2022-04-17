@@ -1,8 +1,7 @@
 - id:
   name: "Test"
   days: 70 
-  quests:
-    - name: "Test"
+  quests: "Test"
   rep1:
     - points: 10
   rep2:
