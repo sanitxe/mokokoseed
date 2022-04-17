@@ -14,13 +14,12 @@
     - points: 50
   rep6:
     - points: 60
-  reward:
-    - silver: 2,000
-      emote: "Pain"
-      potion: "Stat Increase"
-      craft: "Lush Reed Fence"
-      collect: "4th Giant Heart"
-      mount: "Golden Turtle"
-      card: "Wei Card"
-      island: "Lush Reed Token"
-      other: "something else"
+  silver: 2,000
+  emote: "Pain"
+  potion: "Stat Increase"
+  craft: "Lush Reed Fence"
+  collect: "4th Giant Heart"
+  mount: "Golden Turtle"
+  card: "Wei Card"
+  island: "Lush Reed Token"
+  other: "something else"
