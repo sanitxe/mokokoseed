@@ -34,7 +34,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
   </thead>
   <tbody>
     {% for reputation in site.data.una %}
-      <tr>
+      <tr class="dt-hasChild parent">
         <td>
           <input type="checkbox" id="{{ reputation.id }}" class="box">
         </td>
@@ -69,6 +69,18 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td>{% if reputation.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" />{{ reputation.card }} {% endif %}</td>
         <td>{% if reputation.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" />{{ reputation.island }} {% endif %}</td>
         <td>{% if reputation.other != nil %}{{ reputation.other }} {% endif %}</td>
+      </tr>
+      <tr class="child">
+        <td class="child" colspan="11">
+          <small>
+          {% if reputation.rep1 > 0 %}Level 1: /{{ reputation.rep1 }}<br />{% endif %}
+          {% if reputation.rep2 > 0 %}Level 2: /{{ reputation.rep2 }}<br />{% endif %}
+          {% if reputation.rep3 > 0 %}Level 3: /{{ reputation.rep3 }}<br />{% endif %}
+          {% if reputation.rep4 > 0 %}Level 4: /{{ reputation.rep4 }}<br />{% endif %}
+          {% if reputation.rep5 > 0 %}Level 5: /{{ reputation.rep5 }}<br />{% endif %}
+          {% if reputation.rep6 > 0 %}Level 6: /{{ reputation.rep6 }}{% endif %}
+          </small>
+        </td>
       </tr>
     {% endfor %}
   </tbody>
