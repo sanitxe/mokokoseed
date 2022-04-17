@@ -43,7 +43,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
           <span data-toggle="tooltip" data-placement="top" title="Minimum days to acquire.">{{ reputation.days }}</span>
         </td>  
         <td>
-          {{ reputation.quests }}
+          <small>{{ reputation.quests }}</small>
         </td>
         <td>{% if reputation.silver > 0 %}{{ reputation.silver }} Silver{% endif %}</td>
         <td>{% if reputation.emote != nil %}<img class="lost-icon" src="/assets/img/icon/emote.png" />{{ reputation.emote }}{% endif %}</td>
