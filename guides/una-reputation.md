@@ -12,7 +12,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
 </div>
 <div class = "ready"></div>
 
-<table id="sortGroup">
+<table id="sortTable">
   <thead>
     <tr>
       <th class="no-sort"></th>
