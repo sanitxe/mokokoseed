@@ -45,7 +45,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td>
           <small>{{ reputation.quests }}</small>
         </td>
-        <td>{% if reputation.silver > 0 %}{{ reputation.silver }} Silver{% endif %}</td>
+        <td>{% if reputation.silver > 0 %}{{ reputation.silver }} <img class="lost-icon" src="/assets/img/icon/silver.png" />{% endif %}</td>
         <td>{% if reputation.emote != nil %}<img class="lost-icon" src="/assets/img/icon/emote.png" />{{ reputation.emote }}{% endif %}</td>
         <td>{% if reputation.potion != nil %}<img class="lost-icon" src="/assets/img/icon/{{ reputation.potion }}.png" />{{ reputation.potion }}{% endif %}</td>
         <td>{% if reputation.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" />{{ reputation.craft }}{% endif %}</td>
