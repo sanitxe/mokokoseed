@@ -1,6 +1,6 @@
 - id:
   name: "Test"
-  days: 70 
+  days:  
   quests: "Test"
   rep1: 0
   rep2: 0
@@ -8,15 +8,15 @@
   rep4: 0
   rep5: 0
   rep6: 0
-  silver: 2,000
-  emote: "Pain"
-  potion: "Increase"
-  craft: "Fence"
-  collect: "Heart"
-  mount: "Turtle"
-  card: "Card"
-  island: "Token"
-  other: "else"
+  silver: 
+  emote: 
+  potion: 
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
   
 - id:
   name: "Plague Doctor"
@@ -57,3 +57,205 @@
   card: 
   island: 
   other: 
+
+- id:
+  name: "Bringing Peace to the Souls"
+  days: 7
+  quests: "Kadan Cathedral's Exorcism Ritual"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13,000
+  emote:
+  potion: "Courage"
+  craft: "Worship Bench"
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: "Phoenix Plume x6"
+
+- id:
+  name: "Running the Port"
+  days: 7
+  quests: "Moronto's Agent"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13,000
+  emote:
+  potion: "Domination"
+  craft: 
+  collect: "Masterpiece #10"
+  mount: 
+  card: 
+  island: 
+  other: 
+  
+- id:
+  name: "Cook"
+  days: 6 
+  quests: "Taste Test<br />Meat, the Challenge"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13000
+  emote: 
+  potion: "Vitality Increase"
+  craft: 
+  collect: 
+  mount: 
+  card: "Naruni"
+  island: 
+  other: 
+  
+  - id:
+  name: "Save the Forest"
+  days: 15 
+  quests: "Fairy's Friend"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  emote: 
+  potion: Wisdom
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
+  
+- id:
+  name: "Only the Strong Survive"
+  days: 14 
+  quests: "Only the Strong Survive<br />Prove Your Mettle"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 49000
+  emote: 
+  potion: "Vitality Increase"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: "Golden Goblin Coin x30"
+  
+- id:
+  name: "Saltern Worker"
+  days: 15 
+  quests: "Rubbing Away the Marks of Time"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  emote: 
+  potion: "Vitality Increase"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
+  
+- id:
+  name: "Future Insect Expert"
+  days:  15
+  quests: "A Boy's Dream"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  emote: 
+  potion: "Kindness"
+  craft: "Rethramis-Style Large Fountain"
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
+  
+- id:
+  name: "The Lake Spirit"
+  days:  15
+  quests: "Spirit Jars"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  emote: 
+  potion: "Stat Increase"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
+  
+- id:
+  name: "Killing the King"
+  days: 30
+  quests: "Taking on Tooki"
+  rep1: 70
+  rep2: 80
+  rep3: 150
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 54000
+  emote: 
+  potion: "Kindness"
+  craft: 
+  collect: "7th Giant's Heart"
+  mount: 
+  card: "Tookalibur"
+  island: 
+  other: 
+
+- id:
+  name: "Android Emancipation"
+  days:  15
+  quests: "Android Emancipation"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26,000
+  emote: 
+  potion: "Kindness"
+  craft: 
+  collect: 
+  mount: "Blauer Vogel"
+  card: 
+  island: 
+  other: 
+  
+  
