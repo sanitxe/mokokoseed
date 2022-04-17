@@ -402,7 +402,7 @@
 - id:
   name: "Lopang Inc."
   days: 11
-  quests: "Special Delivery: Vern<br />Special Delivery: Luterra<br />Special Delivery: Tortoyk<br />Special Delivery: Annika<br />Special Delivery: Arthetine"
+  quests: "Special Delivery: Vern<br />Special Delivery: Luterra<br />Special Delivery: Tortoyk<br />Special Delivery: Annika<br />Special Delivery: Arthetine<br />Special Delivery: Shushire"
   rep1: 10
   rep2: 20
   rep3: 30
@@ -419,6 +419,26 @@
   island: 
   other: "Melody of the Sea: Brahms"
   
-
+- id:
+  name: "The Defense"
+  days: 10 
+  quests: "Playing by the Pirates' Rules"
+  rep1: 20
+  rep2: 30
+  rep3: 50
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 
+  pirate: 72000
+  emote: 
+  potion: "Courage Stat Increase"
+  craft: 
+  collect: 
+  mount: 
+  card: 
+  island: 
+  other: 
+  
   
   
