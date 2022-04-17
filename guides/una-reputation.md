@@ -20,7 +20,6 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
       <th>Reputation</th>
       <th data-toggle="tooltip" data-placement="top" title="Minimum days to acquire."><i style="font-size:30px" class="las la-calendar-day"></i></th>
       <th>Quests</th>
-      <th>Levels</th>
       <th>Silver</th>
       <th>Emote</th>
       <th>Potion</th>
@@ -30,6 +29,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
       <th>Card</th>
       <th>Island Token</th>
       <th>Other</th>
+      <th>Levels</th>
     </tr>
   </thead>
   <tbody>
@@ -50,16 +50,6 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td>
           {{ reputation.quests }}
         </td>
-        <td>
-          <small>
-          {% if reputation.rep1 > 0 %}Level 1: /{{ reputation.rep1 }}<br />{% endif %}
-          {% if reputation.rep2 > 0 %}Level 2: /{{ reputation.rep2 }}<br />{% endif %}
-          {% if reputation.rep3 > 0 %}Level 3: /{{ reputation.rep3 }}<br />{% endif %}
-          {% if reputation.rep4 > 0 %}Level 4: /{{ reputation.rep4 }}<br />{% endif %}
-          {% if reputation.rep5 > 0 %}Level 5: /{{ reputation.rep5 }}<br />{% endif %}
-          {% if reputation.rep6 > 0 %}Level 6: /{{ reputation.rep6 }}{% endif %}
-          </small>
-        </td>
         <td>{% if reputation.silver > 0 %}{{ reputation.silver }} Silver{% endif %}</td>
         <td>{% if reputation.emote != nil %}<img class="lost-icon" src="/assets/img/icon/emote.png" />{{ reputation.emote }}{% endif %}</td>
         <td>{% if reputation.potion != nil %}<img class="lost-icon" src="/assets/img/icon/{{ reputation.potion }}.png" />{{ reputation.potion }}{% endif %}</td>
@@ -69,9 +59,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td>{% if reputation.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" />{{ reputation.card }} {% endif %}</td>
         <td>{% if reputation.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" />{{ reputation.island }} {% endif %}</td>
         <td>{% if reputation.other != nil %}{{ reputation.other }} {% endif %}</td>
-      </tr>
-      <tr class="child">
-        <td class="child" colspan="11">
+        <td>
           <small>
           {% if reputation.rep1 > 0 %}Level 1: /{{ reputation.rep1 }}<br />{% endif %}
           {% if reputation.rep2 > 0 %}Level 2: /{{ reputation.rep2 }}<br />{% endif %}
