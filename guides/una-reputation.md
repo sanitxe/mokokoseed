@@ -16,7 +16,6 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
   <thead>
     <tr>
       <th class="no-sort"></th>
-      <th class="npc-icon-column no-sort"></th>
       <th>Reputation</th>
       <th data-toggle="tooltip" data-placement="top" title="Minimum days to acquire."><i style="font-size:30px" class="las la-calendar-day"></i></th>
       <th>Quests</th>
@@ -37,11 +36,8 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td>
           <input type="checkbox" id="{{ reputation.id }}" class="box">
         </td>
-        <td>
-            <img class="islands-icon" src="/assets/img/icon/una.png" />
-        </td>
         <td> 
-          {{ reputation.name }}
+          <img class="lost-icon" src="/assets/img/icon/una.png" /> {{ reputation.name }}
         </td>
         <td> 
           <span data-toggle="tooltip" data-placement="top" title="Minimum days to acquire.">{{ reputation.days }}</span>
