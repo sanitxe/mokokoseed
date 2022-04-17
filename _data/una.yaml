@@ -1,13 +1,25 @@
 - id:
-  name: Plague Doctor
+  name: "Test"
+  days: 70 
   quests:
-    - name: Remnants of the Plague
+    - name: "Test"
   rep1:
     - points: 10
-      reward:
-        - silver: 2,000
-          emote: Pain
-          potion: Stat Increase
-          craft: 
-          plume: 
-          
+  rep2:
+    - points: 20
+  rep3:
+    - points: 30
+  rep4:
+    - points: 40
+  rep5:
+    - points: 50
+  reward:
+    - silver: 2,000
+      emote: "Pain"
+      potion: "Stat Increase"
+      craft: "Lush Reed Fence"
+      collect: "4th Giant Heart"
+      mount: "Golden Turtle"
+      card: "Wei Card"
+      island: "Lush Reed Token"
+      other: "something else"
