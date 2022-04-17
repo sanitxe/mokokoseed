@@ -51,12 +51,14 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
           {{ reputation.quests }}
         </td>
         <td>
+          <small>
           {% if reputation.rep1 > 0 %}Level 1: /{{ reputation.rep1 }}<br />{% endif %}
           {% if reputation.rep2 > 0 %}Level 2: /{{ reputation.rep2 }}<br />{% endif %}
           {% if reputation.rep3 > 0 %}Level 3: /{{ reputation.rep3 }}<br />{% endif %}
           {% if reputation.rep4 > 0 %}Level 4: /{{ reputation.rep4 }}<br />{% endif %}
           {% if reputation.rep5 > 0 %}Level 5: /{{ reputation.rep5 }}<br />{% endif %}
           {% if reputation.rep6 > 0 %}Level 6: /{{ reputation.rep6 }}{% endif %}
+          </small>
         </td>
         <td>{% if reputation.silver > 0 %}{{ reputation.silver }} Silver{% endif %}</td>
         <td>{% if reputation.emote != nil %}<img class="lost-icon" src="/assets/img/icon/emote.png" />{{ reputation.emote }}{% endif %}</td>
