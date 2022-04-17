@@ -13,6 +13,8 @@
     - points: 40
   rep5:
     - points: 50
+  rep6:
+    - points: 60
   reward:
     - silver: 2,000
       emote: "Pain"
