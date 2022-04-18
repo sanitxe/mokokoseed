@@ -334,7 +334,11 @@ td i {
   color:white;
 }
 
-.dark th, .dark td {
+.dark th {
+  border-bottom: solid thin #777 !important;
+}
+
+.dark td {
   border-bottom: 1px solid #282828 !important;
 }
 
