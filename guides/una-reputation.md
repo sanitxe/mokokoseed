@@ -81,29 +81,54 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
           $('#sortUna').dataTable( {
               searchPanes: {
                   columns: [1],
-                  panes: [{
-                      header: 'Coin Reward',
-                      options: [
-                          {
-                            label: 'Silver',
+                  panes: [
+                      {
+                        header: 'Coin Reward',
+                        options: [
+                            {
+                              label: 'Silver',
+                              value: function(rowData, rowIdx){
+                                  return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/silver.png">';
+                              },
+                            },
+                            {
+                            label: 'Pirate Coin',
                             value: function(rowData, rowIdx){
-                                return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/silver.png">';
+                                return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/pirate.png">';
+                              },
                             },
-                          },
-                          {
-                          label: 'Pirate Coin',
-                          value: function(rowData, rowIdx){
-                              return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/pirate.png">';
+                            {
+                            label: 'Gold',
+                            value: function(rowData, rowIdx){
+                                return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/gold.png">';
+                              },
+                            }
+                          ]
+                        },
+                      {
+                        header: 'Increase Potion',
+                        options: [
+                            {
+                              label: 'Kindness',
+                              value: function(rowData, rowIdx){
+                                  return rowData[4] == 'Kindness';
+                              },
                             },
-                          },
-                          {
-                          label: 'Gold',
-                          value: function(rowData, rowIdx){
-                              return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/gold.png">';
+                            {
+                            label: 'Charisma',
+                            value: function(rowData, rowIdx){
+                                return rowData[4] == 'Charisma>';
+                              },
                             },
-                          }
-                      ]
-                  }]
+                            {
+                            label: 'Courage',
+                            value: function(rowData, rowIdx){
+                                return rowData[4] == 'Courage';
+                              },
+                            }
+                          ]
+                        }
+                    ]
               },
               dom: 'Plfrtip',
               "paging": false,
