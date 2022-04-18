@@ -266,6 +266,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                       target: ''
                   }
               },
+              fixedHeader: true,
               "order": [],
               "columnDefs": [ {
                     "targets": 'no-sort',
