@@ -111,7 +111,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             {
                               label: 'Kindness',
                               value: function(rowData, rowIdx){
-                                  return rowData[4] == 'Kindness';
+                                  return rowData[4].includes("Kindness");
                               },
                             },
                             {
