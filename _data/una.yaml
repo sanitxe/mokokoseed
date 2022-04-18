@@ -606,9 +606,252 @@
   stat: true
   other: "Mederiel's Letter"
 
+- id:
+  name: "The Fermata's True Manager"
+  days: 14
+  quests: "For the Fermata's Maintenance<br/>For the Fermata's Safety"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  pirate: 36000
+  masterpiece: "#28"
+  craft: "Bar Table"
+  other: "Uncommon Timber x20"
 
-  
-  
-  
-  
-  
+- id:
+  name: "Repairing the Seal Site"
+  days: 44
+  quests: "Repairing the Seal Site<br/>The Rebuilding of Xeneela"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 80
+  rep5: 150
+  rep6: 150
+  silver: 144000
+  other: "Mana-infused Soup<br/>Elzowin's Blessed Letter"
+  domination: true
+
+- id:
+  name: "Mischievous Fairy"
+  days: 30
+  quests: "Mischievous Fairy"
+  rep1: 70
+  rep2: 80
+  rep3: 150
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 97000
+  other: "Magical Fermentation Boost"
+  swiftness: true
+  craft: "Large Windmill"
+
+- id:
+  name: "Gesbroy Snack Expert"
+  days: 18
+  quests: "A Great Beer Snack<br/>An Even Better Beer Snack<br/>The Beer Snack to End All Beer Snacks"
+  rep1: 40
+  rep2: 60
+  rep3: 100
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 101000
+  courage: true
+  island: "Gesbroy Island Soul"
+
+- id:
+  name: "Ka-BOOM!"
+  days: 15
+  quests: "Crash, Boom, Bang!"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 75000
+  card: "Naber"
+  other: "Old Boots"
+
+- id:
+  name: "Umar Cosmetics' New History"
+  days: 24
+  quests: "Quality Check<br/>Research and Development<br/>Market Research"
+  rep1: 30
+  rep2: 80
+  rep3: 150
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 131000
+  card: "Nazan"
+  other: "Truth Mushroom x6<br/>Umar Cosmetics' Invitation"
+
+- id:
+  name: "Investigate Foggy Ridge"
+  days: 19
+  quests: "Eastern Foggy Ridge<br/>Western Foggy Ridge<br/>Central Foggy Ridge"
+  rep1: 30
+  rep2: 60
+  rep3: 120
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 38000
+  stat: true
+
+- id:
+  name: "Investigate Red Sand Desert"
+  days: 19
+  quests: "Safety First<br/>Red Sand Desert Ecology Report<br/>Harsh Terrain"
+  rep1: 30
+  rep2: 60
+  rep3: 120
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 38000
+  stat: true
+
+- id:
+  name: "Investigate Frost Haven"
+  days: 19
+  quests: "Through the Bitter Cold<br/>Ice Collision<br/>Crystallized Secrets"
+  rep1: 30
+  rep2: 60
+  rep3: 120
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 38000
+  vitality: true
+
+- id:
+  name: "Choir Teacher"
+  days: 8
+  quests: "Whispering Minuet<br/>Whispering Resonance<br/>Whispering Harmony"
+  rep1: 20
+  rep2: 30
+  rep3: 50
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 84000
+  skill: true
+  vitality: true
+  card: "Sapiano"
+  card2: "Yom"
+
+- id:
+  name: "The Reagent Experiment"
+  days: 22
+  quests: "Super Secret Materials for a Super Secret Project"
+  rep1: 50
+  rep2: 70
+  rep3: 100
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 111000
+  other: "Toy Chest x6"
+  craft: "Exquisite Flower Garden"
+
+- id:
+  name: "Loot Pirate Bird Cave"
+  days: 15
+  quests: "Run, Tooki!<br/>Run Faster, Tooki!"
+  rep1: 10
+  rep2: 30
+  rep3: 50
+  rep4: 70
+  rep5: 0
+  rep6: 0
+  gold: 1600
+  other: "Tooki Transformation Sunglasses Selection Chest"
+
+- id:
+  name: "Shadow Monastery"
+  days: 15
+  quests: "Black Falcon's Nest"
+  rep1: 30
+  rep2: 50
+  rep3: 70
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 126000
+  card: "Geppetto"
+  other: "Book of Survival x6 <br/>Desiccated Wooden Statue x3"
+
+- id:
+  name: "Black Falcon Inn"
+  days: 28
+  quests: "Unsolved Mystery of the Watchers"
+  rep1: 60
+  rep2: 60
+  rep3: 80
+  rep4: 80
+  rep5: 0
+  rep6: 0
+  silver: 234000
+  expertise: true
+
+- id:
+  name: "Eye of Fate"
+  days: 15
+  quests: "Kinsera's Memorial Service"
+  rep1: 50
+  rep2: 50
+  rep3: 50
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 126000
+  card: "Goulding"
+  vitality: true
+
+- id:
+  name: "A Relaxing Hot Springs Part-time Job"
+  days: 23
+  quests: "Help Wanted at the Hot Springs<br/>Customer Comes First<br/>Guard Wanted!"
+  rep1: 50
+  rep2: 80
+  rep3: 120
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 319000
+  stat: true
+  masterpiece: "#48"
+
+- id:
+  name: "Purification Ceremony"
+  days: 20
+  quests: "Pond of Purification<br/>Madness Piles on the Altar"
+  rep1: 70
+  rep2: 140
+  rep3: 0
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 268000
+  omnium: "#2"
+  vitality: true
+
+- id:
+  name: "Fast Sailing Sprint: Eurus"
+  days: 21
+  quests: "Ride like the Wind"
+  rep1: 30
+  rep2: 60
+  rep3: 120
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  pirate: 42000
+  other: "Fast Sailing Sprint: Eurus"
