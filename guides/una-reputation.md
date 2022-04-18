@@ -93,4 +93,5 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                     "orderable": false,
               } ]
           } );
+    } );
 </script>
