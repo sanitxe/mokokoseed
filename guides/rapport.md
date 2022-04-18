@@ -53,7 +53,6 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
           {{ npcs.points }}
         </td>
         <td>
-          <small>
           {% if npcs.charisma == true %}<img class="lost-icon" src="/assets/img/icon/Charisma.png" /> Charisma<br />{% endif %}
           {% if npcs.wisdom == true %}<img class="lost-icon" src="/assets/img/icon/Wisdom.png" /> Wisdom<br />{% endif %}
           {% if npcs.courage == true %}<img class="lost-icon" src="/assets/img/icon/Courage.png" /> Courage<br />{% endif %}
@@ -69,24 +68,23 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
           {% if npcs.stat == true %}<img class="lost-icon" src="/assets/img/icon/Stat Increase.png" /> Stat Increase<br />{% endif %}
           {% if npcs.greater-stat == true %}<img class="lost-icon" src="/assets/img/icon/Greater Stat Increase.png" /> Greater Stat<br />{% endif %}
           {% if npcs.skill == true %}<img class="lost-icon" src="/assets/img/icon/Skill Point.png" /> Skill Point<br />{% endif %}
-          </small>
         </td>
         <td>
-          {% if npcs.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> <small>{{ npcs.craft }}<br /></small>{% endif %}
-          {% if npcs.map != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> <small>Adventure: {{ npcs.map }}<br /></small>{% endif %}
-          {% if npcs.sail != nil %}<img class="lost-icon" src="/assets/img/icon/icon_ship_1.png" /> <small>Sail Glyph: {{ npcs.sail }}<br /></small>{% endif %}
-          {% if npcs.mount != nil %}<small>Mount: {{ npcs.mount }}</small><br/>{% endif %}
-          {% if npcs.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" /> <small>{{ npcs.card }}</small><br/>{% endif %}
+          {% if npcs.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> {{ npcs.craft }}<br />{% endif %}
+          {% if npcs.map != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> Adventure: {{ npcs.map }}<br />{% endif %}
+          {% if npcs.sail != nil %}<img class="lost-icon" src="/assets/img/icon/icon_ship_1.png" /> Sail Glyph: {{ npcs.sail }}<br />{% endif %}
+          {% if npcs.mount != nil %}Mount: {{ npcs.mount }}<br/>{% endif %}
+          {% if npcs.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" /> {{ npcs.card }}<br/>{% endif %}
         </td>
         <td>
-          {% if npcs.giant != nil %} <img class="lost-icon" src="/assets/img/icon/giant-heart.png" /> <small>{{ npcs.giant }} Giant Heart</small><br/>{% endif %}
-          {% if npcs.masterpiece != nil %} <img class="lost-icon" src="/assets/img/icon/masterpiece.png" /><small>Masterpiece {{ npcs.masterpiece }}</small><br/>{% endif %}
-          {% if npcs.omnium != nil %} <img class="lost-icon" src="/assets/img/icon/omnium.png" /> <small>Omnium Star {{ npcs.omnium }}</small><br/>{% endif %}
-          {% if npcs.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" /> <small>{{ npcs.island }}</small><br/>{% endif %}
+          {% if npcs.giant != nil %} <img class="lost-icon" src="/assets/img/icon/giant-heart.png" /> {{ npcs.giant }} Giant Heart<br/>{% endif %}
+          {% if npcs.masterpiece != nil %} <img class="lost-icon" src="/assets/img/icon/masterpiece.png" />Masterpiece {{ npcs.masterpiece }}<br/>{% endif %}
+          {% if npcs.omnium != nil %} <img class="lost-icon" src="/assets/img/icon/omnium.png" /> Omnium Star {{ npcs.omnium }}<br/>{% endif %}
+          {% if npcs.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" /> {{ npcs.island }}<br/>{% endif %}
         </td>
         <td>
-          {% if npcs.crew != nil %}<img class="lost-icon" src="/assets/img/icon/crew.png" /> <small>Crew: {{ npcs.crew }}</small><br/>{% endif %}
-          {% if npcs.sailor != nil %}<img class="lost-icon" src="/assets/img/icon/sailor.png" /> <small>Sailor: {{ npcs.sailor }}</small><br/>{% endif %}
+          {% if npcs.crew != nil %}<img class="lost-icon" src="/assets/img/icon/crew.png" /> Crew: {{ npcs.crew }}<br/>{% endif %}
+          {% if npcs.sailor != nil %}<img class="lost-icon" src="/assets/img/icon/sailor.png" /> Sailor: {{ npcs.sailor }}<br/>{% endif %}
         </td>
       </tr>
     {% endfor %}
