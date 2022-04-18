@@ -20,8 +20,11 @@
 #  swiftness:
 #  vitality:
 #  wisdom:
+#  expertise:
+#  skill: 
 #  craft: 
 #  masterpiece:
+#  omnium:
 #  giant:
 #  mount: 
 #  card: 
@@ -855,3 +858,83 @@
   rep6: 0
   pirate: 42000
   other: "Fast Sailing Sprint: Eurus"
+
+- id:
+  name: "Ghost Ship: Eibern's Wound"
+  days: 12
+  quests: "Bleak Night Fog"
+  rep1: 30
+  rep2: 40
+  rep3: 50
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  pirate: 29000
+  other: "Ghost Ship: Eibern's Wound"
+
+- id:
+  name: "Pirate Star: Astray"
+  days: 25
+  quests: "She Drifts, Sea Gifts"
+  rep1: 50
+  rep2: 80
+  rep3: 120
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  pirate: 60000
+  other: "Astray Construction Blueprint"
+
+- id:
+  name: "White Sunlight, Blue Waves, Pink Breeze"
+  days: 19
+  quests: "Claff's Surfing Class<br/>Fish Above Water"
+  rep1: 80
+  rep2: 120
+  rep3: 0
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 255000
+  vitality: true
+  craft: "Giant Fish Tank"
+
+- id:
+  name: "Shadow Island Priests"
+  days: 16
+  quests: "Endless Debris"
+  rep1: 40
+  rep2: 40
+  rep3: 40
+  rep4: 40
+  rep5: 0
+  rep6: 0
+  silver: 44000
+  vitality: true
+
+- id:
+  name: "Swing Vote"
+  days: 18
+  quests: "Voting in Totopia"
+  rep1: 30
+  rep2: 60
+  rep3: 90
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 32000
+  vitality: true
+
+- id:
+  name: "Guardian"
+  days: 21
+  quests: "Peering Into Chaos"
+  rep1: 70
+  rep2: 70
+  rep3: 70
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 192000
+  island: "Isteri Island Soul"
+  other: "Someone's Letter"
