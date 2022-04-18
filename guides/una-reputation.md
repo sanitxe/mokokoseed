@@ -51,6 +51,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td>{% if reputation.emote != nil %}<img class="lost-icon" src="/assets/img/icon/emote.png" /> {{ reputation.emote }}{% endif %}</td>
         <td>
           <span style="display:none">{% if reputation.silver > 0 %}silver{% endif %} {% if reputation.pirate > 0 %}pirate{% endif %} {% if reputation.gold > 0 %}gold{% endif %}</span>
+          <small>
           {% if reputation.charisma == true %}<img class="lost-icon" src="/assets/img/icon/Charisma.png" /> Charisma<br />{% endif %}
           {% if reputation.wisdom == true %}<img class="lost-icon" src="/assets/img/icon/Wisdom.png" /> Wisdom<br />{% endif %}
           {% if reputation.courage == true %}<img class="lost-icon" src="/assets/img/icon/Courage.png" /> Courage<br />{% endif %}
@@ -64,17 +65,18 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
           {% if reputation.vitality == true %}<img class="lost-icon" src="/assets/img/icon/Vitality Increase.png" /> Vitality Increase<br />{% endif %}
           {% if reputation.stat == true %}<img class="lost-icon" src="/assets/img/icon/Stat Increase.png" /> Stat Increase<br />{% endif %}
           {% if reputation.skill == true %}<img class="lost-icon" src="/assets/img/icon/Skill Point.png" /> Skill Point<br />{% endif %}
+          </small>
         </td>
-        <td>{% if reputation.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> Crafting Recipe: {{ reputation.craft }}{% endif %}</td>
+        <td>{% if reputation.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> <small>Crafting Recipe: {{ reputation.craft }}</small>{% endif %}</td>
         <td>
-          {% if reputation.giant != nil %} <img class="lost-icon" src="/assets/img/icon/giant-heart.png" /> {{ reputation.giant }} Giant Heart {% endif %}
-          {% if reputation.masterpiece != nil %} <img class="lost-icon" src="/assets/img/icon/masterpiece.png" />Masterpiece {{ reputation.masterpiece }} {% endif %}
-          {% if reputation.omnium != nil %} <img class="lost-icon" src="/assets/img/icon/omnium.png" /> Omnium Star {{ reputation.omnium }} {% endif %}
+          {% if reputation.giant != nil %} <img class="lost-icon" src="/assets/img/icon/giant-heart.png" /> <small>{{ reputation.giant }} Giant Heart</small> {% endif %}
+          {% if reputation.masterpiece != nil %} <img class="lost-icon" src="/assets/img/icon/masterpiece.png" /><small>Masterpiece {{ reputation.masterpiece }}</small> {% endif %}
+          {% if reputation.omnium != nil %} <img class="lost-icon" src="/assets/img/icon/omnium.png" /> <small>Omnium Star {{ reputation.omnium }}</small> {% endif %}
         </td>
-        <td>{% if reputation.mount != nil %}Mount: {{ reputation.mount }} {% endif %}</td>
-        <td>{% if reputation.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" /> {{ reputation.card }} {% endif %}</td>
-        <td>{% if reputation.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" /> {{ reputation.island }} {% endif %}</td>
-        <td>{% if reputation.other != nil %}{{ reputation.other }} {% endif %}</td>
+        <td>{% if reputation.mount != nil %}<small>Mount: {{ reputation.mount }}</small> {% endif %}</td>
+        <td>{% if reputation.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" /> <small>{{ reputation.card }}</small> {% endif %}</td>
+        <td>{% if reputation.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" /> <small>{{ reputation.island }}</small> {% endif %}</td>
+        <td>{% if reputation.other != nil %}<small>{{ reputation.other }} </small>{% endif %}</td>
       </tr>
     {% endfor %}
   </tbody>
