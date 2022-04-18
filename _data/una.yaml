@@ -30,7 +30,7 @@
   rep6: 0
   silver: 13,000
   emote: "Pain"
-  potion: "Stat Increase"
+  stat: true
   craft: 
   collect: 
   mount: 
@@ -50,7 +50,7 @@
   rep6: 0
   silver: 13,000
   emote:
-  potion: "Crit"
+  crit: true
   craft: 
   collect: 
   mount: 
@@ -70,7 +70,7 @@
   rep6: 0
   silver: 13,000
   emote:
-  potion: "Courage"
+  courage: true
   craft: "Worship Bench"
   collect: 
   mount: 
@@ -90,7 +90,7 @@
   rep6: 0
   silver: 13,000
   emote:
-  potion: "Domination"
+  domination: true
   craft: 
   collect: "Masterpiece #10"
   mount: 
@@ -110,7 +110,7 @@
   rep6: 0
   silver: 13000
   emote: 
-  potion: "Vitality Increase"
+  vitality: true
   craft: 
   collect: 
   mount: 
@@ -130,7 +130,7 @@
   rep6: 0
   silver: 26000
   emote: 
-  potion: Wisdom
+  wisdom: true
   craft: 
   collect: 
   mount: 
@@ -150,7 +150,7 @@
   rep6: 0
   silver: 49000
   emote: 
-  potion: "Vitality Increase"
+  vitality: true
   craft: 
   collect: 
   mount: 
@@ -170,7 +170,7 @@
   rep6: 0
   silver: 26000
   emote: 
-  potion: "Vitality Increase"
+  vitality: true
   craft: 
   collect: 
   mount: 
@@ -190,7 +190,7 @@
   rep6: 0
   silver: 26000
   emote: 
-  potion: "Kindness"
+  kindness: true
   craft: "Rethramis-Style Large Fountain"
   collect: 
   mount: 
@@ -210,7 +210,7 @@
   rep6: 0
   silver: 26000
   emote: 
-  potion: "Stat Increase"
+  stat: true
   craft: 
   collect: 
   mount: 
@@ -230,7 +230,7 @@
   rep6: 0
   silver: 54000
   emote: 
-  potion: "Kindness"
+  kindness: true
   craft: 
   collect: "7th Giant's Heart"
   mount: 
@@ -250,7 +250,7 @@
   rep6: 0
   silver: 26,000
   emote: 
-  potion: "Kindness"
+  kindness: true
   craft: 
   collect: 
   mount: "Blauer Vogel"
@@ -270,7 +270,7 @@
   rep6: 0
   silver: 26000
   emote: 
-  potion: "Stat Increase"
+  stat: true
   craft: 
   collect: "Masterpiece #18"
   mount: 
@@ -291,7 +291,7 @@
   silver: 
   pirate: 34000
   emote: 
-  potion: "Swiftness"
+  swiftness: true
   craft: "Game Table"
   collect: 
   mount: 
@@ -311,7 +311,7 @@
   rep6: 0
   silver: 22,000
   emote: 
-  potion: "Vitality Increase"
+  vitality: true
   craft: "Brown Sunbed"
   collect: 
   mount: 
@@ -331,7 +331,7 @@
   rep6: 0
   silver: 26000
   emote: 
-  potion: "Charisma"
+  charisma: true
   craft: 
   collect: 
   mount: 
@@ -351,7 +351,7 @@
   rep6: 0
   silver: 29000
   emote: 
-  potion: "Vitality Increase"
+  vitality: true
   craft: 
   collect: 
   mount: 
@@ -371,7 +371,7 @@
   rep6: 0
   silver: 13000
   emote: 
-  potion: "Vitality Increase"
+  vitality: true
   craft: 
   collect: 
   mount: 
@@ -411,7 +411,7 @@
   rep6: 0
   silver: 56000 
   emote: 
-  potion: "Vitality Increase"
+  vitality: true
   craft: "Messenger Pigeon Post"
   collect: 
   mount: 
@@ -432,7 +432,8 @@
   silver: 
   pirate: 72000
   emote: 
-  potion: "Courage Stat Increase"
+  courage: true
+  stat: true
   craft: 
   collect: 
   mount: 
