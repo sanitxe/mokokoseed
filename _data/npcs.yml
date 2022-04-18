@@ -209,7 +209,7 @@
   id: 19743
   loc: "Island<br/>Panda Island"
   points: "17,800"
-  icon: common_gamenote_npc_img_72.
+  icon: common_gamenote_npc_img_72.png
   card: Puppa
   island: Panda Island Soul
   stat: true
@@ -234,7 +234,7 @@
   id: 19669
   loc: "Island<br/>Hope Island"
   points: "17,800"
-  icon: common_gamenote_npc_img_47.
+  icon: common_gamenote_npc_img_47.png
   card: Neth
   vitality: true
   map: "Magick Circle"
@@ -269,7 +269,7 @@
   id: 24514
   loc: "Rohendel<br/>Elzowin's Shade"
   points: "17,800"
-  icon: common_gamenote_npc_img_01_35.
+  icon: common_gamenote_npc_img_01_35.png
   card: Lenora
   stat: true
   
