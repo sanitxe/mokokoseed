@@ -1,22 +1,32 @@
-- id:
-  name: "Test"
-  days:  
-  quests: "Test"
-  rep1: 0
-  rep2: 0
-  rep3: 0
-  rep4: 0
-  rep5: 0
-  rep6: 0
-  silver: 
-  emote: 
-  potion: 
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
+#- id:
+#  name: "Test"
+#  days:  
+#  quests: "Test"
+#  rep1: 0
+#  rep2: 0
+#  rep3: 0
+#  rep4: 0
+#  rep5: 0
+#  rep6: 0
+#  silver: 
+#  emote: 
+#  stat:
+#  charisma:
+#  courage:
+#  crit:
+#  domination:
+#  kindness:
+#  specialization:
+#  swiftness:
+#  vitality:
+#  wisdom:
+#  craft: 
+#  masterpiece:
+#  giant:
+#  mount: 
+#  card: 
+#  island: 
+#  other: 
   
 - id:
   name: "Plague Doctor"
@@ -31,12 +41,6 @@
   silver: 13,000
   emote: "Pain"
   stat: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
 
 - id:
   name: "Poisonous Desert"
@@ -49,14 +53,7 @@
   rep5: 0
   rep6: 0
   silver: 13,000
-  emote:
   crit: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
 
 - id:
   name: "Bringing Peace to the Souls"
@@ -69,13 +66,8 @@
   rep5: 0
   rep6: 0
   silver: 13,000
-  emote:
   courage: true
   craft: "Worship Bench"
-  collect: 
-  mount: 
-  card: 
-  island: 
   other: "Phoenix Plume x6"
 
 - id:
@@ -89,14 +81,8 @@
   rep5: 0
   rep6: 0
   silver: 13,000
-  emote:
   domination: true
-  craft: 
-  collect: "Masterpiece #10"
-  mount: 
-  card: 
-  island: 
-  other: 
+  masterpiece: "#10"
   
 - id:
   name: "Cook"
@@ -109,14 +95,8 @@
   rep5: 0
   rep6: 0
   silver: 13000
-  emote: 
   vitality: true
-  craft: 
-  collect: 
-  mount: 
   card: "Naruni"
-  island: 
-  other: 
   
 - id:
   name: "Save the Forest"
@@ -129,14 +109,7 @@
   rep5: 0
   rep6: 0
   silver: 26000
-  emote: 
   wisdom: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
   
 - id:
   name: "Only the Strong Survive"
@@ -149,13 +122,7 @@
   rep5: 0
   rep6: 0
   silver: 49000
-  emote: 
   vitality: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
   other: "Golden Goblin Coin x30"
   
 - id:
@@ -169,14 +136,7 @@
   rep5: 0
   rep6: 0
   silver: 26000
-  emote: 
   vitality: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
   
 - id:
   name: "Future Insect Expert"
@@ -189,14 +149,8 @@
   rep5: 0
   rep6: 0
   silver: 26000
-  emote: 
   kindness: true
   craft: "Rethramis-Style Large Fountain"
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
   
 - id:
   name: "The Lake Spirit"
@@ -209,14 +163,7 @@
   rep5: 0
   rep6: 0
   silver: 26000
-  emote: 
   stat: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
   
 - id:
   name: "Killing the King"
@@ -229,14 +176,9 @@
   rep5: 0
   rep6: 0
   silver: 54000
-  emote: 
   kindness: true
-  craft: 
-  collect: "7th Giant's Heart"
-  mount: 
+  giant: "7th"
   card: "Tookalibur"
-  island: 
-  other: 
 
 - id:
   name: "Android Emancipation"
@@ -249,14 +191,8 @@
   rep5: 0
   rep6: 0
   silver: 26,000
-  emote: 
   kindness: true
-  craft: 
-  collect: 
   mount: "Blauer Vogel"
-  card: 
-  island: 
-  other: 
   
 - id:
   name: "Prisoner Release"
@@ -269,14 +205,8 @@
   rep5: 0
   rep6: 0
   silver: 26000
-  emote: 
   stat: true
-  craft: 
-  collect: "Masterpiece #18"
-  mount: 
-  card: 
-  island: 
-  other: 
+  masterpiece: "#18"
   
 - id:
   name: "Peyto"
@@ -290,14 +220,8 @@
   rep6: 0
   silver: 
   pirate: 34000
-  emote: 
   swiftness: true
   craft: "Game Table"
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
   
 - id:
   name: "Treasure of Gravis"
@@ -310,14 +234,8 @@
   rep5: 0
   rep6: 0
   silver: 22,000
-  emote: 
   vitality: true
   craft: "Brown Sunbed"
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other:
 
 - id:
   name: "Collect Scrap Iron"
@@ -330,14 +248,7 @@
   rep5: 0
   rep6: 0
   silver: 26000
-  emote: 
   charisma: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
 
 - id:
   name: "Weeping Sea"
@@ -350,13 +261,7 @@
   rep5: 0
   rep6: 0
   silver: 29000
-  emote: 
   vitality: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
   other: "Humpback Whale Oil"
 
 - id:
@@ -370,13 +275,7 @@
   rep5: 0
   rep6: 0
   silver: 13000
-  emote: 
   vitality: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
   other: "Full-scale Panda Disguise Set"
   
 - id:
@@ -390,14 +289,7 @@
   rep5: 150
   rep6: 0
   silver: 54000
-  emote: 
-  potion: 
-  craft: 
-  collect: 
   mount: "Red Moss Turtle"
-  card: 
-  island: 
-  other: 
     
 - id:
   name: "Lopang Inc."
@@ -410,13 +302,8 @@
   rep5: 0
   rep6: 0
   silver: 56000 
-  emote: 
   vitality: true
   craft: "Messenger Pigeon Post"
-  collect: 
-  mount: 
-  card: 
-  island: 
   other: "Melody of the Sea: Brahms"
   
 - id:
@@ -431,15 +318,297 @@
   rep6: 0
   silver: 
   pirate: 72000
-  emote: 
   courage: true
   stat: true
-  craft: 
-  collect: 
-  mount: 
-  card: 
-  island: 
-  other: 
+  
+- id:
+  name: "Astella Astronomical Society"
+  days: 7 
+  quests: "Generally Useless"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver:  13000
+  stat: true
+
+- id:
+  name: "Tender and Crispy"
+  days: 15 
+  quests: "I Can't Just Sit On My Hands"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  craft: "Half-Boiled Egg Chair"
+
+- id:
+  name: "A Stranded Ship"
+  days: 7
+  quests: "Replacement Parts"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13000
+  
+- id:
+  name: "Club Manager"
+  days: 16
+  quests: "Cocktail in Hand"
+  rep1: 10
+  rep2: 50
+  rep3: 100
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 29000
+  vitality: true
+
+- id:
+  name: "Back to Where It Belongs"
+  days: 15
+  quests: "Where It Belongs"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  stat: true
+  card: "Rubenstein del Orazio"
+
+- id:
+  name: "Eating with the Wolves"
+  days: 15
+  quests: "Wolf of Eternity"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  vitality: true
+  mount: "Wolf of Vanity"
+
+- id:
+  name: "Frozen Memories"
+  days: 15
+  quests: "Frozen Memories"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  charisma: true
+
+- id:
+  name: "The Cursed Ruins"
+  days: 7
+  quests: "The Cursed Ruins"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13000
+  endurance: true
+  masterpiece: "#9"
+  
+- id:
+  name: "Free-Randing the Rabbits"
+  days: 7
+  quests: "Anxious Mind"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13000
+  wisdom: true
+  card: "Lion Mask"
+
+- id:
+  name: "Wiping out the Horse Thieves"
+  days: 7
+  quests: "Die a Hundred Deaths"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 13000
+  courage: true
+
+- id:
+  name: "An Archaeologist's Request"
+  days: 15
+  quests: "An Archaeologist's Request"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  masterpiece: "#19"
+  stat: true
+
+- id:
+  name: "Kir's Favorite"
+  days: 15
+  quests: "Kir's Favorite"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  vitality: true
+
+- id:
+  name: "Pest Control"
+  days: 15
+  quests: "Pest Control"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  pirate: 30000
+  vitality: true
+  other: "Certificate of Pirate"
+  
+- id:
+  name: "Catch the Criminals"
+  days: 16
+  quests: "Crook Catcher"
+  rep1: 10
+  rep2: 50
+  rep3: 100
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  pirate: 32000 
+  stat: true
+
+- id:
+  name: "The New Book"
+  days: 17
+  quests: "Poetry in Motion"
+  rep1: 10
+  rep2: 60
+  rep3: 100
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 86000
+  island: "Fanstasm Island Soul"
+  
+- id:
+  name: "Potatoes, Sweet Potatoes, and Weeds"
+  days: 12
+  quests: "Some Necessary Weeding<br/>Mementos of the Dead<br/>Finding Food<br/>Needles and Threads"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 80
+  rep5: 0
+  rep6: 0
+  silver: 48000
+  other: "Golden Goblin Coin x60"
+  charisma: true
+
+- id:
+  name: "Ominous Pumpkins"
+  days: 30
+  quests: "Ominous Pumpkins"
+  rep1: 70
+  rep2: 80
+  rep3: 150
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 151000
+  expertise: true
+  stat: true
+  vitality: true
+  craft: "Pumpkin Scarecrow"
+  
+- id:
+  name: "A New Dish"
+  days: 15
+  quests: "A Taste of Slime"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 26000
+  other: "Jelly Coin x3000"
+
+- id:
+  name: "School Is Fun"
+  days: 15
+  quests: "Totopia Tutor for a Day"
+  rep1: 10
+  rep2: 40
+  rep3: 100
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 27000
+  wisdom: true
+
+- id:
+  name: "Insects in the Grass Fields"
+  days: 15
+  quests: "Ruffians in the Ground"
+  rep1: 30
+  rep2: 40
+  rep3: 80
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 75000
+  giant: "11th"
+  stat: true
+  emote: "Whistle"
+
+- id:
+  name: "Examining the Ship"
+  days: 7
+  quests: "What's in the Ship?"
+  rep1: 10
+  rep2: 20
+  rep3: 40
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 22000
+  stat: true
+  other: "Mederiel's Letter"
+
+
+  
+  
   
   
   
