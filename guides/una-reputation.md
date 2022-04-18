@@ -111,13 +111,13 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             {
                               label: 'Kindness',
                               value: function(rowData, rowIdx){
-                                  return rowData[4].includes("Kindness");
+                                  return rowData[5].includes("Kindness");
                               },
                             },
                             {
                             label: 'Charisma',
                             value: function(rowData, rowIdx){
-                                return rowData[4] == 'Charisma>';
+                                return rowData[5] == 'Charisma>';
                               },
                             },
                             {
