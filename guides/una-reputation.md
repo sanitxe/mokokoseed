@@ -117,6 +117,18 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                         header: 'Reward Type',
                         options: [
                             {
+                              label: 'Crafting Recipe',
+                              value: function(rowData, rowIdx){
+                                  return rowData[6] != "";
+                              },
+                            },
+                            {
+                              label: 'Emote',
+                              value: function(rowData, rowIdx){
+                                  return rowData[4] != "";
+                              },
+                            },
+                            {
                               label: 'Mount',
                               value: function(rowData, rowIdx){
                                   return rowData[8] != "";
