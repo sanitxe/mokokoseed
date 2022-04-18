@@ -786,3 +786,22 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane input.dtsp-pane
   opacity: .6;
   cursor: pointer !important;
 }
+
+.dark div.dtsp-panesContainer {
+  border: solid thin #2b2b2b;
+  background-color: #282828;
+}
+
+div.dtsp-panesContainer {
+  clear: both;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  border: solid thin #f2f2f2;
+  padding: 20px 10px;
+  background-color: #f9f7f799;
+}
+
+.dtsp-paneButton.dtsp-collapseButton {
+  color: inherit;
+}
