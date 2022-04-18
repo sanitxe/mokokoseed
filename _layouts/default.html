@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     
+    
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/searchpanes/2.0.0/css/searchPanes.dataTables.min.css"/>   
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/select/1.3.4/css/select.dataTables.min.css"/>   
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.css"/>    
     <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
     
@@ -26,11 +30,6 @@
   </head>
   <body>
   <script>
-  /**
-   * Set `dark` class on body if dark mode should be enabled.
-   * Has to be at top of `<body>` so that body exists, and happens
-   * as soon as possible.
-   */
   if (localStorage.getItem('darkmode') === 'true') {
     document.body.className = 'dark';
   }
@@ -201,56 +200,33 @@
     <script>
   $(function() {
 
-    // Toggleable dark mode
     (function darkMode() {
 
-      /**
-       * Define the elements we will be working with.
-       * ---
-       * NOTE: #id selectors are used over .classes because jQuery will use the
-       *       .getElementByID() method to traverse the DOM, which is much faster.
-       */
 
       var $toggleButton = $('#js-toggle-dark-mode');
       var $body = $('body');
 
-      // Set up a function to be used by the click event on $toggleButton
+
       function toggleDarkMode() {
 
-        // Check if body does not have the `dark` class
+
         if (!$body.hasClass('dark')) {
 
-          // If it doesn't, it should when this button is clicked, so add it
+
           $body.addClass('dark');
 
-          /**
-           * We will also add the "true" state to a localStorage item. This is the
-           * property that tells the browser that dark mode should be set.
-           * ---
-           * NOTE: localStorage will only store strings, we can use "true" and
-           *       "false" as values to determine which state should be set.
-           */
 
           localStorage.setItem('darkmode', 'true');
 
         } else {
 
-          // If body does have the `dark` class, remove it when the toggle is clicked
           $body.removeClass('dark');
 
-          // Also set the storage item to "false"
           localStorage.removeItem('darkmode');
 
         }
 
       }
-
-      /**
-       * Fire the toggleDarkMode function on each click.
-       * ---
-       * NOTE: This is called last so that the script will first check against
-       *       other conditions, before doing any actual toggling.
-       */
 
       $toggleButton.on('click', toggleDarkMode);
 
