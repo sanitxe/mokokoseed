@@ -25,7 +25,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
     <tr>
       <th class="no-sort"></th>
       <th class="npc-icon-column no-sort"></th>
-      <th>Name</th>
+      <th style="width: 150px;">Name</th>
       <th>Location</th>
       <th>Total Rapport</th>
       <th>Potion</th>
