@@ -727,10 +727,6 @@ color: inherit;
   background: #2b2b2b !important;
   border-bottom: none;
 }
-.dtsp-searchPanes button {
-  margin: 0;
-  padding: 0;
-}
 .dark .dtsp-searchPanes button {
   color:white;
 }
@@ -760,21 +756,10 @@ table.dataTable tbody tr.selected {
   border: 2px solid #353535;
   border-radius: 3px;
 }
-div.dtsp-topRow button.dtsp-collapseButton span.dtsp-caret {
-  position: relative;
-  top: 6px;
-  display: inline-block;
-}
 
 .dark div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane input.dtsp-paneInputButton:hover, .dark div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane button.dtsp-paneButton:hover {
   background-color: #f0f0f00f;
   border-radius: 2px;
   cursor: pointer;
   color: white;
-}
-
-div.dtsp-topRow button.dtsp-collapseButton.dtsp-rotated {
-  transform: rotate(180deg);
-  height: auto !important;
-  padding-bottom: 4px !important;
 }
