@@ -780,3 +780,9 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane input.dtsp-pane
 .dark .dtsp-paneInputButton.dtsp-search {
   color: white !important;
 }
+
+.dark div.dtsp-topRow.dtsp-bordered:hover {
+  background-color: #f0f0f024;
+  opacity: .6;
+  cursor: pointer !important;
+}
