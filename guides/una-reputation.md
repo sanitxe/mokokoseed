@@ -163,6 +163,12 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             value: function(rowData, rowIdx){
                                 return rowData[10] != "";
                               },
+                            },
+                            {
+                              label: 'Other',
+                              value: function(rowData, rowIdx){
+                                  return rowData[11] != "";
+                              },
                             }
                           ]
                       },
