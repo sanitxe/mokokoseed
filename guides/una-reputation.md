@@ -79,7 +79,6 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
 <script>
       $(document).ready( function () {
           $('#sortUna').dataTable( {
-              "scrollX": true
               "paging": false,
               responsive: {
                   details: {
