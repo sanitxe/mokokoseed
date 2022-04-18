@@ -734,7 +734,7 @@ color: inherit;
 .dark .dtsp-searchPanes button {
   color:white;
 }
-.dark .dtsp-paneInputButton .dtsp-search::placeholder {
+.dark ::placeholder {
   color: white !important;
 }
 
@@ -764,4 +764,11 @@ div.dtsp-topRow button.dtsp-collapseButton span.dtsp-caret {
   position: relative;
   top: 6px;
   display: inline-block;
+}
+
+.dark div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane input.dtsp-paneInputButton:hover, .dark div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane button.dtsp-paneButton:hover {
+  background-color: #f0f0f00f;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
 }
