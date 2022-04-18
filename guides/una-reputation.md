@@ -110,6 +110,29 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                           ]
                         },
                       {
+                        header: 'Reward Type',
+                        options: [
+                            {
+                              label: 'Mount',
+                              value: function(rowData, rowIdx){
+                                  return rowData[8] == nil;
+                              },
+                            },
+                            {
+                            label: 'Pirate Coin',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes('pirate');
+                              },
+                            },
+                            {
+                            label: 'Gold',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes('gold');
+                              },
+                            }
+                          ]
+                      },
+                      {
                         header: 'Increase Potion',
                         options: [
                             {
