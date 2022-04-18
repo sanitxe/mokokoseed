@@ -80,7 +80,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
       $(document).ready( function () {
           $('#sortUna').dataTable( {
               searchPanes: {
-                  columns: [],
+                  columns: [1],
                   panes: [{
                       header: 'Coin Reward',
                       options: [{
