@@ -737,3 +737,7 @@ color: inherit;
 .dark .dtsp-paneInputButton .dtsp-search::placeholder {
   color: white;
 }
+
+table.dataTable tbody tr.selected {
+  background-color: $darker-accent-color;
+}
