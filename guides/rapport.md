@@ -65,7 +65,9 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
           {% if npcs.swiftness == true %}<img class="lost-icon" src="/assets/img/icon/Swiftness.png" /> Swiftness<br />{% endif %}
           {% if npcs.specialization == true %}<img class="lost-icon" src="/assets/img/icon/Specialization Increase.png" /> Specialization<br />{% endif %}
           {% if npcs.vitality == true %}<img class="lost-icon" src="/assets/img/icon/Vitality Increase.png" /> Vitality<br />{% endif %}
+          {% if npcs.greater-vitality == true %}<img class="lost-icon" src="/assets/img/icon/Greater Vitality.png" /> Greater Vitality<br />{% endif %}
           {% if npcs.stat == true %}<img class="lost-icon" src="/assets/img/icon/Stat Increase.png" /> Stat Increase<br />{% endif %}
+          {% if npcs.greater-stat == true %}<img class="lost-icon" src="/assets/img/icon/Greater Stat Increase.png" /> Greater Stat<br />{% endif %}
           {% if npcs.skill == true %}<img class="lost-icon" src="/assets/img/icon/Skill Point.png" /> Skill Point<br />{% endif %}
           </small>
         </td>
