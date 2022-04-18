@@ -143,7 +143,7 @@
   
 - id:
   name: "Future Insect Expert"
-  days:  15
+  days: 15
   quests: "A Boy's Dream"
   rep1: 30
   rep2: 40
@@ -157,7 +157,7 @@
   
 - id:
   name: "The Lake Spirit"
-  days:  15
+  days: 15
   quests: "Spirit Jars"
   rep1: 30
   rep2: 40
@@ -185,7 +185,7 @@
 
 - id:
   name: "Android Emancipation"
-  days:  15
+  days: 15
   quests: "Android Emancipation"
   rep1: 30
   rep2: 40
@@ -255,7 +255,7 @@
 
 - id:
   name: "Weeping Sea"
-  days:  14
+  days: 14
   quests: "Whale Tale<br />Whalekeeper's Record<br />Whale Watching"
   rep1: 10
   rep2: 50
@@ -269,7 +269,7 @@
 
 - id:
   name: "The Island of Pandas"
-  days:  6
+  days: 6
   quests: "Panda Sitter<br />Baby Panda And Me"
   rep1: 10
   rep2: 20
@@ -283,7 +283,7 @@
   
 - id:
   name: "Sinking Island"
-  days:  26
+  days: 26
   quests: "Gathering Slumberries<br />Is It Hungry?<br />Sloppy Slimes<br />A Tidy Place to Rest<br />Emergency Preparedness"
   rep1: 10
   rep2: 20
