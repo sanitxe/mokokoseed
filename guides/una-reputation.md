@@ -38,7 +38,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td> 
           <img class="lost-icon" src="/assets/img/icon/una.png" /> {{ reputation.name }}
           <br />
-          <small>{{ reputation.quests }}</small>
+          <small class="una-small">{{ reputation.quests }}</small>
         </td>
         <td> 
           <span data-toggle="tooltip" data-placement="top" title="Minimum days to acquire.">{{ reputation.days }}</span>
@@ -67,7 +67,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
           {% if reputation.skill == true %}<img class="lost-icon" src="/assets/img/icon/Skill Point.png" /> Skill Point<br />{% endif %}
           </small>
         </td>
-        <td>{% if reputation.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> <small>Crafting Recipe: {{ reputation.craft }}</small>{% endif %}</td>
+        <td>{% if reputation.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> <small>{{ reputation.craft }}</small>{% endif %}</td>
         <td>
           {% if reputation.giant != nil %} <img class="lost-icon" src="/assets/img/icon/giant-heart.png" /> <small>{{ reputation.giant }} Giant Heart</small> {% endif %}
           {% if reputation.masterpiece != nil %} <img class="lost-icon" src="/assets/img/icon/masterpiece.png" /><small>Masterpiece {{ reputation.masterpiece }}</small> {% endif %}
