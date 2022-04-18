@@ -1,13 +1,13 @@
 - name: Vivian
   id: 13030
-  loc: "East Luterra - Luterra Castle"
+  loc: "East Luterra<br/>Luterra Castle"
   points: "5,900"
   icon: common_gamenote_npc_img_38.png
   card: "Vivian"
 
 - name: Totoma
   id: 21162
-  loc: "Tortoyk - Mokoko Village"
+  loc: "Tortoyk<br/>Mokoko Village"
   points: "5,900"
   icon: common_gamenote_npc_img_35.png
   card: Totoma
@@ -15,14 +15,14 @@
 
 - name: Sorang
   id: 20308
-  loc: "Anikka - Prisma Valley"
+  loc: "Anikka<br/>Prisma Valley"
   points: "5,900"
   icon: common_gamenote_npc_img_02_26.png
   vitality: true
 
 - name: Siera
   id: 11353
-  loc: "Rethramis - Prideholme"
+  loc: "Rethramis<br/>Prideholme"
   points: "5,900"
   icon: common_gamenote_npc_img_01_36.png
   craft: Festival Iron Pot
@@ -31,7 +31,7 @@
   
 - name: Sapiano the Fox
   id: 28131
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "5,900"
   icon: freindshipnpc_img_123.png
   card: Sapiano the Fox
@@ -39,7 +39,7 @@
   
 - name: Ryeon's Ghost
   id: 20372
-  loc: "Anikka - Melody Forest"
+  loc: "Anikka<br/>Melody Forest"
   points: "5,900"
   icon: common_gamenote_npc_img_02_34.png
   courage: true
@@ -47,7 +47,7 @@
   
 - name: Refugee Pamil
   id: 19312
-  loc: "Island - Runaways Island"
+  loc: "Island<br/>Runaways Island"
   points: "5,900"
   icon: common_gamenote_npc_img_02_44.png
   card: Pamil
@@ -55,14 +55,14 @@
   
 - name: Rancher Jude
   id: 16013
-  loc: "Shushire - Frozen Sea"
+  loc: "Shushire<br/>Frozen Sea"
   points: "5,900"
   icon: common_gamenote_npc_img_02_3.png
   sailor: Jude
   
 - name: Orne
   id: 18266
-  loc: "Arthetine - Totrich"
+  loc: "Arthetine<br/>Totrich"
   points: "5,900"
   icon: common_gamenote_npc_img_02_2.png
   sailor: Orne
@@ -70,7 +70,7 @@
   
 - name: Orelda
   id: 24207
-  loc: "Rohendel - Glass Lotus Lake"
+  loc: "Rohendel<br/>Glass Lotus Lake"
   points: "5,900"
   icon: common_gamenote_npc_img_02_30.png
   wisdom: true
@@ -79,14 +79,14 @@
   
 - name: Norin Nahun
   id: 14010
-  loc: "East Luterra - Dyorika Plain"
+  loc: "East Luterra<br/>Dyorika Plain"
   points: "5,900"
   icon: common_gamenote_npc_img_40.png
   vitality: true
   
 - name: Nabi
   id: 41034
-  loc: "Feiton - Kalaja"
+  loc: "Feiton<br/>Kalaja"
   points: "5,900"
   icon: freindshipnpc_img_96.png
   card: Nabi
@@ -94,7 +94,7 @@
   
 - name: Morina
   id: 11656
-  loc: "Yudia - Ozhorn Hill"
+  loc: "Yudia<br/>Ozhorn Hill"
   points: "5,900"
   icon: common_gamenote_npc_img_01_17.png
   card: Morina
@@ -102,7 +102,7 @@
   
 - name: Hariya
   id: 28050
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "5,900"
   icon: freindshipnpc_img_124.png
   card: Hariya
@@ -110,21 +110,21 @@
   
 - name: Graymoon Dath
   id: 16401
-  loc: "Shushire - Iceblood Plateau"
+  loc: "Shushire<br/>Iceblood Plateau"
   points: "5,900"
   icon: common_gamenote_npc_img_4.png
   vitality: true
   
 - name: Elia Nahun
   id: 14009
-  loc: "East Luterra - Dyorika Plain"
+  loc: "East Luterra<br/>Dyorika Plain"
   points: "5,900"
   icon: common_gamenote_npc_img_39.png
   charisma: true
   
 - name: Dakudaku
   id: 21133
-  loc: "Tortoyk - Mokoko Village"
+  loc: "Tortoyk<br/>Mokoko Village"
   points: "5,900"
   icon: common_gamenote_npc_img_02_0.png
   card: Dakudaku
@@ -132,7 +132,7 @@
   
 - name: Apprentice Blacksmith Turner
   id: 14012
-  loc: "East Luterra - Dyorika Plain"
+  loc: "East Luterra<br/>Dyorika Plain"
   points: "5,900"
   icon: common_gamenote_npc_img_41.png
   vitality: true
@@ -140,14 +140,14 @@
   
 - name: Adventurer Selfa
   id: 22036
-  loc: "North Vern - Parna Forest"
+  loc: "North Vern<br/>Parna Forest"
   points: "5,900"
   icon: common_gamenote_npc_img_02_25.png
   stat: true
   
 - name: Yuul
   id: 20381
-  loc: "Anikka - Port City Changhun"
+  loc: "Anikka<br/>Port City Changhun"
   points: "17,800"
   icon: common_gamenote_npc_img_02_29.png
   charisma: true
@@ -156,7 +156,7 @@
   
 - name: Yom the Squirrel
   id: 28031
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "17,800"
   icon: freindshipnpc_img_122.png
   card: Yom the Squirrel
@@ -164,7 +164,7 @@
   
 - name: Toto Elder
   id: 19112
-  loc: "Island - Toto Silver Island"
+  loc: "Island<br/>Toto Silver Island"
   points: "17,800"
   icon: common_gamenote_npc_img_02_35.png
   card: Totoiki
@@ -173,7 +173,7 @@
   
 - name: Thunder
   id: 11624
-  loc: "Yudia - Saland Hill"
+  loc: "Yudia<br/>Saland Hill"
   points: "17,800"
   icon: common_gamenote_npc_img_01_47.png
   tome: true
@@ -181,7 +181,7 @@
   
 - name: Tanay
   id: 19600
-  loc: "Island - Peyto"
+  loc: "Island<br/>Peyto"
   points: "17,800"
   icon: common_gamenote_npc_img_87.png
   card: Tanay
@@ -189,7 +189,7 @@
   
 - name: Stranded Temma
   id: 19325
-  loc: "Island - White Wave Island"
+  loc: "Island<br/>White Wave Island"
   points: "17,800"
   icon: common_gamenote_npc_img_02_41.png
   card: Temma
@@ -198,7 +198,7 @@
   
 - name: Samly
   id: 19625
-  loc: "Island - Glacier Isle"
+  loc: "Island<br/>Glacier Isle"
   points: "17,800"
   icon: common_gamenote_npc_img_88.png
   card: Samly
@@ -207,7 +207,7 @@
   
 - name: Puppa
   id: 19743
-  loc: "Island - Panda Island"
+  loc: "Island<br/>Panda Island"
   points: "17,800"
   icon: common_gamenote_npc_img_72.
   card: Puppa
@@ -216,7 +216,7 @@
   
 - name: Poppy
   id: 16514
-  loc: "Shushire - Icewing Heights"
+  loc: "Shushire<br/>Icewing Heights"
   points: "17,800"
   icon: common_gamenote_npc_img_02_40.png
   mount: Shadow Wolf
@@ -225,14 +225,14 @@
   
 - name: Payla
   id: 22057
-  loc: "North Vern - Vernese Forest"
+  loc: "North Vern<br/>Vernese Forest"
   points: "17,800"
   icon: common_gamenote_npc_img_02_43.png
   card: Payla
   
 - name: Neth
   id: 19669
-  loc: "Island - Hope Island"
+  loc: "Island<br/>Hope Island"
   points: "17,800"
   icon: common_gamenote_npc_img_47.
   card: Neth
@@ -241,7 +241,7 @@
   
 - name: Mokamoka
   id: 21161
-  loc: "Tortoyk - Mokoko Village"
+  loc: "Tortoyk<br/>Mokoko Village"
   points: "17,800"
   icon: common_gamenote_npc_img_34.png
   stat: true
@@ -250,7 +250,7 @@
   
 - name: Mercenary Zeira
   id: 18156
-  loc: "Arthetine - Origins of Stern"
+  loc: "Arthetine<br/>Origins of Stern"
   points: "17,800"
   icon: common_gamenote_npc_img_01_33.png
   card: Zeira
@@ -258,7 +258,7 @@
   
 - name: Levi
   id: 41130
-  loc: "Feiton - Kalaja"
+  loc: "Feiton<br/>Kalaja"
   points: "17,800"
   icon: freindshipnpc_img_95.png
   card: Levi
@@ -267,7 +267,7 @@
   
 - name: Lenora
   id: 24514
-  loc: "Rohendel - Elzowin's Shade"
+  loc: "Rohendel<br/>Elzowin's Shade"
   points: "17,800"
   icon: common_gamenote_npc_img_01_35.
   card: Lenora
@@ -275,7 +275,7 @@
   
 - name: Gobius XXIV
   id: 19383
-  loc: "Island - Goblin Island"
+  loc: "Island<br/>Goblin Island"
   points: "17,800"
   icon: common_gamenote_npc_img_02_13.png
   card: Gobius XXIV
@@ -283,7 +283,7 @@
   
 - name: Gideon
   id: 22025
-  loc: "North Vern - Rania Village"
+  loc: "North Vern<br/>Rania Village"
   points: "17,800"
   icon: common_gamenote_npc_img_01_5.png
   card: Gideon
@@ -291,7 +291,7 @@
   
 - name: Future Millionnaire Zenri
   id: 19324
-  loc: "Island - Liebeheim"
+  loc: "Island<br/>Liebeheim"
   points: "17,800"
   icon: common_gamenote_npc_img_02_23.png
   card: Zenri
@@ -299,7 +299,7 @@
   
 - name: Daybreaker Javern
   id: 16105
-  loc: "Shushire - Rigens Village"
+  loc: "Shushire<br/>Rigens Village"
   points: "17,800"
   icon: common_gamenote_npc_img_03_3.png
   card: Javern
@@ -307,7 +307,7 @@
   
 - name: Dancer Imar
   id: 26452
-  loc: "Yorn - Great Castle"
+  loc: "Yorn<br/>Great Castle"
   points: "17,800"
   icon: freindshipnpc_img_88.png
   card: Imar
@@ -315,7 +315,7 @@
   
 - name: Berver
   id: 28140
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "17,800"
   icon: freindshipnpc_img_121.png
   card: Berver
@@ -323,7 +323,7 @@
   
 - name: Bellita
   id: 19656
-  loc: "Island - Notos Island"
+  loc: "Island<br/>Notos Island"
   points: "17,800"
   icon: common_gamenote_npc_img_48.png
   card: Bellita
@@ -340,7 +340,7 @@
   
 - name: Anabel
   id: 22026
-  loc: "North Vern - Rania Village"
+  loc: "North Vern<br/>Rania Village"
   points: "17,800"
   icon: common_gamenote_npc_img_01_37.png
   vitality: true
@@ -349,7 +349,7 @@
   
 - name: Albion
   id: 28141
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "17,800"
   icon: freindshipnpc_img_120.png
   stat: true
@@ -357,14 +357,14 @@
   
 - name: Neria
   id: 18142
-  loc: "Arthetine - Origins of Stern"
+  loc: "Arthetine<br/>Origins of Stern"
   points: "37,900"
   icon: freindshipnpc_img_49.png
   card: Stern Neria
   
 - name: Neria
   id: 15115
-  loc: "East Luterra - Wavestrand Port"
+  loc: "East Luterra<br/>Wavestrand Port"
   points: "37,900"
   icon: freindshipnpc_img_46.png
   card: Wavestrand Port Neria
@@ -372,7 +372,7 @@
   
 - name: Neria
   id: 13087
-  loc: "East Luterra - Luterra Castle"
+  loc: "East Luterra<br/>Luterra Castle"
   points: "37,900"
   icon: freindshipnpc_img_43.png
   card: Luterra Castle Neria
@@ -381,7 +381,7 @@
   
 - name: Neria
   id: 11264
-  loc: "Rethramis - Prideholme"
+  loc: "Rethramis<br/>Prideholme"
   points: "37,900"
   icon: freindshipnpc_img_40.png
   card: Prideholme Neria
@@ -389,7 +389,7 @@
   
 - name: Nagi
   id: 28123
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "37,900"
   icon: freindshipnpc_img_111.png
   card: Nagi
@@ -398,7 +398,7 @@
   
 - name: Liru
   id: 28124
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "37,900"
   icon: freindshipnpc_img_114.png
   card: Liru
@@ -408,7 +408,7 @@
   
 - name: Krissa
   id: 19803
-  loc: "Island - Sublime Isle"
+  loc: "Island<br/>Sublime Isle"
   points: "37,900"
   icon: freindshipnpc_img_52.png
   stat: true
@@ -417,7 +417,7 @@
   
 - name: Jahara
   id: 28099
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "37,900"
   icon: freindshipnpc_img_108.png
   card: Jahara
@@ -427,7 +427,7 @@
   
 - name: Ezrebet
   id: 19804
-  loc: "Island - Sublime Isle"
+  loc: "Island<br/>Sublime Isle"
   points: "37,900"
   icon: freindshipnpc_img_55.png
   stat: true
@@ -437,7 +437,7 @@
   
 - name: Blue-Eyed Calvasus
   id: 19767
-  loc: "Island - Hypnos's Eyes"
+  loc: "Island<br/>Hypnos's Eyes"
   points: "37,900"
   icon: freindshipnpc_img_58.png
   vitality: true
@@ -448,7 +448,7 @@
   
 - name: Bastian
   id: 18030
-  loc: "Arthetine - Origins of Stern"
+  loc: "Arthetine<br/>Origins of Stern"
   points: "37,900"
   icon: freindshipnpc_img_61.png
   stat: true
@@ -457,7 +457,7 @@
   
 - name: Zinnervale
   id: 51500
-  loc: "Island - Illusion Bamboo Island"
+  loc: "Island<br/>Illusion Bamboo Island"
   points: "57,800"
   icon: freindshipnpc_img_102.png
   stat: true
@@ -466,7 +466,7 @@
   
 - name: Nia
   id: 28100
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "57,800"
   icon: freindshipnpc_img_105.png
   card: Nia
@@ -476,7 +476,7 @@
   
 - name: Shana
   id: 28122
-  loc: "Punika - Nia Village"
+  loc: "Punika<br/>Nia Village"
   points: "57,800"
   icon: freindshipnpc_img_117.png
   card: Shana
@@ -485,7 +485,7 @@
   
 - name: Neria
   id: 26116
-  loc: "Yorn - Great Castle"
+  loc: "Yorn<br/>Great Castle"
   points: "57,800"
   icon: freindshipnpc_img_82.png
   courage: true
@@ -495,7 +495,7 @@
   
 - name: Lutia
   id: 41003
-  loc: "Feiton - Kalaja"
+  loc: "Feiton<br/>Kalaja"
   points: "57,800"
   icon: freindshipnpc_img_92.png
   card: Lutia
@@ -504,7 +504,7 @@
   
 - name: Kaysarr
   id: 26027
-  loc: "Yorn - Great Castle"
+  loc: "Yorn<br/>Great Castle"
   points: "57,800"
   icon: freindshipnpc_img_85.png
   wisdom: true
@@ -513,7 +513,7 @@
   
 - name: Jederico
   id: 40157
-  loc: "Feiton - Nameless Valley"
+  loc: "Feiton<br/>Nameless Valley"
   points: "57,800"
   icon: freindshipnpc_img_89.png
   courage: true
@@ -523,7 +523,7 @@
   
 - name: Thirain
   id: 13001
-  loc: "East Luterra - Luterra Castle"
+  loc: "East Luterra<br/>Luterra Castle"
   points: "77,700"
   icon: freindshipnpc_img_5.png
   sail: Solitude
@@ -533,7 +533,7 @@
   
 - name: Cals
   id: 15002
-  loc: "East Luterra - Wavestrand Port"
+  loc: "East Luterra<br/>Wavestrand Port"
   points: "77,700"
   icon: freindshipnpc_img_25.png
   stat: true
@@ -543,7 +543,7 @@
   
 - name: Blackfang
   id: 19118
-  loc: "Island - Blackfang's Den"
+  loc: "Island<br/>Blackfang's Den"
   points: "77,700"
   icon: freindshipnpc_img_10.png
   sail: Unity
@@ -564,7 +564,7 @@
   
 - name: Azena
   id: 24101
-  loc: "Rohendel - Rothun"
+  loc: "Rohendel<br/>Rothun"
   points: "77,700"
   icon: freindshipnpc_img_72.png
   charisma: true
@@ -575,7 +575,7 @@
   
 - name: Avele
   id: 25002
-  loc: "North Vern - Vern Castle"
+  loc: "North Vern<br/>Vern Castle"
   points: "77,700"
   icon: freindshipnpc_img_64.png
   vitality: true
@@ -583,7 +583,7 @@
   
 - name: Nineveh
   id: 51385
-  loc: "Island - Whispering Islet"
+  loc: "Island<br/>Whispering Islet"
   points: "102,200"
   icon: freindshipnpc_img_97.png
   stat: true
@@ -594,7 +594,7 @@
   
 - name: Mari
   id: 19666
-  loc: "Island - Eternity Isle"
+  loc: "Island<br/>Eternity Isle"
   points: "102,200"
   icon: freindshipnpc_img_20.png
   stat: true
@@ -605,7 +605,7 @@
   
 - name: Sasha
   id: 18031
-  loc: "Arthetine - Origins of Stern"
+  loc: "Arthetine<br/>Origins of Stern"
   points: "103,700"
   icon: freindshipnpc_img_15.png
   card: Sasha
@@ -614,7 +614,7 @@
   
 - name: Ealyn
   id: 25001
-  loc: "North Vern - Vern Castle"
+  loc: "North Vern<br/>Vern Castle"
   points: "103,700"
   icon: freindshipnpc_img_30.png
   card: Ealyn
