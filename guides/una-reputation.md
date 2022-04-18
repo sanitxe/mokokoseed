@@ -47,10 +47,10 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
           {% if reputation.silver > 0 %}{{ reputation.silver }} <img class="lost-icon" src="/assets/img/icon/silver.png" />{% endif %}
           {% if reputation.pirate > 0 %}{{ reputation.pirate }} <img class="lost-icon" src="/assets/img/icon/pirate.png" />{% endif %}
           {% if reputation.gold > 0 %}{{ reputation.gold }} <img class="lost-icon" src="/assets/img/icon/gold.png" />{% endif %}
-          <span style="display:none">{% if reputation.silver > 0 %}silver{% endif %} {% if reputation.pirate > 0 %}pirate{% endif %} {% if reputation.gold > 0 %}gold{% endif %}</span>
         </td>
         <td>{% if reputation.emote != nil %}<img class="lost-icon" src="/assets/img/icon/emote.png" /> {{ reputation.emote }}{% endif %}</td>
         <td>
+          <span style="display:none">{% if reputation.silver > 0 %}silver{% endif %} {% if reputation.pirate > 0 %}pirate{% endif %} {% if reputation.gold > 0 %}gold{% endif %}</span>
           {% if reputation.charisma == true %}<img class="lost-icon" src="/assets/img/icon/Charisma.png" /> Charisma<br />{% endif %}
           {% if reputation.wisdom == true %}<img class="lost-icon" src="/assets/img/icon/Wisdom.png" /> Wisdom<br />{% endif %}
           {% if reputation.courage == true %}<img class="lost-icon" src="/assets/img/icon/Courage.png" /> Courage<br />{% endif %}
@@ -92,19 +92,19 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             {
                               label: 'Silver',
                               value: function(rowData, rowIdx){
-                                  return rowData[4].includes('<img class="lost-icon" src="/assets/img/icon/silver.png">');
+                                  return rowData[5].includes('silver');
                               },
                             },
                             {
                             label: 'Pirate Coin',
                             value: function(rowData, rowIdx){
-                                return rowData[4].includes('<img class="lost-icon" src="/assets/img/icon/pirate.png">');
+                                return rowData[5].includes('pirate');
                               },
                             },
                             {
                             label: 'Gold',
                             value: function(rowData, rowIdx){
-                                return rowData[4].includes('<img class="lost-icon" src="/assets/img/icon/gold.png">');
+                                return rowData[5].includes('gold');
                               },
                             }
                           ]
