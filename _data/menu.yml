@@ -7,7 +7,7 @@ toc:
         url: /guides/islands
       - page: "<img src='/assets/img/icon/icon_ship_1.png'> Astray Crafting Guide"
         url: /guides/astray
-      - page: "<img src='/assets/img/icon/una.png'> Una's Reputation Tracker <span class="badge badge-secondary">New</span>"
+      - page: "<img src='/assets/img/icon/una.png'> Una's Reputation Tracker <span class='badge badge-secondary'>New</span>"
         url: /guides/una-reputation
   - title: Extra
     subfolderitems:
