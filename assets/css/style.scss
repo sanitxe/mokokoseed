@@ -342,6 +342,10 @@ td i {
   border-bottom: 1px solid #282828 !important;
 }
 
+.dark table.dataTable.no-footer {
+  border-bottom: 1px solid #777;
+}
+
 .dark table.dataTable.stripe tbody tr.odd, .dark table.dataTable.display tbody tr.odd {
   background-color: #222;
 }
