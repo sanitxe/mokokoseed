@@ -772,3 +772,9 @@ div.dtsp-topRow button.dtsp-collapseButton span.dtsp-caret {
   cursor: pointer;
   color: white;
 }
+
+div.dtsp-topRow button.dtsp-collapseButton.dtsp-rotated {
+  transform: rotate(180deg);
+  height: auto !important;
+  padding-bottom: 4px !important;
+}
