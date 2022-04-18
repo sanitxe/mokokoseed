@@ -719,3 +719,18 @@ color: inherit;
 .dark input[type="search"] {
     color: white;
 }
+.dark div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_wrapper {
+  border: 2px solid #353535;
+  border-radius: 4px;
+}
+.dark div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody {
+  background: #2b2b2b !important;
+  border-bottom: none;
+}
+.dtsp-searchPanes button {
+  margin: 0;
+  padding: 0;
+}
+.dark .dtsp-searchPanes button {
+  color:white;
+}
