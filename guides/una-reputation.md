@@ -51,14 +51,14 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td>
           {% if reputation.stat == true %}<img class="lost-icon" src="/assets/img/icon/Stat Increase.png" /> Stat Increase{% endif %}
           {% if reputation.charisma == true %}<img class="lost-icon" src="/assets/img/icon/Charisma.png" /> Charisma{% endif %}
-          {% if reputation.courage == true %}<img class="lost-icon" src="/assets/img/icon/Courage" /> Courage{% endif %}
-          {% if reputation.crit == true %}<img class="lost-icon" src="/assets/img/icon/Crit" /> Crit{% endif %}
-          {% if reputation.domination == true %}<img class="lost-icon" src="/assets/img/icon/Domination" /> Domination{% endif %}
-          {% if reputation.kindness == true %}<img class="lost-icon" src="/assets/img/icon/Kindness" /> Kindness{% endif %}
-          {% if reputation.specialization == true %}<img class="lost-icon" src="/assets/img/icon/Specialization Increase" /> Specialization Increase{% endif %}
-          {% if reputation.swiftness == true %}<img class="lost-icon" src="/assets/img/icon/Swiftness" /> Swiftness{% endif %}
-          {% if reputation.vitality == true %}<img class="lost-icon" src="/assets/img/icon/Vitality Increase" /> Vitality Increase{% endif %}
-          {% if reputation.wisdom == true %}<img class="lost-icon" src="/assets/img/icon/Wisdom" /> Wisdom{% endif %}
+          {% if reputation.courage == true %}<img class="lost-icon" src="/assets/img/icon/Courage.png" /> Courage{% endif %}
+          {% if reputation.crit == true %}<img class="lost-icon" src="/assets/img/icon/Crit.png" /> Crit{% endif %}
+          {% if reputation.domination == true %}<img class="lost-icon" src="/assets/img/icon/Domination.png" /> Domination{% endif %}
+          {% if reputation.kindness == true %}<img class="lost-icon" src="/assets/img/icon/Kindness.png" /> Kindness{% endif %}
+          {% if reputation.specialization == true %}<img class="lost-icon" src="/assets/img/icon/Specialization Increase.png" /> Specialization Increase{% endif %}
+          {% if reputation.swiftness == true %}<img class="lost-icon" src="/assets/img/icon/Swiftness.png" /> Swiftness{% endif %}
+          {% if reputation.vitality == true %}<img class="lost-icon" src="/assets/img/icon/Vitality Increase.png" /> Vitality Increase{% endif %}
+          {% if reputation.wisdom == true %}<img class="lost-icon" src="/assets/img/icon/Wisdom.png" /> Wisdom{% endif %}
         </td>
         <td>{% if reputation.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> Crafting Recipe: {{ reputation.craft }}{% endif %}</td>
         <td>{% if reputation.collect != nil %}{{ reputation.collect }} {% endif %}</td>
