@@ -79,19 +79,19 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
 <script>
       $(document).ready( function () {
           $('#sortUna').dataTable( {
-              searchPane: true,
               searchPanes: {
+                  columns: [],
                   panes: [{
                       header: 'Coin Reward',
                       options: [{
                           label: 'Silver',
                           value: function(rowData, rowIdx){
                               return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/silver.png">';
-                          },
+                          },{
                           label: 'Pirate Coin',
                           value: function(rowData, rowIdx){
                               return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/pirate.png">';
-                          },
+                          },{
                           label: 'Gold',
                           value: function(rowData, rowIdx){
                               return rowData[3] == '<img class="lost-icon" src="/assets/img/icon/gold.png">';
