@@ -84,6 +84,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
       $(document).ready( function () {
           $('#sortUna').dataTable( {
               searchPanes: {
+                  orderable: false,
                   columns: [1],
                   panes: [
                       {
@@ -119,15 +120,15 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                               },
                             },
                             {
-                            label: 'Pirate Coin',
+                            label: 'Card',
                             value: function(rowData, rowIdx){
-                                return rowData[5].includes('pirate');
+                                return rowData[9] != "";
                               },
                             },
                             {
-                            label: 'Gold',
+                            label: 'Island Token',
                             value: function(rowData, rowIdx){
-                                return rowData[5].includes('gold');
+                                return rowData[10] != "";
                               },
                             }
                           ]
