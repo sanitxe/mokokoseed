@@ -154,6 +154,66 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             value: function(rowData, rowIdx){
                                 return rowData[5].includes("Courage");
                               },
+                            },
+                            {
+                            label: 'Wisdom',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Wisdom");
+                              },
+                            },
+                            {
+                            label: 'Crit',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Crit");
+                              },
+                            },
+                            {
+                            label: 'Domination',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Domination");
+                              },
+                            },
+                            {
+                            label: 'Endurance',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Endurance");
+                              },
+                            },
+                            {
+                            label: 'Expertise',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Expertise");
+                              },
+                            },
+                            {
+                            label: 'Swiftness',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Swiftness");
+                              },
+                            },
+                            {
+                            label: 'Specialization',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Specialization");
+                              },
+                            },
+                            {
+                            label: 'Vitality',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Vitality");
+                              },
+                            },
+                            {
+                            label: 'Stat Increase',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Stat Increase");
+                              },
+                            },
+                            {
+                            label: 'Skill Point',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Skill Point");
+                              },
                             }
                           ]
                         }
