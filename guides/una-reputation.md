@@ -16,7 +16,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
   <thead>
     <tr>
       <th class="no-sort"></th>
-      <th>Reputation</th>
+      <th width="150px">Reputation</th>
       <th data-toggle="tooltip" data-placement="top" title="Minimum days to acquire."><i style="font-size:30px" class="las la-calendar-day"></i></th>
       <th>Coin</th>
       <th>Emote</th>
