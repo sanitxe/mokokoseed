@@ -74,7 +74,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
         <td>
           {% if npcs.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> <small>{{ npcs.craft }}<br /></small>{% endif %}
           {% if npcs.map != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> <small>Adventure: {{ npcs.map }}<br /></small>{% endif %}
-          {% if npcs.sail != nil %}<img class="lost-icon" src="/assets/img/icon/astray.png" /> <small>Sail Glyph: {{ npcs.sail }}<br /></small>{% endif %}
+          {% if npcs.sail != nil %}<img class="lost-icon" src="/assets/img/icon/icon_ship_1.png" /> <small>Sail Glyph: {{ npcs.sail }}<br /></small>{% endif %}
           {% if npcs.mount != nil %}<small>Mount: {{ npcs.mount }}</small><br/>{% endif %}
           {% if npcs.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" /> <small>{{ npcs.card }}</small><br/>{% endif %}
         </td>
