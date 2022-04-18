@@ -753,3 +753,15 @@ table.dataTable tbody tr.selected {
   font-size: 11px;
   color: #ffffff82;
 }
+.dtsp-searchIcon.dtsp-paneButton {
+  display: none !important;
+}
+.dark div.dtsp-topRow.dtsp-bordered {
+  border: 2px solid #353535;
+  border-radius: 3px;
+}
+div.dtsp-topRow button.dtsp-collapseButton span.dtsp-caret {
+  position: relative;
+  top: 6px;
+  display: inline-block;
+}
