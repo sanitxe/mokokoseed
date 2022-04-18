@@ -115,7 +115,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             {
                               label: 'Mount',
                               value: function(rowData, rowIdx){
-                                  return rowData[8] == nil;
+                                  return rowData[8] != nil;
                               },
                             },
                             {
