@@ -741,3 +741,7 @@ color: inherit;
 table.dataTable tbody tr.selected {
   background-color: $darker-accent-color;
 }
+
+.dts_label {
+  display: none;
+}
