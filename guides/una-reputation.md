@@ -94,7 +94,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             {
                             label: 'Pirate Coin',
                             value: function(rowData, rowIdx){
-                                return rowData[4].includes("<img class="lost-icon" src="/assets/img/icon/pirate.png">")
+                                return rowData[4].includes("<img class="lost-icon" src="/assets/img/icon/pirate.png">");
                               },
                             },
                             {
