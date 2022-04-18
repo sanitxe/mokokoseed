@@ -12,7 +12,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
 </div>
 <div class = "ready"></div>
 
-<table id="sortTable">
+<table id="sortUna">
   <thead>
     <tr>
       <th class="no-sort"></th>
@@ -32,7 +32,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
   </thead>
   <tbody>
     {% for reputation in site.data.una %}
-      <tr class="dt-hasChild parent">
+      <tr>
         <td>
           <input type="checkbox" id="{{ reputation.id }}" class="box">
         </td>
@@ -70,3 +70,23 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
     {% endfor %}
   </tbody>
 </table>
+
+<script>
+      $(document).ready( function () {
+          $('#sortUna').dataTable( {
+              "scrollX": true
+              "paging": false,
+              responsive: {
+                  details: {
+                      display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                      type: 'none',
+                      target: ''
+                  }
+              },
+              "order": [],
+              "columnDefs": [ {
+                    "targets": 'no-sort',
+                    "orderable": false,
+              } ]
+          } );
+</script>
