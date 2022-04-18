@@ -31,7 +31,7 @@
 #  island: 
 #  other: 
   
-- id:
+- id: 208601
   name: "Plague Doctor"
   days: 7
   quests: "Remnants of the Plague"
@@ -45,7 +45,7 @@
   emote: "Pain"
   stat: true
 
-- id:
+- id: 305601
   name: "Poisonous Desert"
   days: 5
   quests: "Stern's Stigma<br />The Greater Good<br />Source of the Poison"
@@ -58,7 +58,7 @@
   silver: 13,000
   crit: true
 
-- id:
+- id: 801601
   name: "Bringing Peace to the Souls"
   days: 7
   quests: "Kadan Cathedral's Exorcism Ritual"
@@ -73,7 +73,7 @@
   craft: "Worship Bench"
   other: "Phoenix Plume x6"
 
-- id:
+- id: 818601
   name: "Running the Port"
   days: 7
   quests: "Moronto's Agent"
@@ -87,7 +87,7 @@
   domination: true
   masterpiece: "#10"
   
-- id:
+- id: 1002601
   name: "Cook"
   days: 6 
   quests: "Taste Test<br />Meat, the Challenge"
@@ -101,7 +101,7 @@
   vitality: true
   card: "Naruni"
   
-- id:
+- id: 1103601
   name: "Save the Forest"
   days: 15 
   quests: "Fairy's Friend"
@@ -113,8 +113,8 @@
   rep6: 0
   silver: 26000
   wisdom: true
-  
-- id:
+   
+- id: 5001601
   name: "Only the Strong Survive"
   days: 14 
   quests: "Only the Strong Survive<br />Prove Your Mettle"
@@ -128,7 +128,7 @@
   vitality: true
   other: "Golden Goblin Coin x30"
   
-- id:
+- id: 5003601
   name: "Saltern Worker"
   days: 15 
   quests: "Rubbing Away the Marks of Time"
@@ -141,7 +141,7 @@
   silver: 26000
   vitality: true
   
-- id:
+- id: 5006601
   name: "Future Insect Expert"
   days: 15
   quests: "A Boy's Dream"
@@ -155,7 +155,7 @@
   kindness: true
   craft: "Rethramis-Style Large Fountain"
   
-- id:
+- id: 5008601
   name: "The Lake Spirit"
   days: 15
   quests: "Spirit Jars"
@@ -168,7 +168,7 @@
   silver: 26000
   stat: true
   
-- id:
+- id: 5010601
   name: "Killing the King"
   days: 30
   quests: "Taking on Tooki"
@@ -183,7 +183,7 @@
   giant: "7th"
   card: "Tookalibur"
 
-- id:
+- id: 5012601
   name: "Android Emancipation"
   days: 15
   quests: "Android Emancipation"
@@ -197,7 +197,7 @@
   kindness: true
   mount: "Blauer Vogel"
   
-- id:
+- id: 5015601
   name: "Prisoner Release"
   days: 15
   quests: "Prisoner Emancipation"
@@ -211,7 +211,7 @@
   stat: true
   masterpiece: "#18"
   
-- id:
+- id: 5028601
   name: "Peyto"
   days: 14
   quests: "A Hard Day at Work<br />Another Hard Day at Work<br />Everything Circles Back Around<br />Dance Time Redux"
@@ -226,7 +226,7 @@
   swiftness: true
   craft: "Game Table"
   
-- id:
+- id: 5031601
   name: "Treasure of Gravis"
   days: 7
   quests: "Happy Helper"
@@ -240,7 +240,7 @@
   vitality: true
   craft: "Brown Sunbed"
 
-- id:
+- id: 5041601
   name: "Collect Scrap Iron"
   days: 13
   quests: "Don't Scrap the Scrap!<br />Shorting the Circuits<br />Core Competency"
@@ -253,7 +253,7 @@
   silver: 26000
   charisma: true
 
-- id:
+- id: 5062601
   name: "Weeping Sea"
   days: 14
   quests: "Whale Tale<br />Whalekeeper's Record<br />Whale Watching"
@@ -267,7 +267,7 @@
   vitality: true
   other: "Humpback Whale Oil"
 
-- id:
+- id: 5064601
   name: "The Island of Pandas"
   days: 6
   quests: "Panda Sitter<br />Baby Panda And Me"
@@ -281,7 +281,7 @@
   vitality: true
   other: "Full-scale Panda Disguise Set"
   
-- id:
+- id: 5070601
   name: "Sinking Island"
   days: 26
   quests: "Gathering Slumberries<br />Is It Hungry?<br />Sloppy Slimes<br />A Tidy Place to Rest<br />Emergency Preparedness"
@@ -294,7 +294,7 @@
   silver: 54000
   mount: "Red Moss Turtle"
     
-- id:
+- id: 5072601
   name: "Lopang Inc."
   days: 11
   quests: "Special Delivery: Vern<br />Special Delivery: Luterra<br />Special Delivery: Tortoyk<br />Special Delivery: Annika<br />Special Delivery: Arthetine<br />Special Delivery: Shushire"
@@ -309,7 +309,7 @@
   craft: "Messenger Pigeon Post"
   other: "Melody of the Sea: Brahms"
   
-- id:
+- id: 5074601
   name: "The Defense"
   days: 10 
   quests: "Playing by the Pirates' Rules"
@@ -324,7 +324,7 @@
   courage: true
   stat: true
   
-- id:
+- id: 5078601
   name: "Astella Astronomical Society"
   days: 7 
   quests: "Generally Useless"
@@ -337,7 +337,7 @@
   silver:  13000
   stat: true
 
-- id:
+- id: 5080601
   name: "Tender and Crispy"
   days: 15 
   quests: "I Can't Just Sit On My Hands"
@@ -350,7 +350,7 @@
   silver: 26000
   craft: "Half-Boiled Egg Chair"
 
-- id:
+- id: 5083601
   name: "A Stranded Ship"
   days: 7
   quests: "Replacement Parts"
@@ -362,7 +362,7 @@
   rep6: 0
   silver: 13000
   
-- id:
+- id: 5086601
   name: "Club Manager"
   days: 16
   quests: "Cocktail in Hand"
@@ -375,7 +375,7 @@
   silver: 29000
   vitality: true
 
-- id:
+- id: 405601
   name: "Back to Where It Belongs"
   days: 15
   quests: "Where It Belongs"
@@ -389,7 +389,7 @@
   stat: true
   card: "Rubenstein del Orazio"
 
-- id:
+- id: 405602
   name: "Eating with the Wolves"
   days: 15
   quests: "Wolf of Eternity"
@@ -403,7 +403,7 @@
   vitality: true
   mount: "Wolf of Vanity"
 
-- id:
+- id: 410601
   name: "Frozen Memories"
   days: 15
   quests: "Frozen Memories"
@@ -416,7 +416,7 @@
   silver: 26000
   charisma: true
 
-- id:
+- id: 603601
   name: "The Cursed Ruins"
   days: 7
   quests: "The Cursed Ruins"
@@ -430,7 +430,7 @@
   endurance: true
   masterpiece: "#9"
   
-- id:
+- id: 705601
   name: "Free-Randing the Rabbits"
   days: 7
   quests: "Anxious Mind"
@@ -444,7 +444,7 @@
   wisdom: true
   card: "Lion Mask"
 
-- id:
+- id: 1104601
   name: "Wiping out the Horse Thieves"
   days: 7
   quests: "Die a Hundred Deaths"
@@ -457,7 +457,7 @@
   silver: 13000
   courage: true
 
-- id:
+- id: 5027601
   name: "An Archaeologist's Request"
   days: 15
   quests: "An Archaeologist's Request"
@@ -471,7 +471,7 @@
   masterpiece: "#19"
   stat: true
 
-- id:
+- id: 5029601
   name: "Kir's Favorite"
   days: 15
   quests: "Kir's Favorite"
@@ -484,7 +484,7 @@
   silver: 26000
   vitality: true
 
-- id:
+- id: 5030601
   name: "Pest Control"
   days: 15
   quests: "Pest Control"
@@ -498,7 +498,7 @@
   vitality: true
   other: "Certificate of Pirate"
   
-- id:
+- id: 5041604
   name: "Catch the Criminals"
   days: 16
   quests: "Crook Catcher"
@@ -511,7 +511,7 @@
   pirate: 32000 
   stat: true
 
-- id:
+- id: 5065601
   name: "The New Book"
   days: 17
   quests: "Poetry in Motion"
@@ -524,7 +524,7 @@
   silver: 86000
   island: "Fanstasm Island Soul"
   
-- id:
+- id: 5071601
   name: "Potatoes, Sweet Potatoes, and Weeds"
   days: 12
   quests: "Some Necessary Weeding<br/>Mementos of the Dead<br/>Finding Food<br/>Needles and Threads"
@@ -538,7 +538,7 @@
   other: "Golden Goblin Coin x60"
   charisma: true
 
-- id:
+- id: 5077601
   name: "Ominous Pumpkins"
   days: 30
   quests: "Ominous Pumpkins"
@@ -554,7 +554,7 @@
   vitality: true
   craft: "Pumpkin Scarecrow"
   
-- id:
+- id: 5079601
   name: "A New Dish"
   days: 15
   quests: "A Taste of Slime"
@@ -567,7 +567,7 @@
   silver: 26000
   other: "Jelly Coin x3000"
 
-- id:
+- id: 5004601
   name: "School Is Fun"
   days: 15
   quests: "Totopia Tutor for a Day"
@@ -580,7 +580,7 @@
   silver: 27000
   wisdom: true
 
-- id:
+- id: 5093601
   name: "Insects in the Grass Fields"
   days: 15
   quests: "Ruffians in the Ground"
@@ -595,7 +595,7 @@
   stat: true
   emote: "Whistle"
 
-- id:
+- id: 5096601
   name: "Examining the Ship"
   days: 7
   quests: "What's in the Ship?"
@@ -609,7 +609,7 @@
   stat: true
   other: "Mederiel's Letter"
 
-- id:
+- id: 5101601
   name: "The Fermata's True Manager"
   days: 14
   quests: "For the Fermata's Maintenance<br/>For the Fermata's Safety"
@@ -624,7 +624,7 @@
   craft: "Bar Table"
   other: "Uncommon Timber x20"
 
-- id:
+- id: 105601
   name: "Repairing the Seal Site"
   days: 44
   quests: "Repairing the Seal Site<br/>The Rebuilding of Xeneela"
@@ -638,7 +638,7 @@
   other: "Mana-infused Soup<br/>Elzowin's Blessed Letter"
   domination: true
 
-- id:
+- id: 108601
   name: "Mischievous Fairy"
   days: 30
   quests: "Mischievous Fairy"
@@ -653,7 +653,7 @@
   swiftness: true
   craft: "Large Windmill"
 
-- id:
+- id: 5102601
   name: "Gesbroy Snack Expert"
   days: 18
   quests: "A Great Beer Snack<br/>An Even Better Beer Snack<br/>The Beer Snack to End All Beer Snacks"
@@ -667,7 +667,7 @@
   courage: true
   island: "Gesbroy Island Soul"
 
-- id:
+- id: 1313601
   name: "Ka-BOOM!"
   days: 15
   quests: "Crash, Boom, Bang!"
@@ -681,7 +681,7 @@
   card: "Naber"
   other: "Old Boots"
 
-- id:
+- id: 1301601
   name: "Umar Cosmetics' New History"
   days: 24
   quests: "Quality Check<br/>Research and Development<br/>Market Research"
@@ -695,7 +695,7 @@
   card: "Nazan"
   other: "Truth Mushroom x6<br/>Umar Cosmetics' Invitation"
 
-- id:
+- id: 5091601
   name: "Investigate Foggy Ridge"
   days: 19
   quests: "Eastern Foggy Ridge<br/>Western Foggy Ridge<br/>Central Foggy Ridge"
@@ -708,7 +708,7 @@
   silver: 38000
   stat: true
 
-- id:
+- id: 305604
   name: "Investigate Red Sand Desert"
   days: 19
   quests: "Safety First<br/>Red Sand Desert Ecology Report<br/>Harsh Terrain"
@@ -721,7 +721,7 @@
   silver: 38000
   stat: true
 
-- id:
+- id: 5090601
   name: "Investigate Frost Haven"
   days: 19
   quests: "Through the Bitter Cold<br/>Ice Collision<br/>Crystallized Secrets"
@@ -734,7 +734,7 @@
   silver: 38000
   vitality: true
 
-- id:
+- id: 5114601
   name: "Choir Teacher"
   days: 8
   quests: "Whispering Minuet<br/>Whispering Resonance<br/>Whispering Harmony"
@@ -750,7 +750,7 @@
   card: "Sapiano"
   card2: "Yom"
 
-- id:
+- id: 5094601
   name: "The Reagent Experiment"
   days: 22
   quests: "Super Secret Materials for a Super Secret Project"
@@ -764,7 +764,7 @@
   other: "Toy Chest x6"
   craft: "Exquisite Flower Garden"
 
-- id:
+- id: 5109601
   name: "Loot Pirate Bird Cave"
   days: 15
   quests: "Run, Tooki!<br/>Run Faster, Tooki!"
@@ -777,7 +777,7 @@
   gold: 1600
   other: "Tooki Transformation Sunglasses Selection Chest"
 
-- id:
+- id: 905601
   name: "Shadow Monastery"
   days: 15
   quests: "Black Falcon's Nest"
@@ -791,7 +791,7 @@
   card: "Geppetto"
   other: "Book of Survival x6 <br/>Desiccated Wooden Statue x3"
 
-- id:
+- id: 903601
   name: "Black Falcon Inn"
   days: 28
   quests: "Unsolved Mystery of the Watchers"
@@ -804,7 +804,7 @@
   silver: 234000
   expertise: true
 
-- id:
+- id: 903602
   name: "Eye of Fate"
   days: 15
   quests: "Kinsera's Memorial Service"
@@ -818,7 +818,7 @@
   card: "Goulding"
   vitality: true
 
-- id:
+- id: 1203601
   name: "A Relaxing Hot Springs Part-time Job"
   days: 23
   quests: "Help Wanted at the Hot Springs<br/>Customer Comes First<br/>Guard Wanted!"
@@ -832,7 +832,7 @@
   stat: true
   masterpiece: "#48"
 
-- id:
+- id: 1204601
   name: "Purification Ceremony"
   days: 20
   quests: "Pond of Purification<br/>Madness Piles on the Altar"
@@ -846,7 +846,7 @@
   omnium: "#2"
   vitality: true
 
-- id:
+- id: 4002601
   name: "Fast Sailing Sprint: Eurus"
   days: 21
   quests: "Ride like the Wind"
@@ -859,7 +859,7 @@
   pirate: 42000
   other: "Fast Sailing Sprint: Eurus"
 
-- id:
+- id: 4002602
   name: "Ghost Ship: Eibern's Wound"
   days: 12
   quests: "Bleak Night Fog"
@@ -872,7 +872,7 @@
   pirate: 29000
   other: "Ghost Ship: Eibern's Wound"
 
-- id:
+- id: 4002605
   name: "Pirate Star: Astray"
   days: 25
   quests: "She Drifts, Sea Gifts"
@@ -885,7 +885,7 @@
   pirate: 60000
   other: "Astray Construction Blueprint"
 
-- id:
+- id: 1201602
   name: "White Sunlight, Blue Waves, Pink Breeze"
   days: 19
   quests: "Claff's Surfing Class<br/>Fish Above Water"
@@ -899,7 +899,7 @@
   vitality: true
   craft: "Giant Fish Tank"
 
-- id:
+- id: 5021601
   name: "Shadow Island Priests"
   days: 16
   quests: "Endless Debris"
@@ -912,7 +912,7 @@
   silver: 44000
   vitality: true
 
-- id:
+- id: 5004602
   name: "Swing Vote"
   days: 18
   quests: "Voting in Totopia"
@@ -925,7 +925,7 @@
   silver: 32000
   vitality: true
 
-- id:
+- id: 5124601
   name: "Guardian"
   days: 21
   quests: "Peering Into Chaos"
