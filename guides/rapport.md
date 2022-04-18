@@ -28,6 +28,10 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
       <th>Name</th>
       <th>Location</th>
       <th>Total Rapport</th>
+      <th>Potion</th>
+      <th>Unlock</th>
+      <th>Collection</th>
+      <th>Hire</th>
     </tr>
   </thead>
   <tbody>
@@ -47,6 +51,40 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
         </td>
         <td>
           {{ npcs.points }}
+        </td>
+        <td>
+          <small>
+          {% if npcs.charisma == true %}<img class="lost-icon" src="/assets/img/icon/Charisma.png" /> Charisma<br />{% endif %}
+          {% if npcs.wisdom == true %}<img class="lost-icon" src="/assets/img/icon/Wisdom.png" /> Wisdom<br />{% endif %}
+          {% if npcs.courage == true %}<img class="lost-icon" src="/assets/img/icon/Courage.png" /> Courage<br />{% endif %}
+          {% if npcs.kindness == true %}<img class="lost-icon" src="/assets/img/icon/Kindness.png" /> Kindness<br />{% endif %}
+          {% if npcs.crit == true %}<img class="lost-icon" src="/assets/img/icon/Crit.png" /> Crit<br />{% endif %}
+          {% if npcs.domination == true %}<img class="lost-icon" src="/assets/img/icon/Domination.png" /> Domination<br />{% endif %}
+          {% if npcs.endurance == true %}<img class="lost-icon" src="/assets/img/icon/Endurance.png" /> Endurance<br />{% endif %}
+          {% if npcs.expertise == true %}<img class="lost-icon" src="/assets/img/icon/Expertise.png" /> Expertise<br />{% endif %}
+          {% if npcs.swiftness == true %}<img class="lost-icon" src="/assets/img/icon/Swiftness.png" /> Swiftness<br />{% endif %}
+          {% if npcs.specialization == true %}<img class="lost-icon" src="/assets/img/icon/Specialization Increase.png" /> Specialization<br />{% endif %}
+          {% if npcs.vitality == true %}<img class="lost-icon" src="/assets/img/icon/Vitality Increase.png" /> Vitality<br />{% endif %}
+          {% if npcs.stat == true %}<img class="lost-icon" src="/assets/img/icon/Stat Increase.png" /> Stat Increase<br />{% endif %}
+          {% if npcs.skill == true %}<img class="lost-icon" src="/assets/img/icon/Skill Point.png" /> Skill Point<br />{% endif %}
+          </small>
+        </td>
+        <td>
+          {% if npcs.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> <small>{{ npcs.craft }}<br /></small>{% endif %}
+          {% if npcs.map != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> <small>Adventure: {{ npcs.map }}<br /></small>{% endif %}
+          {% if npcs.sail != nil %}<img class="lost-icon" src="/assets/img/icon/astray.png" /> <small>Sail Glyph: {{ npcs.sail }}<br /></small>{% endif %}
+          {% if npcs.mount != nil %}<small>Mount: {{ npcs.mount }}</small><br/>{% endif %}
+          {% if npcs.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" /> <small>{{ npcs.card }}</small><br/>{% endif %}
+        </td>
+        <td>
+          {% if npcs.giant != nil %} <img class="lost-icon" src="/assets/img/icon/giant-heart.png" /> <small>{{ npcs.giant }} Giant Heart</small><br/>{% endif %}
+          {% if npcs.masterpiece != nil %} <img class="lost-icon" src="/assets/img/icon/masterpiece.png" /><small>Masterpiece {{ npcs.masterpiece }}</small><br/>{% endif %}
+          {% if npcs.omnium != nil %} <img class="lost-icon" src="/assets/img/icon/omnium.png" /> <small>Omnium Star {{ npcs.omnium }}</small><br/>{% endif %}
+          {% if npcs.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" /> <small>{{ npcs.island }}</small><br/>{% endif %}
+        </td>
+        <td>
+          {% if npcs.crew != nil %}<img class="lost-icon" src="/assets/img/icon/crew.png" /> <small>Crew: {{ npcs.crew }}</small><br/>{% endif %}
+          {% if npcs.sailor != nil %}<img class="lost-icon" src="/assets/img/icon/sailor.png" /> <small>Sailor: {{ npcs.sailor }}</small><br/>{% endif %}
         </td>
       </tr>
     {% endfor %}
