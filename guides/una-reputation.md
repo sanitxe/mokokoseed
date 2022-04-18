@@ -88,19 +88,19 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             {
                               label: 'Silver',
                               value: function(rowData, rowIdx){
-                                  return rowData[4].includes("<img class="lost-icon" src="/assets/img/icon/silver.png">");
+                                  return rowData[4].includes('<img class="lost-icon" src="/assets/img/icon/silver.png">');
                               },
                             },
                             {
                             label: 'Pirate Coin',
                             value: function(rowData, rowIdx){
-                                return rowData[4].includes("<img class="lost-icon" src="/assets/img/icon/pirate.png">");
+                                return rowData[4].includes('<img class="lost-icon" src="/assets/img/icon/pirate.png">');
                               },
                             },
                             {
                             label: 'Gold',
                             value: function(rowData, rowIdx){
-                                return rowData[4].includes("<img class="lost-icon" src="/assets/img/icon/gold.png">");
+                                return rowData[4].includes('<img class="lost-icon" src="/assets/img/icon/gold.png">');
                               },
                             }
                           ]
