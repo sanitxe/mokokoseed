@@ -127,6 +127,24 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                               },
                             },
                             {
+                            label: 'Giant's Heart',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Heart");
+                              },
+                            },
+                            {
+                            label: 'Masterpiece',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Masterpiece");
+                              },
+                            },
+                            {
+                            label: 'Omnium Star',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Omnium");
+                              },
+                            },
+                            {
                             label: 'Island Token',
                             value: function(rowData, rowIdx){
                                 return rowData[10] != "";
