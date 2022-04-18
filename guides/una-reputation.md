@@ -141,7 +141,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                               },
                             },
                             {
-                            label: 'Giant's Heart',
+                            label: "Giant's Heart",
                             value: function(rowData, rowIdx){
                                 return rowData[7].includes("Heart");
                               },
