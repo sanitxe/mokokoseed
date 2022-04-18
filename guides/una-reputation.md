@@ -43,7 +43,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
         <td> 
           <span data-toggle="tooltip" data-placement="top" title="Minimum days to acquire.">{{ reputation.days }}</span>
         </td>  
-        <td>{% if reputation.silver > 0 %}{{ reputation.silver }} <img class="lost-icon" src="/assets/img/icon/silver.png" />{% endif %}
+        <td class='{% if reputation.silver > 0 %}silver-coin{% endif %} {% if reputation.pirate > 0 %}pirate-coin{% endif %} {% if reputation.gold > 0 %}gold-coin{% endif %}'>{% if reputation.silver > 0 %}{{ reputation.silver }} <img class="lost-icon" src="/assets/img/icon/silver.png" />{% endif %}
         {% if reputation.pirate > 0 %}{{ reputation.pirate }} <img class="lost-icon" src="/assets/img/icon/pirate.png" />{% endif %}</td>
         <td>{% if reputation.emote != nil %}<img class="lost-icon" src="/assets/img/icon/emote.png" /> {{ reputation.emote }}{% endif %}</td>
         <td>
@@ -88,7 +88,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             {
                               label: 'Silver',
                               value: function(rowData, rowIdx){
-                                  return rowData[4].includes('<img class="lost-icon" src="/assets/img/icon/silver.png">');
+                                  return rowData[4].hasClass('silver-coin');
                               },
                             },
                             {
