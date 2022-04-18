@@ -88,7 +88,7 @@ description: "Use this guide to quickly view various rewards to Una's Reputation
                             {
                               label: 'Silver',
                               value: function(rowData, rowIdx){
-                                  return rowData[4].hasClass('silver-coin');
+                                  return rowData[4].includes('<img class="lost-icon" src="/assets/img/icon/silver.png">');
                               },
                             },
                             {
