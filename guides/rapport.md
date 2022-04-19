@@ -20,7 +20,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
   PROTIP: You can sort multiple categories by pressing SHIFT + Left Click on the table headers.
 </div>
 
-<table id="sortTable" class="display dt-responsive">
+<table id="sortRapport" class="display dt-responsive">
   <thead>
     <tr>
       <th class="no-sort"></th>
@@ -71,7 +71,6 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
         </td>
         <td>
           {% if npcs.craft != nil %}<img class="lost-icon" src="/assets/img/icon/crafting.png" /> Crafting Recipe: {{ npcs.craft }}<br />{% endif %}
-          {% if npcs.map != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> Adventure: {{ npcs.map }}<br />{% endif %}
           {% if npcs.sail != nil %}<img class="lost-icon" src="/assets/img/icon/icon_ship_1.png" /> Sail Glyph: {{ npcs.sail }}<br />{% endif %}
           {% if npcs.mount != nil %}Mount: {{ npcs.mount }}<br/>{% endif %}
           {% if npcs.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" /> Card: {{ npcs.card }}<br/>{% endif %}
@@ -82,6 +81,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
           {% if npcs.masterpiece != nil %} <img class="lost-icon" src="/assets/img/icon/masterpiece.png" />Masterpiece {{ npcs.masterpiece }}<br/>{% endif %}
           {% if npcs.omnium != nil %} <img class="lost-icon" src="/assets/img/icon/omnium.png" /> Omnium Star {{ npcs.omnium }}<br/>{% endif %}
           {% if npcs.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" /> {{ npcs.island }}<br/>{% endif %}
+          {% if npcs.map != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> Adventure: {{ npcs.map }}<br />{% endif %}
         </td>
         <td>
           {% if npcs.crew != nil %}<img class="lost-icon" src="/assets/img/icon/crew.png" /> Crew: {{ npcs.crew }}<br/>{% endif %}
@@ -91,3 +91,292 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
     {% endfor %}
   </tbody>
 </table>
+
+<script>
+      $(document).ready( function () {
+          $('#sortRapport').dataTable( {
+              searchPanes: {
+                  initCollapsed: true,
+                  orderable: false,
+                  columns: [1],
+                  panes: [
+                      {
+                        header: 'Location',
+                        options: [
+                            {
+                              label: 'Rethramis',
+                              value: function(rowData, rowIdx){
+                                  return rowData[3].includes('Rethramis');
+                              },
+                            },
+                            {
+                            label: 'Yudia',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Yudia');
+                              },
+                            },
+                            {
+                            label: 'West Luterra',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('West Luterra');
+                              },
+                            },
+                            {
+                            label: 'East Luterra',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('East Luterra');
+                              },
+                            },
+                            {
+                            label: 'Tortoyk',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Tortoyk');
+                              },
+                            },
+                            {
+                            label: 'Anikka',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Anikka');
+                              },
+                            },
+                            {
+                            label: 'Arthetine',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Arthetine');
+                              },
+                            },
+                            {
+                            label: 'North Vern',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('North Vern');
+                              },
+                            },
+                            {
+                            label: 'Shushire',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Shushire');
+                              },
+                            },
+                            {
+                            label: 'Rohendel',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Rohendel');
+                              },
+                            },
+                            {
+                            label: 'Yorn',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Yorn');
+                              },
+                            },
+                            {
+                            label: 'Feiton',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Feiton');
+                              },
+                            },
+                            {
+                            label: 'Punika',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Punika');
+                              },
+                            },
+                            {
+                            label: 'Island',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Island');
+                              },
+                            },
+                            {
+                            label: 'Trixion',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Trixion');
+                              },
+                            }
+                          ]
+                        },
+                      {
+                        header: 'Increase Potion',
+                        options: [
+                            {
+                              label: 'Kindness',
+                              value: function(rowData, rowIdx){
+                                  return rowData[5].includes("Kindness");
+                              },
+                            },
+                            {
+                            label: 'Charisma',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Charisma");
+                              },
+                            },
+                            {
+                            label: 'Courage',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Courage");
+                              },
+                            },
+                            {
+                            label: 'Wisdom',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Wisdom");
+                              },
+                            },
+                            {
+                            label: 'Crit',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Crit");
+                              },
+                            },
+                            {
+                            label: 'Domination',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Domination");
+                              },
+                            },
+                            {
+                            label: 'Endurance',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Endurance");
+                              },
+                            },
+                            {
+                            label: 'Expertise',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Expertise");
+                              },
+                            },
+                            {
+                            label: 'Swiftness',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Swiftness");
+                              },
+                            },
+                            {
+                            label: 'Specialization',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Specialization");
+                              },
+                            },
+                            {
+                            label: 'Vitality',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Vitality");
+                              },
+                            },
+                            {
+                            label: 'Stat Increase',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Stat Increase");
+                              },
+                            },
+                            {
+                            label: 'Skill Point',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Skill Point");
+                              },
+                            }
+                          ]
+                        },
+                      {
+                        header: 'Reward Type',
+                        options: [
+                            {
+                              label: 'Crafting Recipe',
+                              value: function(rowData, rowIdx){
+                                  return rowData[6].includes('Crafting Recipe:');
+                              },
+                            },
+                            {
+                              label: 'Card',
+                              value: function(rowData, rowIdx){
+                                  return rowData[6].includes('Card:');
+                              },
+                            },
+                            {
+                            label: "Rune",
+                            value: function(rowData, rowIdx){
+                                return rowData[6].includes("Rune:");
+                              },
+                            },
+                            {
+                            label: 'Mount',
+                            value: function(rowData, rowIdx){
+                                return rowData[6].includes('Mount:');
+                              },
+                            },
+                            {
+                              label: 'Sailor',
+                              value: function(rowData, rowIdx){
+                                  return rowData[8].includes('Sailor:');
+                              },
+                            },
+                            {
+                              label: 'Crew',
+                              value: function(rowData, rowIdx){
+                                  return rowData[8].includes('Crew:');
+                              },
+                            },
+                            {
+                            label: 'Sail Glyph',
+                            value: function(rowData, rowIdx){
+                                return rowData[6].includes("Sail Glyph:");
+                              },
+                            }
+                          ]
+                      },
+                      {
+                        header: 'Collectibles',
+                        options: [
+                            {
+                              label: 'Masterpiece',
+                              value: function(rowData, rowIdx){
+                                  return rowData[7].includes("Masterpiece");
+                              },
+                            },
+                            {
+                            label: 'Giant Heart',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Giant Heart");
+                              },
+                            },
+                            {
+                            label: 'Island Soul',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Island" || "Isle");
+                              },
+                            },
+                            {
+                            label: 'Adventure Map',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Adventure:");
+                              },
+                            },
+                            {
+                            label: 'Omnium Star',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Omnium");
+                              },
+                            }
+                          ]
+                        }
+                    ]
+              },
+              dom: 'Plfrtip',
+              "paging": false,
+              responsive: {
+                  details: {
+                      display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                      type: 'none',
+                      target: ''
+                  }
+              },
+              fixedHeader: true,
+              "order": [],
+              "columnDefs": [ {
+                    "targets": 'no-sort',
+                    "orderable": false,
+              } ]
+          } );
+    } );  
+</script>
