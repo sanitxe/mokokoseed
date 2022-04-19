@@ -12,14 +12,6 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
 </div>
 <div class = "ready"></div>
 
-<div class="alert alert-danger" role="alert">
-  This is currently a <strong>work in progress</strong>. Progression is currently stored locally only. Clearing your browser's localStorage will reset the table.
-</div>
-
-<div class="alert alert-info" role="alert">
-  PROTIP: You can sort multiple categories by pressing SHIFT + Left Click on the table headers.
-</div>
-
 <table id="sortRapport" class="display dt-responsive">
   <thead>
     <tr>
