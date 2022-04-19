@@ -75,7 +75,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
           {% if npcs.sail != nil %}<img class="lost-icon" src="/assets/img/icon/icon_ship_1.png" /> Sail Glyph: {{ npcs.sail }}<br />{% endif %}
           {% if npcs.mount != nil %}Mount: {{ npcs.mount }}<br/>{% endif %}
           {% if npcs.card != nil %}<img class="lost-icon" src="/assets/img/icon/card.png" /> Card: {{ npcs.card }}<br/>{% endif %}
-          {% if npcs.rune != nil %}<img class="lost-icon" src="/assets/img/icon/{{ npcs.rune | downcase }}.png" /> {{ npcs.rune }}<br/>{% endif %}
+          {% if npcs.rune != nil %}<img class="lost-icon" src="/assets/img/icon/{{ npcs.rune | downcase }}.png" /> {{ npcs.rune | capitalize }}<br/>{% endif %}
         </td>
         <td>
           {% if npcs.giant != nil %} <img class="lost-icon" src="/assets/img/icon/giant-heart.png" /> {{ npcs.giant }} Giant Heart<br/>{% endif %}
