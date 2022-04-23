@@ -180,6 +180,12 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
                               },
                             },
                             {
+                            label: 'South Vern',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('South Vern');
+                              },
+                            },  
+                            {
                             label: 'Trixion',
                             value: function(rowData, rowIdx){
                                 return rowData[3].includes('Trixion');
