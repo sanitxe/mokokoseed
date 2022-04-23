@@ -615,7 +615,7 @@
 - name: Ealyn
   id: 25001
   loc: "North Vern<br/>Vern Castle"
-  points: "103,700"
+  points: "77,700"
   icon: freindshipnpc_img_30.png
   card: Ealyn
   stat: true
@@ -623,4 +623,49 @@
   sail: Disobedience
   courage: true
   greater-stat: true
+  
+- name: Cindy
+  id: 43052
+  loc: "South Vern - Candaria Territory"
+  points: "5,900"
+  icon: freindshipnpc_img_125.png
+  card: Cindy
+  vitality: true
+
+- name: Gillock
+  id: 43032
+  loc: "South Vern - Candaria Territory"
+  points: "17,800"
+  icon: freindshipnpc_img_127.png
+  card: Gillock
+  vitality: true
+  
+- name: Ludwig
+  id: 43051
+  loc: "South Vern - Bellion Ruins"
+  points: "17,800"
+  icon: freindshipnpc_img_126.png
+  card: Ludwig
+  stat: true
+
+- name: Neria
+  id: 43050
+  loc: "South Vern - Candaria Territory"
+  points: "37,900"
+  icon: freindshipnpc_img_133.png
+  vitality: true
+  card: Candaria Neria
+  charisma: true
+  masterpiece: "#52"
+  
+- name: Thar
+  id: 43049
+  loc: "South Vern - Bellion Ruins"
+  points: "57,800"
+  icon: freindshipnpc_img_130.png
+  stat: true
+  courage: true
+  map: Deep Sea Rock
+  tome: Magical Vernese Brandy
+  
   
