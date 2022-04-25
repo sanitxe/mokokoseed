@@ -24,7 +24,7 @@ layout: default
     <div class="card-body">
       <h5 class="card-title"><span class="badge"><img src="/assets/img/icon/icon_ship_1.png"></span> Astray Crafting</h5>
         <p class="card-text">View materials and requirements needed for crafting the Astray.</p>
-        <a href="/guides/astra" class="btn btn-dark">Track Astray</a>
+        <a href="/guides/astray" class="btn btn-dark">Track Astray</a>
     </div>
   </div>
   <div class="card">
