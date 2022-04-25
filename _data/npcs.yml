@@ -331,7 +331,7 @@
   
 - name: Artisan Urr
   id: 12026
-  loc: "West Luterra - Lakebar"
+  loc: "West Luterra<br />Lakebar"
   points: "17,800"
   icon: common_gamenote_npc_img_01_43.png
   card: Urr
@@ -626,7 +626,7 @@
   
 - name: Cindy
   id: 43052
-  loc: "South Vern - Candaria Territory"
+  loc: "South Vern<br />Candaria Territory"
   points: "5,900"
   icon: freindshipnpc_img_125.png
   card: Cindy
@@ -634,7 +634,7 @@
 
 - name: Gillock
   id: 43032
-  loc: "South Vern - Candaria Territory"
+  loc: "South Vern<br />Candaria Territory"
   points: "17,800"
   icon: freindshipnpc_img_127.png
   card: Gillock
@@ -642,7 +642,7 @@
   
 - name: Ludwig
   id: 43051
-  loc: "South Vern - Bellion Ruins"
+  loc: "South Vern<br />Bellion Ruins"
   points: "17,800"
   icon: freindshipnpc_img_126.png
   card: Ludwig
@@ -650,7 +650,7 @@
 
 - name: Neria
   id: 43050
-  loc: "South Vern - Candaria Territory"
+  loc: "South Vern<br />Candaria Territory"
   points: "37,900"
   icon: freindshipnpc_img_133.png
   vitality: true
@@ -660,7 +660,7 @@
   
 - name: Thar
   id: 43049
-  loc: "South Vern - Bellion Ruins"
+  loc: "South Vern<br />Bellion Ruins"
   points: "57,800"
   icon: freindshipnpc_img_130.png
   stat: true
