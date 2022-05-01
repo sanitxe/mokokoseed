@@ -1,20 +1,26 @@
 - id: "01"
   line: "CoolGuyEnters"
+  desc: "Behold, I've arrived"
 
 - id: "02"
   line: "DesperatePrayer"
+  desc: "May the gods protect me..."
 
 - id: "03"
   line: "TigerEmerges"
+  desc: "I feel the power of the tiger!"
 
 - id: "04"
   line: "WaterfallTraining"
+  desc: "I can hear no one's voice when I'm training..."
 
 - id: "05"
   line: "Broke"
+  desc: "I'm all out of money..."
 
 - id: "06"
   line: "FlyingKick"
+  desc: "Feel the heat! Yeah!"
 
 - id: "07"
   line: "Recommendation"
@@ -27,117 +33,156 @@
 
 - id: "10"
   line: "FunnyAndSad"
+  desc: "Why am I crying even though I'm laughing?"
 
 - id: 11
   line: "Funny"
+  desc: "Ahahaha! Hahahaha!"
   
 - id: 12
   line: "I'mAngry"
+  desc: "I'm angrier than Mokoko!!"
 
 - id: 13
   line: "Let'sPlay"
+  desc: "Take me with you!"
 
 - id: 14
   line: "Really"
+  desc: "What? Are you really actually truly absolutely serious?"
 
 - id: 15
   line: "Hello"
+  desc: "It was nice to meet you today!"
 
 - id: 16
   line: "HoldUp"
+  desc: "Hold up... You shouldn't do this.."
 
 - id: 17
   line: "Sleepy"
+  desc: "*Yawn*... Are you... done talking?"
 
 - id: 18
   line: "YouCanDoIt"
+  desc: "You! Can! Do! It!"
 
 - id: 19
   line: "ILoveYou"
+  desc: "This is my feeling for you!"
 
 - id: 20
   line: "Sorry"
+  desc: "Sorry, that's on me..."
 
 - id: 21
   line: "Surprised"
+  desc: "Woah! You scared me!"
 
 - id: 22
   line: "Goodbye"
+  desc: "See ya later!"
 
 - id: 23
   line: "Suspicious"
+  desc: "Something... doesn't feel right."
 
 - id: 24
   line: "Alright"
+  desc: "Alright! I get what you mean!"
 
 - id: 25
   line: "TearsOfJoy"
+  desc: "Finally! I did it!"
 
 - id: 26
   line: "NotFeelingWell"
+  desc: "My stomach is killing me..."
 
 - id: 27
   line: "MayhemSurprise"
+  desc: "Kakul! Did I scare you?"
 
 - id: 28
   line: "MayhemInsult"
+  desc: "You kakul cretin!"
 
 - id: 29
   line: "MayhemQuiet"
+  desc: "Sorry to interrupt you, but please be quiet!"
 
 - id: 30
   line: "OpenUpMayhem"
+  desc: "Let me in..."
 
 - id: 31
   line: "GatherAroundMayhem"
+  desc: "Gather around! Let's gather! Gather!!"
 
 - id: 32
   line: "MayhemDown"
+  desc: "Darkness... closing in..! Mayhem vision... going black...! Gasp!.."
 
 - id: 33
   line: "Praying"
+  desc: "Allow me to be a righteous Lazenith again today."
 
 - id: 34
   line: "FireAway"
+  desc: "Leave the shooting to me!"
 
 - id: 35
   line: "Delicious"
+  desc: "It's more delicious when we eat together."
 
 - id: 36
   line: "Hooray"
+  desc: "Hip Hip! Hooray! (Yom: Yahooo!)"
 
 - id: 37
   line: "Peeking"
+  desc: "What is it? Something fun? (Yom: What is it??)"
 
 - id: 38
   line: "DoNotLikeIt"
+  desc: "You're being mean! (Yom: Hmmpf!)"
 
 - id: 39
   line: "Tired"
+  desc: "My wings are too tired..."
 
 - id: 40
   line: "BigNews"
+  desc: "What do I do?! Big news!"
 
 - id: 41
   line: "PhantomBoundary"
+  desc: "Anyone who crosses this boundary will be destroyed by chaos!"
 
 - id: 42
   line: "PhantomTaunt"
+  desc: "Come, foolish devotees of Karma!"
 
 - id: 43
   line: "PhantomPalm"
+  desc: "Sing the hymn of the preordained fate!"
 
 - id: 44
   line: "PhantomSmile"
+  desc: "Did you really think I would like that?"
 
 - id: 45
   line: "SpaceyCommanduh"
+  desc: "Don't you think it's time you gave up?"
 
 - id: 46
   line: "PhantomTeatime"
+  desc: "Ahh, the precious peace of self-care."
 
 - id: 47
   line: "Playemon"
+  desc: "Me! Me! I wanna Commanduh!"
 
 - id: 48
   line: "IAmEmbarrassed"
+  desc: "It's embarrassing to be the center of attention."
