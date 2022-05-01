@@ -83,12 +83,12 @@ description: "A collection of transparent Lost Ark Emotes for use. Add them to y
 	</tbody>
 </table>
 
-<div class="card-deck">
+<div id="emote-card" class="card-deck">
 {% for emote in site.data.emotes %}
   <div class="card">
     <img class="card-img-top" src="/assets/img/emotes/emoji_a_{{ emote.id }}.png">
     <div class="card-body">
-      <h5 class="card-title">{{ emote.line }}</h5>
+      <h5 class="card-title">[{{ emote.line }}]</h5>
       <p class="card-text">{{ emote.desc }}</p>
     </div>
   </div>
