@@ -1,1 +1,143 @@
-- 
+- id: 01
+  line: "CoolGuyEnters"
+
+- id: 02
+  line: "DesperatePrayer"
+
+- id: 03
+  line: "TigerEmerges"
+
+- id: 04
+  line: "WaterfallTraining"
+
+- id: 05
+  line: "Broke"
+
+- id: 06
+  line: "FlyingKick"
+
+- id: 07
+  line: "Recommendation"
+
+- id: 08
+  line: "WhatDidYouSay"
+
+- id: 09
+  line: "Awkward"
+
+- id: 10
+  line: "FunnyAndSad"
+
+- id: 11
+  line: "Funny"
+  
+- id: 12
+  line: "I'mAngry"
+
+- id: 13
+  line: "Let'sPlay"
+
+- id: 14
+  line: "Really"
+
+- id: 15
+  line: "Hello"
+
+- id: 16
+  line: "HoldUp"
+
+- id: 17
+  line: "Sleepy"
+
+- id: 18
+  line: "YouCanDoIt"
+
+- id: 19
+  line: "ILoveYou"
+
+- id: 20
+  line: "Sorry"
+
+- id: 21
+  line: "Surprised"
+
+- id: 22
+  line: "Goodbye"
+
+- id: 23
+  line: "Suspicious"
+
+- id: 24
+  line: "Alright"
+
+- id: 25
+  line: "TearsOfJoy"
+
+- id: 26
+  line: "NotFeelingWell"
+
+- id: 27
+  line: "MayhemSurprise"
+
+- id: 28
+  line: "MayhemInsult"
+
+- id: 29
+  line: "MayhemQuiet"
+
+- id: 30
+  line: "OpenUpMayhem"
+
+- id: 31
+  line: "GatherAroundMayhem"
+
+- id: 32
+  line: "MayhemDown"
+
+- id: 33
+  line: "Praying"
+
+- id: 34
+  line: "FireAway"
+
+- id: 35
+  line: "Delicious"
+
+- id: 36
+  line: "Hooray"
+
+- id: 37
+  line: "Peeking"
+
+- id: 38
+  line: "DoNotLikeIt"
+
+- id: 39
+  line: "Tired"
+
+- id: 40
+  line: "BigNews"
+
+- id: 41
+  line: "PhantomBoundary"
+
+- id: 42
+  line: "PhantomTaunt"
+
+- id: 43
+  line: "PhantomPalm"
+
+- id: 44
+  line: "PhantomSmile"
+
+- id: 45
+  line: "SpaceyCommanduh"
+
+- id: 46
+  line: "PhantomTeatime"
+
+- id: 47
+  line: "Playemon"
+
+- id: 48
+  line: "IAmEmbarrassed"
