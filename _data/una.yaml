@@ -938,3 +938,42 @@
   silver: 192000
   island: "Isteri Island Soul"
   other: "Someone's Letter"
+
+- id: 1110602
+  name: "A Father-Daughter Journey"
+  days: 31
+  quests: "Unfinished Journey"
+  rep1: 60
+  rep2: 100
+  rep3: 150
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 394000
+  masterpiece: "#50"
+
+- id: 1110603
+  name: "Candaria Merchant Group"
+  days: 13
+  quests: "From the North to the South<br/>From the South to the North<br/>The Story Flowing in the Luganic River"
+  rep1: 30
+  rep2: 30
+  rep3: 90
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 191000
+  
+- id: 1110601
+  name: "Vern Magick Society"
+  days: 15
+  quests: "Feel the Fresh Magick!"
+  rep1: 30
+  rep2: 50
+  rep3: 70
+  rep4: 0
+  rep5: 0
+  rep6: 0
+  silver: 114000
+  map: "Lost Merchant Ship"
+  
