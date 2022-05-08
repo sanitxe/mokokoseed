@@ -1,0 +1,17 @@
+- id: 1
+  name: Alar Skin
+  
+- id: 2
+  name: Lofty Noble Banquet
+  family: Noble Banquet
+  head:
+  chest:
+  pants:
+
+- id: 3
+  name: Elegant Noble Banquet
+  family: Noble Banquet
+
+- id: 4
+  name: Mysterious Noble Banquet
+  family: Noble Banquet
