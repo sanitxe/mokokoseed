@@ -5,3 +5,11 @@ description: "A site for Lost Ark Completionists, made by Lost Ark Completionist
 logo: /assets/favicon.png
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'outfitters'
+    template: 'outfitters'
+    name: 'name'
+    dir: 'outfits'
