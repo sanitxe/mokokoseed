@@ -2,70 +2,87 @@
   icon: 
   name: Mokoko Mushroom
   tome: Tortoyk
+  loc: 
 
 - id: 
   icon: 
   name: Llama
+  stronghold: Duekhyeon
   
 - id: 
   icon: 
   name: Red Sea Turtle
+  tome: Punika
   
 - id: 
   icon: 
   name: Stardust
+  stronghold: Astiel
 
 - id: 
   icon: 
   name: Sea Flower
+  tome: Anikka
 
 - id: 
   icon: 
-  name: Starfruits
+  name: Starfruit
+  stronghold: Tuleu
 
 - id: 
   icon: 
   name: Dragonfruit
+  tome: Yorn
 
 - id: 
   icon: 
   name: Mandrill
+  stronghold: Florr
   
 - id: 
   icon: 
   name: Ghost Lizard
+  stronghold: Saha
 
 - id: 
   icon: 
   name: 5-Colored Parrot
+  tome: Rohendel
   
 - id: 
   icon: 
   name: Tablet of Wind
+  stronghold: Flarke
 
 - id: 
   icon: 
   name: Halfmoon Mask
+  rapport: "[Feiton > Kalaja] Levi"
 
 - id: 
   icon: 
   name: Ancient Rod
+  rapport: "[Punika > Nia Village] Jahara"
 
 - id: 
   icon: 
   name: Ancient Gold Coin
+  rapport: "[Punika > Nia Village] Liru"
 
 - id: 
   icon: 
   name: Forgotten lake
+  rapport: "[Lakebar] Artisan Urr"
 
 - id: 
   icon: 
   name: Crevasse
+  rapport: "[Glacier Isle] Samly"
 
 - id: 
   icon: 
   name: Smoldering Ice
+  rapport: "[Nameless Valley] Jederico"
 
 - id: 
   icon: 
@@ -82,6 +99,110 @@
 - id: 
   icon: 
   name: Common Dolphin
+
+- id: 
+  icon: 
+  name: Polar Mammoth
+
+- id: 
+  icon: 
+  name: Red Camel
+
+- id: 
+  icon: 
+  name: Unicorn
+
+- id: 
+  icon: 
+  name: Ghost Stingray
+
+- id: 
+  icon: 
+  name: Siren
+
+- id: 
+  icon: 
+  name: Moonkeep
+
+- id: 
+  icon: 
+  name: Godsent Spear
+
+- id: 
+  icon: 
+  name: Statue of Gienah
+
+- id: 
+  icon: 
+  name: Aurora
+
+- id: 
+  icon: 
+  name: Whirlpool
+
+- id: 
+  icon: 
+  name: Mute Island
+
+- id: 
+  icon: 
+  name: Totoiki Ship
+
+- id: 
+  icon: 
+  name: Eye of the North Sea
+
+- id: 
+  icon: 
+  name: Eye of the South Sea
+
+- id: 
+  icon: 
+  name: Eye of the Dead
+
+- id: 
+  icon: 
+  name: Mysterious Chest
+
+- id: 
+  icon: 
+  name: "Pirate's Peg Leg"
+
+- id: 
+  icon: 
+  name: Pirate Flag
+
+- id: 
+  icon: 
+  name: Hestia
+
+- id: 
+  icon: 
+  name: Phantomwing
+
+- id: 
+  icon: 
+  name: Giant Shell
+
+- id: 
+  icon: 
+  name: Covered Figurehead
+
+- id: 
+  icon: 
+  name: Ice Statue
+
+- id: 
+  icon: 
+  name: Snow Sled
+
+- id: 
+  icon: 
+  name: Lost Merchant Ship
+
+- id: 
+  icon: 
+  name: Deep Sea Boulder
   
   
   
