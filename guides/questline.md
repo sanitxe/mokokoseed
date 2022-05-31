@@ -5,16 +5,6 @@ description: "Use this guide to reference how far you've completed the various W
 ---
 
 <h1>Main/World Questline Guide</h1>
-{% for quest in site.data.questline %}
-<h3>{{ quest.area }}</h3>
-<ol>
-  {% for entry in quest.quests %}
-  <li>{{ entry.quest }}</li>
-  {% endfor %}
-</ol>
-
-{% endfor %}
-
 <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills me-3" id="myPill" role="tablist" aria-orientation="vertical">
     {% for quest in site.data.questline %}
@@ -23,7 +13,7 @@ description: "Use this guide to reference how far you've completed the various W
   </div>
   <div class="tab-content">
     {% for quest in site.data.questline %}
-    <div class="tab-pane fade {% if quest.area == 'Tortoyk' %}active {% endif %}" id="{{ quest.area }}" role="tabpanel">
+    <div class="tab-pane fade {% if quest.area == 'Tortoyk' %}show active{% endif %}" id="{{ quest.area }}" role="tabpanel">
     <ol>
     {% for entry in quest.quests %}
     <li>{{ entry.quest }}</li>
