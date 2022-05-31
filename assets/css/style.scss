@@ -1110,12 +1110,15 @@ div.dtsp-panesContainer {
     background: lightgreen !important;
   }
 }
-.questline-tab.nav-link {
+button.questline-tab.nav-link {
   background-color: #transparent;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: lighter;
+  margin:0;
+  text-align:right;
 }
-.questline-tab.nav-link.active {
+button.questline-tab.nav-link.active {
   background-color: #4f4f4f;
+  border:0px;
 }
