@@ -961,7 +961,7 @@ div.dtsp-panesContainer {
       line-height: $line-height;
       cursor: default;
       min-height: 30px;
-      
+      min-width: 200px;
       &:last-of-type {
         flex: 0;
       }
@@ -1089,7 +1089,7 @@ div.dtsp-panesContainer {
       line-height: $line-height;
       cursor: default;
       min-height: 30px;
-      
+      min-width: 200px;
       &:last-of-type {
         flex: 0;
       }
