@@ -35,5 +35,46 @@
     - quest: "The Village's Pride and Joy"
     - quest: There and Back Again
     - quest: Making the Crew Cut
-    
+
+- area: Anikka
+  quests:
+    - quest: 
+    - quest: An Old Story
+    - quest: Join the Tournament
+    - quest: The First Match
+    - quest: Dumpling Desire
+    - quest: "Manpo's Dumplings"
+    - quest: Food Fighter
+    - quest: The Second Match
+    - quest: Night Fears
+    - quest: A Case of Murder
+    - quest: Moonmist Mania
+    - quest: The Third Match
+    - quest: "Awe-inspiring Arm"
+    - quest: The Fourth Match
+    - quest: "Jeok Family's Prodigal Son"
+    - quest: The Fifth Match
+    - quest: Bleak House
+    - quest: Acupuncture Ace
+    - quest: A Letter from His Wife
+    - quest: Demon Clash
+    - quest: "The Sixth Match"
+    - quest: "Intruder's Intent"
+    - quest: "Master's Drinking Table"
+    - quest: "Sir Druden's Problem"
+    - quest: Gourd Hoard
+    - quest: Bird Beater
+    - quest: Signs of Dissolution
+    - quest: The Seventh Match
+    - quest: Top of His Game
+    - quest: The Eight Match
+    - quest: Into the Mist
+    - quest: "Madman's Guide"
+    - quest: "Conjurer's Source"
+    - quest: Key of the Horizon
+    - quest: End of the Conjurer
+    - quest: At the Threshold
+    - quest: Prove My Worth
+    - quest: "The Sidereal's Message"
+    - quest: Gone with the Wind
     
