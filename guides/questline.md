@@ -16,14 +16,14 @@ description: "Use this guide to reference how far you've completed the various W
 {% endfor %}
 
 <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  <div class="nav flex-column nav-pills me-3" id="myTab" role="tablist" aria-orientation="vertical">
     {% for quest in site.data.questline %}
-    <button class="nav-link" id="v-pills-{{ quest.area }}-tab" data-bs-toggle="pill" data-bs-target="#v-pills-{{ quest.area }}" type="button" role="tab">{{ quest.area }}</button>
+    <button class="nav-link" id="{{ quest.area }}-tab" data-toggle="pill" href="{{ quest.area }}" type="button" role="tab">{{ quest.area }}</button>
     {% endfor %}
   </div>
   <div class="tab-content" id="v-pills-tabContent">
     {% for quest in site.data.questline %}
-    <div class="tab-pane fade {% if quest.area == 'Tortoyk' %}show active {% endif %}" id="v-pills-{{ quest.area }}" role="tabpanel">
+    <div class="tab-pane fade {% if quest.area == 'Tortoyk' %}active {% endif %}" id="{{ quest.area }}" role="tabpanel">
     <ol>
     {% for entry in quest.quests %}
     <li>{{ entry.quest }}</li>
