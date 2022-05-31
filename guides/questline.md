@@ -23,7 +23,7 @@ description: "Use this guide to reference how far you've completed the various W
   </div>
   <div class="tab-content" id="v-pills-tabContent">
     {% for quest in site.data.questline %}
-    <div class="tab-pane fade" id="v-pills-{{ quest.area }}" role="tabpanel">
+    <div class="tab-pane fade {% if quest.area == 'Tortoyk' %}show active {% endif %}" id="v-pills-{{ quest.area }}" role="tabpanel">
     <ol>
     {% for entry in quest.quests %}
     <li>{{ entry.quest }}</li>
