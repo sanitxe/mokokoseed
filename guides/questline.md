@@ -16,12 +16,12 @@ description: "Use this guide to reference how far you've completed the various W
 {% endfor %}
 
 <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="myTab" role="tablist" aria-orientation="vertical">
+  <div class="nav flex-column nav-pills me-3" id="myPill" role="tablist" aria-orientation="vertical">
     {% for quest in site.data.questline %}
-    <button class="nav-link" id="{{ quest.area }}-tab" data-toggle="pill" href="{{ quest.area }}" type="button" role="tab">{{ quest.area }}</button>
+    <button class="nav-link" id="{{ quest.area }}-tab" data-toggle="pill" href="#{{ quest.area }}" type="button" role="tab">{{ quest.area }}</button>
     {% endfor %}
   </div>
-  <div class="tab-content" id="v-pills-tabContent">
+  <div class="tab-content">
     {% for quest in site.data.questline %}
     <div class="tab-pane fade {% if quest.area == 'Tortoyk' %}active {% endif %}" id="{{ quest.area }}" role="tabpanel">
     <ol>
