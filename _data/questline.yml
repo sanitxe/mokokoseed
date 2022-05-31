@@ -1,6 +1,7 @@
 - area: Tortoyk
   quests:
     - quest: A Home in Danger
+      first: true
     - quest: Take Care of Mokamoka
     - quest: One More Thing
     - quest: Water Is Life
@@ -35,10 +36,12 @@
     - quest: "The Village's Pride and Joy"
     - quest: There and Back Again
     - quest: Making the Crew Cut
+      last: true
 
 - area: Anikka
   quests:
     - quest: An Old Story
+      first: true
     - quest: Join the Tournament
     - quest: The First Match
     - quest: Dumpling Desire
@@ -76,4 +79,5 @@
     - quest: Prove My Worth
     - quest: "The Sidereal's Message"
     - quest: Gone with the Wind
+      last: true
     
