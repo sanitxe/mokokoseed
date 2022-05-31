@@ -9,7 +9,7 @@ description: "Use this guide to reference how far you've completed the various W
 <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills me-3" id="myPill" role="tablist" aria-orientation="vertical">
     {% for quest in site.data.questline %}
-    <button class="nav-link" id="{{ quest.area }}-tab" data-toggle="pill" href="#{{ quest.area }}" type="button" role="tab">{{ quest.area }}</button>
+    <button class="nav-link questline-tab" id="{{ quest.area }}-tab" data-toggle="pill" href="#{{ quest.area }}" type="button" role="tab">{{ quest.area }}</button>
     {% endfor %}
   </div>
   <div class="tab-content">
