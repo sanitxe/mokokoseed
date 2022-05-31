@@ -24,12 +24,6 @@ description: "Use this guide to reference how far you've completed the various W
       </div>
     </div>  
     </div>  
-      
-    <ol>
-    {% for entry in quest.quests %}
-    <li>{{ entry.quest }}</li>
-    {% endfor %}
-    </ol>
     </div>
     {% endfor %}
   </div>
