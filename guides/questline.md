@@ -19,7 +19,7 @@ description: "Use this guide to reference how far you've completed the various W
       <div class="progress-steps">
       <div class="right">
       {% for entry in quest.quests %}
-          <div>{{ entry.quest }}</div>
+          <div {% if entry.last == 'true' %}class="done"{% endif %}>{{ entry.quest }}</div>
       {% endfor %}
       </div>
     </div>  
