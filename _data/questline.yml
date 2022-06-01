@@ -84,6 +84,7 @@
 - area: Arthetine
   quests:
     - quest: The Machine City
+      first: true
     - quest: Mysterious Mech Corps
     - quest: Train in Turmoil
     - quest: Sternward Bound
@@ -115,4 +116,5 @@
     - quest: The Watcher
     - quest: Haberk to the Ship
     - quest: A Token Opher Thoughts
+      last: true
     
