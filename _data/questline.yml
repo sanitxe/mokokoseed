@@ -121,6 +121,7 @@
 - area: North Vern
   quests: 
     - quest: "Vern, Continent of Adventurers"
+      first: true
     - quest: To Vern Castle
     - quest: A Storm of News
     - quest: "Queen's Knights to Senate"
@@ -143,10 +144,12 @@
     - quest: Beyond the Frozen Sea
     - quest: The Sturmbrecher Launch
     - quest: To Shushire
+      last: true
     
 - area: Shushire
   quests:
     - quest: The Frozen Sea
+      first: true
     - quest: What Lies Slumbering
     - quest: "Dawn's Beginning"
     - quest: Relief Work
@@ -175,10 +178,12 @@
     - quest: Commander Akkan
     - quest: Daybreak
     - quest: Elpon
+      last: true
 
 - area: Rohendel
   quests:
     - quest: The Port of Rohendel
+      first: true
     - quest: Bambiri Village
     - quest: "Aven's House"
     - quest: Toady and the Mage
@@ -223,10 +228,12 @@
     - quest: "Elzowin's Defender"
     - quest: "Dream-Stricken Elzowin"
     - quest: Ratik
+      last: true
 
 - area: Yorn
   quests: 
     - quest: "Yorn's Cradle"
+      first: true
     - quest: The Trouble With Being Famous
     - quest: The Beginning
     - quest: Vital Information
@@ -269,10 +276,12 @@
     - quest: To the Ark of Arrogance
     - quest: Stop Velcruze
     - quest: The Final Report
+      last: true
 
 - area: Feiton
   quests:
     - quest: The Unloved Land
+      first: true
     - quest: Watchers of Light
     - quest: "Valley's Shadow"
     - quest: If You Want to Live
@@ -302,10 +311,12 @@
     - quest: To Dark Rain Plains
     - quest: Farther Than Death
     - quest: Will
+      last: true
 
 - area: Punika
   quest: 
     - quest: One Step at a Time
+      first: true
     - quest: Lailai Preparations with Everyone
     - quest: To Mellow Beach
     - quest: Nia and the Investigation
@@ -337,3 +348,47 @@
     - quest: "Precious Things, Barely Protected"
     - quest: Getting Ready for the Festival
     - quest: Festival Adventure
+      last: true
+      
+- area: South Vern
+  quests:
+    - quest: Engraved Distrust
+      first: true
+    - quest: The Space Between Shadow and the Moon
+    - quest: "The Queen's Wisdom"
+    - quest: The Senate and the Black Knights
+    - quest: A Wounded Sky
+    - quest: An Unexpected Journey
+    - quest: Mayhem
+    - quest: The Guide For the Journey South
+    - quest: "Tide's Whisper"
+    - quest: Unity of Strength
+    - quest: In Search of Avele
+    - quest: To Wishnel Village
+    - quest: Rosepetal Peresto
+    - quest: Footprints Hidden Under Leaves
+    - quest: Serious Search
+    - quest: Terrible Lies and Secrets
+    - quest: Song of the Setting Sun
+    - quest: Woodville Village in Dusk
+    - quest: Decisive Cue
+    - quest: "Guide's Mission"
+    - quest: Intermediate Report
+    - quest: "At the Journey's End"
+    - quest: A Deep Remorse
+    - quest: The Sun Shines as Always
+    - quest: Rising Again
+    - quest: Gathering the Solar Knights
+    - quest: "Three Knight's Reunion"
+    - quest: Unexpected Reunion
+    - quest: Temporary Alliance
+    - quest: Splitting Sky
+    - quest: Gazing at the Torn Sky
+    - quest: "A Cloud-Piercing Spear"
+    - quest: "Shandi's Informant"
+    - quest: "Sidereal's Solution"
+    - quest: Bellion Defense
+    - quest: "Hero's Path"
+    - quest: Arkesia Allied Forces
+    - quest: An Invasion of Chaos
+      last: true
