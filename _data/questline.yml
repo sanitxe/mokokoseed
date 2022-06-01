@@ -80,4 +80,39 @@
     - quest: "The Sidereal's Message"
     - quest: Gone with the Wind
       last: true
+
+- area: Arthetine
+  quests:
+    - quest: The Machine City
+    - quest: Mysterious Mech Corps
+    - quest: Train in Turmoil
+    - quest: Sternward Bound
+    - quest: "Stern's Alligator"
+    - quest: Verdantier Doubts
+    - quest: The Three Leaders
+    - quest: Assistant Investigator
+    - quest: Tracking
+    - quest: To the Hoverboard Testing Site
+    - quest: Ominous Signs
+    - quest: Airship Crash Investigation
+    - quest: Nebelhorn Lab
+    - quest: A Better Place to Work
+    - quest: To the Hoverboard Lab
+    - quest: Rescue
+    - quest: The Heart of Sceptrum
+    - quest: Confrontation
+    - quest: "Krause's Whereabouts"
+    - quest: Rumble in the Rubbish
+    - quest: Mech Corps Reduction
+    - quest: Totrich on Lockdown
+    - quest: Defeat the Watchers
+    - quest: "To Bergstrom's Laboratory"
+    - quest: Remnants of Power
+    - quest: Assembly of Regulators
+    - quest: Iron Gate
+    - quest: Enter at All Costs
+    - quest: Those Left Behind
+    - quest: The Watcher
+    - quest: Haberk to the Ship
+    - quest: A Token Opher Thoughts
     
