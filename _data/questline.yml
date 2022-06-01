@@ -314,7 +314,7 @@
       last: true
 
 - area: Punika
-  quest: 
+  quests: 
     - quest: One Step at a Time
       first: true
     - quest: Lailai Preparations with Everyone
