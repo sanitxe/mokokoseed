@@ -1120,7 +1120,7 @@ button.questline-tab.nav-link {
   color: black;
 }
 button.questline-tab.nav-link.active {
-  background: radial-gradient(circle, rgba(60,60,60,1) 0%, rgba(255,236,211,0) 100%); 
+  background: linear-gradient(270deg, rgba(60,60,60,1) 0%, rgba(255,236,211,0) 100%); 
   border:0px;
   font-weight:bold;
   border-radius:0px;
