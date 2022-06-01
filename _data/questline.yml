@@ -223,3 +223,82 @@
     - quest: "Elzowin's Defender"
     - quest: "Dream-Stricken Elzowin"
     - quest: Ratik
+
+- area: Yorn
+  quests: 
+    - quest: "Yorn's Cradle"
+    - quest: The Trouble With Being Famous
+    - quest: The Beginning
+    - quest: Vital Information
+    - quest: To the Great Castle
+    - quest: To the Really Great Castle
+    - quest: True Brilliance
+    - quest: "The Great Castle's Sun"
+    - quest: The Delinquent Employee
+    - quest: Rocket Boots Delivery
+    - quest: Rise and Shine
+    - quest: To the Unfinished Garden
+    - quest: Super Unar Brothers
+    - quest: To the Mine Car
+    - quest: Needed Repairs
+    - quest: Purify the Contaminated Area
+    - quest: Trouble in the Water Tank
+    - quest: What Lies in the Past
+    - quest: Preparations for a Journey
+    - quest: A Letter from an Old Friend
+    - quest: Black Anvil Mine
+    - quest: Saving Nupen
+    - quest: After the Quake
+    - quest: The Cause of the Earthquakes
+    - quest: The Last Fjorgin
+    - quest: Burning Mine
+    - quest: To the Wonderful Brewery
+    - quest: Find the Great Seal
+    - quest: The Spreading Tremor
+    - quest: "What Caused the Earthquakes?"
+    - quest: The True Cause
+    - quest: Covering All the Basics
+    - quest: "Hot Stuff, Dynamite"
+    - quest: The Real Culprit
+    - quest: Awakened At Last
+    - quest: To the Forbidden Area
+    - quest: Ancestral Homeland
+    - quest: A Sense of Duty
+    - quest: The Sleepless Souls
+    - quest: With the Ancestors
+    - quest: To the Ark of Arrogance
+    - quest: Stop Velcruze
+    - quest: The Final Report
+
+- area: Feiton
+  quests:
+    - quest: The Unloved Land
+    - quest: Watchers of Light
+    - quest: "Valley's Shadow"
+    - quest: If You Want to Live
+    - quest: The Black Abyss
+    - quest: Dark Blades
+    - quest: A Vigilant Shadow
+    - quest: City of the Restless
+    - quest: Chaos Inside the Heart
+    - quest: "Avesta, Order of Assassins"
+    - quest: Wailing Forest
+    - quest: Will Work for Food
+    - quest: Between Life and Death
+    - quest: Threshold of Survival
+    - quest: Spirit in the Swamp
+    - quest: Echoes from the Swamp
+    - quest: Dark Blade
+    - quest: Join Avesta
+    - quest: Shadow Monastery
+    - quest: Infiltrate and Destroy the Barrier
+    - quest: Across the Shadow Monastery Roof
+    - quest: Children in Danger
+    - quest: Preparing to Enter the Monastery
+    - quest: Truthful Like Steel
+    - quest: Good and Evil
+    - quest: A Bloody Land
+    - quest: Broken Shield of God
+    - quest: To Dark Rain Plains
+    - quest: Farther Than Death
+    - quest: Will
