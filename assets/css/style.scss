@@ -1117,10 +1117,15 @@ button.questline-tab.nav-link {
   font-weight: lighter;
   margin:0;
   text-align:right;
+  color: black;
 }
 button.questline-tab.nav-link.active {
   background: radial-gradient(circle, rgba(60,60,60,1) 0%, rgba(255,236,211,0) 100%); 
   border:0px;
   font-weight:bold;
   border-radius:0px;
+}
+
+.dark button.questline-tab.nav-link {
+  color:white;
 }
