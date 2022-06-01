@@ -12,4 +12,6 @@ toc:
   - title: Extra
     subfolderitems:
       - page: Emotes
-        url:  /emotes
+        url: /emotes
+      - page: Animated Emotes
+        url: /animated-emotes
