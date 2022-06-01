@@ -118,3 +118,108 @@
     - quest: A Token Opher Thoughts
       last: true
     
+- area: North Vern
+  quests: 
+    - quest: "Vern, Continent of Adventurers
+    - quest: To Vern Castle
+    - quest: A Storm of News
+    - quest: "Queen's Knights to Senate"
+    - quest: "Ealyn's Request"
+    - quest: Afterimages of the Rift
+    - quest: Powerless Pendant
+    - quest: "Rania Adventurer's Guild"
+    - quest: Speak to the Rankled
+    - quest: Qualifications to Enter Balankar
+    - quest: In the Wake of Death
+    - quest: Mountains in Despair
+    - quest: Necromantic Sacrifices
+    - quest: "Sigmund's Whereabouts"
+    - quest: To the Besieged Fortress
+    - quest: Tyron Fortress Battle
+    - quest: Burning Light of Hope
+    - quest: To Ancient Elveria
+    - quest: "She Waits, He Leaves"
+    - quest: "Ealyn's Gift"
+    - quest: Beyond the Frozen Sea
+    - quest: The Sturmbrecher Launch
+    - quest: To Shushire
+    
+- area: Shushire
+  quests:
+    - quest: The Frozen Sea
+    - quest: What Lies Slumbering
+    - quest: "Dawn's Beginning"
+    - quest: Relief Work
+    - quest: Madnick
+    - quest: To the Arena
+    - quest: Bitter Winds
+    - quest: Gently and Peacefully
+    - quest: Sparrows and the Mill
+    - quest: "Commence the Rescue!"
+    - quest: Missing Prisoners
+    - quest: On The Trail
+    - quest: Rekindled Embers
+    - quest: Lakeside Legend
+    - quest: Teacher and Student
+    - quest: Finding Vrad
+    - quest: Punishment
+    - quest: "Vrad's Final Moments"
+    - quest: Amidst the Cheers
+    - quest: Revelations
+    - quest: Wolves at the Sanctum
+    - quest: Demons in the Sanctum
+    - quest: Cliff Hanger
+    - quest: Lingering Footprints
+    - quest: Frozen Footprints
+    - quest: Blinding Fog
+    - quest: Commander Akkan
+    - quest: Daybreak
+    - quest: Elpon
+
+- area: Rohendel
+  quests:
+    - quest: The Port of Rohendel
+    - quest: Bambiri Village
+    - quest: "Aven's House"
+    - quest: Toady and the Mage
+    - quest: A Strange Sylvain
+    - quest: Magical Investigation
+    - quest: Into the Warped Magick Rift
+    - quest: An Audience with the Queen
+    - quest: "Rohendel's Queen"
+    - quest: Between the Sun and Moon
+    - quest: Water Keeper Orelda
+    - quest: The Eternal Curse
+    - quest: "Memories of the Forest, Dreams of the Wind"
+    - quest: Elemental Emergency
+    - quest: Forest Keeper Digne
+    - quest: Song of the Fading Wind
+    - quest: A Fickle Wind
+    - quest: A Veiled Wind
+    - quest: The Sanctum of Wind
+    - quest: Stormy Weather Ahead
+    - quest: Wailing Wind
+    - quest: The End of the Storm
+    - quest: Into the Corruption
+    - quest: The Shattered City
+    - quest: In Search of Lenora
+    - quest: "Eruption's Aftermath"
+    - quest: Traces of the Flames
+    - quest: Memories of Earth
+    - quest: "Gherdia's Tracks"
+    - quest: The Sylvains of Xeneela
+    - quest: Dying Embers
+    - quest: "Rohendel's Research"
+    - quest: Fallen Flamekeeper
+    - quest: Overflowing Flames
+    - quest: Azena in Peril
+    - quest: "Journey to Elzowin's Shade"
+    - quest: A Curse Broken
+    - quest: "Elzowin's Nightmare"
+    - quest: Nightmares in the Forest
+    - quest: The Reunion
+    - quest: "Aven's Whereabouts"
+    - quest: Protecting Aven
+    - quest: "Elzowin's Defender"
+    - quest: "Dream-Stricken Elzowin"
+    - quest: Ratik
