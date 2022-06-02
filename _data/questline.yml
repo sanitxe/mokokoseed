@@ -1,3 +1,54 @@
+- area: Rethramis
+  quests:
+    - quest: Town Where Light Lingers
+    - quest: "Varut's Gift"
+    - quest: Legends and Fairytales
+    - quest: Legacy of the Ancients
+    - quest: In the East Oratory
+    - quest: Trace the Stone Tablet
+    - quest: What the Robbers Want
+    - quest: "Warning: Grave Robbers!"
+    - quest: Trouble in Kolsh Forest
+    - quest: Demons in the Cave
+    - quest: Demons in Prideholme
+    - quest: "Neria's Story"
+    - quest: Tablet of Revelations
+    - quest: Gathering Clues
+    - quest: Mountain of the Singing Wind
+    - quest: Sacred Spring
+    - quest: "The Plague's Source"
+    - quest: A Command Post in Need
+    - quest: Belated Help
+    - quest: They Will Be Remembered
+    - quest: A Mystery Attack
+    - quest: A New Disease
+    - quest: A Possible Solution
+    - quest: "The Snake's Gem"
+    - quest: On the Border
+
+- area: Yudia
+  quests: 
+    - quest: Looking for the Nomads
+    - quest: Burnt Encampment
+    - quest: Bandit Road
+    - quest: Salt Works
+    - quest: Finding the Monument
+    - quest: Subjugate the Bandits
+    - quest: Another Monument
+    - quest: Aregal Salt Plains
+    - quest: Raid and Rescue
+    - quest: The Last Monument
+    - quest: First Things First
+    - quest: A Meeting of the Nomads
+    - quest: Preparing the Rain
+    - quest: To Morai
+    - quest: Morai Ruins
+    - quest: "Armen's Whereabouts"
+    - quest: Foxfire
+    - quest: Armen and the Demon
+    - quest: Demon Raid
+    - quest: "To Luterra!"
+
 - area: Tortoyk
   quests:
     - quest: A Home in Danger
