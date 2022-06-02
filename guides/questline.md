@@ -9,7 +9,7 @@ description: "Use this guide to reference how far you've completed the various W
 <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills col-4" id="myPill" role="tablist" aria-orientation="vertical">
 {% for quest in site.data.questline %}
-<div id="carousel-{{ quest.area | handleize }}" class="collapse carousel slide {{ quest.area | handleize }}" data-ride="carousel">
+<div id="carousel-{{ quest.area | slugify  }}" class="collapse carousel slide {{ quest.area | slugify  }}" data-ride="carousel">
   <div class="carousel-inner">
     {% for img in quest.images %}
     <div class="carousel-item {% if img.first == true %}active{% endif %}">
@@ -30,7 +30,7 @@ description: "Use this guide to reference how far you've completed the various W
 
     {% for quest in site.data.questline %}
 
-    <button class="nav-link questline-tab" id="{{ quest.area | handleize }}-tab" data-toggle="pill" data-target=".{{ quest.area | handleize }}" type="button" role="tab">{{ quest.area }}</button>
+    <button class="nav-link questline-tab" id="{{ quest.area | slugify  }}-tab" data-toggle="pill" data-target=".{{ quest.area | slugify  }}" type="button" role="tab">{{ quest.area }}</button>
     {% endfor %}
   </div>
   <div class="tab-content">
