@@ -35,7 +35,7 @@ description: "Use this guide to reference how far you've completed the various W
   </div>
   <div class="tab-content">
     {% for quest in site.data.questline %}
-    <div id="{{ quest.area | slugify }}" class="tab-pane fade {% if quest.area == 'Tortoyk' %}show active{% endif %} {{ quest.area | slugify }}" role="tabpanel">
+    <div id="{{ quest.area | slugify }}" class="tab-pane fade {% if quest.area == 'Rethramis' %}show active{% endif %} {{ quest.area | slugify }}" role="tabpanel">
     <div class="outer">
       <div class="progress-steps">
       <div class="right">
