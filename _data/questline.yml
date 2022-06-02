@@ -1,6 +1,7 @@
 - area: Rethramis
   quests:
     - quest: Town Where Light Lingers
+      first: true
     - quest: "Varut's Gift"
     - quest: Legends and Fairytales
     - quest: Legacy of the Ancients
@@ -25,10 +26,12 @@
     - quest: A Possible Solution
     - quest: "The Snake's Gem"
     - quest: On the Border
+      last: true
 
 - area: Yudia
   quests: 
     - quest: Looking for the Nomads
+      first: true
     - quest: Burnt Encampment
     - quest: Bandit Road
     - quest: Salt Works
@@ -48,6 +51,114 @@
     - quest: Armen and the Demon
     - quest: Demon Raid
     - quest: "To Luterra!"
+      last: true
+
+- area: West Luterra
+  quests:
+    - quest: Fortress Under Attack
+      first: true
+    - quest: Guard Post in Ruins
+    - quest: To Zagoras Fortress
+    - quest: "Armen's Request"
+    - quest: The Declaration
+    - quest: To the Eastern Ruins
+    - quest: Song of Valor
+    - quest: To Lakebar
+    - quest: The Village with a Lake
+    - quest: Still Hesitant
+    - quest: The Weight of Death
+    - quest: The Iron Crown
+    - quest: The Spirit of Luterra
+    - quest: Crown of Lakebar
+    - quest: To the Brilliant Ridge
+    - quest: Brilliant Ridge
+    - quest: To Medrick Monastery
+    - quest: Monastery on the Brink
+    - quest: The Warrior Priests of Medrick
+    - quest: The Wrath of Thirain
+    - quest: The Militia of Bilbrin
+    - quest: Respect the Hunter
+    - quest: Contacting the Militia
+    - quest: Militia Leader Cassleford
+    - quest: "Thirain's Disappearance"
+    - quest: An Unshakable Resolve
+    - quest: To the Battlebound Plains
+    - quest: Through the Demon Beast Legion
+    - quest: To the Glorious Wall
+      last: true
+    
+- area: East Luterra
+  quests:
+    - quest: A Kingdom Reclaimed
+      first: true
+    - quest: Rebuilding Luterra
+    - quest: Song of Return
+    - quest: The People of Luterra Castle
+    - quest: Two Families
+    - quest: In the Name of the Eldest
+    - quest: Brother Against Brother
+    - quest: In the Name of the Youngest
+    - quest: The Beginning of Reconciliation
+    - quest: United Once More
+    - quest: In Search of the Lost Phrase
+    - quest: Heroes and Constellations
+    - quest: Gloomy Pumpkin Farm
+    - quest: Pumpkin Cleanup
+    - quest: The Deaf Bard
+    - quest: The Blind Bard
+    - quest: "From Dusk 'til Dawn"
+    - quest: Royal Eagle Seal
+    - quest: Dangerous Lastra Forest
+    - quest: "King's Tomb"
+    - quest: Legend Reborn
+    - quest: The Wingless
+    - quest: To the Edge of the World
+    - quest: Destiny Led by Light
+    - quest: With Gratitude
+    - quest: Contaminated Orchard
+    - quest: Sweet Temptation of Mayhem
+    - quest: "King Thirain's Rapid Response"
+    - quest: Rampant Frenzy
+    - quest: The Distant Ringing of a Bell
+    - quest: Over the Black Rose Vines
+    - quest: The Secret of the Chapel Graveyard
+    - quest: Preparing Disguise
+    - quest: The Summoning of Mayhem
+    - quest: The Long and Dark Night
+    - quest: "Tracking Down Kakul-Saydon"
+    - quest: Puruus and the Land of Purification
+    - quest: The Leaders of Puruus
+    - quest: "Seria's Present"
+    - quest: Advice from Ligheas
+    - quest: "Kakul-Saydon's Scheme"
+    - quest: Sad Premonition
+    - quest: Drums of Resistance
+    - quest: Bracing For Battle
+    - quest: On the Brink of War
+    - quest: Forward to Victory
+    - quest: Rekindled Fire
+    - quest: Wise Guy
+    - quest: All Ready
+    - quest: Battlefield Wounds
+    - quest: Holy Inquisitors
+    - quest: The Trails of Saints
+    - quest: The Wind Stays while Dreams Fade
+    - quest: A Quality Vessel
+    - quest: Find the Sneaky Pirates
+    - quest: Three Sheets to the Wind
+    - quest: In Search of Pirates
+    - quest: Feartown
+    - quest: Lightshade Inn
+    - quest: "Blackfang's Whereabouts"
+    - quest: "Finding Blackfang's Crew"
+    - quest: Whistle While You Work
+    - quest: Big Flare Up
+    - quest: Signal Your Intention
+    - quest: "Rescuing Blackfang's Crew"
+    - quest: Clear Stormcry Grotto
+    - quest: Have to Half It
+    - quest: "Set Sail!"
+      last: true
 
 - area: Tortoyk
   quests:
