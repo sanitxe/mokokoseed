@@ -32,7 +32,7 @@ description: "Use this guide to reference how far you've completed the various W
     {% endfor %}
     
     {% for quest in site.data.questline %}
-<div id="carousel-{{ quest.area | slugify  }}" class="tab-pane carousel slide {{ quest.area | slugify  }}" data-ride="carousel" role="tabpanel">
+<div id="carousel-{{ quest.area | slugify  }}" class="collapse carousel slide {{ quest.area | slugify  }}" data-ride="carousel" role="tabpanel">
   <div class="carousel-inner">
     {% for img in quest.images %}
     <div class="carousel-item {% if img.first == true %}active{% endif %}">
