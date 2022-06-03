@@ -1,4 +1,12 @@
 - area: Rethramis
+  images:
+    - image: area_icon_artemis_0_01.png
+      first: true
+    - image: area_icon_artemis_0_02.png
+    - image: area_icon_artemis_0_03.png
+    - image: area_icon_artemis_0_04.png
+    - image: area_icon_artemis_1_01.png
+    - image: area_icon_artemis_1_02.png
   quests:
     - quest: Town Where Light Lingers
       first: true
