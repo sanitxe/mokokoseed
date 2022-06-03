@@ -112,6 +112,14 @@
       last: true
     
 - area: East Luterra
+  images: 
+    - image:  area_icon_lute_0_01.png
+      first: true
+    - image:  area_icon_lute_0_02.png
+    - image:  area_icon_lute_0_03.png
+    - image:  area_icon_lute_0_04.png
+    - image:  area_icon_lute_1_01.png
+    - image:  area_icon_lute_1_02.png 
   quests:
     - quest: A Kingdom Reclaimed
       first: true
@@ -185,6 +193,14 @@
       last: true
 
 - area: Tortoyk
+  images:
+    - image: area_icon_tot_0_01.png
+    - image: area_icon_tot_0_02.png
+    - image: area_icon_tot_0_03.png
+    - image: area_icon_tot_0_04.png
+    - image: area_icon_tot_1_01.png
+    - image: area_icon_tot_1_02.png
+    - image: area_icon_tot_1_03.png 
   quests:
     - quest: A Home in Danger
       first: true
