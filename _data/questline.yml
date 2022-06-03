@@ -37,6 +37,14 @@
       last: true
 
 - area: Yudia
+  images:
+    - image: area_icon_eud_0_01.png
+      first: true
+    - image: area_icon_eud_0_02.png
+    - image: area_icon_eud_0_03.png 
+    - image: area_icon_eud_0_04.png
+    - image: area_icon_eud_1_01.png
+    - image: area_icon_eud_1_02.png
   quests: 
     - quest: Looking for the Nomads
       first: true
@@ -62,6 +70,14 @@
       last: true
 
 - area: West Luterra
+  images:
+    - image: area_icon_lutw_0_01.png
+      first: true
+    - image: area_icon_lutw_0_02.png
+    - image: area_icon_lutw_0_03.png
+    - image: area_icon_lutw_0_04.png
+    - image: area_icon_lutw_1_01.png
+    - image: area_icon_lutw_1_02.png
   quests:
     - quest: Fortress Under Attack
       first: true
