@@ -7,7 +7,7 @@ description: "Use this guide to reference how far you've completed the various W
 
 <h1>Main/World Questline Guide</h1>
 <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills col-4" id="myPill" style="max-width:370px" role="tablist" aria-orientation="vertical">
+  <div class="nav flex-column nav-pills col-4" id="Main-Quest-Pill" style="max-width:370px" role="tablist" aria-orientation="vertical">
     {% for quest in site.data.questline %}
     
 <div id="carousel-{{ quest.area | slugify  }}" class="carousel slide" data-interval="false" style="display:none;max-width:370px" data-ride="carousel">
