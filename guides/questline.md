@@ -13,7 +13,7 @@ description: "Use this guide to reference how far you've completed the various W
 <div id="carousel-{{ quest.area | slugify  }}" class="carousel slide" style="display:none" data-ride="carousel">
   <div class="carousel-inner">
     {% for img in quest.images %}
-    <div class="carousel-item {% if entry.first == true %}active{% endif %}">
+    <div class="carousel-item {% if img.first == true %}active{% endif %}">
       <img class="d-block w-100" src="/assets/img/main-quest/{{ img.image }}">
     </div>
     {% endfor %}
