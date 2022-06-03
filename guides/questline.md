@@ -8,7 +8,27 @@ description: "Use this guide to reference how far you've completed the various W
 <h1>Main/World Questline Guide</h1>
 <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills col-4" id="myPill" role="tablist" aria-orientation="vertical">
+    {% for quest in site.data.questline %}
     
+<div id="carousel-{{ quest.area | slugify  }}" class="carousel slide" style="display:none" data-ride="carousel">
+  <div class="carousel-inner">
+    {% for img in quest.images %}
+    <div class="carousel-item {% if entry.first == true %}active{% endif %}">
+      <img class="d-block w-100" src="/assets/img/main-quest/{{ img.image }}">
+    </div>
+    {% endfor %}
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>    
+    
+    {% endfor %}
 
 
     {% for quest in site.data.questline %}
