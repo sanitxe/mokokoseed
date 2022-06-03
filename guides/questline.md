@@ -10,7 +10,7 @@ description: "Use this guide to reference how far you've completed the various W
   <div class="nav flex-column nav-pills col-4" id="myPill" role="tablist" aria-orientation="vertical">
     {% for quest in site.data.questline %}
     
-<div id="carousel-{{ quest.area | slugify  }}" class="carousel slide" style="display:none" data-ride="carousel">
+<div id="carousel-{{ quest.area | slugify  }}" class="carousel slide" data-interval="false" style="display:none" data-ride="carousel">
   <div class="carousel-inner">
     {% for img in quest.images %}
     <div class="carousel-item {% if img.first == true %}active{% endif %}">
