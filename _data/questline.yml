@@ -195,6 +195,7 @@
 - area: Tortoyk
   images:
     - image: area_icon_tot_0_01.png
+      first: true
     - image: area_icon_tot_0_02.png
     - image: area_icon_tot_0_03.png
     - image: area_icon_tot_0_04.png
@@ -241,6 +242,19 @@
       last: true
 
 - area: Anikka
+  images:
+    - image: area_icon_anh_0_01.png
+      first: true
+    - image: area_icon_anh_0_02.png
+    - image: area_icon_anh_0_03.png
+    - image: area_icon_anh_0_04.png
+    - image: area_icon_anh_1_01.png
+    - image: area_icon_anh_1_02.png
+    - image: area_icon_anh_1_03.png
+    - image: area_icon_anh_1_04.png
+    - image: area_icon_anh_2_01.png
+    - image: area_icon_anh_2_02.png
+    - image: area_icon_anh_2_03.png 
   quests:
     - quest: An Old Story
       first: true
@@ -284,6 +298,15 @@
       last: true
 
 - area: Arthetine
+  images: 
+    - image: area_icon_att_0_01.png
+      first: true
+    - image: area_icon_att_0_02.png
+    - image: area_icon_att_0_03.png
+    - image: area_icon_att_0_04.png
+    - image: area_icon_att_1_01.png
+    - image: area_icon_att_1_02.png
+    - image: area_icon_att_1_03.png
   quests:
     - quest: The Machine City
       first: true
@@ -321,6 +344,14 @@
       last: true
     
 - area: North Vern
+  images:
+    - image: area_icon_ber_0_01.png
+      first: true
+    - image: area_icon_ber_0_02.png
+    - image: area_icon_ber_0_03.png
+    - image: area_icon_ber_0_04.png
+    - image: area_icon_ber_1_01.png
+    - image: area_icon_ber_1_02.png
   quests: 
     - quest: "Vern, Continent of Adventurers"
       first: true
@@ -349,6 +380,15 @@
       last: true
     
 - area: Shushire
+  images: 
+    - image: area_icon_shs_0_01.png
+      first: true
+    - image: area_icon_shs_0_02.png
+    - image: area_icon_shs_0_03.png
+    - image: area_icon_shs_0_04.png
+    - image: area_icon_shs_1_01.png
+    - image: area_icon_shs_1_02.png
+    - image: area_icon_shs_1_03.png
   quests:
     - quest: The Frozen Sea
       first: true
@@ -383,6 +423,13 @@
       last: true
 
 - area: Rohendel
+  images: 
+    - image: area_icon_roh_1_01.png
+      first: true
+    - image: area_icon_roh_1_02.png
+    - image: area_icon_roh_1_03.png
+    - image: area_icon_roh_1_04.png
+    - image: area_icon_roh_2.png
   quests:
     - quest: The Port of Rohendel
       first: true
@@ -433,6 +480,15 @@
       last: true
 
 - area: Yorn
+  images:
+    - image: area_icon_yorn_0_01.png
+      first: true
+    - image: area_icon_yorn_0_02.png
+    - image: area_icon_yorn_0_03.png
+    - image: area_icon_yorn_0_04.png
+    - image: area_icon_yorn_1_01.png
+    - image: area_icon_yorn_1_02.png
+    - image: area_icon_yorn_1_03.png
   quests: 
     - quest: "Yorn's Cradle"
       first: true
@@ -481,6 +537,13 @@
       last: true
 
 - area: Feiton
+  images:
+    - image: area_icon_fat_1_01.png
+      first: true
+    - image: area_icon_fat_1_02.png
+    - image: area_icon_fat_1_03.png
+    - image: area_icon_fat_1_04.png
+    - image: area_icon_fat_2_01.png 
   quests:
     - quest: The Unloved Land
       first: true
@@ -516,6 +579,15 @@
       last: true
 
 - area: Punika
+  images: 
+    - image: area_icon_papu_0_01.png
+      first: true
+    - image: area_icon_papu_0_02.png
+    - image: area_icon_papu_0_03.png
+    - image: area_icon_papu_0_04.png
+    - image: area_icon_papu_1_01.png
+    - image: area_icon_papu_1_02.png
+    - image: area_icon_papu_1_03.png
   quests: 
     - quest: One Step at a Time
       first: true
@@ -553,6 +625,14 @@
       last: true
       
 - area: South Vern
+  images: 
+    - image: area_icon_berb_0_01.png
+      first: true
+    - image: area_icon_berb_0_02.png
+    - image: area_icon_berb_0_03.png
+    - image: area_icon_berb_0_04.png
+    - image: area_icon_berb_1_01.png
+    - image: area_icon_berb_1_02.png
   quests:
     - quest: Engraved Distrust
       first: true
