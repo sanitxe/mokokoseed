@@ -75,6 +75,7 @@ description: "Use this guide to reference how far you've completed the various W
 
 <script>
 jQuery(document).ready(function($){
+  $('#carousel-rethramis').show();
 {% for quest in site.data.questline %}
   $('#{{ quest.area | slugify  }}-tab').click(function(){
     $('.carousel').hide();
