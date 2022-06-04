@@ -74,20 +74,13 @@ description: "Use this guide to reference how far you've completed the various W
 </div>
 
 <script>
-  
-// Test code
-
-$('.progress-steps').each((_, progress) => {
-  
-  const steps = $('> div.right > div', progress);
-
-  steps.each((i, el) => $(el).mouseenter(e => onHover(el)));
-
-  const onHover = (el) => {
-      steps.removeClass(['current', 'prev']);
-      el.classList.add('current');
-      $(el).prevAll().slice(1).addClass('prev');
-    };
-})
+jQuery(document).ready(function($){
+{% for quest in site.data.questline %}
+  $('#{{ quest.area | slugify  }}-tab').click(function(){
+    $('.carousel').hide();
+    $('#carousel-{{ quest.area | slugify  }}').show();
+  });
+{% endfor %}
+});
 
 </script>
