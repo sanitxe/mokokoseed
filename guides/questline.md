@@ -33,7 +33,7 @@ description: "Use this guide to reference how far you've completed the various W
 
     {% for quest in site.data.questline %}
 
-    <button class="nav-link questline-tab" id="{{ quest.area | slugify  }}-tab" data-toggle="pill" data-target="#{{ quest.area | slugify  }}" type="button" role="tab">{{ quest.area }}</button>
+    <button class="nav-link questline-tab {% if quest.area == 'Rethramis' %}active{% endif %}" id="{{ quest.area | slugify  }}-tab" data-toggle="pill" data-target="#{{ quest.area | slugify  }}" type="button" role="tab">{{ quest.area }}</button>
     {% endfor %}
   </div>
   <div class="tab-content">
@@ -49,27 +49,7 @@ description: "Use this guide to reference how far you've completed the various W
     </div>  
     </div>  
     </div>
-    {% endfor %}
-    
-    {% for quest in site.data.questline %}
-<div id="carousel-{{ quest.area | slugify  }}" class="collapse carousel slide {{ quest.area | slugify  }}" data-ride="carousel" role="tabpanel">
-  <div class="carousel-inner">
-    {% for img in quest.images %}
-    <div class="carousel-item {% if img.first == true %}active{% endif %}">
-      <img class="d-block w-100" src="/assets/img/main-quest/{{ img.image }}.png">
-    </div>
-    {% endfor %}
-  </div>
-  <a class="carousel-control-prev" style="max-height:370px;" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" style="max-height:370px;" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-{% endfor %}
+    {% endfor %}    
   </div>
 </div>
 
