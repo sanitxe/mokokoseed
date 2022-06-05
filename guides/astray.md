@@ -21,7 +21,7 @@
   <div class="input-group-prepend">
     <span class="input-group-text {{ craft.color }}"><img src="/assets/img/icon/{{ craft.icon }}.png"> {{ craft.item }}</span>
   </div>  
-  <input id="{{ craft.icon }}" type="text" class="form-control" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
+  <input id="{{ craft.icon }}" type="text" class="form-control" style="height: 59px;" aria-label="{{ craft.item }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
     <span class="input-group-text {{ craft.color }}" id="basic-addon2">/{{ craft.quantity }}</span>
   </div>
@@ -31,7 +31,7 @@
   <div class="input-group-prepend">
     <span class="input-group-text {{ sub.color }}"><img src="/assets/img/icon/{{ sub.icon }}.png"> {{ sub.recipe }}</span>
   </div>  
-  <input id="{{ sub.icon }}" type="text" class="form-control" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
+  <input id="{{ sub.icon }}" type="text" class="form-control" style="height: 43px;" aria-label="{{ sub.recipe }}" aria-describedby="basic-addon2">
   <div class="input-group-append">
     <span class="input-group-text {{ sub.color }}" id="basic-addon2">/{{ sub.quantity }}</span>
   </div>
