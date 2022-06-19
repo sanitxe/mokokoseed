@@ -15,7 +15,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
 <div class="modal fade" id="totalRapport" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content dark">
-      <div class="modal-header">
+      <div class="modal-header border-dark">
         <h5 class="modal-title" id="exampleModalLongTitle">Total Rapport by Region</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -26,7 +26,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
 <p class="break-inside: avoid;">{{ totalrap.area }}<br/>{{ totalrap.total }}</p>
 {% endfor %}
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer border-dark">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
