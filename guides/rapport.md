@@ -42,7 +42,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
           {{ npcs.loc }}
         </td>
         <td>
-          {{ npcs.points }}
+          {{ npcs.points | number_with_delimiter }}
         </td>
         <td>
           {% if npcs.charisma == true %}<img class="lost-icon" src="/assets/img/icon/Charisma.png" /> Charisma<br />{% endif %}
