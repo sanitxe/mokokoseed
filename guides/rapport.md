@@ -17,7 +17,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
     <div class="modal-content dark">
       <div class="modal-header border-dark">
         <h5 class="modal-title" id="exampleModalLongTitle">Total Rapport by Region</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
