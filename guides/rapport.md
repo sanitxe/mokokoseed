@@ -14,7 +14,7 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
 
 <div style="columns:300px">
 {% for totalrap in site.data.totalrapport %}
-  <p>{{ totalrap.area }}<br/>{{ totalrap.total }}</p>
+  <p class="break-inside: avoid;">{{ totalrap.area }}<br/>{{ totalrap.total }}</p>
 {% endfor %}
 </div>
 
