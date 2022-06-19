@@ -12,6 +12,12 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
 </div>
 <div class = "ready"></div>
 
+<div style="columns:300px">
+{% for totalrap in site.data.totalrapport %}
+  <p>{{ totalrap.area }}<br/>{{ totalrap.total }}</p>
+{% endfor %}
+</div>
+
 <table id="sortRapport" class="display dt-responsive">
   <thead>
     <tr>
