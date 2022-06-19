@@ -12,10 +12,27 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
 </div>
 <div class = "ready"></div>
 
-<div style="columns:300px">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#totalRapport">
+  
+<div class="modal fade" id="totalRapport" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Total Rapport by Region</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
 {% for totalrap in site.data.totalrapport %}
-  <p class="break-inside: avoid;">{{ totalrap.area }}<br/>{{ totalrap.total }}</p>
+<p class="break-inside: avoid;">{{ totalrap.area }}<br/>{{ totalrap.total }}</p>
 {% endfor %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <table id="sortRapport" class="display dt-responsive">
