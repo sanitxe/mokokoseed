@@ -4,7 +4,7 @@ title: "NPC Rapport Tracker"
 description: "Your Lost Ark tool for tracking rapport gained with all possible NPCs. Find their location and sort by the fastest or longest ones to farm."
 ---
 
-<h1>NPC Rapport Tracker <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#totalRapport"></button></h1>
+<h1>NPC Rapport Tracker <button type="button" style="margin-top:0" class="btn btn-dark" data-toggle="modal" data-target="#totalRapport">Total Rapport for Tokens</button></h1>
 
 <div class="progressbar-container">
   <div class="progressbar-bar"></div>
@@ -16,14 +16,14 @@ description: "Your Lost Ark tool for tracking rapport gained with all possible N
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content dark">
       <div class="modal-header border-dark">
-        <h5 class="modal-title" id="exampleModalLongTitle">Total Rapport by Region</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Total Rapport for Tokens</h5>
         <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body" style="columns:200px;">
 {% for totalrap in site.data.totalrapport %}
-<p class="break-inside: avoid;">{{ totalrap.area }}<br/>{{ totalrap.total | string }}</p>
+<p class="break-inside: avoid;">{{ totalrap.area }}<br/>{{ totalrap.total | downcase }}</p>
 {% endfor %}
       </div>
       <div class="modal-footer border-dark">
