@@ -87,18 +87,25 @@
 - id: 1046204
   icon: 
   name: Dolmen
+  arc: "3,340"
+  spearfish: "Yorn"
 
 - id: 1046205
   icon: 
   name: Magick Circle
+  rapport: "[Hope Island] Neth"
 
 - id: 1046206
   icon: 
   name: Shipwreck Scrap
+  gie: "3,340"
+  spearfish: "Arthetine"
 
 - id: 1046501
   icon: 
   name: Common Dolphin
+  gie: "6,680"
+  spearfish: "North Vern"
 
 - id: 1046502
   icon: 
