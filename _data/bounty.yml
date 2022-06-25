@@ -110,82 +110,115 @@
 - id: 1046502
   icon: 
   name: Polar Mammoth
+  tome: Shushire
 
 - id: 1046503
   icon: 
   name: Red Camel
+  tome: Arthetine
 
 - id: 1046504
   icon: 
   name: Unicorn
+  rapport: "[Peyto] Tanay"
 
 - id: 1046505
   icon: 
   name: Ghost Stingray
+  shipwreck: true
 
 - id: 1046507
   icon: 
   name: Siren
+  shipwreck: true
 
 - id: 1046601
   icon: 
   name: Moonkeep
+  boss: Alakkir
+  island: Alakkir
 
 - id: 1046602
   icon: 
   name: Godsent Spear
+  gie: "3,340"
+  spearfish: Wavestrand Port
 
 - id: 1046605
   icon: 
   name: Statue of Gienah
+  quest: Haberk to the Ship
 
 - id: 1046701
   icon: 
   name: Aurora
+  shipwreck: true
 
 - id: 1046702
   icon: 
   name: Whirlpool
+  gie: "3,340"
+  spearfish: Anikka
 
 - id: 1046704
   icon: 
   name: Mute Island
+  tome: Feiton
 
 - id: 1046705
   icon: 
   name: Totoiki Ship
+  shipwreck: true
 
 - id: 1046707
   icon: 
   name: Eye of the North Sea
+  gie: "6,680"
+  spearfish: Shushire
 
 - id: 1046708
   icon: 
   name: Eye of the South Sea
+  island: Illusion Isle
+  timer: true
 
 - id: 1046709
   icon: 
   name: Eye of the Dead
+  island: Oblivion Isle
+  timer: true
 
 - id: 1046801
   icon: 
   name: Mysterious Chest
+  island: Forpe
+  timer: true
 
 - id: 1046802
   icon: 
   name: "Pirate's Peg Leg"
+  island: Lullaby Island
+  timer: true
 
 - id: 1046803
   icon: 
   name: Pirate Flag
+  island: Spida Island
+  boss: Kagros
+  timer: true
 
 - id: 1046804
   icon: 
   name: Hestia
+  island: Alteisen
+  boss: 
+  timer: true
 
 - id: 1046805
   icon: 
   name: Phantomwing
+  island: Phantomwing Island
+  timer: true
 
 - id: 1046806
   icon: 
