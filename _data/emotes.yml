@@ -24,12 +24,15 @@
 
 - id: "07"
   line: "Recommendation"
+  desc: "Hehe! Always recommended!"
 
 - id: "08"
   line: "WhatDidYouSay"
+  desc: "Huh? What are you doing?"
 
 - id: "09"
   line: "Awkward"
+  desc: "I feel awkward with all this attention..."
 
 - id: "10"
   line: "FunnyAndSad"
@@ -186,3 +189,69 @@
 - id: 48
   line: "IAmEmbarrassed"
   desc: "It's embarrassing to be the center of attention."
+  
+- id: "1_01"
+  line: "Find It"
+  desc: "Where's it coming from?"
+  
+- id: "1_02"
+  line: "Flex"
+  desc: "1250! FLEX!"
+  
+- id: "1_03"
+  line: "Wow"
+  desc: "I've never seen something like this before!"
+  
+- id: "1_04"
+  line: "Nom Nom"
+  desc: "Thank you for the feast!"
+  
+- id: "1_05"
+  line: "Gotcha"
+  desc: "This is the World Tree Leaf, right? Please say that it's right."
+  
+- id: "1_06"
+  line: "Take This"
+  desc: "I threw the bomb! What? Corrosion?"
+  
+- id: "1_07"
+  line: "CounterattackTitan"
+  desc: "Stop attacking! Fire a grappling hook in the event of a fall!"
+  
+- id: "1_08"
+  line: "Counterattack"
+  desc: "You insects! I'll crush you all! Ack!"
+  
+- id: "1_09"
+  line: "Scissors"
+  desc: "Snip snip!"
+  
+- id: "1_10"
+  line: "Rock"
+  desc: "I'm going with rock."
+  
+- id: "1_11"
+  line: "Paper"
+  desc: "I'll wrap you up!"
+  
+- id: "1_12"
+  line: "JustTheTwoOfUs"
+  desc: "Now it's just the two of us."
+  
+- id: "1_13"
+  line: "IllBeWatching"
+  desc: "Eyes on me, okay?"
+  
+- id: "1_14"
+  line: "IllEatYou"
+  desc: "I'll enjoy devouring you."
+  
+- id: "1_15
+  line: "ThatsRight"
+  desc: "That's right!"
+  
+- id: "1_16"
+  line: "NoYoureWrong"
+  desc: "No, you're wrong!"
+  
+
