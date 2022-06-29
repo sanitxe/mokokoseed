@@ -1,0 +1,354 @@
+---
+layout: default
+title: "Sea Bounties Tracker"
+description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
+---
+
+<h1>Sea Bounties Tracker <button type="button" style="margin-top:0" class="btn btn-dark" data-toggle="modal" data-target="#totalRapport">Total Rapport for Tokens</button></h1>
+
+<div class="progressbar-container">
+  <div class="progressbar-bar"></div>
+  <div class="progressbar-label"></div>
+</div>
+<div class = "ready"></div>
+
+<table id="sortBounty" class="display dt-responsive">
+  <thead>
+    <tr>
+      <th class="no-sort"></th>
+      <th class="npc-icon-column no-sort"></th>
+      <th style="width: 150px;">Name</th>
+      <th>Location</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for map in site.data.bounty %}
+      <tr>
+        <td>
+          <input type="checkbox" id="{{ map.id }}" class="box">
+        </td>
+        <td>
+            <img class="map-icon" src="/assets/img/bounty/{{ map.icon }}" />
+        </td>
+        <td> 
+          {{ map.name }}
+        </td>        
+        <td>
+          {{ map.loc }}
+        </td>
+        <td>
+          {% if map.tome != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> Adventurer's Tome: {{ map.tome }}<br />{% endif %}
+          {% if map.stronghold != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> Stronghold Merchant: {{ map.stronghold }}<br />{% endif %}
+          {% if map.advent != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Adventurer's Seal x{{ map.advent }}<br />{% endif %}
+          {% if map.victory != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Victory Seal x{{ map.victory }}<br />{% endif %}
+          {% if map.raid != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Raid Seal x{{ map.raid }}<br />{% endif %}
+          {% if map.rapport != nil %}<img class="lost-icon" src="/assets/img/icon/rapport.png" /> {{ map.rapport }}<br />{% endif %}
+          {% if map.spearfish != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> [{{ map.spearfish }}] Spearfish Hunting Guild Vessel<br />{% endif %}
+          {% if map.arc != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Arcturus's Coin x[{{ map.arc }}]<br />{% endif %}
+          {% if map.gie != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Gienah's Coin x[{{ map.gie }}]<br />{% endif %}
+          {% if map.shipwreck = true %}<img class="lost-icon" src="/assets/img/icon/.png" /> [Open Seas] Shipwreck<br />{% endif %}
+          {% if map.island != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> {{ map.island }}<br />{% endif %}
+          {% if map.boss != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> {{ map.boss }}<br />{% endif %}
+          {% if map.collectible != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> {{ map.collectible }}<br />{% endif %}
+          {% if map.una != nil %}<img class="lost-icon" src="/assets/img/icon/una.png" /> {{ map.una }}<br />{% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<script>
+      $(document).ready( function () {
+          $('#sortBounty').dataTable( {
+              searchPanes: {
+                  initCollapsed: true,
+                  orderable: false,
+                  columns: [1],
+                  panes: [
+                      {
+                        header: 'Location',
+                        options: [
+                            {
+                              label: 'Rethramis',
+                              value: function(rowData, rowIdx){
+                                  return rowData[3].includes('Rethramis');
+                              },
+                            },
+                            {
+                            label: 'Yudia',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Yudia');
+                              },
+                            },
+                            {
+                            label: 'West Luterra',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('West Luterra');
+                              },
+                            },
+                            {
+                            label: 'East Luterra',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('East Luterra');
+                              },
+                            },
+                            {
+                            label: 'Tortoyk',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Tortoyk');
+                              },
+                            },
+                            {
+                            label: 'Anikka',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Anikka');
+                              },
+                            },
+                            {
+                            label: 'Arthetine',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Arthetine');
+                              },
+                            },
+                            {
+                            label: 'North Vern',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('North Vern');
+                              },
+                            },
+                            {
+                            label: 'Shushire',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Shushire');
+                              },
+                            },
+                            {
+                            label: 'Rohendel',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Rohendel');
+                              },
+                            },
+                            {
+                            label: 'Yorn',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Yorn');
+                              },
+                            },
+                            {
+                            label: 'Feiton',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Feiton');
+                              },
+                            },
+                            {
+                            label: 'Punika',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Punika');
+                              },
+                            },
+                            {
+                            label: 'Island',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Island');
+                              },
+                            },
+                            {
+                            label: 'South Vern',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('South Vern');
+                              },
+                            },  
+                            {
+                            label: 'Trixion',
+                            value: function(rowData, rowIdx){
+                                return rowData[3].includes('Trixion');
+                              },
+                            }
+                          ]
+                        },
+                      {
+                        header: 'Increase Potion',
+                        options: [
+                            {
+                              label: 'Kindness',
+                              value: function(rowData, rowIdx){
+                                  return rowData[5].includes("Kindness");
+                              },
+                            },
+                            {
+                            label: 'Charisma',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Charisma");
+                              },
+                            },
+                            {
+                            label: 'Courage',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Courage");
+                              },
+                            },
+                            {
+                            label: 'Wisdom',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Wisdom");
+                              },
+                            },
+                            {
+                            label: 'Crit',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Crit");
+                              },
+                            },
+                            {
+                            label: 'Domination',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Domination");
+                              },
+                            },
+                            {
+                            label: 'Endurance',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Endurance");
+                              },
+                            },
+                            {
+                            label: 'Expertise',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Expertise");
+                              },
+                            },
+                            {
+                            label: 'Swiftness',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Swiftness");
+                              },
+                            },
+                            {
+                            label: 'Specialization',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Specialization");
+                              },
+                            },
+                            {
+                            label: 'Vitality',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Vitality");
+                              },
+                            },
+                            {
+                            label: 'Stat Increase',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Stat Increase");
+                              },
+                            },
+                            {
+                            label: 'Skill Point',
+                            value: function(rowData, rowIdx){
+                                return rowData[5].includes("Skill Point");
+                              },
+                            }
+                          ]
+                        },
+                      {
+                        header: 'Reward Type',
+                        options: [
+                            {
+                              label: 'Crafting Recipe',
+                              value: function(rowData, rowIdx){
+                                  return rowData[6].includes('Crafting Recipe:');
+                              },
+                            },
+                            {
+                              label: 'Card',
+                              value: function(rowData, rowIdx){
+                                  return rowData[6].includes('Card:');
+                              },
+                            },
+                            {
+                            label: "Rune",
+                            value: function(rowData, rowIdx){
+                                return rowData[6].includes("Rune:");
+                              },
+                            },
+                            {
+                            label: 'Mount',
+                            value: function(rowData, rowIdx){
+                                return rowData[6].includes('Mount:');
+                              },
+                            },
+                            {
+                              label: 'Sailor',
+                              value: function(rowData, rowIdx){
+                                  return rowData[8].includes('Sailor:');
+                              },
+                            },
+                            {
+                              label: 'Crew',
+                              value: function(rowData, rowIdx){
+                                  return rowData[8].includes('Crew:');
+                              },
+                            },
+                            {
+                            label: 'Sail Glyph',
+                            value: function(rowData, rowIdx){
+                                return rowData[6].includes("Sail Glyph:");
+                              },
+                            }
+                          ]
+                      },
+                      {
+                        header: 'Collectibles',
+                        options: [
+                            {
+                              label: 'Masterpiece',
+                              value: function(rowData, rowIdx){
+                                  return rowData[7].includes("Masterpiece");
+                              },
+                            },
+                            {
+                            label: 'Giant Heart',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Giant Heart");
+                              },
+                            },
+                            {
+                            label: 'Island Soul',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Island" || "Isle");
+                              },
+                            },
+                            {
+                            label: 'Adventure Map',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Adventure:");
+                              },
+                            },
+                            {
+                            label: 'Omnium Star',
+                            value: function(rowData, rowIdx){
+                                return rowData[7].includes("Omnium");
+                              },
+                            }
+                          ]
+                        }
+                    ]
+              },
+              dom: 'Plfrtip',
+              "paging": false,
+              responsive: {
+                  details: {
+                      display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                      type: 'none',
+                      target: ''
+                  }
+              },
+              fixedHeader: true,
+              "order": [],
+              "columnDefs": [ {
+                    "targets": 'no-sort',
+                    "orderable": false,
+              } ]
+          } );
+    } );  
+</script>
