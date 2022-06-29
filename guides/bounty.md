@@ -52,9 +52,9 @@ description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
           {% if map.arc != nil %}<img class="lost-icon" src="/assets/img/icon/arc_coin.png" /> Arcturus's Coin x{{ map.arc }}<br />{% endif %}
           {% if map.gie != nil %}<img class="lost-icon" src="/assets/img/icon/gie_coin.png" /> Gienah's Coin x{{ map.gie }}<br />{% endif %}
           {% if map.shipwreck == true %}<img class="lost-icon" src="/assets/img/icon/ship.png" /> <b>Shipwreck</b> <br />{% endif %}
-          {% if map.soul != nil %}<img class="lost-icon" src="/assets/img/icon/adventureisland.png" /> <b class="island">Island:</b> {{ map.soul }}<br />{% endif %}
+          {% if map.island != nil %}<img class="lost-icon" src="/assets/img/icon/adventureisland.png" /> <b class="island">Island:</b> {{ map.island }}<br />{% endif %}
           {% if map.boss != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> <b class="boss">Boss:</b> {{ map.boss }}<br />{% endif %}
-          {% if map.island != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> {{ map.collectible }}<br />{% endif %}
+          {% if map.soul != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" /> {{ map.soul }}<br />{% endif %}
           {% if map.una != nil %}<img class="lost-icon" src="/assets/img/icon/una.png" /> <b class="rep">Reputation:</b> {{ map.una }}<br />{% endif %}
           {% if map.quest != nil %}<img class="lost-icon" src="/assets/img/icon/purplequest.png" /> <b class="quest">Quest:</b> {{ map.quest }}<br />{% endif %}
         </td>
