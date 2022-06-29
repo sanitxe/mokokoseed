@@ -1,213 +1,252 @@
 - id: 1046001
   icon: 
   name: Mokoko Mushroom
+  method: "Adventurer's Tome"
   tome: Tortoyk
 
 - id: 1046002
   icon: 
   name: Llama
+  method: "Stronghold"
   stronghold: Duekhyeon
   advent: "12,000"
   
 - id: 1046003
   icon: 
   name: Red Sea Turtle
+  method: "Adventurer's Tome"
   tome: Punika
   
 - id: 1046004
   icon: 
   name: Stardust
+  method: "Stronghold"
   stronghold: Astiel
   victory: "11,000"
 
 - id: 1046005
   icon: 
   name: Sea Flower
+  method: "Adventurer's Tome"
   tome: Anikka
 
 - id: 1046006
   icon: 
   name: Starfruit
+  method: "Stronghold"
   stronghold: Tuleu
   advent: "11,000"
 
 - id: 1046007
   icon: 
   name: Dragonfruit
+  method: "Adventurer's Tome"
   tome: Yorn
 
 - id: 1046008
   icon: 
   name: Mandrill
+  method: "Stronghold"
   stronghold: Florr
   victory: "11,000"
   
 - id: 1046009
   icon: 
   name: Ghost Lizard
+  method: "Stronghold"
   stronghold: Saha
   raid: "11,000"
 
 - id: 1046010
   icon: 
   name: 5-Colored Parrot
+  method: "Adventurer's Tome"
   tome: Rohendel
   
 - id: 1046101
   icon: 
   name: Tablet of Wind
+  method: "Stronghold"
   stronghold: Flarke
   victory: "11,000"
 
 - id: 1046102
   icon: 
   name: Halfmoon Mask
+  method: "Rapport"
   rapport: "[Feiton > Kalaja] Levi"
 
 - id: 1046103
   icon: 
   name: Ancient Rod
+  method: "Rapport"
   rapport: "[Punika > Nia Village] Jahara"
 
 - id: 1046104
   icon: 
   name: Ancient Gold Coin
+  method: "Rapport"
   rapport: "[Punika > Nia Village] Liru"
 
 - id: 1046201
   icon: 
   name: Forgotten lake
+  method: "Rapport"
   rapport: "[Lakebar] Artisan Urr"
 
 - id: 1046202
   icon: 
   name: Crevasse
+  method: "Rapport"
   rapport: "[Glacier Isle] Samly"
 
 - id: 1046203
   icon: 
   name: Smoldering Ice
+  method: "Rapport"
   rapport: "[Nameless Valley] Jederico"
 
 - id: 1046204
   icon: 
   name: Dolmen
+  method: "Spearfish Hunting Guild Vessel"
   arc: "3,340"
   spearfish: "Yorn"
 
 - id: 1046205
   icon: 
   name: Magick Circle
+  method: "Rapport"
   rapport: "[Hope Island] Neth"
 
 - id: 1046206
   icon: 
   name: Shipwreck Scrap
+  method: "Spearfish Hunting Guild Vessel"
   gie: "3,340"
   spearfish: "Arthetine"
 
 - id: 1046501
   icon: 
   name: Common Dolphin
+  method: "Spearfish Hunting Guild Vessel"
   gie: "6,680"
   spearfish: "North Vern"
 
 - id: 1046502
   icon: 
   name: Polar Mammoth
+  method: "Adventurer's Tome"
   tome: Shushire
 
 - id: 1046503
   icon: 
   name: Red Camel
+  method: "Adventurer's Tome"
   tome: Arthetine
 
 - id: 1046504
   icon: 
   name: Unicorn
+  method: "Rapport"
   rapport: "[Peyto] Tanay"
 
 - id: 1046505
   icon: 
   name: Ghost Stingray
+  method: "Shipwreck"
   shipwreck: true
 
 - id: 1046507
   icon: 
   name: Siren
+  method: "Shipwreck"
   shipwreck: true
 
 - id: 1046601
   icon: 
   name: Moonkeep
+  method: "Island"
   boss: Alakkir
   island: Alakkir
 
 - id: 1046602
   icon: 
   name: Godsent Spear
+  method: "Spearfish Hunting Guild Vessel"
   gie: "3,340"
   spearfish: Wavestrand Port
 
 - id: 1046605
   icon: 
   name: Statue of Gienah
+  method: "Quest"
   quest: Haberk to the Ship
 
 - id: 1046701
   icon: 
   name: Aurora
+  method: "Shipwreck"
   shipwreck: true
 
 - id: 1046702
   icon: 
   name: Whirlpool
+  method: "Spearfish Hunting Guild Vessel"
   gie: "3,340"
   spearfish: Anikka
 
 - id: 1046704
   icon: 
   name: Mute Island
+  method: "Adventurer's Tome"
   tome: Feiton
 
 - id: 1046705
   icon: 
   name: Totoiki Ship
+  method: "Shipwreck"
   shipwreck: true
 
 - id: 1046707
   icon: 
   name: Eye of the North Sea
+  method: "Spearfish Hunting Guild Vessel"
   gie: "6,680"
   spearfish: Shushire
 
 - id: 1046708
   icon: 
   name: Eye of the South Sea
+  method: "Island"
   island: Illusion Isle
   timer: true
 
 - id: 1046709
   icon: 
   name: Eye of the Dead
+  method: Island
   island: Oblivion Isle
   timer: true
 
 - id: 1046801
   icon: 
   name: Mysterious Chest
+  method: Island
   island: Forpe
   timer: true
 
 - id: 1046802
   icon: 
   name: "Pirate's Peg Leg"
+  method: Island
   island: Lullaby Island
   timer: true
 
 - id: 1046803
   icon: 
   name: Pirate Flag
+  method: Island
   island: Spida Island
   boss: Kagros
   timer: true
@@ -215,6 +254,7 @@
 - id: 1046804
   icon: 
   name: Hestia
+  method: Island
   island: Alteisen
   boss: Sol Grande
   timer: true
@@ -222,6 +262,7 @@
 - id: 1046805
   icon: 
   name: Phantomwing
+  method: Island
   island: Phantomwing Island
   timer: true
   boss: Adrinne
@@ -229,31 +270,37 @@
 - id: 1046806
   icon: 
   name: Giant Shell
+  method: Collectible
   collectible: "Island Soul x60"
 
 - id: 1046807
   icon: 
   name: Covered Figurehead
+  Method: Boss
   boss: "[Yorn > Iron Hammer Mine] Kohinorr"
 
 - id: 1046808
   icon: 
   name: Ice Statue
+  method: Collectible
   collectible: "Island Soul x85"
 
 - id: 1046809
   icon: 
   name: Snow Sled
+  method: "Adventurer's Tome"
   tome: South Vern
 
 - id: 1046810
   icon: 
   name: Lost Merchant Ship
+  method: "Una's Reputation"
   una: "Vern Magick Society"
 
 - id: 1046811
   icon: 
   name: Deep Sea Boulder
+  method: Rapport
   rapport: "[South Vern > Bellion Ruins] Thar"
   
   
