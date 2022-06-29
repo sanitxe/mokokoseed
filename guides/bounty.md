@@ -4,7 +4,7 @@ title: "Sea Bounties Tracker"
 description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
 ---
 
-<h1>Sea Bounties Tracker <button type="button" style="margin-top:0" class="btn btn-dark" data-toggle="modal" data-target="#totalRapport">Total Rapport for Tokens</button></h1>
+<h1>Sea Bounties Tracker</h1>
 
 <div class="progressbar-container">
   <div class="progressbar-bar"></div>
