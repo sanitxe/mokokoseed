@@ -42,20 +42,21 @@ description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
           {{ map.method }}
         </td>
         <td>
-          {% if map.tome != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> Adventurer's Tome: {{ map.tome }}<br />{% endif %}
-          {% if map.stronghold != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> Stronghold Merchant: {{ map.stronghold }}<br />{% endif %}
+          {% if map.tome != nil %}<b>Adventurer's Tome:</b> {{ map.tome }}<br />{% endif %}
+          {% if map.stronghold != nil %}<b>Stronghold Merchant:</b> {{ map.stronghold }}<br />{% endif %}
           {% if map.advent != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Adventurer's Seal x{{ map.advent }}<br />{% endif %}
           {% if map.victory != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Victory Seal x{{ map.victory }}<br />{% endif %}
           {% if map.raid != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Raid Seal x{{ map.raid }}<br />{% endif %}
-          {% if map.rapport != nil %}<img class="lost-icon" src="/assets/img/icon/rapport.png" /> {{ map.rapport }}<br />{% endif %}
-          {% if map.spearfish != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> [{{ map.spearfish }}] Spearfish Hunting Guild Vessel<br />{% endif %}
+          {% if map.rapport != nil %}<img class="lost-icon" src="/assets/img/icon/rapport.png" /> <b class="rapport">Rapport:</b> {{ map.rapport }}<br />{% endif %}
+          {% if map.spearfish != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> <b>Spearfish Hunting Guild Vessel:</b> {{ map.spearfish }}<br />{% endif %}
           {% if map.arc != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Arcturus's Coin x[{{ map.arc }}]<br />{% endif %}
           {% if map.gie != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Gienah's Coin x[{{ map.gie }}]<br />{% endif %}
-          {% if map.shipwreck == true %}<img class="lost-icon" src="/assets/img/icon/.png" /> [Open Seas] Shipwreck<br />{% endif %}
+          {% if map.shipwreck == true %}<img class="lost-icon" src="/assets/img/icon/.png" /> <b>Shipwreck</b> <br />{% endif %}
           {% if map.island != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> {{ map.island }}<br />{% endif %}
-          {% if map.boss != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> {{ map.boss }}<br />{% endif %}
+          {% if map.boss != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> <b class="boss">Boss:</b> {{ map.boss }}<br />{% endif %}
           {% if map.collectible != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> {{ map.collectible }}<br />{% endif %}
-          {% if map.una != nil %}<img class="lost-icon" src="/assets/img/icon/una.png" /> {{ map.una }}<br />{% endif %}
+          {% if map.una != nil %}<img class="lost-icon" src="/assets/img/icon/una.png" /> <b class="rep">Reputation:</b> {{ map.una }}<br />{% endif %}
+          {% if map.quest != nil %}<img class="lost-icon" src="/assets/img/icon/purplequest.png" /> <b class="quest">Quest:</b> {{ map.quest }}<br />{% endif %}
         </td>
       </tr>
     {% endfor %}
