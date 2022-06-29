@@ -271,7 +271,7 @@
   icon: 
   name: Giant Shell
   method: Collectible
-  collectible: "Island Soul x60"
+  soul: "Island Soul x60"
 
 - id: 1046807
   icon: 
@@ -283,7 +283,7 @@
   icon: 
   name: Ice Statue
   method: Collectible
-  collectible: "Island Soul x85"
+  soul: "Island Soul x85"
 
 - id: 1046809
   icon: 
