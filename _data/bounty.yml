@@ -276,7 +276,7 @@
 - id: 1046807
   icon: 
   name: Covered Figurehead
-  Method: Boss
+  method: Boss
   boss: "[Yorn > Iron Hammer Mine] Kohinorr"
 
 - id: 1046808
