@@ -47,7 +47,7 @@ description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
           {% if map.spearfish != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> [{{ map.spearfish }}] Spearfish Hunting Guild Vessel<br />{% endif %}
           {% if map.arc != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Arcturus's Coin x[{{ map.arc }}]<br />{% endif %}
           {% if map.gie != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Gienah's Coin x[{{ map.gie }}]<br />{% endif %}
-          {% if map.shipwreck = true %}<img class="lost-icon" src="/assets/img/icon/.png" /> [Open Seas] Shipwreck<br />{% endif %}
+          {% if map.shipwreck == true %}<img class="lost-icon" src="/assets/img/icon/.png" /> [Open Seas] Shipwreck<br />{% endif %}
           {% if map.island != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> {{ map.island }}<br />{% endif %}
           {% if map.boss != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> {{ map.boss }}<br />{% endif %}
           {% if map.collectible != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> {{ map.collectible }}<br />{% endif %}
