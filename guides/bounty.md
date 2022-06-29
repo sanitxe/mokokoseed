@@ -44,9 +44,9 @@ description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
         <td>
           {% if map.tome != nil %}<b>Adventurer's Tome:</b> {{ map.tome }}<br />{% endif %}
           {% if map.stronghold != nil %}<b>Stronghold Merchant:</b> {{ map.stronghold }}<br />{% endif %}
-          {% if map.advent != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Adventurer's Seal x{{ map.advent }}<br />{% endif %}
-          {% if map.victory != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Victory Seal x{{ map.victory }}<br />{% endif %}
-          {% if map.raid != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Raid Seal x{{ map.raid }}<br />{% endif %}
+          {% if map.advent != nil %}<img class="lost-icon" src="/assets/img/icon/a_seal.png" />Adventurer's Seal x{{ map.advent }}<br />{% endif %}
+          {% if map.victory != nil %}<img class="lost-icon" src="/assets/img/icon/v_seal.png" />Victory Seal x{{ map.victory }}<br />{% endif %}
+          {% if map.raid != nil %}<img class="lost-icon" src="/assets/img/icon/r_seal.png" />Raid Seal x{{ map.raid }}<br />{% endif %}
           {% if map.rapport != nil %}<img class="lost-icon" src="/assets/img/icon/rapport.png" /> <b class="rapport">Rapport:</b> {{ map.rapport }}<br />{% endif %}
           {% if map.spearfish != nil %}<img class="lost-icon" src="/assets/img/icon/vessel.png" /> <b>Spearfish Hunting Guild Vessel:</b> {{ map.spearfish }}<br />{% endif %}
           {% if map.arc != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Arcturus's Coin x[{{ map.arc }}]<br />{% endif %}
