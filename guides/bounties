@@ -18,6 +18,7 @@ description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
       <th class="no-sort"></th>
       <th class="npc-icon-column no-sort"></th>
       <th style="width: 150px;">Name</th>
+      <th>Method</th>
       <th>Location</th>
       <th>Source</th>
     </tr>
@@ -36,6 +37,9 @@ description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
         </td>        
         <td>
           {{ map.loc }}
+        </td>
+        <td>
+          {{ map.method }}
         </td>
         <td>
           {% if map.tome != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" /> Adventurer's Tome: {{ map.tome }}<br />{% endif %}
