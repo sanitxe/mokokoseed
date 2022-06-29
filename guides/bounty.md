@@ -48,10 +48,10 @@ description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
           {% if map.victory != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Victory Seal x{{ map.victory }}<br />{% endif %}
           {% if map.raid != nil %}<img class="lost-icon" src="/assets/img/icon/map.png" />Raid Seal x{{ map.raid }}<br />{% endif %}
           {% if map.rapport != nil %}<img class="lost-icon" src="/assets/img/icon/rapport.png" /> <b class="rapport">Rapport:</b> {{ map.rapport }}<br />{% endif %}
-          {% if map.spearfish != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> <b>Spearfish Hunting Guild Vessel:</b> {{ map.spearfish }}<br />{% endif %}
+          {% if map.spearfish != nil %}<img class="lost-icon" src="/assets/img/icon/vessel.png" /> <b>Spearfish Hunting Guild Vessel:</b> {{ map.spearfish }}<br />{% endif %}
           {% if map.arc != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Arcturus's Coin x[{{ map.arc }}]<br />{% endif %}
           {% if map.gie != nil %}<img class="lost-icon" src="/assets/img/icon/.png" /> Gienah's Coin x[{{ map.gie }}]<br />{% endif %}
-          {% if map.shipwreck == true %}<img class="lost-icon" src="/assets/img/icon/.png" /> <b>Shipwreck</b> <br />{% endif %}
+          {% if map.shipwreck == true %}<img class="lost-icon" src="/assets/img/icon/ship.png" /> <b>Shipwreck</b> <br />{% endif %}
           {% if map.island != nil %}<img class="lost-icon" src="/assets/img/icon/island.png" /> <b class="island">Island:</b> {{ map.island }}<br />{% endif %}
           {% if map.boss != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> <b class="boss">Boss:</b> {{ map.boss }}<br />{% endif %}
           {% if map.collectible != nil %}<img class="lost-icon" src="/assets/img/icon/boss.png" /> {{ map.collectible }}<br />{% endif %}
