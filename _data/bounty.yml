@@ -2,12 +2,12 @@
   icon: 
   name: Mokoko Mushroom
   tome: Tortoyk
-  loc: 
 
 - id: 1046002
   icon: 
   name: Llama
   stronghold: Duekhyeon
+  advent: "12,000"
   
 - id: 1046003
   icon: 
@@ -18,6 +18,7 @@
   icon: 
   name: Stardust
   stronghold: Astiel
+  victory: "11,000"
 
 - id: 1046005
   icon: 
@@ -28,6 +29,7 @@
   icon: 
   name: Starfruit
   stronghold: Tuleu
+  advent: "11,000"
 
 - id: 1046007
   icon: 
@@ -38,11 +40,13 @@
   icon: 
   name: Mandrill
   stronghold: Florr
+  victory: "11,000"
   
 - id: 1046009
   icon: 
   name: Ghost Lizard
   stronghold: Saha
+  raid: "11,000"
 
 - id: 1046010
   icon: 
@@ -53,6 +57,7 @@
   icon: 
   name: Tablet of Wind
   stronghold: Flarke
+  victory: "11,000"
 
 - id: 1046102
   icon: 
@@ -211,7 +216,7 @@
   icon: 
   name: Hestia
   island: Alteisen
-  boss: 
+  boss: Sol Grande
   timer: true
 
 - id: 1046805
@@ -219,30 +224,37 @@
   name: Phantomwing
   island: Phantomwing Island
   timer: true
+  boss: Adrinne
 
 - id: 1046806
   icon: 
   name: Giant Shell
+  collectible: "Island Soul x60"
 
 - id: 1046807
   icon: 
   name: Covered Figurehead
+  boss: "[Yorn > Iron Hammer Mine] Kohinorr"
 
 - id: 1046808
   icon: 
   name: Ice Statue
+  collectible: "Island Soul x85"
 
 - id: 1046809
   icon: 
   name: Snow Sled
+  tome: South Vern
 
 - id: 1046810
   icon: 
   name: Lost Merchant Ship
+  una: "Vern Magick Society"
 
 - id: 1046811
   icon: 
   name: Deep Sea Boulder
+  rapport: "[South Vern > Bellion Ruins] Thar"
   
   
   
