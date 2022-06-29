@@ -36,10 +36,10 @@ description: "Your Lost Ark tool for tracking Lost Ark's Sea Bounties."
           {{ map.name }}
         </td>        
         <td>
-          {{ map.loc }}
+          {{ map.method }}
         </td>
         <td>
-          {{ map.method }}
+          {{ map.loc }}
         </td>
         <td>
           {% if map.tome != nil %}<b>Adventurer's Tome:</b> {{ map.tome }}<br />{% endif %}
