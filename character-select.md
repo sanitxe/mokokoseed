@@ -4,6 +4,8 @@ title: "Lost Ark Character Select Backgrounds"
 description: "A collection of Lost Ark's Character Selection backgrounds."
 ---
 
+<h1>Character Select Backgrounds</h1>
+
 <div class="card-deck">
 <div class="row">
 {% for bg in site.data.wallpaper %}
