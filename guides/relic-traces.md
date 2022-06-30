@@ -13,15 +13,17 @@ description: "Collection of maps for finding Relic Traces in Lost Ark."
 </div>
 <div class="tab-content" id="Relic-tabContent">
   {% for relic in site.data.relic-trace %}
-  <div class="tab-pane row fade {% if relic.area == 'Arthetine' %}show active{% endif %}" id="{{ relic.area | slugify }}-content" role="tabpanel">
+  <div class="tab-pane fade {% if relic.area == 'Arthetine' %}show active{% endif %}" id="{{ relic.area | slugify }}-content" role="tabpanel">
+    <div class="card-deck"> 
     {% for map in relic.maps %}
-    <div class="card col-sm-3">
+    <div class="card">
       <img src="/assets/img/relic-trace/{{ relic.area }} - {{ map.name}}.png" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title">{{ map.name}}</h5>
       </div>
     </div>
     {% endfor %}
+    </div>
   </div>
   {% endfor %}
 </div>
