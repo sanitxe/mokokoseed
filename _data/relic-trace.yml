@@ -1,0 +1,46 @@
+- area: Arthetine
+  maps:
+    - name: Riza Falls
+    - name: Windbringer Hills
+
+- area: East Luterra
+  maps:
+    - name: Blackrose Chapel
+    - name: "Borea's Domain"
+    - name: Sunbright Hill
+
+- area: Feiton
+  maps:
+    - name: Shady Cliff
+
+- area: North Vern
+  maps:
+    - name: Fesnar Highland
+    - name: Vernese Forest
+    
+- area: Punika
+  maps:
+    - name: Secret Forest
+    - name: Tikatika Colony
+    
+- area: Rohendel
+  maps:
+    - name: Breezesome Brae
+    - name: "Elzowin's Shade"
+    - name: Glass Lotus Lake
+    - name: Xeneela Ruins
+
+- area: South Vern
+  maps:
+    - name: Bellion Ruins
+    
+- area: West Luterra
+  maps:
+    - name: Bilbrin Forest
+
+- area: Yorn
+  maps:
+    - name: Hall of Promise
+    - name: Iron Hammer Mine
+    - name: "Yorn's Cradle"
+  
