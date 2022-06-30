@@ -12,9 +12,11 @@ description: "Collection of maps for finding Relic Traces in Lost Ark."
   {% endfor %}
 </div>
 <div class="tab-content" id="Relic-tabContent">
+  {% for relic in site.data.relic-trace %}
   {% for map in relic.maps %}
   <div class="tab-pane fade {% if relic.area == 'Arthetine' %}show active{% endif %}" id="{{ relic.area | slugify }}-content" role="tabpanel">
     <img src="/assets/img/relic-trace/{{ relic.area }} - {{ map.name}}.png">
   </div>
+  {% endfor %}
   {% endfor %}
 </div>
