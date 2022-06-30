@@ -8,7 +8,7 @@ description: "A collection of Lost Ark's Character Selection backgrounds."
 <div class="row">
 {% for bg in site.data.wallpaper %}
   <div class="col-4">
-  <div class="card">
+  <div class="card h-100">
     <img class="card-img-top" src="/assets/img/wallpaper/wallpaper_icon_{{ bg.icon }}.png">
     <div class="card-body">
       <h5 class="card-title">{{ bg.title }}</h5>
