@@ -16,10 +16,10 @@ description: "Collection of maps for finding Relic Traces in Lost Ark."
   <div class="tab-pane fade {% if relic.area == 'Arthetine' %}show active{% endif %}" id="{{ relic.area | slugify }}-content" role="tabpanel">
     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     {% for map in relic.maps %}
-      <a class="nav-link {% if map.first == true %}active{% endif %}" id="{{ map.name | slugify }}-tab" data-toggle="pill" href="#{{ map.name | slugify }}" role="tab">{{ map.name }}</a>
+      <a class="nav-link {% if map.first == true %}active{% endif %}" id="{{ map.name | slugify }}-tab" data-toggle="pill" href="#{{ map.name | slugify }}-tabContent" role="tab">{{ map.name }}</a>
     {% endfor %}
     </div>
-    <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-content" id="{{ map.name | slugify }}-tabContent">
       {% for map in relic.maps %}
       <div class="tab-pane fade {% if map.first == true %}show active{% endif %}" id="{{ map.name | slugify }}" role="tabpanel">
         <img src="/assets/img/relic-trace/{{ relic.area }} - {{ map.name }}.png">
