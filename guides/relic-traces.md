@@ -13,6 +13,8 @@ description: "Collection of maps for finding Relic Traces in Lost Ark."
 </div>
 <div class="tab-content" id="v-pills-tabContent">
   {% for map in relic.maps %}
-  <div class="tab-pane fade {% if relic.area == 'Arthetine' %}show active{% endif %}" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><img src=""></div>
+  <div class="tab-pane fade {% if relic.area == 'Arthetine' %}show active{% endif %}" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+    <img src="/assets/img/relic-trace/{{ relic.area }} - {{ map.name}}.png">
+  </div>
   {% endfor %}
 </div>
