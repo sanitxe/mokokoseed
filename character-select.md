@@ -5,7 +5,9 @@ description: "A collection of Lost Ark's Character Selection backgrounds."
 ---
 
 <div class="card-deck">
+<div class="row">
 {% for bg in site.data.wallpaper %}
+  <div class="col-sm-3">
   <div class="card">
     <img class="card-img-top" src="/assets/img/wallpaper/wallpaper_icon_{{ bg.icon }}.png">
     <div class="card-body">
@@ -13,5 +15,7 @@ description: "A collection of Lost Ark's Character Selection backgrounds."
       <p class="card-text">{{ bg.desc }}</p>
     </div>
   </div>
+  </div>
 {% endfor %}
+</div>
 </div>
