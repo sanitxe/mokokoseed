@@ -6,9 +6,9 @@ description: "Collection of maps for finding Relic Traces in Lost Ark."
 
 <h1>Relic Trace Maps</h1>
 
-<div class="nav flex-column nav-pills" id="Relic-tab" role="tablist" aria-orientation="vertical">
+<div class="nav flex-column nav-tabs" id="Relic-tab" role="tablist" aria-orientation="vertical">
   {% for relic in site.data.relic-trace %}
-  <a class="nav-link {% if relic.area == 'Arthetine' %}active{% endif %}" id="{{ relic.area | slugify }}-tab" data-toggle="pill" href="#{{ relic.area | slugify }}-content" role="tab">{{ relic.area }}</a>
+  <a class="nav-link {% if relic.area == 'Arthetine' %}active{% endif %}" id="{{ relic.area | slugify }}-tab" data-toggle="tab" href="#{{ relic.area | slugify }}-content" role="tab">{{ relic.area }}</a>
   {% endfor %}
 </div>
 <div class="tab-content" id="Relic-tabContent">
