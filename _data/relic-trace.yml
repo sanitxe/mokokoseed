@@ -37,6 +37,11 @@
     - name: Glass Lotus Lake
     - name: Xeneela Ruins
 
+- area: Shushire
+  maps:
+    - name: Lake Eternity
+      first: true
+
 - area: South Vern
   maps:
     - name: Bellion Ruins
