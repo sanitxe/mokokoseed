@@ -1,16 +1,20 @@
 toc:
-  - title: "Tools <span class='badge badge-secondary'>New</span>"
+  - title: "Trackers"
     subfolderitems:
       - page: "<img src='/assets/img/icon/rapport.png'> Rapport Tracker"
         url: /guides/rapport
       - page: "<img src='/assets/img/icon/island.png'> Island Token Tracker"
         url: /guides/islands
-      - page: "<img src='/assets/img/icon/icon_ship_1.png'> Astray Crafting Guide"
-        url: /guides/astray
       - page: "<img src='/assets/img/icon/una.png'> Una's Reputation Tracker"
         url: /guides/una-reputation
+  - title: "Guides"
+    subfolderitems:
+      - page: "<img src='/assets/img/icon/icon_ship_1.png'> Astray Crafting Guide"
+        url: /guides/astray
       - page: "<img src='/assets/img/icon/quest.png'> Complete Main Questline Guide"
         url: /guides/questline
+  - title: "Maps"
+    subfolderitems:
       - page: "<img src='/assets/img/icon/relic.png'> Relic Trace Maps"
         url: /guides/relic-traces
   - title: Extra
