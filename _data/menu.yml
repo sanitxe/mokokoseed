@@ -9,8 +9,10 @@ toc:
         url: /guides/astray
       - page: "<img src='/assets/img/icon/una.png'> Una's Reputation Tracker"
         url: /guides/una-reputation
-      - page: "Complete Main Questline Guide"
+      - page: "<img src='/assets/img/icon/quest.png'> Complete Main Questline Guide"
         url: /guides/questline
+      - page: "<img src='/assets/img/icon/relic.png'> Relic Trace Maps"
+        url: /guides/relic-traces
   - title: Extra
     subfolderitems:
       - page: Emotes
