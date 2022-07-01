@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal 
 title: MOKOKO
 tagline: "Your tool for tracking all things Lost Ark."
-description: "A site for Lost Ark Completionists, made by Lost Ark Completionists. Here you'll find trackers, guides plus some random extras. Has anyone seen Tooki?"
+description: "A whole bunch of Lost Ark Resources and Guides that may or may not be helpful."
 logo: /assets/favicon.png
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
