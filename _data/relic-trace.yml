@@ -16,6 +16,7 @@
   maps:
     - name: Shady Cliff
       first: true
+      old: true
 
 - area: North Vern
   maps:
@@ -27,7 +28,9 @@
   maps:
     - name: Secret Forest
       first: true
+      old: true
     - name: Tikatika Colony
+      old: true
     
 - area: Rohendel
   maps:
@@ -46,6 +49,7 @@
   maps:
     - name: Bellion Ruins
       first: true
+      old: true
     
 - area: Tortoyk
   maps:
@@ -56,19 +60,26 @@
   maps:
     - name: Battlebound Plains
       first: true
+      damaged: true
     - name: Bilbrin Forest
 
 - area: Yorn
   maps:
     - name: Hall of Promise
       first: true
+      old: true
     - name: Iron Hammer Mine
+      old: true
     - name: "Yorn's Cradle"
+      old: true
   
 - area: Open Seas
   maps:
     - name: Azure Wind Island
       first: true
+      old: true
     - name: Golden Wave Island
+      golden: true
     - name: "Niheltalop's Thoughts"
+      old: true
     - name: Tooki Island
