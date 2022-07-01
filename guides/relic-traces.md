@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Relic Trace Maps"
-description: "Collection of maps for finding Relic Traces in Lost Ark."
+title: "Excavating Relic Trace Maps"
+description: "Collection of maps for excavating and finding Relic Traces in Lost Ark."
 ---
 
-<h1>Relic Trace Maps</h1>
+<h1>Excavating Relic Trace Maps</h1>
 
 <div class="nav nav-tabs" id="Relic-tab" role="tablist" aria-orientation="vertical">
   {% for relic in site.data.relic-trace %}
