@@ -50,6 +50,10 @@ body {
   background-attachment: fixed;
 }
 
+a:hover, a:focus {
+  color: #fff;
+}
+
 .wrapper {
   width: 100%;
   margin: 0 auto;
@@ -157,6 +161,26 @@ input[type="checkbox"]:checked {
   color: $accent-color;
   margin-left: 20%;
   font-family:Quicksand;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #2d2d2d;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: #2d2d2d;
+  background-color: #2d2d2d;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #444;
+  border-color: #444;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #444;
 }
 
 .ready { font-size: 1.5em; }
@@ -497,7 +521,7 @@ background-color: #151515;
 
 .dark .btn-dark {
   color: #fff;
-  background-color: #222;
+  background-color: #353535;
   border-color: #1c1c1c;
 }
 
