@@ -54,8 +54,9 @@
 
 - area: West Luterra
   maps:
-    - name: Bilbrin Forest
+    - name: Battlebound Plains
       first: true
+    - name: Bilbrin Forest
 
 - area: Yorn
   maps:
