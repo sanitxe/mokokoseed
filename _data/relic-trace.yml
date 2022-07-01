@@ -1,7 +1,8 @@
 - area: Arthetine
   maps:
-    - name: Riza Falls
+    - name: Arid Path
       first: true
+    - name: Windbringer Hills
     - name: Windbringer Hills
 
 - area: East Luterra
