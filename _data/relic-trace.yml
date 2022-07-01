@@ -2,7 +2,7 @@
   maps:
     - name: Arid Path
       first: true
-    - name: Windbringer Hills
+    - name: Riza Falls
     - name: Windbringer Hills
 
 - area: East Luterra
@@ -42,6 +42,11 @@
     - name: Bellion Ruins
       first: true
     
+- area: Tortoyk
+  maps:
+    - name: Forest of Giants
+      first: true
+
 - area: West Luterra
   maps:
     - name: Bilbrin Forest
@@ -54,3 +59,10 @@
     - name: Iron Hammer Mine
     - name: "Yorn's Cradle"
   
+- area: Open Seas
+  maps:
+    - name: Azure Wind Island
+      first: true
+    - name: Golden Wave Island
+    - name: "Niheltalop's Thoughts"
+    - name: Tooki Island
