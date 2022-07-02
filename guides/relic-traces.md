@@ -18,7 +18,7 @@ description: "Collection of maps for excavating and finding Relic Traces in Lost
     <div class="col-3">
       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
       {% for map in relic.maps %}
-        <a class="nav-link {% if map.first == true %}active{% endif %}" id="{{ map.name | slugify }}-tab" data-toggle="pill" href="#{{ map.name | slugify }}-tabContent" role="tab"><img src="/assets/img/map-icons/{{ map.name }}.png" class="align-middle"> {{ map.name }}</a>
+        <a class="nav-link {% if map.first == true %}active{% endif %}" id="{{ map.name | slugify }}-tab" data-toggle="pill" href="#{{ map.name | slugify }}-tabContent" role="tab"><img src="/assets/img/map-icons/{{ map.name }}.png" class="align-middle"> {{ map.name }} {% if map.old == true %}<span class="badge badge-purple">Old Relic</span>{% endif %}</a>
       {% endfor %}
       </div>
     </div>
