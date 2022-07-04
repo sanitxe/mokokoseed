@@ -16,6 +16,9 @@ description: "A collection of Lost Ark's Character Selection backgrounds."
       <h5 class="card-title">{{ bg.title }}</h5>
       <p class="card-text">{{ bg.desc }}</p>
     </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{ bg.obtain }}</li>
+    </ul>
   </div>
   </div>
 {% endfor %}
