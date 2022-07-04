@@ -2,41 +2,49 @@
   id: 001
   title: Prideholme
   desc: "The sun shines bright over the pilgrims standing on the sacred ground. Clad in its splendid light, the pilgrims praise Regulus for his benevolence."
+  obtain: "Default background."
 
 - icon: 10
   id: 002
   title: Delphi Inn
   desc: "The inn bustles with patrons. The main hall holds densely arranged tables opening to a kitchen, a liquor cellar, a garden, and a pavilion."
+  obtain: "[Roster] Level 20 Reward"
   
 - icon: 13
   id: 003
   title: Morai Ruins
   desc: "Morai prospered under the rule of the mighty king, Kisar. However, when the darkness came, the king fell victim to its unforgiving grip."
+  obtain: "[Roster] Level 50 Reward"
 
 - icon: 14
   id: 004
   title: Stormcry Grotto
   desc: "The searing blue of the open sky, vicious winds sweep across the ocean, and the promise of a newfound land at the end of a seemingly endless voyage. Who could ever resist the sweet call of the Deep Blue?"
+  obtain: "[Roster] Level 80 Reward"
 
 - icon: 16
   id: 005
   title: Heart of Sceptrum
   desc: "Those who have not witnessed the splendor of the Heart of Sceptrum in Stern cannot call themselves adventurers."
+  obtain: "[Roster] Level 100 Reward"
 
 - icon: 17
   id: 006
   title: Mokoko Village
   desc: "Mokokos and Kokomos, Kokomos and Mokokos! Grab a cup of Cashew Juice and we'll all be buddies!"
+  obtain: "[Collectibles] 900 Mokoko Seed Reward"
 
 - icon: 18
   id: 007
   title: Red Curtain Arena
   desc: "Warriors fight ferocious monsters to the death. Not one person has walked out of this bloody battlefield alive."
+  obtain: "[Roster] Level 150 Reward"
 
 - icon: 22
   id: 008
   title: Ruined Castle
   desc: "The place, closed a long ago, is again filled with a suspicious energy in the air."
+  obtain: "[Roster] Unreleased in Global Version"
 
 - icon: 25
   id: 009
@@ -47,86 +55,103 @@
   id: 010
   title: "T - Stadium"
   desc: "It's an elaborate stage for the true heroes of Arkesia! All eyes will be on you under the flashing lights!"
+  obtain: "Unreleased in Global version"
 
 - icon: 27
   id: 011
   title: Garden of Rest
   desc: "Taking a break from intense battle and forgetting about your responsibilities to enjoy a moment under the warm sun can help energize an adventurer."
+  obtain: "[Collectible] 14 Ignea Tokens Reward"
 
 - icon: 19
   id: 100
   title: 2019 Halloween
   desc: "Bats, Pumpkins, and the Moon! Crazy Party with Fear and Romance Dancing Together!"
+  obtain: "Unreleased in Global version"
 
 - icon: 20
   id: 101
   title: 2019 Joytide
   desc: "A warm and quiet night, falling asleep with the warmth of the fireplace in the winter."
+  obtain: "Unreleased in Global version"
 
 - icon: 21
   id: 102
   title: Welcome Festival
   desc: "Cherry blossoms and sparkling fireworks welcome you to the festival!"
+  obtain: "Unreleased in Global version"
 
 - icon: 23
   id: 103
   title: Omen
   desc: "The demise by desire. I feel the swirling grief of those who still linger on the battlefield in the darkness of the abyss."
+  obtain: "[Store] Available only in the Omen Special Package"
 
 - icon: 24
   id: 104
   title: Summer 2020
   desc: "Exciting Summer! Let's go on a trip. Don't you feel excited by just imagining blue sky and white waves?"
+  obtain: "Unreleased in Global version"
 
 - icon: 28
   id: 105
   title: Sweet Party
   desc: "A lovely invitation card. Our long-anticipated party."
+  obtain: "Unreleased in Global version"
 
 - icon: 29
   id: 106
   title: "Stern's Tavern"
   desc: "Please come and see me often. I will be always waiting for your return."
+  obtain: "[Store] Available only in the Shadow of Stern Special Package"
 
 - icon: 32
   id: 107
   title: The Great Journey
   desc: "I support your great journey. Good luck."
+  obtain: "[Store] Platinum Founder's Pack"
 
 - icon: 31
   id: 108
   title: Summer Night
   desc: "A cool breeze and sunset! The beginning of another party! 24 hours is too short in a summer day."
+  obtain: "Unreleased in Global version"
 
 - icon: 30
   id: 109
   title: Noble Banquet
   desc: "Only the best guests are invited to the Noble Banquet."
+  obtain: "[Store] Super Premium Ark Pass Level 5 Reward"
 
 - icon: 33
   id: 110
   title: Halloween Stage
   desc: "Deep in the night when all curtains have closed, a new stage begins."
+  obtain: "Unreleased in Global version"
 
 - icon: 35
   id: 111
   title: Void Hall
   desc: "Enter the unending nightmare! Come to Astalgia!"
+  obtain: "Unreleased in Global version"
 
 - icon: 34
   id: 112
   title: Starlight Isle
   desc: "They say souls dwell in places where they have the happiest memories."
+  obtain: "Unreleased in Global version"
 
 - icon: 36
   id: 113
   title: Village in Snow
   desc: "Winter has come to this small town. Though it's freezing here, hope burns inside the hearts of the people here."
+  obtain: "Unreleased in Global version"
 
 - icon: 37
   id: 114
   title: Snowy Mountain Hanokl
   desc: "Release the fog of last year's woes."
+  obtain: "Unreleased in Global version"
 
 
 
