@@ -44,12 +44,13 @@
   id: 008
   title: Ruined Castle
   desc: "The place, closed a long ago, is again filled with a suspicious energy in the air."
-  obtain: "[Roster] Unreleased in Global Version"
+  obtain: "[Roster] Unreleased in Global version"
 
 - icon: 25
   id: 009
   title: Rania Village 
   desc: "Mysterious island of women busy preparing for the festival. Lailai~! May the blessing of the goddess Gienah be with you!"
+  obtain: "Unreleased in Global version"
 
 - icon: 26
   id: 010
