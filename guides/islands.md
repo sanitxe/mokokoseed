@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Island Token Tracker"
-description: "Your Lost Ark tool for tracking Island Tokens. Use the table to sort by method of aquisition, and to find more information such as the minimum time required to obtain a specific Island Token."
+title: "Island Soul/Token Tracker"
+description: "Your Lost Ark tool for tracking Island Souls or Island Tokens. Use the table to sort by method of aquisition, and to find more information such as the minimum time required to obtain a specific Island Token."
 ---
 
 <h1>Island Token Tracker</h1>
