@@ -59,6 +59,7 @@
   title: "T - Stadium"
   desc: "It's an elaborate stage for the true heroes of Arkesia! All eyes will be on you under the flashing lights!"
   obtain: "Unreleased in Global version"
+  footer: "https://lostark.game.onstove.com/Library/Qa/Views/136148"
 
 - icon: 27
   id: 011
@@ -83,6 +84,7 @@
   title: Welcome Festival
   desc: "Cherry blossoms and sparkling fireworks welcome you to the festival!"
   obtain: "Unreleased in Global version"
+  footer: "https://www.inven.co.kr/board/lostark/4811/1514967"
 
 - icon: 23
   id: 103
@@ -144,6 +146,7 @@
   title: Starlight Isle
   desc: "They say souls dwell in places where they have the happiest memories."
   obtain: "Unreleased in Global version"
+  footer: "https://blog.naver.com/bekhk/222560673528"
 
 - icon: 36
   id: 113
