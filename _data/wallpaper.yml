@@ -45,6 +45,7 @@
   title: Ruined Castle
   desc: "The place, closed a long ago, is again filled with a suspicious energy in the air."
   obtain: "[Roster] Unreleased in Global version"
+  footer: "https://www.inven.co.kr/board/lostark/4821/74177"
 
 - icon: 25
   id: 009
