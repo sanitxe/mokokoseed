@@ -3,6 +3,7 @@
   title: Prideholme
   desc: "The sun shines bright over the pilgrims standing on the sacred ground. Clad in its splendid light, the pilgrims praise Regulus for his benevolence."
   obtain: "Default background."
+  footer: "No image available."
 
 - icon: 10
   id: 002
@@ -53,6 +54,7 @@
   title: Rania Village 
   desc: "Mysterious island of women busy preparing for the festival. Lailai~! May the blessing of the goddess Gienah be with you!"
   obtain: "Unreleased in Global version"
+  footer: "No image available."
 
 - icon: 26
   id: 010
