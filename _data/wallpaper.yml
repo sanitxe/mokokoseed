@@ -40,7 +40,6 @@
   title: Red Curtain Arena
   desc: "Warriors fight ferocious monsters to the death. Not one person has walked out of this bloody battlefield alive."
   obtain: "[Roster] Level 150 Reward"
-  footer: "https://www.inven.co.kr/board/lostark/4821/64647"
 
 - icon: 22
   id: 008
@@ -54,7 +53,6 @@
   title: Rania Village 
   desc: "Mysterious island of women busy preparing for the festival. Lailai~! May the blessing of the goddess Gienah be with you!"
   obtain: "Unreleased in Global version"
-  footer: "No image available."
 
 - icon: 26
   id: 010
