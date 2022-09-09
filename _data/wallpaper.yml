@@ -160,6 +160,18 @@
   desc: "Release the fog of last year's woes."
   obtain: "Unreleased in Global version"
 
+- icon: 38
+  id: 118
+  title: Dark Priest
+  desc: "There is light because of darkness, and there is darkness because of light. May there be light in the darkness..."
+  obtain: "Unreleased in Global version"
+
+- icon: 39
+  id: 119
+  title: Great Temple
+  desc: "Great Temple full of holy light. This place is full of Lazeniths who are always in prayer."
+  obtain: "Unreleased in Global version"
+
 
 
 
