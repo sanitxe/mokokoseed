@@ -319,7 +319,7 @@
   desc: " "
 
 - id: "1_33"
-  line: "[Gwent]"
+  line: "Gwent"
   desc: "All in."
 
 - id: "1_34"
@@ -327,39 +327,39 @@
   desc: " "
 
 - id: "1_35"
-  line: "[WitcherMokoko]"
+  line: "WitcherMokoko"
   desc: "I'll show you my Witcher Senses!"
 
 - id: "1_36"
-  line: "[Whats'This?]"
+  line: "Whats'This?"
   desc: "Hmm, I smell something."
 
 - id: "1_37"
-  line: "[It'sMeTriss]"
+  line: "It'sMeTriss"
   desc: "Why is everyone looking at me?"
 
 - id: "1_38"
-  line: "[Displeased]"
+  line: "Displeased"
   desc: "This action requires more Charisma."
 
 - id: "1_39"
-  line: "[Dandelion]"
+  line: "Dandelion"
   desc: "Toss a coin to your Witcher!"
 
 - id: "1_40"
-  line: "[You'reRight]"
+  line: "You'reRight"
   desc: "Dandelion likes your reply."
 
 - id: "1_41"
-  line: "[Snowbomb]"
+  line: "Snowbomb"
   desc: "Dodge this!"
 
 - id: "1_42"
-  line: "[TrissKiss]"
+  line: "TrissKiss"
   desc: "Hee hee hee!"
 
 - id: "1_43"
-  line: "[GhostLick]"
+  line: "GhostLick"
   desc: "Let me lick you!"
 
 - id: "1_44"
