@@ -231,28 +231,28 @@
   desc: " "
 
 - id: 59
-  line: " "
-  desc: " "
+  line: "MellowGreeting"
+  desc: "Nice to meet you."
   
 - id: 60
-  line: " "
-  desc: " "
+  line: "You'reDead"
+  desc: "This is where they'll bury you!"
 
 - id: 61
-  line: " "
-  desc: " "
+  line: "ICan'tHearYou"
+  desc: "Can you speak louder?"
 
 - id: 62
-  line: " "
-  desc: " "
+  line: "I'mDisappointed"
+  desc: "Is this really all you got?"
 
 - id: 63
-  line: " "
-  desc: " "
+  line: "Don'tPlayWithMe"
+  desc: "Aargh! L-let me go!"
 
 - id: 64
-  line: " "
-  desc: " "
+  line: "GoodJob"
+  desc: "1250! Good job!"
 
 - id: "1_01"
   line: "Find It"
@@ -427,28 +427,28 @@
   desc: "Let me lick you!"
 
 - id: "1_44"
-  line: " "
-  desc: " "
+  line: "Carry"
+  desc: "I'm here, drop the beat!"
 
 - id: "1_45"
-  line: " "
-  desc: " "
+  line: "Happy"
+  desc: "I'm so excited!"
 
 - id: "1_46"
-  line: " "
-  desc: " "
+  line: "It'sOver"
+  desc: "It's over. It's all over ♪."
 
 - id: "1_47"
-  line: " "
-  desc: " "
+  line: "PatPat"
+  desc: "It's okay, it's okay!"
 
 - id: "1_48"
-  line: " "
-  desc: " "
+  line: "OK"
+  desc: "I received the order."
 
 - id: "1_49"
-  line: " "
-  desc: " "
+  line: "SOS"
+  desc: "Save me, save me!"
 
 - id: "1_50"
   line: " "
@@ -483,29 +483,29 @@
   desc: " "
 
 - id: "1_58"
-  line: " "
-  desc: " "
+  line: "VeryLight"
+  desc: "How many times can you swing that greatsword?"
 
 - id: "1_59"
-  line: " "
-  desc: " "
+  line: "KnowYourPlace"
+  desc: "Know who you are."
 
 - id: "1_60"
-  line: " "
-  desc: " "
+  line: "Ahh"
+  desc: "Hey. What did you just say?"
 
 - id: "1_61"
-  line: " "
-  desc: " "
+  line: "OhWhat"
+  desc: "Is this right?"
 
 - id: "1_62"
-  line: " "
-  desc: " "
+  line: "NewYearLet'sPlay"
+  desc: "Let's play in the New Year!"
 
 - id: "1_63"
-  line: " "
-  desc: " "
+  line: "FortuneCome"
+  desc: "Good luck in the New Year!"
 
 - id: "1_64"
-  line: " "
-  desc: " "
+  line: "SunriseWatching"
+  desc: "Let's go watch the sunrise!"
