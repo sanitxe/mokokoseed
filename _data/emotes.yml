@@ -351,36 +351,36 @@
   desc: " "
 
 - id: "1_25"
-  line: " "
-  desc: " "
+  line: "DecayingWatch"
+  desc: "Death is waiting for you!"
 
 - id: "1_26"
-  line: " "
-  desc: " "
+  line: "DecayingDespair"
+  desc: "You will be destroyed in utter despair!"
 
 - id: "1_27"
-  line: " "
-  desc: " "
+  line: "DecayingThumbsUp"
+  desc: "Welcome the eternal night!"
 
 - id: "1_28"
-  line: " "
-  desc: " "
+  line: "ThankYouFortheFood"
+  desc: "Behold the power of corruption!"
 
 - id: "1_29"
-  line: " "
-  desc: " "
+  line: "DecayingHunt"
+  desc: "Prisoners of the Light! Hiding is futile!"
 
 - id: "1_30"
-  line: " "
-  desc: " "
+  line: "Can'tUnseeItKuri"
+  desc: "I can't unsee it."
 
 - id: "1_31"
-  line: " "
-  desc: " "
+  line: "Can'tUnseeItGold"
+  desc: "I can't unsee it."
 
 - id: "1_32"
-  line: " "
-  desc: " "
+  line: "Can'tUnseeItSilver"
+  desc: ""I can't unsee it."
 
 - id: "1_33"
   line: "Gwent"
