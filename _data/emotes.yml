@@ -191,44 +191,44 @@
   desc: "It's embarrassing to be the center of attention."
   
 - id: 49
-  line: " "
-  desc: " "
+  line: "ThumbLostArkEmoticon"
+  desc: "Thumbs up!"
 
 - id: 50
-  line: " "
-  desc: " "
+  line: "WoohooLostArkEmoticon"
+  desc: "Woohoo!"
 
 - id: 51
-  line: " "
-  desc: " "
+  line: "HahaLostArkEmoticon"
+  desc: "Hahahaha!"
   
 - id: 52
-  line: " "
-  desc: " "
+  line: "SmileLostArkEmoticon"
+  desc: "Smile? Smile!"
   
 - id: 53
-  line: " "
-  desc: " "
+  line: "DoItForMeLostArkEmoticon"
+  desc: "Give me that!"
   
 - id: 54
-  line: " "
-  desc: " "
+  line: "NotForYouLostArkEmoticon"
+  desc: "Nope, not for you!"
   
 - id: 55
-  line: " "
-  desc: " "
+  line: "AngryLostArkEmoticon"
+  desc: "Ugh!"
   
 - id: 56
-  line: " "
-  desc: " "
+  line: "SadLostArkEmoticon"
+  desc: "Waaah!"
 
 - id: 57
-  line: " "
-  desc: " "
+  line: "FragrantLostArkEmoticon"
+  desc: "A pleasant fragrance..."
 
 - id: 58
-  line: " "
-  desc: " "
+  line: "SlumpLostArkEmoticon"
+  desc: "Oh no..."
 
 - id: 59
   line: "MellowGreeting"
@@ -319,36 +319,36 @@
   desc: "No, you're wrong!"
   
 - id: "1_17"
-  line: " "
-  desc: " "
+  line: "Surprise"
+  desc: "Huh!"
 
 - id: "1_18"
-  line: " "
-  desc: " "
+  line: "Like"
+  desc: "LIKE!"
 
 - id: "1_19"
-  line: " "
-  desc: " "
+  line: "Whine"
+  desc: "Hmph!?"
 
 - id: "1_20"
-  line: " "
-  desc: " "
+  line: "Fear"
+  desc: "I'm afraid..."
 
 - id: "1_21"
-  line: " "
-  desc: " "
+  line: "Lick"
+  desc: "Slurp! Slurp! Lick!"
 
 - id: "1_22"
-  line: " "
-  desc: " "
+  line: "Good"
+  desc: "This is some good stuff."
 
 - id: "1_23"
-  line: " "
-  desc: " "
+  line: "Cutesy"
+  desc: "Whimper"
 
 - id: "1_24"
-  line: " "
-  desc: " "
+  line: "Work"
+  desc: "Heave-ho! Heave-ho!"
 
 - id: "1_25"
   line: "DecayingWatch"
@@ -387,8 +387,8 @@
   desc: "All in."
 
 - id: "1_34"
-  line: " "
-  desc: " "
+  line: "Gwent"
+  desc: "All in."
 
 - id: "1_35"
   line: "WitcherMokoko"
@@ -451,36 +451,36 @@
   desc: "Save me, save me!"
 
 - id: "1_50"
-  line: " "
-  desc: " "
+  line: "Burp"
+  desc: "I can't eat anymore."
 
 - id: "1_51"
-  line: " "
-  desc: " "
+  line: "GoodNight"
+  desc: "Nighty night!"
 
 - id: "1_52"
-  line: " "
-  desc: " "
+  line: "Run"
+  desc: "Run!"
   
 - id: "1_53"
-  line: " "
-  desc: " "
+  line: "Yummy"
+  desc: "Now hear the voice of the forest."
 
 - id: "1_54"
-  line: " "
-  desc: " "
+  line: "HehHeh"
+  desc: "Heh heh."
 
 - id: "1_55"
-  line: " "
-  desc: " "
+  line: "MorePlease"
+  desc: "I want more!"
 
 - id: "1_56"
-  line: " "
-  desc: " "
+  line: "PowPow"
+  desc: "Ouch!"
 
 - id: "1_57"
-  line: " "
-  desc: " "
+  line: "Thanks"
+  desc: "Thank you!"
 
 - id: "1_58"
   line: "VeryLight"
