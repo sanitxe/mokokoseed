@@ -190,6 +190,70 @@
   line: "IAmEmbarrassed"
   desc: "It's embarrassing to be the center of attention."
   
+- id: 49
+  line: " "
+  desc: " "
+
+- id: 50
+  line: " "
+  desc: " "
+
+- id: 51
+  line: " "
+  desc: " "
+  
+- id: 52
+  line: " "
+  desc: " "
+  
+- id: 53
+  line: " "
+  desc: " "
+  
+- id: 54
+  line: " "
+  desc: " "
+  
+- id: 55
+  line: " "
+  desc: " "
+  
+- id: 56
+  line: " "
+  desc: " "
+
+- id: 57
+  line: " "
+  desc: " "
+
+- id: 58
+  line: " "
+  desc: " "
+
+- id: 59
+  line: " "
+  desc: " "
+  
+- id: 60
+  line: " "
+  desc: " "
+
+- id: 61
+  line: " "
+  desc: " "
+
+- id: 62
+  line: " "
+  desc: " "
+
+- id: 63
+  line: " "
+  desc: " "
+
+- id: 64
+  line: " "
+  desc: " "
+
 - id: "1_01"
   line: "Find It"
   desc: "Where's it coming from?"
@@ -394,3 +458,54 @@
   line: " "
   desc: " "
 
+- id: "1_52"
+  line: " "
+  desc: " "
+  
+- id: "1_53"
+  line: " "
+  desc: " "
+
+- id: "1_54"
+  line: " "
+  desc: " "
+
+- id: "1_55"
+  line: " "
+  desc: " "
+
+- id: "1_56"
+  line: " "
+  desc: " "
+
+- id: "1_57"
+  line: " "
+  desc: " "
+
+- id: "1_58"
+  line: " "
+  desc: " "
+
+- id: "1_59"
+  line: " "
+  desc: " "
+
+- id: "1_60"
+  line: " "
+  desc: " "
+
+- id: "1_61"
+  line: " "
+  desc: " "
+
+- id: "1_62"
+  line: " "
+  desc: " "
+
+- id: "1_63"
+  line: " "
+  desc: " "
+
+- id: "1_64"
+  line: " "
+  desc: " "
