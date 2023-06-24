@@ -172,58 +172,52 @@
   desc: "Great Temple full of holy light. This place is full of Lazeniths who are always in prayer."
   obtain: "[Store] Super Premium Ark Pass Level 5 Reward"
 
-- icon: 02
-  id: 120
-  title: 
-  desc: ""
-  obtain: "Unreleased in Global version"
-
 - icon: 2
-  id: 121
+  id: 
   title: 
   desc: ""
   obtain: "Unreleased in Global version"
 
 - icon: 54
-  id: 122
-  title: 
-  desc: ""
+  id: 124
+  title: A White Prayer
+  desc: "May this be the winter where I see my beloved under the falling white snow..."
   obtain: "Unreleased in Global version"
 
 - icon: 40
-  id: 123
-  title: 
-  desc: ""
+  id: 116
+  title: Mokoko Paradise
+  desc: "Run, fall, and laugh! Have fun, and you'll forget about the scorching heat!"
   obtain: "Unreleased in Global version"
 
 - icon: 42
-  id: 124
-  title: 
-  desc: ""
+  id: 120
+  title: Kaer Morhen
+  desc: "Old fortress of the School of the Wolf Witchers, which the Witcher Geralt is part of"
   obtain: "Unreleased in Global version"
 
 - icon: 43
-  id: 125
-  title: 
-  desc: ""
+  id: 121
+  title: Lone Prairie
+  desc: "A vast prairie symbolizing solitude and a lonely, empty heart."
   obtain: "Unreleased in Global version"
 
 - icon: 44
-  id: 126
-  title: 
-  desc: ""
+  id: 122
+  title: Pleccia Museum
+  desc: "The Vediche family's purpose is to preserve and fund Arkesia's arts and culture."
   obtain: "Unreleased in Global version"
 
 - icon: 45
-  id: 127
-  title: 
-  desc: ""
+  id: 117
+  title: Trixion
+  desc: "Trixion. Edge of the World. Realm of the Watcher.... And the place where the Inheritor brings the Ark together."
   obtain: "Unreleased in Global version"
 
 - icon: 53
-  id: 128
-  title: 
-  desc: ""
+  id: 123
+  title: Golden Acid
+  desc: "The gorgeous Goldenglow Village streets glowing with bright red lights"
   obtain: "Unreleased in Global version"
 
 
