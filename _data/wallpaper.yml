@@ -39,26 +39,26 @@
   id: 007
   title: Red Curtain Arena
   desc: "Warriors fight ferocious monsters to the death. Not one person has walked out of this bloody battlefield alive."
-  obtain: "[Roster] Level 150 Reward"
+  obtain: "[Roster] Roster Level 150 Achievement Reward"
 
 - icon: 22
   id: 008
   title: Ruined Castle
   desc: "The place, closed a long ago, is again filled with a suspicious energy in the air."
-  obtain: "[Roster] Unreleased in Global version"
+  obtain: "[Roster] Roster Level 300 Achievement Reward"
   footer: "https://www.inven.co.kr/board/lostark/4821/74177"
 
 - icon: 25
   id: 009
   title: Rania Village 
   desc: "Mysterious island of women busy preparing for the festival. Lailai~! May the blessing of the goddess Gienah be with you!"
-  obtain: "Unreleased in Global version"
+  obtain: "Thrifty Fall Pack"
 
 - icon: 26
   id: 010
   title: "T - Stadium"
   desc: "It's an elaborate stage for the true heroes of Arkesia! All eyes will be on you under the flashing lights!"
-  obtain: "Unreleased in Global version"
+  obtain: "1st Anniversary Special Package"
   footer: "https://lostark.game.onstove.com/Library/Qa/Views/136148"
 
 - icon: 27
@@ -71,19 +71,19 @@
   id: 100
   title: 2019 Halloween
   desc: "Bats, Pumpkins, and the Moon! Crazy Party with Fear and Romance Dancing Together!"
-  obtain: "Unreleased in Global version"
+  obtain: "Halloween Special Package"
 
 - icon: 20
   id: 101
   title: 2019 Joytide
   desc: "A warm and quiet night, falling asleep with the warmth of the fireplace in the winter."
-  obtain: "Unreleased in Global version"
+  obtain: "[Limited] 2019 X-mas Pack - Special"
 
 - icon: 21
   id: 102
   title: Welcome Festival
   desc: "Cherry blossoms and sparkling fireworks welcome you to the festival!"
-  obtain: "Unreleased in Global version"
+  obtain: "Launch Commemoration Box - Special"
   footer: "https://www.inven.co.kr/board/lostark/4811/1514967"
 
 - icon: 23
@@ -96,19 +96,19 @@
   id: 104
   title: Summer 2020
   desc: "Exciting Summer! Let's go on a trip. Don't you feel excited by just imagining blue sky and white waves?"
-  obtain: "Unreleased in Global version"
+  obtain: "LOA Shop Prestige"
 
 - icon: 28
   id: 105
   title: Sweet Party
   desc: "A lovely invitation card. Our long-anticipated party."
-  obtain: "Unreleased in Global version"
+  obtain: "Shiba Inu Special Package"
 
 - icon: 29
   id: 106
   title: "Stern's Tavern"
   desc: "Please come and see me often. I will be always waiting for your return."
-  obtain: "[Store] Available only in the Shadow of Stern Special Package"
+  obtain: "[Store] Shadow of Stern Special Package"
 
 - icon: 32
   id: 107
@@ -126,99 +126,93 @@
   id: 109
   title: Noble Banquet
   desc: "Only the best guests are invited to the Noble Banquet."
-  obtain: "[Store] Super Premium Ark Pass Level 5 Reward"
+  obtain: "[Store] Ark Pass - Noble Banquet"
 
 - icon: 33
   id: 110
   title: Halloween Stage
   desc: "Deep in the night when all curtains have closed, a new stage begins."
-  obtain: "Unreleased in Global version"
+  obtain: "[Limited] Fairy Tale Stroll Pack"
   footer: "https://www.inven.co.kr/board/lostark/4811/3402479"
 
 - icon: 35
   id: 111
   title: Void Hall
   desc: "Enter the unending nightmare! Come to Astalgia!"
-  obtain: "[Store] Super Premium Ark Pass Level 5 Reward"
+  obtain: "[Store] Ark Pass - Song of Respite and Glory"
 
 - icon: 34
   id: 112
   title: Starlight Isle
   desc: "They say souls dwell in places where they have the happiest memories."
-  obtain: "Unreleased in Global version"
+  obtain: "Lost Ark 3rd Anniversary Celebration"
   footer: "https://blog.naver.com/bekhk/222560673528"
 
 - icon: 36
   id: 113
   title: Village in Snow
   desc: "Winter has come to this small town. Though it's freezing here, hope burns inside the hearts of the people here."
-  obtain: "Unreleased in Global version"
+  obtain: "Magical Winter Bundle"
 
 - icon: 37
   id: 114
   title: Snowy Mountain Hanokl
   desc: "Release the fog of last year's woes."
-  obtain: "Unreleased in Global version"
+  obtain: "New Year's Wish Special Pack"
 
 - icon: 38
   id: 118
   title: Dark Priest
   desc: "There is light because of darkness, and there is darkness because of light. May there be light in the darkness..."
-  obtain: "Unreleased in Global version"
+  obtain: "Ark Pass - Dark Priest"
 
 - icon: 39
   id: 119
   title: Great Temple
   desc: "Great Temple full of holy light. This place is full of Lazeniths who are always in prayer."
-  obtain: "[Store] Super Premium Ark Pass Level 5 Reward"
-
-- icon: 2
-  id: 
-  title: 
-  desc: ""
-  obtain: "Unreleased in Global version"
+  obtain: "[Store] Ark Pass - Elgacia"
 
 - icon: 54
   id: 124
   title: A White Prayer
   desc: "May this be the winter where I see my beloved under the falling white snow..."
-  obtain: "Unreleased in Global version"
+  obtain: "[Limited] 2022 3rd Neria Recommendation Pack"
 
 - icon: 40
   id: 116
   title: Mokoko Paradise
   desc: "Run, fall, and laugh! Have fun, and you'll forget about the scorching heat!"
-  obtain: "Unreleased in Global version"
+  obtain: "[Limited] Festivity Island Beachwear Pack - Uncommon"
 
 - icon: 42
   id: 120
   title: Kaer Morhen
   desc: "Old fortress of the School of the Wolf Witchers, which the Witcher Geralt is part of"
-  obtain: "Unreleased in Global version"
+  obtain: "The Witcher Special Pack"
 
 - icon: 43
   id: 121
   title: Lone Prairie
   desc: "A vast prairie symbolizing solitude and a lonely, empty heart."
-  obtain: "Unreleased in Global version"
+  obtain: "[Limited] Gothic Pack - All-in-One"
 
 - icon: 44
   id: 122
   title: Pleccia Museum
   desc: "The Vediche family's purpose is to preserve and fund Arkesia's arts and culture."
-  obtain: "Unreleased in Global version"
+  obtain: "60 Masterpieces Collection Reward"
 
 - icon: 45
   id: 117
   title: Trixion
   desc: "Trixion. Edge of the World. Realm of the Watcher.... And the place where the Inheritor brings the Ark together."
-  obtain: "Unreleased in Global version"
+  obtain: "Lost Ark 4th Anniversary Celebration"
 
 - icon: 53
   id: 123
   title: Golden Acid
   desc: "The gorgeous Goldenglow Village streets glowing with bright red lights"
-  obtain: "Unreleased in Global version"
+  obtain: "Legendary Adventurer Pack"
 
 
 
