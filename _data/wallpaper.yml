@@ -172,13 +172,59 @@
   desc: "Great Temple full of holy light. This place is full of Lazeniths who are always in prayer."
   obtain: "[Store] Super Premium Ark Pass Level 5 Reward"
 
+- icon: 02
+  id: 120
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
 
+- icon: 2
+  id: 121
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
 
+- icon: 54
+  id: 122
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
 
+- icon: 40
+  id: 123
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
 
+- icon: 42
+  id: 124
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
 
+- icon: 43
+  id: 125
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
 
+- icon: 44
+  id: 126
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
 
+- icon: 45
+  id: 127
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
+
+- icon: 53
+  id: 128
+  title: 
+  desc: ""
+  obtain: "Unreleased in Global version"
 
 
 
