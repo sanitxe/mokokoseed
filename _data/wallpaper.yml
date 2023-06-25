@@ -147,7 +147,13 @@
   desc: "They say souls dwell in places where they have the happiest memories."
   obtain: "Lost Ark 3rd Anniversary Celebration"
   footer: "https://blog.naver.com/bekhk/222560673528"
-
+  
+- icon: 2
+  id: 125
+  title: New Year
+  desc: "Drinking tea as you welcome the new year reminds you of warm memories that chase away the piercing winter cold."
+  obtain: "[Limited] New Year's First Step Pack - Special"
+  
 - icon: 36
   id: 113
   title: Village in Snow
