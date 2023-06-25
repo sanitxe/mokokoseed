@@ -160,13 +160,13 @@
   desc: "Release the fog of last year's woes."
   obtain: "New Year's Wish Special Pack"
 
-- icon: 38
+- icon: 39
   id: 118
   title: Dark Priest
   desc: "There is light because of darkness, and there is darkness because of light. May there be light in the darkness..."
   obtain: "Ark Pass - Dark Priest"
 
-- icon: 39
+- icon: 38
   id: 119
   title: Great Temple
   desc: "Great Temple full of holy light. This place is full of Lazeniths who are always in prayer."
