@@ -509,3 +509,23 @@
 - id: "1_64"
   line: "SunriseWatching"
   desc: "Let's go watch the sunrise!"
+
+- id: "2_01"
+  line: "Burn"
+  desc: "Burn it. Burn it all."
+  
+- id: "2_02"
+  line: "Jail"
+  desc: "I'm not meant to be here!"
+  
+- id: "2_03"
+  line: "Juiced"
+  desc: "Now that's a flex."
+  
+- id: "2_04"
+  line: "Shy"
+  desc: "O-oh... hi..."
+  
+- id: "2_05"
+  line: "Stare"
+  desc: "What has been seen cannot be unseen."
