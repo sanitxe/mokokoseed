@@ -229,7 +229,7 @@
   title: Memories of a Summer Day
   desc: "Transported back to the memories of a clear and dazzling sky... It's like Summer again!"
   obtain: "#arkpass-undyingredemption"
-  source: "https://www.inven.co.kr/board/lostark/4823/179640"
+  footer: "Source: https://www.inven.co.kr/board/lostark/4823/179640"
     
 - icon: "tba-1"
   id: 127
