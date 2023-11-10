@@ -223,13 +223,12 @@
   title: Omnium Starlight
   desc: "The souls of the guardians who have returned to the light of creation will always illuminate this world beautifully."
   obtain: "10 Omnium Stars Collection Reward"
-    
-- icon: "55"
+
+- icon: "58"
   id: 126
   title: Memories of a Summer Day
   desc: "Transported back to the memories of a clear and dazzling sky... It's like Summer again!"
   obtain: "#arkpass-undyingredemption"
-  footer: "큐큐맨 | https://www.inven.co.kr/board/lostark/4823/179640"
     
 - icon: "57"
   id: 127
@@ -254,6 +253,13 @@
   title: "Spooky Witch's Forest"
   desc: "Unknown"
   obtain: "[Limited] Package"
+
+- icon: "55"
+  id: 131
+  title: Night of Shining Memories
+  desc: "Unknown"
+  obtain: "#arkpass-undyingredemption"
+  footer: "큐큐맨 | https://www.inven.co.kr/board/lostark/4823/179640"
 
   
 
