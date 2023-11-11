@@ -236,13 +236,13 @@
   desc: "During the hours of slumber, my night burns hotter than your daytime!"
   obtain: "[Limited] Midnight Summer - Special"
   
-- icon: "tba-1"
+- icon: "09"
   id: 128
   title: Mellow Bamboo Forest
   desc: "The wallpaper was created by drawing inspiration from the unique characteristics of Chinese bamboo forests. You can hear the traces of pandas amidst the tranquil music."
   obtain: "China Launch Wallpaper"
     
-- icon: "tba-1"
+- icon: "09"
   id: 129
   title: "Lang Lang - The Lost Ark Concert"
   desc: "The legendary pianist Lang Lang brings to life the tales of heroes and adventures of Arkesia through music!"
