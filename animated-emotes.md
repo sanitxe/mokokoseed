@@ -7,7 +7,7 @@ description: "A collection of transparent Lost Ark Animated Emotes (.APNGs) for 
 <div class="card-deck">
 {% for emote in site.data.apng %}
   <div class="card">
-    <img class="card-img-top emote-card" src="/assets/img/apng/{{ emote.id }}.png">
+    <img class="card-img-top emote-card" src="/assets/img/apng/{{ emote.id }}">
   </div>
 {% endfor %}
 </div>
