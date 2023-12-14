@@ -261,7 +261,13 @@
   obtain: "Unknown"
   footer: "큐큐맨 | https://www.inven.co.kr/board/lostark/4823/179640"
 
-  
+- icon: "snow"
+  id: "snow"
+  title: Winter Camping
+  desc: "TBA"
+  obtain: "[Limited] Winter Special Package"
+
+
 
 
 
