@@ -1,82 +1,96 @@
 - icon: 09
+  mini: "0_01"
   id: 001
   title: Prideholme
   desc: "The sun shines bright over the pilgrims standing on the sacred ground. Clad in its splendid light, the pilgrims praise Regulus for his benevolence."
   obtain: "Default background."
 
 - icon: 10
+  mini: "0_02"
   id: 002
   title: Delphi Inn
   desc: "The inn bustles with patrons. The main hall holds densely arranged tables opening to a kitchen, a liquor cellar, a garden, and a pavilion."
   obtain: "[Roster] Level 20 Reward"
   
 - icon: 13
+  mini: "0_03"
   id: 003
   title: Morai Ruins
   desc: "Morai prospered under the rule of the mighty king, Kisar. However, when the darkness came, the king fell victim to its unforgiving grip."
   obtain: "[Roster] Level 50 Reward"
 
 - icon: 14
+  mini: "0_04"
   id: 004
   title: Stormcry Grotto
   desc: "The searing blue of the open sky, vicious winds sweep across the ocean, and the promise of a newfound land at the end of a seemingly endless voyage. Who could ever resist the sweet call of the Deep Blue?"
   obtain: "[Roster] Level 80 Reward"
 
 - icon: 16
+  mini: "0_05"
   id: 005
   title: Heart of Sceptrum
   desc: "Those who have not witnessed the splendor of the Heart of Sceptrum in Stern cannot call themselves adventurers."
   obtain: "[Roster] Level 100 Reward"
 
 - icon: 17
+  mini: "0_06"
   id: 006
   title: Mokoko Village
   desc: "Mokokos and Kokomos, Kokomos and Mokokos! Grab a cup of Cashew Juice and we'll all be buddies!"
   obtain: "[Collectibles] 900 Mokoko Seed Reward"
 
 - icon: 18
+  mini: "0_07"
   id: 007
   title: Red Curtain Arena
   desc: "Warriors fight ferocious monsters to the death. Not one person has walked out of this bloody battlefield alive."
   obtain: "[Roster] Roster Level 150 Achievement Reward"
 
 - icon: 22
+  mini: "0_11"
   id: 008
   title: Ruined Castle
   desc: "The place, closed a long ago, is again filled with a suspicious energy in the air."
   obtain: "[Roster] Roster Level 300 Achievement Reward"
 
 - icon: 25
+  mini: "0_14"
   id: 009
   title: Rania Village 
   desc: "Mysterious island of women busy preparing for the festival. Lailai~! May the blessing of the goddess Gienah be with you!"
   obtain: "Thrifty Fall Pack"
 
 - icon: 26
+  mini: "0_15"
   id: 010
   title: "T - Stadium"
   desc: "It's an elaborate stage for the true heroes of Arkesia! All eyes will be on you under the flashing lights!"
   obtain: "1st Anniversary Special Package"
 
 - icon: 27
+  mini: "0_16"
   id: 011
   title: Garden of Rest
   desc: "Taking a break from intense battle and forgetting about your responsibilities to enjoy a moment under the warm sun can help energize an adventurer."
   obtain: "[Collectible] 14 Ignea Tokens Reward"
 
 - icon: 19
+  mini: "0_08"
   id: 100
   title: 2019 Halloween
   desc: "Bats, Pumpkins, and the Moon! Crazy Party with Fear and Romance Dancing Together!"
   obtain: "Halloween Special Package"
 
 - icon: 20
+  mini: "0_09"
   id: 101
   title: 2019 Joytide
   desc: "A warm and quiet night, falling asleep with the warmth of the fireplace in the winter."
   obtain: "[Limited] 2019 X-mas Pack - Special"
 
 - icon: 21
+  mini: "0_10"
   id: 102
   title: Summer Festival
   desc: "Cherry blossoms and sparkling fireworks welcome you to the festival!"
@@ -84,48 +98,56 @@
   footer: "https://www.inven.co.kr/board/lostark/4811/1514967"
 
 - icon: 23
+  mini: "0_12"
   id: 103
   title: Omen
   desc: "The demise by desire. I feel the swirling grief of those who still linger on the battlefield in the darkness of the abyss."
   obtain: "[Store] Available only in the Omen Special Package"
 
 - icon: 24
+  mini: "0_13"
   id: 104
   title: Summer 2020
   desc: "Exciting Summer! Let's go on a trip. Don't you feel excited by just imagining blue sky and white waves?"
   obtain: "LOA Shop Prestige"
 
 - icon: 28
+  mini: "0_17"
   id: 105
   title: Sweet Party
   desc: "A lovely invitation card. Our long-anticipated party."
   obtain: "Shiba Inu Special Package"
 
 - icon: 29
+  mini: "0_18"
   id: 106
   title: "Stern's Tavern"
   desc: "Please come and see me often. I will be always waiting for your return."
   obtain: "[Store] Shadow of Stern Special Package"
 
 - icon: 32
+  mini: "1_03"
   id: 107
   title: The Great Journey
   desc: "I support your great journey. Good luck."
   obtain: "[Store] Platinum Founder's Pack"
 
 - icon: 31
+  mini: "1_02"
   id: 108
   title: Summer Night
   desc: "A cool breeze and sunset! The beginning of another party! 24 hours is too short in a summer day."
   obtain: "[Store] Midsummer Night's Dream Special Package"
 
 - icon: 30
+  mini: "1_01"
   id: 109
   title: Noble Banquet
   desc: "Only the best guests are invited to the Noble Banquet."
   obtain: "[Store] Ark Pass - Noble Banquet"
 
 - icon: 33
+  mini: "1_04"
   id: 110
   title: Halloween Stage
   desc: "Deep in the night when all curtains have closed, a new stage begins."
@@ -133,12 +155,14 @@
   footer: "https://www.inven.co.kr/board/lostark/4811/3402479"
 
 - icon: 35
+  mini: "1_06"
   id: 111
   title: Void Hall
   desc: "Enter the unending nightmare! Come to Astalgia!"
   obtain: "[Store] Ark Pass - Song of Respite and Glory"
 
 - icon: 34
+  mini: "1_05"
   id: 112
   title: Starlight Isle
   desc: "They say souls dwell in places where they have the happiest memories."
@@ -146,72 +170,84 @@
   footer: "https://blog.naver.com/bekhk/222560673528"
   
 - icon: 2
+  mini: "3_01"
   id: 125
   title: New Year
   desc: "Drinking tea as you welcome the new year reminds you of warm memories that chase away the piercing winter cold."
   obtain: "[Limited] New Year's First Step Pack - Special"
   
 - icon: 36
+  mini: "1_07"
   id: 113
   title: Village in Snow
   desc: "Winter has come to this small town. Though it's freezing here, hope burns inside the hearts of the people here."
   obtain: "Magical Winter Bundle"
 
 - icon: 37
+  mini: "1_08"
   id: 114
   title: Snowy Mountain Hanokl
   desc: "Release the fog of last year's woes."
   obtain: "New Year's Wish Special Pack"
 
 - icon: 39
+  mini: "1_10"
   id: 118
   title: Dark Priest
   desc: "There is light because of darkness, and there is darkness because of light. May there be light in the darkness..."
   obtain: "Ark Pass - Dark Priest"
 
 - icon: 38
+  mini: "1_09"
   id: 119
   title: Great Temple
   desc: "Great Temple full of holy light. This place is full of Lazeniths who are always in prayer."
   obtain: "[Store] Ark Pass - Elgacia"
 
 - icon: 54
+  mini: "1_18"
   id: 124
   title: A White Prayer
   desc: "May this be the winter where I see my beloved under the falling white snow..."
   obtain: "[Limited] 2022 3rd Neria Recommendation Pack"
 
 - icon: 40
+  mini: "1_11"
   id: 116
   title: Mokoko Paradise
   desc: "Run, fall, and laugh! Have fun, and you'll forget about the scorching heat!"
   obtain: "[Limited] Festivity Island Beachwear Pack - Uncommon"
 
 - icon: 42
+  mini: "1_13"
   id: 120
   title: Kaer Morhen
   desc: "Old fortress of the School of the Wolf Witchers, which the Witcher Geralt is part of"
   obtain: "The Witcher Special Pack"
 
 - icon: 43
+  mini: "1_14"
   id: 121
   title: Lone Prairie
   desc: "A vast prairie symbolizing solitude and a lonely, empty heart."
   obtain: "[Limited] Gothic Pack - All-in-One"
 
 - icon: 44
+  mini: "1_15"
   id: 122
   title: Pleccia Museum
   desc: "The Vediche family's purpose is to preserve and fund Arkesia's arts and culture."
   obtain: "60 Masterpieces Collection Reward"
 
 - icon: 45
+  mini: "1_16"
   id: 117
   title: Trixion
   desc: "Trixion. Edge of the World. Realm of the Watcher.... And the place where the Inheritor brings the Ark together."
   obtain: "Lost Ark 4th Anniversary Celebration"
 
 - icon: 53
+  mini: "1_17"
   id: 123
   title: Golden Acid
   desc: "The gorgeous Goldenglow Village streets glowing with bright red lights"
@@ -219,42 +255,49 @@
   footer: "No image available."
   
 - icon: "tba-1"
+  mini: "1_12"
   id: 115
   title: Omnium Starlight
   desc: "The souls of the guardians who have returned to the light of creation will always illuminate this world beautifully."
   obtain: "10 Omnium Stars Collection Reward"
 
 - icon: "58"
+  mini: "3_02"
   id: 126
   title: Memories of a Summer Day
   desc: "Transported back to the memories of a clear and dazzling sky... It's like Summer again!"
   obtain: "#arkpass-undyingredemption"
     
 - icon: "57"
+  mini: "2_01"
   id: 127
   title: Mokoko Street
   desc: "During the hours of slumber, my night burns hotter than your daytime!"
   obtain: "[Limited] Midnight Summer - Special"
   
 - icon: "09"
+  mini: "2_02"
   id: 128
   title: Mellow Bamboo Forest
   desc: "The wallpaper was created by drawing inspiration from the unique characteristics of Chinese bamboo forests. You can hear the traces of pandas amidst the tranquil music."
   obtain: "China Launch Wallpaper"
     
 - icon: "09"
+  mini: "3_03"
   id: 129
   title: "Lang Lang - The Lost Ark Concert"
   desc: "The legendary pianist Lang Lang brings to life the tales of heroes and adventures of Arkesia through music!"
   obtain: "Collab Event Name"
   
 - icon: "56"
+  mini: "56"
   id: 130
   title: "Spooky Witch's Forest"
   desc: "Unknown"
   obtain: "[Limited] Package"
 
 - icon: "55"
+  mini: "55"
   id: 131
   title: Night of Shining Memories
   desc: "Unknown"
@@ -262,6 +305,7 @@
   footer: "큐큐맨 | https://www.inven.co.kr/board/lostark/4823/179640"
 
 - icon: "snow"
+  mini: "2_03"
   id: "snow"
   title: Winter Camping
   desc: "TBA"
